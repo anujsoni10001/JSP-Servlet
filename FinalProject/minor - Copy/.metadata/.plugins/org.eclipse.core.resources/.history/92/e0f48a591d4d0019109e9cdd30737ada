@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Admin-Home</title>
+</head>
+<body>
+<h3>Welcome to Admin-Home</h3>
+<a href="registerstaff.html">Register-New-Staff</a>
+</body>
+</html>

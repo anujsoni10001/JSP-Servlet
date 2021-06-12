@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+   <QUESTION_PAPER_INFORMATION>
+      <QUESTION_PAPER_DESCRIPTION>set f</QUESTION_PAPER_DESCRIPTION>
+   </QUESTION_PAPER_INFORMATION>
+   <QUESTION>
+      <QUESTION_ID>1</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Write SQL SELECT query to get total number of customers living in “Arizona”.&amp;nbsp;&lt;b&gt;Table : customer&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;table border="1"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;customerid&lt;/th&gt;&lt;th&gt;firstname&lt;/th&gt;&lt;th&gt;lastname&lt;/th&gt;&lt;th&gt;city&lt;/th&gt;&lt;th&gt;state&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10101&lt;/td&gt;&lt;td&gt;John1&lt;/td&gt;&lt;td&gt;Gray1&lt;/td&gt;&lt;td&gt;Lynden&lt;/td&gt;&lt;td&gt;Washington&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10298&lt;/td&gt;&lt;td&gt;Lyon&lt;/td&gt;&lt;td&gt;Brown&lt;/td&gt;&lt;td&gt;Pinetop&lt;/td&gt;&lt;td&gt;Arizona&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10299&lt;/td&gt;&lt;td&gt;Elory&lt;/td&gt;&lt;td&gt;Keller&lt;/td&gt;&lt;td&gt;Snoqualmie&lt;/td&gt;&lt;td&gt;Washington&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10315&lt;/td&gt;&lt;td&gt;Lisa&lt;/td&gt;&lt;td&gt;Jones&lt;/td&gt;&lt;td&gt;Oshkosh&lt;/td&gt;&lt;td&gt;Wisconsin&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10325&lt;/td&gt;&lt;td&gt;Ginger&lt;/td&gt;&lt;td&gt;Schultz&lt;/td&gt;&lt;td&gt;Pocatello&lt;/td&gt;&lt;td&gt;Idaho&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10329&lt;/td&gt;&lt;td&gt;Kelly&lt;/td&gt;&lt;td&gt;Mendoza&lt;/td&gt;&lt;td&gt;Kailua&lt;/td&gt;&lt;td&gt;Hawaii&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10330&lt;/td&gt;&lt;td&gt;Shawn&lt;/td&gt;&lt;td&gt;Dalton&lt;/td&gt;&lt;td&gt;Kannonbeach&lt;/td&gt;&lt;td&gt;Oragon&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10338&lt;/td&gt;&lt;td&gt;Michel&lt;/td&gt;&lt;td&gt;Howell&lt;/td&gt;&lt;td&gt;Tillamook&lt;/td&gt;&lt;td&gt;Oragon&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10339&lt;/td&gt;&lt;td&gt;Anthony&lt;/td&gt;&lt;td&gt;Sanchez&lt;/td&gt;&lt;td&gt;Winslow&lt;/td&gt;&lt;td&gt;Arizona&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10408&lt;/td&gt;&lt;td&gt;Elron&lt;/td&gt;&lt;td&gt;Cleaver&lt;/td&gt;&lt;td&gt;Globe&lt;/td&gt;&lt;td&gt;Arizona&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10410&lt;/td&gt;&lt;td&gt;MaryAnn&lt;/td&gt;&lt;td&gt;Howell&lt;/td&gt;&lt;td&gt;Charleston&lt;/td&gt;&lt;td&gt;SouthCarolina&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10449&lt;/td&gt;&lt;td&gt;Cofi&lt;/td&gt;&lt;td&gt;Annan&lt;/td&gt;&lt;td&gt;Toronto&lt;/td&gt;&lt;td&gt;Idhao&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; &lt;/pre&gt;</QUESTION_DESCRIPTION>
+      <ANSWER>select count(*) from customer where state='Arizona';</ANSWER>
+      <MARK>3</MARK>
+      <CORRECT_ANSWER>[{"0":3}]</CORRECT_ANSWER>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>2</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;div&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Do NOT change the name of the class or method provided in the code&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Please ensure that the code you submit is professionally written i.e.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Add proper comments&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Perform appropriate exception handling whereever needed&lt;/div&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassOne
+ {&lt;BR&gt; public static int countWords(String s){&lt;BR&gt; /*&lt;BR&gt; Please implement this method to return the words count in a given string Assume that a parameter strign can only contains spaces and alphanumeric characters.&lt;BR&gt; For example, "This is a test", &lt;BR&gt; Output:4&lt;BR&gt; Input:"Another test", Output:2&lt;BR&gt; */&lt;BR&gt; }&lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* Main Method*/&lt;BR&gt; }&lt;BR&gt; } &lt;BR&gt; 
+ </QUESTION_DESCRIPTION>
+      <ANSWER>public class MyClassOne&lt;br&gt; {&lt;br&gt; public static int countWords(String s){&lt;br&gt; &lt;br&gt; if(s==null)&lt;br&gt; {&lt;br&gt; return 0;&lt;br&gt; &lt;br&gt; }&lt;br&gt; if(s!=null){&lt;br&gt; String s1[]=s.split(" ");&lt;br&gt; return s1.length;&lt;br&gt; }&lt;br&gt; else&lt;br&gt; {&lt;br&gt; &lt;br&gt; return 0;&lt;br&gt; }&lt;br&gt; }&lt;br&gt; public static void main(String arr[])&lt;br&gt; {&lt;br&gt; /* Main Method*/&lt;br&gt; System.out.println("length "+countWords(null));&lt;br&gt; }&lt;br&gt; } &lt;br&gt; &lt;br&gt; </ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT> @Test public void countWordsTest1(){ assertEquals(4,countWords("This is my world"));}</TEST_SCRIPT>
+         <TEST_SCRIPT> @Test public void countWordsTest1(){ assertEquals(4,countWords("This is my world"));}</TEST_SCRIPT>
+         <TEST_SCRIPT> @Test public void countWordsTest1(){ assertEquals(4,countWords("This is my world"));}</TEST_SCRIPT>
+         <TEST_SCRIPT> @Test public void countWordsTest1(){ assertEquals(4,countWords("This is my world"));}</TEST_SCRIPT>
+         <TEST_SCRIPT> @Test public void countWordsTest1(){ assertEquals(4,countWords("This is my world"));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+</QUESTION_PAPER>

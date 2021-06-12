@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Update Student Details Page</title>
+</head>
+<body>
+<form action="UpProAll">
+<h3>Update All by ID (One by One)</h3>
+<pre>
+Enter the Student id<input type="text" name="id">
+Enter the Student Name: <input type="text" name="Name">
+Enter the Mobileno: <input type="text" name="Mobileno">
+Enter the qua: <input type="text" name="qua"> 
+Enter the workskill: <input type="text" name="workskill">
+<input type="submit" value="byidAll">
+</pre>
+</form>
+                             OR
+
+<form action="UpPro">
+<h3>Update by Student-ID (One by One)</h3>
+<pre>
+Enter the Student ID<input type="text" name="sid">
+Select the Update Categories  <select name="scat">
+<option>Name</option>
+<option>Mobileno</option>
+<option>qua</option>
+<option>workskill</option>
+</select>
+Enter the Required Info. <input type="text" name="catuval">
+<input type="submit" value="byid" name="b">
+</pre>
+</form>
+
+                              OR
+<form action="UpProbyname">  
+<h3>Update by Student Name(One by One)</h3>
+<pre>                     
+Enter the Student Name<input type="text" name="name">
+Select the Update Categories  <select name="scat">
+<option>Id</option>
+<option>Mobileno</option>
+<option>qua</option>
+<option>workskill</option>
+</select>
+Enter the Required Info. <input type="text" name="catuval">
+<input type="submit" value="byName" name="b">
+</pre>
+</form>                                     
+</body>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+<QUESTION_PAPER_INFORMATION>
+  <QUESTION_PAPER_DESCRIPTION>SET C</QUESTION_PAPER_DESCRIPTION> 
+  <TIME_DURATION>01:30</TIME_DURATION> 
+</QUESTION_PAPER_INFORMATION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Operating System</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>&lt;div&gt;&lt;div&gt;Make a normalized database model (table structure) based on following information. You need to model the requirements below as database tables with accompanying attributes and establish the relationship between various tables&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Imagine a computerized shop, where you visit as a customer and meet a sales person. Here you buy various products by placing orders. Once you have bought the products, the sales person provides you with an invoice/bill of the products purchased&amp;nbsp;&lt;/li&gt;&lt;li&gt;Here are the key considerations&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;&lt;blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px;"&gt;&lt;div&gt;a) Customer places one order at a time. But over period of time the same customer may have placed multiple orders. You are expected to store association of orders with customers&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;b) An Order may contain one or multiple products. Each of the Products can be bought as single or multiple quantities within a given order. You are expected to store product &amp;amp; sale quantities with order&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;c) You are expected to store which salesman completed which order. There can be only one salesman associated for a given order&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Present the final database table structure as your answer in following format&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Table 1 (column 1, column 2...)&lt;/div&gt;&lt;div&gt;Table 2 (column 1, column 2...)&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>
+<ANSWER>jbsjbjsjdsjdsjbfj1111111</ANSWER> 
+</QUESTION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Operating System</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>&lt;div&gt;Refer employee table structure below&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Employee (employee name, salary, department name, sex, DOB, Join_date, leave_date)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;1) Write a SQL query to get list of all the employees with their respective salary whose name starts with 'A' and are still currently employed with company (those who have left company, the leave_date column is filled with the date of leaving) with ascending order of salary&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output expected:&lt;/div&gt;&lt;div&gt;Employee&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;Salary&lt;/div&gt;&lt;div&gt;Aakash&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;		&lt;/span&gt;2000&lt;/div&gt;&lt;div&gt;Amber&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;		&lt;/span&gt;5000&lt;/div&gt;&lt;div&gt;Aman&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;		&lt;/span&gt;8000&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2) Write a SQL query to get count of all the employees joined in various years in year-by-year fashion and ordered in ascending order of year&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output expected:&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Year&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Number of Employees&lt;/div&gt;&lt;div&gt;&lt;div&gt;2000&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;5&lt;/div&gt;&lt;div&gt;2001&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;20&lt;/div&gt;&lt;div&gt;2002&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;30&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3) Write a SQL Query to find number of employees according to gender whose DOB is between 01/01/1960 to 31/12/1975&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output expected:&lt;/div&gt;&lt;div&gt;Sex&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Number of Employees&lt;/div&gt;&lt;div&gt;Male&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;2000&lt;/div&gt;&lt;div&gt;Female&lt;span class="Apple-tab-span" style="white-space: pre;"&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;1000&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>
+	<ANSWER>hhschshsbhbs22222</ANSWER> 
+</QUESTION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Operating System</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>Please explain the differences between functionality provided by equals() and == in Java</QUESTION_DESCRIPTION>
+<ANSWER>hbdhbhdbhbdhc2333333</ANSWER> 
+</QUESTION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Operating System</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>&lt;span style="font-family: Tahoma, sans-serif;"&gt;What is serialization and what is its general use? How would you exclude a field of a class from serialization? what is a transient variable?&lt;/span&gt;</QUESTION_DESCRIPTION>Describe what is DNS and how is it used when you browse a website (e.g. www.gmail.com) using a browser
+<ANSWER>dhbvhdbvhdbh4444</ANSWER> 
+</QUESTION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Operating System</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>&lt;b&gt;Operating Systems:&lt;/b&gt;&amp;nbsp;What is virtual memory? Describe how does it help in running more applications. Is it part of primary memory or secondary memory?</QUESTION_DESCRIPTION>
+<ANSWER>hvbhdbvhdb55555</ANSWER> 
+</QUESTION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Operating System</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>&lt;div&gt;Write a Java program to find all prime number up to a given number. Assume that you take an argument representing a number. You need to return all the prime numbers that are possible till that number&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The class needs to implement following method&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;Public int [] getPrimeSeries (int inputNumber)&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Example data&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Input: 10, Output: 1, 2, 3, 5, 7&amp;nbsp;&lt;/li&gt;&lt;li&gt;Input: 15, Output: 1, 2, 3, 5, 7, 11, 13&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;You are expected to&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Write the method implementation code&lt;/li&gt;&lt;li&gt;Call the method with sample data from main method&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;div&gt;Please write professional code i.e.&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Follow proper naming conventions&lt;/li&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;li&gt;Perform appropriate exception handling as needed&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>
+<ANSWER>jvudjnvjdvhjbd66666</ANSWER> 
+</QUESTION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Java</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>&lt;div&gt;Write a Java Class to find the frequency of occurrence of a word in an article. Here you will be provided with 2 inputs, an array of strings representing the doc and a word that needs to be searched for occurrences. You need to return number of times that word occurred in document&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The class needs to implement following method&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;public int CountOccurance (String doc [], String wordToSearch)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Example data&lt;/div&gt;&lt;blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px;"&gt;&lt;div&gt;Input: ([abc, def, ghi, def, xyz], abc), Output: 1&lt;/div&gt;&lt;div&gt;Input: ([a1, a2, a1, a2, a3, a1, a3, a4], a3), Output: 2&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;You are expected to&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Write the method implementation code&lt;/li&gt;&lt;li&gt;Call the method with sample data from main method&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Please write professional code i.e.&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Follow proper naming conventions&lt;/li&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;li&gt;Perform appropriate exception handling as needed&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>
+<ANSWER>hvbhdbvhbdhv7777</ANSWER> 
+</QUESTION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Java</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>Write a servlet in Java which does following&lt;div&gt;&lt;ul&gt;&lt;li&gt;Reads the parameter-"NextPageURL" submitted to it using POST method by the browser&lt;/li&gt;&lt;li&gt;Redirects the browser to value of the "NextPageURL"&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;div&gt;Please write professional code i.e.&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Follow proper naming conventions&lt;/li&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;li&gt;Perform appropriate exception handling as needed&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>
+<ANSWER>juvnjdbvdbhvd88888</ANSWER>
+</QUESTION>
+</QUESTION_PAPER>

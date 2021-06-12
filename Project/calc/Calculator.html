@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="Calc" name="Calculator">
+<div class="box">
+<div class="display"><input type="text" name="display" id="display"></div>
+<div class="keys">
+<p>
+<input class="button gray" type="button" value="7" onclick="Calculator.display.value += '7'">
+<input class="button gray" type="button" value="8" onclick="Calculator.display.value += '8'">
+<input class="button gray" type="button" value="9" onclick="Calculator.display.value += '9'">
+<input class="button pink" type="button" value="+" onclick="Calculator.display.value += '+'">
+</p>
+<p>
+<input class="button gray" type="button" value="4" onclick="Calculator.display.value += '4'">
+<input class="button gray" type="button" value="5" onclick="Calculator.display.value += '5'">
+<input class="button gray" type="button" value="6" onclick="Calculator.display.value += '6'">
+<input class="button pink" type="button" value="-" onclick="Calculator.display.value += '-'">
+</p>
+<p>
+<input class="button gray" type="button" value="1" onclick="Calculator.display.value += '1'">
+<input class="button gray" type="button" value="2" onclick="Calculator.display.value += '2'">
+<input class="button gray" type="button" value="3" onclick="Calculator.display.value += '3'">
+<input class="button pink" type="button" value="*" onclick="Calculator.display.value += '*'">
+</p>
+<p>
+<input class="button gray" type="button" name="0" value="0">
+<input class="button gray" type="button" name="." value=".">
+<input class="button orange" type="button" name="=" value="=" onclick="Calculator.display.value = eval(Calculator.display.value)">
+<input class="button pink" type="button" value="/" onclick="Calculator.display.value += '/'">
+</p>
+<p>
+<input class="button gray" type="button" name="clear" value="clear" onclick="Calculator.display.value = ''">
+</p>
+</div>
+</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,6 @@
+127.0.0.1 - - [21/Feb/2019:20:03:26 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [21/Feb/2019:20:03:27 +0530] "GET /emailsendigapi/ HTTP/1.1" 200 1551
+0:0:0:0:0:0:0:1 - - [21/Feb/2019:20:03:28 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [21/Feb/2019:20:04:27 +0530] "GET /emailsendigapi/mailJSP.jsp?mail=deven1996patidar%40gmail.com&sub=java&mess=we+are+learning+email+api HTTP/1.1" 200 184
+0:0:0:0:0:0:0:1 - - [21/Feb/2019:20:06:25 +0530] "GET /emailsendigapi/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Feb/2019:20:07:04 +0530] "GET /emailsendigapi/mailJSP.jsp?mail=deven1996patidar%40gmail.com&sub=java&mess=email+api+se+forget+password+bnaker+chalana+hai HTTP/1.1" 200 185

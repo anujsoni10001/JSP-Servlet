@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+<QUESTION_PAPER_INFORMATION>
+  <QUESTION_PAPER_DESCRIPTION>SET A</QUESTION_PAPER_DESCRIPTION> 
+</QUESTION_PAPER_INFORMATION>
+
+<QUESTION>
+<QUESTION_ID>1</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>TEXT</QUESTION_TYPE>
+<QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+<QUESTION_DESCRIPTION>&lt;font color="red"&gt; Write SQL SELECT query to get total number of customers living in “Arizona” &lt;/font&gt;
+&lt;b&gt;customer table&lt;/b&gt;
+&lt;pre id="" &gt;&lt;table border="1" &gt; &lt;tbody&gt; &lt;tr&gt; &lt;th &gt;customerid&lt;/th&gt;&lt;th &gt;firstname&lt;/th&gt;&lt;th &gt;lastname&lt;/th&gt;&lt;th &gt;city&lt;/th&gt;&lt;th &gt;state&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;John&lt;/td&gt; &lt;td&gt;Gray&lt;/td&gt; &lt;td&gt;Lynden&lt;/td&gt; &lt;td&gt;Washington&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;Lyon&lt;/td&gt; &lt;td&gt;Brown&lt;/td&gt; &lt;td&gt;Pinetop&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10299&lt;/td&gt; &lt;td&gt;Elory&lt;/td&gt; &lt;td&gt;Keller&lt;/td&gt; &lt;td&gt;Snoqualmie&lt;/td&gt; &lt;td&gt;Washington&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10315&lt;/td&gt; &lt;td&gt;Lisa&lt;/td&gt; &lt;td&gt;Jones&lt;/td&gt; &lt;td&gt;Oshkosh&lt;/td&gt; &lt;td&gt;Wisconsin&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10325&lt;/td&gt; &lt;td&gt;Ginger&lt;/td&gt; &lt;td&gt;Schultz&lt;/td&gt; &lt;td&gt;Pocatello&lt;/td&gt; &lt;td&gt;Idaho&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10329&lt;/td&gt; &lt;td&gt;Kelly&lt;/td&gt; &lt;td&gt;Mendoza&lt;/td&gt; &lt;td&gt;Kailua&lt;/td&gt; &lt;td&gt;Hawaii&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10330&lt;/td&gt; &lt;td&gt;Shawn&lt;/td&gt; &lt;td&gt;Dalton&lt;/td&gt; &lt;td&gt;Kannonbeach&lt;/td&gt; &lt;td&gt;Oragon&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10338&lt;/td&gt; &lt;td&gt;Michel&lt;/td&gt; &lt;td&gt;Howell&lt;/td&gt; &lt;td&gt;Tillamook&lt;/td&gt; &lt;td&gt;Oragon&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10339&lt;/td&gt; &lt;td&gt;Anthony&lt;/td&gt; &lt;td&gt;Sanchez&lt;/td&gt; &lt;td&gt;Winslow&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10408&lt;/td&gt; &lt;td&gt;Elron&lt;/td&gt; &lt;td&gt;Cleaver&lt;/td&gt; &lt;td&gt;Globe&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10410&lt;/td&gt; &lt;td&gt;MaryAnn&lt;/td&gt; &lt;td&gt;Howell&lt;/td&gt; &lt;td&gt;Charleston&lt;/td&gt; &lt;td&gt;SouthCarolina&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;Cofi&lt;/td&gt; &lt;td&gt;Annan&lt;/td&gt; &lt;td&gt;Toronto&lt;/td&gt; &lt;td&gt;Idhao&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/pre&gt;</QUESTION_DESCRIPTION>
+<ANSWER></ANSWER>
+<MARK>0</MARK>
+<CORRECT_ANSWER>[{"0":3}]</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+<QUESTION_ID>2</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>TEXT</QUESTION_TYPE>
+<QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+<QUESTION_DESCRIPTION>&lt;font color="red"&gt;  Write SQL Select query to get customers having “y” in
+                         their names ordered by ascending order of their city names&lt;/font&gt; 
+&lt;b&gt;customer table&lt;/b&gt;
+&lt;pre id="" &gt;&lt;table border="1" &gt; &lt;tbody&gt; &lt;tr&gt; &lt;th &gt;customerid&lt;/th&gt;&lt;th &gt;firstname&lt;/th&gt;&lt;th &gt;lastname&lt;/th&gt;&lt;th &gt;city&lt;/th&gt;&lt;th &gt;state&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;John&lt;/td&gt; &lt;td&gt;Gray&lt;/td&gt; &lt;td&gt;Lynden&lt;/td&gt; &lt;td&gt;Washington&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;Lyon&lt;/td&gt; &lt;td&gt;Brown&lt;/td&gt; &lt;td&gt;Pinetop&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10299&lt;/td&gt; &lt;td&gt;Elory&lt;/td&gt; &lt;td&gt;Keller&lt;/td&gt; &lt;td&gt;Snoqualmie&lt;/td&gt; &lt;td&gt;Washington&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10315&lt;/td&gt; &lt;td&gt;Lisa&lt;/td&gt; &lt;td&gt;Jones&lt;/td&gt; &lt;td&gt;Oshkosh&lt;/td&gt; &lt;td&gt;Wisconsin&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10325&lt;/td&gt; &lt;td&gt;Ginger&lt;/td&gt; &lt;td&gt;Schultz&lt;/td&gt; &lt;td&gt;Pocatello&lt;/td&gt; &lt;td&gt;Idaho&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10329&lt;/td&gt; &lt;td&gt;Kelly&lt;/td&gt; &lt;td&gt;Mendoza&lt;/td&gt; &lt;td&gt;Kailua&lt;/td&gt; &lt;td&gt;Hawaii&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10330&lt;/td&gt; &lt;td&gt;Shawn&lt;/td&gt; &lt;td&gt;Dalton&lt;/td&gt; &lt;td&gt;Kannonbeach&lt;/td&gt; &lt;td&gt;Oragon&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10338&lt;/td&gt; &lt;td&gt;Michel&lt;/td&gt; &lt;td&gt;Howell&lt;/td&gt; &lt;td&gt;Tillamook&lt;/td&gt; &lt;td&gt;Oragon&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10339&lt;/td&gt; &lt;td&gt;Anthony&lt;/td&gt; &lt;td&gt;Sanchez&lt;/td&gt; &lt;td&gt;Winslow&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10408&lt;/td&gt; &lt;td&gt;Elron&lt;/td&gt; &lt;td&gt;Cleaver&lt;/td&gt; &lt;td&gt;Globe&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10410&lt;/td&gt; &lt;td&gt;MaryAnn&lt;/td&gt; &lt;td&gt;Howell&lt;/td&gt; &lt;td&gt;Charleston&lt;/td&gt; &lt;td&gt;SouthCarolina&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;Cofi&lt;/td&gt; &lt;td&gt;Annan&lt;/td&gt; &lt;td&gt;Toronto&lt;/td&gt; &lt;td&gt;Idhao&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/pre&gt;</QUESTION_DESCRIPTION>
+<ANSWER></ANSWER>
+<MARK>0</MARK>
+ <CORRECT_ANSWER>[{"3":"Charleston","2":"Howell","1":"MaryAnn","0":10410,"4":"SouthCarolina"},{"3":"Kailua","2":"Mendoza","1":"Kelly","0":10329,"4":"Hawaii"},{"3":"Lynden","2":"Gray","1":"John","0":10101,"4":"Washington"},{"3":"Pinetop","2":"Brown","1":"Lyon","0":10298,"4":"Arizona"},{"3":"Snoqualmie","2":"Keller","1":"Elory","0":10299,"4":"Washington"},{"3":"Winslow","2":"Sanchez","1":"Anthony","0":10339,"4":"Arizona"}]</CORRECT_ANSWER>
+ </QUESTION>
+ <QUESTION>
+<QUESTION_ID>3</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>TEXT</QUESTION_TYPE>
+<QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+<QUESTION_DESCRIPTION> &lt;font color="red"&gt; Write SQL query to get First Name and Last name concatenated together separated by “,”  &lt;/font&gt;     
+                          Expected output
+                              John,Gray
+                              Lisa,Jones
+                              Shawn,Dalton
+                            
+&lt;b&gt;customer table&lt;/b&gt;
+&lt;pre id="" &gt;&lt;table border="1" &gt; &lt;tbody&gt; &lt;tr&gt; &lt;th &gt;customerid&lt;/th&gt;&lt;th &gt;firstname&lt;/th&gt;&lt;th &gt;lastname&lt;/th&gt;&lt;th &gt;city&lt;/th&gt;&lt;th &gt;state&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;John&lt;/td&gt; &lt;td&gt;Gray&lt;/td&gt; &lt;td&gt;Lynden&lt;/td&gt; &lt;td&gt;Washington&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;Lyon&lt;/td&gt; &lt;td&gt;Brown&lt;/td&gt; &lt;td&gt;Pinetop&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10299&lt;/td&gt; &lt;td&gt;Elory&lt;/td&gt; &lt;td&gt;Keller&lt;/td&gt; &lt;td&gt;Snoqualmie&lt;/td&gt; &lt;td&gt;Washington&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10315&lt;/td&gt; &lt;td&gt;Lisa&lt;/td&gt; &lt;td&gt;Jones&lt;/td&gt; &lt;td&gt;Oshkosh&lt;/td&gt; &lt;td&gt;Wisconsin&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10325&lt;/td&gt; &lt;td&gt;Ginger&lt;/td&gt; &lt;td&gt;Schultz&lt;/td&gt; &lt;td&gt;Pocatello&lt;/td&gt; &lt;td&gt;Idaho&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10329&lt;/td&gt; &lt;td&gt;Kelly&lt;/td&gt; &lt;td&gt;Mendoza&lt;/td&gt; &lt;td&gt;Kailua&lt;/td&gt; &lt;td&gt;Hawaii&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10330&lt;/td&gt; &lt;td&gt;Shawn&lt;/td&gt; &lt;td&gt;Dalton&lt;/td&gt; &lt;td&gt;Kannonbeach&lt;/td&gt; &lt;td&gt;Oragon&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10338&lt;/td&gt; &lt;td&gt;Michel&lt;/td&gt; &lt;td&gt;Howell&lt;/td&gt; &lt;td&gt;Tillamook&lt;/td&gt; &lt;td&gt;Oragon&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10339&lt;/td&gt; &lt;td&gt;Anthony&lt;/td&gt; &lt;td&gt;Sanchez&lt;/td&gt; &lt;td&gt;Winslow&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10408&lt;/td&gt; &lt;td&gt;Elron&lt;/td&gt; &lt;td&gt;Cleaver&lt;/td&gt; &lt;td&gt;Globe&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10410&lt;/td&gt; &lt;td&gt;MaryAnn&lt;/td&gt; &lt;td&gt;Howell&lt;/td&gt; &lt;td&gt;Charleston&lt;/td&gt; &lt;td&gt;SouthCarolina&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;Cofi&lt;/td&gt; &lt;td&gt;Annan&lt;/td&gt; &lt;td&gt;Toronto&lt;/td&gt; &lt;td&gt;Idhao&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/pre&gt;</QUESTION_DESCRIPTION>
+<ANSWER></ANSWER>
+<MARK>0</MARK>
+  <CORRECT_ANSWER>[{"0":"John,Gray"},{"0":"Lyon,Brown"},{"0":"Elory,Keller"},{"0":"Lisa,Jones"},{"0":"Ginger,Schultz"},{"0":"Kelly,Mendoza"},{"0":"Shawn,Dalton"},{"0":"Michel,Howell"},{"0":"Anthony,Sanchez"},{"0":"Elron,Cleaver"},{"0":"MaryAnn,Howell"},{"0":"Cofi,Annan"}]</CORRECT_ANSWER>
+ </QUESTION>
+ <QUESTION>
+<QUESTION_ID>4</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>TEXT</QUESTION_TYPE>
+<QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+
+<QUESTION_DESCRIPTION>public class MyClassOne
+ {
+
+public static int countWords(String s){
+
+/* Please implement this  method to return the words count in a given string Assume that a parameter strign can only contains spaces and alphanumeric characters. */
+
+}
+  public static void main(String arr[])
+    {
+    /* Main Method*/
+    }
+    
+    } </QUESTION_DESCRIPTION>
+<ANSWER></ANSWER>
+<MARK>0</MARK>
+<TEST_CASE>
+<TEST_SCRIPT>@Test public void countWordsTest1(){ assertEquals(4,countWords("This is my world"));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void countWordsTest2(){ assertEquals(0,countWords(""));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void countWordsTest3(){ try{countWords(null);} catch(NullPointerException e){ assertTrue(false);}}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void countWordsTest4(){ assertEquals(2,countWords("what isthis"));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void countWordsTest5(){ assertEquals(5,countWords("This is my world   www"));}</TEST_SCRIPT>
+
+</TEST_CASE>
+</QUESTION>
+<QUESTION>
+<QUESTION_ID>5</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>TEXT</QUESTION_TYPE>
+<QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+<QUESTION_DESCRIPTION> public class MyClassTwo 
+{ 
+
+public static int[] getPrimeNumbers(int from,int to)
+	{
+
+/* A prime number is a natural number that has exactly two distinct natural number divisors,
+which are 1 And prime number itself. 
+
+The first prime number are 2,3,5,7,11,13,17... . 
+
+Please implement this method to return the  "array of prime number" within the given range.(inclusively) */
+
+	}
+  public static void main(String arr[])
+    {
+    /* Main Method*/
+    }
+    
+    }
+</QUESTION_DESCRIPTION>
+<ANSWER> public class MyClassTwo &lt;br&gt;{ &lt;br&gt;&lt;br&gt;public static int[] getPrimeNumbers(int from,int to)&lt;br&gt; {&lt;br&gt;&lt;br&gt; int count=0;&lt;br&gt; if(from&lt;2)&lt;br&gt; {&lt;br&gt; from=2;&lt;br&gt; }&lt;br&gt; for(int n=from; n&lt;=to; n++)&lt;br&gt; {&lt;br&gt; boolean prime = true;&lt;br&gt; for(int i=2; i&lt;n; i++){&lt;br&gt; if(n%i == 0)&lt;br&gt; {&lt;br&gt; prime = false;&lt;br&gt; break;&lt;br&gt; }}&lt;br&gt; if(prime)&lt;br&gt; count++;&lt;br&gt; }&lt;br&gt; int primearray[] = new int[count];&lt;br&gt; int k=0;&lt;br&gt; for(int n=from; n&lt;=to; n++)&lt;br&gt; {&lt;br&gt; boolean prime = true;&lt;br&gt; for(int i=2; i&lt;n; i++){&lt;br&gt; if(n%i == 0)&lt;br&gt; {&lt;br&gt; prime = false;&lt;br&gt; break;&lt;br&gt; }}&lt;br&gt; if(prime)&lt;br&gt; {&lt;br&gt; primearray[k]=n;&lt;br&gt; k++;&lt;br&gt; }&lt;br&gt; }&lt;br&gt; return primearray;&lt;br&gt;&lt;br&gt;&lt;br&gt; }&lt;br&gt; public static void main(String arr[])&lt;br&gt; {&lt;br&gt; /* Main Method*/&lt;br&gt; }&lt;br&gt; &lt;br&gt; }&lt;br&gt;</ANSWER>
+<MARK>5</MARK>
+<TEST_CASE>
+<TEST_SCRIPT>@Test public void getPrimeNumberTest1(){int[] temp_array = {2, 3, 5, 7}; Assert.assertTrue(Arrays.equals(temp_array,getPrimeNumbers(0,10)));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getPrimeNumberTest2(){int[] temp_array = {29,31,37,41,43,47,53,59}; Assert.assertTrue(Arrays.equals(temp_array,getPrimeNumbers(25,60)));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getPrimeNumberTest3(){int[] temp_array = {7};  Assert.assertTrue(Arrays.equals(temp_array,getPrimeNumbers(7,9)));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getPrimeNumberTest4(){int[] temp_array = {11}; Assert.assertTrue(Arrays.equals(temp_array,getPrimeNumbers(11,11)));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getPrimeNumberTest5(){int[] temp_array = {2,3,5}; Assert.assertTrue(Arrays.equals(temp_array,getPrimeNumbers(0,5)));}</TEST_SCRIPT>
+</TEST_CASE>
+</QUESTION>
+<QUESTION>
+<QUESTION_ID>6</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>TEXT</QUESTION_TYPE>
+<QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+<QUESTION_DESCRIPTION>public class MyClassThree
+ { 
+
+public static int getClosestToZero(int[] a){
+  
+/*  please implement this method to 
+  return the number in the array that is closest to zero.
+  if there are two equally close to zero elements like 2 and -2
+  consider the positive element to be "closer"  tozero. */
+  
+  } 
+  public static void main(String s[])
+  {
+   /* Main Method*/
+  
+  }
+  }
+</QUESTION_DESCRIPTION>
+<ANSWER></ANSWER>
+<MARK>0</MARK>
+<TEST_CASE>
+
+<TEST_SCRIPT>@Test public void getClosestToZeroTest1(){int[] temp_array = {9, 22, -3, 3, 5, 8};assertEquals(3,getClosestToZero(temp_array));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getClosestToZeroTest2(){int[] temp_array = {10, 22, 6, 3, 17, 1}; assertEquals(1,getClosestToZero(temp_array));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getClosestToZeroTest3(){int[] temp_array = {6, -6, 0, 3, 15, 18}; assertEquals(0,getClosestToZero(temp_array));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getClosestToZeroTest4(){int[] temp_array = {2, 22, -3, 13, 85, 28}; assertEquals(2,getClosestToZero(temp_array));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getClosestToZeroTest5(){int[] temp_array = {1, -1, -3, 3, 5, 8}; assertEquals(1,getClosestToZero(temp_array));}</TEST_SCRIPT>
+
+</TEST_CASE>
+</QUESTION>
+
+
+<QUESTION>
+<QUESTION_ID>7</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>Objective</QUESTION_TYPE>
+<QUESTION_DESCRIPTION>what is router?</QUESTION_DESCRIPTION>
+<ANSWER></ANSWER>
+
+ <OPTIONS>
+<OPTION>provide to path to packet
+    </OPTION>
+<OPTION>help to implement algo of routing
+    </OPTION>
+<OPTION>way to packet
+    </OPTION>
+<OPTION>path to packet
+    </OPTION>
+  </OPTIONS>
+ <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+
+
+<QUESTION>
+<QUESTION_ID>8</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>Objective</QUESTION_TYPE>
+<QUESTION_DESCRIPTION>what is router?</QUESTION_DESCRIPTION>
+<ANSWER></ANSWER>
+
+ <OPTIONS>
+<OPTION>provide to path to packet
+    </OPTION>
+<OPTION>help to implement algo of routing
+    </OPTION>
+<OPTION>way to packet
+    </OPTION>
+<OPTION>path to packet
+    </OPTION>
+  </OPTIONS>
+ <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+<CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+
+<QUESTION>
+<QUESTION_ID>9</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>Objective</QUESTION_TYPE>
+<QUESTION_DESCRIPTION>what is router?</QUESTION_DESCRIPTION>
+<ANSWER></ANSWER>
+
+ <OPTIONS>
+<OPTION>provide to path to packet
+    </OPTION>
+<OPTION>help to implement algo of routing
+    </OPTION>
+<OPTION>way to packet
+    </OPTION>
+<OPTION>path to packet
+    </OPTION>
+  </OPTIONS>
+ <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+<CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+</QUESTION_PAPER>

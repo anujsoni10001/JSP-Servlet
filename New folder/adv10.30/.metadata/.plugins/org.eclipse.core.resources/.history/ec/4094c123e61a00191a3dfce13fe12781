@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="add">
+ID<input type="number"name="id">
+NAME<input type="text"name="name">
+JOB<input type="text"name="job">
+<input type="submit" value="Add">
+</form>
+<a href="view.jsp?pid=1">show</a>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+<QUESTION_PAPER_INFORMATION>
+  <QUESTION_PAPER_DESCRIPTION>SET D</QUESTION_PAPER_DESCRIPTION> 
+  <TIME_DURATION>01:30</TIME_DURATION> 
+</QUESTION_PAPER_INFORMATION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Operating System</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>&lt;span style="text-align: justify;"&gt;Make a normalized database model (table&amp;nbsp;&lt;/span&gt;&lt;span style="text-align: justify;"&gt;structure) based on below ER Diagram and information&lt;/span&gt;&lt;div&gt;&lt;div style="text-align: justify;"&gt;&lt;br&gt;&lt;/div&gt;&lt;div style="text-align: justify;"&gt;&lt;u&gt;Note:&lt;/u&gt;&amp;nbsp;&lt;span style="text-align: left;"&gt;In ER Diagram M:N represents Ordinality:Cardinality. Ordinality specifies optional or mandatory, Cardinality specifies one or many&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="line-height: normal;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;img src="/images/ER Diagram Sandwich.gif" alt="" align="none"&gt;&lt;/div&gt;&lt;div&gt;&lt;p class="MsoNormal" style="text-align: justify;"&gt;Above ER diagram represents entities of a Sandwich shop&lt;/p&gt;&lt;p class="MsoNormal" style="text-align: justify;"&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;The Sandwich shop has many employees who sells sandwiches&lt;/li&gt;&lt;li&gt;Each sale done by the employee is recorded with it's date and items(Sandwiches) sold&amp;nbsp;&lt;/li&gt;&lt;li&gt;Each of the sandwich has a name, size and price associated with it&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Present the final database table structure as your  in following format&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Table Name 1 (column name 1, column name 2...)&lt;/div&gt;&lt;div&gt;Table Name 2 (column name 1, column name 2...)&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>
+<ANSWER>&amp;nbsp;hii i&amp;nbsp;&lt;div&gt;am here&lt;/div&gt;</ANSWER> 
+</QUESTION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Operating System</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>&lt;div&gt;Refer Customer table &amp;nbsp;below&lt;/div&gt;&lt;div&gt;&lt;b&gt;Customers (Customer_id, Name, City, State, Country, Phone, Email, JoinDate)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1) Write a SQL query to get names of customer who have not provided their Email&lt;/div&gt;&lt;div&gt;&lt;b&gt;Output expected:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;Name&lt;/u&gt;&lt;/div&gt;&lt;div&gt;Aakash&lt;span class="Apple-tab-span" style="white-space:pre"&gt;		&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Amber&lt;span class="Apple-tab-span" style="white-space:pre"&gt;		&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Aman&lt;span class="Apple-tab-span" style="white-space:pre"&gt;		&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2) Write a SQL query to get names and Emails of customers who have their emails at gmail.com with Emails in descending order&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Output expected:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;Name&lt;/u&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;u&gt;Email&lt;/u&gt;&lt;/div&gt;&lt;div&gt;Amber&lt;span class="Apple-tab-span" style="white-space:pre"&gt;		&lt;/span&gt;Amber@gmail.com&lt;/div&gt;&lt;div&gt;Aman&lt;span class="Apple-tab-span" style="white-space:pre"&gt;		&lt;/span&gt;Aman@gmail.com&lt;/div&gt;&lt;div&gt;Aakash&lt;span class="Apple-tab-span" style="white-space:pre"&gt;		&lt;/span&gt;Aakash@gmail.com&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3) Write a SQL query to get country-wise count of &amp;nbsp;customers with ascending order of countries&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Output expected:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;Country&lt;/u&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;u&gt;CustomerCount&lt;/u&gt;&lt;/div&gt;&lt;div&gt;India&lt;span class="Apple-tab-span" style="white-space:pre"&gt;		&lt;/span&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 5&lt;/div&gt;&lt;div&gt;Russia&lt;span class="Apple-tab-span" style="white-space:pre"&gt;		&lt;/span&gt; &amp;nbsp; 2000&lt;/div&gt;&lt;div&gt;USA&lt;span class="Apple-tab-span" style="white-space:pre"&gt;		&lt;/span&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 100&lt;/div&gt;</QUESTION_DESCRIPTION>
+	<ANSWER>&lt;br&gt;</ANSWER> 
+</QUESTION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Operating System</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>How does De-fragmentation help in increasing the execution speed of a program running within an Operating System? Please also explain why Linux does not need De-fragmentation</QUESTION_DESCRIPTION>
+<ANSWER>&lt;br&gt;</ANSWER> 
+</QUESTION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Operating System</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>&lt;font face="Tahoma, sans-serif"&gt;When you manually configure network properties of a computer you set following properties. Please provide their relavance&lt;/font&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;font face="Tahoma, sans-serif"&gt;IP Address&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face="Tahoma, sans-serif"&gt;Subnet Mask&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face="Tahoma, sans-serif"&gt;Gateway&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;font face="Tahoma, sans-serif"&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>Describe what is DNS and how is it used when you browse a website (e.g. www.gmail.com) using a browser
+<ANSWER>&lt;br&gt;</ANSWER> 
+</QUESTION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Operating System</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>Explain pass-by-value and pass-by-reference concept. Take suitable Java examples to illustrate the concept and its usage</QUESTION_DESCRIPTION>
+<ANSWER>&lt;br&gt;</ANSWER> 
+</QUESTION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Operating System</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>&lt;div&gt;Write a Java Class which will remove any given character from a String. Assume that a string and a character will be send to your API and you are expected to return the string after removing the character that is provided&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Below the declaration for the method which needs to be implemented in this Class&lt;/div&gt;&lt;div&gt;Public String shortenedString (String inputData, char charcterToBeRemoved);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Example data&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Input: (Greetings, e), Output: Grtings&lt;/li&gt;&lt;li&gt;Input: (Amazing, a), Output: mzing&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;You are expected to&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Write the method implementation code&lt;/li&gt;&lt;li&gt;Call the method with sample data from main method&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;div&gt;Please write professional code i.e.&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Follow proper naming conventions&lt;/li&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;li&gt;Perform appropriate exception handling as needed&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>
+<ANSWER>&lt;br&gt;</ANSWER> 
+</QUESTION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Java</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>&lt;div&gt;Write a Java program that will return whichever value is nearest to the value of 100 from two given integer numbers&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Below is the method declaration which needs to be implemented by the program&lt;/div&gt;&lt;div&gt;Public int whoIsNearMe (int number1, int number2)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Example data&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Input: (70, 125), Output: 125&lt;/li&gt;&lt;li&gt;Input: (70,60), Output: 70&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;You are expected to&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Write the method implementation code&lt;/li&gt;&lt;li&gt;Call the method with sample data from main method&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;div&gt;Please write professional code i.e.&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Follow proper naming conventions&lt;/li&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;li&gt;Perform appropriate exception handling as needed&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>
+<ANSWER>&lt;br&gt;</ANSWER> 
+</QUESTION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Java</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>&lt;p style="margin-left: 10px;"&gt;Write Java Class BankAccount which manages account balance. The BackAccount class provides method to handle deposits and withdrawals in the account. Below interface needs to be implemented by this class&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;public Interface BankAccountInterface&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; public void deposit(int amount);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; public void withdraw(int amount);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Please take care of following&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;This Class will be used in multi-threaded application and these methods might be called by many threads at the same time&lt;/li&gt;&lt;li&gt;Please ensure the balance in the account always remains consistent based on the deposits and withdrawals&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;You are expected to&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Write the method implementation code&lt;/li&gt;&lt;li&gt;Call the method with sample data from main method&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;div&gt;Please write professional code i.e.&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Follow proper naming conventions&lt;/li&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;li&gt;Perform appropriate exception handling as needed&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>
+<ANSWER>8&lt;div&gt;8&lt;/div&gt;</ANSWER>
+</QUESTION>
+</QUESTION_PAPER>

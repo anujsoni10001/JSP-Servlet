@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+   <QUESTION_PAPER_INFORMATION>
+      <QUESTION_PAPER_DESCRIPTION>SET E</QUESTION_PAPER_DESCRIPTION>
+   </QUESTION_PAPER_INFORMATION>
+   <QUESTION>
+      <QUESTION_ID>1</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>&lt;div&gt;The schema for "employee" table is defined below with sample data.&lt;/div&gt; Write a SQL Query to find number of employees according to gender whose DOB is between 1970-01- 01 to 1990-12-31&amp;nbsp;&lt;div&gt;&lt;b&gt;Sample output:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Female &amp;nbsp; &amp;nbsp;2&lt;/div&gt;&lt;div&gt;Male &amp;nbsp; &amp;nbsp; &amp;nbsp; 4&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;Table : employee&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table border="1"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th&gt;employeeid&lt;/th&gt;&lt;th&gt;employeename&lt;/th&gt;&lt;th&gt;salary&lt;/th&gt;&lt;th&gt;departmentname&lt;/th&gt;&lt;th&gt;sex&lt;/th&gt;&lt;th&gt;dob&lt;/th&gt;&lt;th&gt;join_date&lt;/th&gt;&lt;th&gt;leave_date&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;Amber&lt;/td&gt; &lt;td&gt;50000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1988-12-11&lt;/td&gt; &lt;td&gt;2011-12-13&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;Ajay&lt;/td&gt; &lt;td&gt;20000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;1998-07-11&lt;/td&gt; &lt;td&gt;2013-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;deepika&lt;/td&gt; &lt;td&gt;23500&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1986-02-21&lt;/td&gt; &lt;td&gt;2001-01-01&lt;/td&gt; &lt;td&gt;2012-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;Preeti&lt;/td&gt; &lt;td&gt;15000&lt;/td&gt; &lt;td&gt;Civil&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1960-11-10&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;5&lt;/td&gt; &lt;td&gt;Priyanka&lt;/td&gt; &lt;td&gt;12000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1973-01-16&lt;/td&gt; &lt;td&gt;1990-12-11&lt;/td&gt; &lt;td&gt;2012-12-07&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;6&lt;/td&gt; &lt;td&gt;Rajesh&lt;/td&gt; &lt;td&gt;10000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1982-12-11&lt;/td&gt; &lt;td&gt;1999-06-07&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;7&lt;/td&gt; &lt;td&gt;Ambuj&lt;/td&gt; &lt;td&gt;22000&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1978-10-01&lt;/td&gt; &lt;td&gt;1998-12-11 &lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt; &lt;br&gt;&lt;/div&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>
+      <ANSWER>select * from customer;</ANSWER>
+      <MARK>1</MARK>
+      <CORRECT_ANSWER>[{"1":2,"0":"Female"},{"1":4,"0":"Male"}]</CORRECT_ANSWER>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>2</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Write a SQL query to get department wise minimum salary and order it by salary in ascending fashion
+&lt;b&gt;Table : employee&lt;/b&gt;&lt;BR&gt;&lt;pre id=""&gt;&lt;pre id="" &gt;&lt;table border="1" &gt; &lt;tbody&gt; &lt;tr&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th &gt;employeeid&lt;/th&gt;&lt;th &gt;employeename&lt;/th&gt;&lt;th &gt;salary&lt;/th&gt;&lt;th &gt;departmentname&lt;/th&gt;&lt;th &gt;sex&lt;/th&gt;&lt;th &gt;dob&lt;/th&gt;&lt;th &gt;join_date&lt;/th&gt;&lt;th &gt;leave_date&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;Amber&lt;/td&gt; &lt;td&gt;50000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1988-12-11&lt;/td&gt; &lt;td&gt;2011-12-13&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;Ajay&lt;/td&gt; &lt;td&gt;20000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;1998-07-11&lt;/td&gt; &lt;td&gt;2013-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;deepika&lt;/td&gt; &lt;td&gt;23500&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1986-02-21&lt;/td&gt; &lt;td&gt;2001-01-01&lt;/td&gt; &lt;td&gt;2012-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;Preeti&lt;/td&gt; &lt;td&gt;15000&lt;/td&gt; &lt;td&gt;Civil&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1960-11-10&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;5&lt;/td&gt; &lt;td&gt;Priyanka&lt;/td&gt; &lt;td&gt;12000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1973-01-16&lt;/td&gt; &lt;td&gt;1990-12-11&lt;/td&gt; &lt;td&gt;2012-12-07&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;6&lt;/td&gt; &lt;td&gt;Rajesh&lt;/td&gt; &lt;td&gt;10000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1982-12-11&lt;/td&gt; &lt;td&gt;1999-06-07&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;7&lt;/td&gt; &lt;td&gt;Ambuj&lt;/td&gt; &lt;td&gt;22000&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1978-10-01&lt;/td&gt; &lt;td&gt;1998-12-11 &lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt; &lt;BR&gt; </QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>[{"1":15000,"0":"Civil"},{"1":12000,"0":"It"},{"1":22000,"0":"Mech"},{"1":10000,"0":"Cs"}]</CORRECT_ANSWER>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>3</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Write SQL select query to get total sales (addition of prices of all sold items) from purchase orders placed&amp;nbsp;&lt;div&gt;&lt;b&gt;Table : purchase_order&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table border="1"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;th&gt;purchase_order_id&lt;/th&gt;&lt;th&gt;customerid&lt;/th&gt;&lt;th&gt;order_date&lt;/th&gt;&lt;th&gt;item&lt;/th&gt;&lt;th&gt;quantity&lt;/th&gt;&lt;th&gt;price&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;10330&lt;/td&gt; &lt;td&gt;1990-06-30&lt;/td&gt; &lt;td&gt;Pogo stick&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;28&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-06-30&lt;/td&gt; &lt;td&gt;Raft&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;58&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;1999-07-01&lt;/td&gt; &lt;td&gt;Skateboard&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;33&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-07-01&lt;/td&gt; &lt;td&gt;Life Vest&lt;/td&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;125&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;5&lt;/td&gt; &lt;td&gt;10299&lt;/td&gt; &lt;td&gt;1999-07-06&lt;/td&gt; &lt;td&gt;Parachute&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;1250&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;6&lt;/td&gt; &lt;td&gt;10339&lt;/td&gt; &lt;td&gt;1999-07-27&lt;/td&gt; &lt;td&gt;Umbrella&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;4.5&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;7&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-08-13&lt;/td&gt; &lt;td&gt;Unicycle&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;180.79&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;8&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-08-18&lt;/td&gt; &lt;td&gt;Raln Coat&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;18.3&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;9&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-09-01&lt;/td&gt; &lt;td&gt;Snow Shoes&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;45&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-08-14&lt;/td&gt; &lt;td&gt;Ski Poles&lt;/td&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;25&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;11&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-09-18&lt;/td&gt; &lt;td&gt;Tent&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;58&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;12&lt;/td&gt; &lt;td&gt;10410&lt;/td&gt; &lt;td&gt;1999-10-28&lt;/td&gt; &lt;td&gt;Sleeping Bag&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;89.22&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;13&lt;/td&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;1999-09-19&lt;/td&gt; &lt;td&gt;Lantern&lt;/td&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;29&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;14&lt;/td&gt; &lt;td&gt;10338&lt;/td&gt; &lt;td&gt;1999-09-01&lt;/td&gt; &lt;td&gt;Umbrella&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;6.75&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;15&lt;/td&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;1999-12-01&lt;/td&gt; &lt;td&gt;Helmet&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;22&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;16&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-12-15&lt;/td&gt; &lt;td&gt;Bicycle&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;380.5&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;17&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-12-22&lt;/td&gt; &lt;td&gt;Canoe&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;280&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;18&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-12-30&lt;/td&gt; &lt;td&gt;Hoola Hoop&lt;/td&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;14.75&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/pre&gt; &lt;/pre&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>[{"0":2647.81}]</CORRECT_ANSWER>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>4</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;BR&gt;&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;BR&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;&lt;BR&gt;&lt;ul&gt;&lt;BR&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;/p&gt;&lt;BR&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>import java.util.*;
+ &lt;BR&gt; public class MyClassOne&lt;BR&gt; { &lt;BR&gt; public static Set getIntersection(Set&lt;Object&gt; a, Set&lt;Object&gt; b) &lt;BR&gt; {&lt;BR&gt; /*&lt;BR&gt; Please implement this method to&lt;BR&gt; return a Set equal to the intersection of the parameter Sets&lt;BR&gt; The method should not chage the content of the parameters.&lt;BR&gt; */&lt;BR&gt; }&lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* Main Method*/&lt;BR&gt; }&lt;BR&gt; } &lt;BR&gt;</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void getIntersectionTest1(){Set&lt;Object&gt; temp_array1 = new HashSet();temp_array1.add("Ian Darwin");temp_array1.add("Bill Dooley");temp_array1.add("Jesse James");Set&lt;Object&gt; temp_array2 = new HashSet(); temp_array2.add("Ian Darwin"); temp_array2.add("Bill Dooley"); temp_array2.add("Doolin' Dalton");Set&lt;Object&gt; temp_answer = new HashSet(); temp_answer.add("Ian Darwin");temp_answer.add("Bill Dooley");Assert.assertEquals(temp_answer, getIntersection(temp_array1, temp_array2));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getIntersectionTest2(){Set&lt;Object&gt; temp_array1 = new HashSet();temp_array1.add("Ian Darwin");temp_array1.add("Bill Dooley");temp_array1.add("Jesse James");Set&lt;Object&gt; temp_array2 = new HashSet(); temp_array2.add("Bill Gats"); temp_array2.add("james Gosling"); temp_array2.add("Doolin' Dalton");Set&lt;Object&gt; temp_answer = new HashSet();Assert.assertEquals(temp_answer, getIntersection(temp_array1, temp_array2));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getIntersectionTest3(){Set&lt;Object&gt; temp_array1 = new HashSet();temp_array1.add("Ian Darwin");temp_array1.add("Bill Dooley");temp_array1.add("Jesse James");Set&lt;Object&gt; temp_array2 = new HashSet(); temp_array2.add("iAN dARWIN"); temp_array2.add("bILL dOOLEY"); temp_array2.add("Doolin' Dalton");Set&lt;Object&gt; temp_answer = new HashSet(); Assert.assertEquals(temp_answer, getIntersection(temp_array1, temp_array2));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getIntersectionTest4(){Set&lt;Object&gt; temp_array1 = new HashSet();temp_array1.add("Bill Gats"); temp_array1.add("Abrahim Linken");temp_array1.add("Jesse James");Set&lt;Object&gt; temp_array2 = new HashSet(); temp_array2.add("Abrahim Linken"); temp_array2.add("Jesse James"); temp_array2.add("Bill Gats");Set&lt;Object&gt; temp_answer = new HashSet();temp_answer.add("Bill Gats"); temp_answer.add("Abrahim Linken");temp_answer.add("Jesse James");Assert.assertEquals(temp_answer, getIntersection(temp_array1, temp_array2));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getIntersectionTest5(){Set&lt;Object&gt; temp_array1 = new HashSet();temp_array1.add("Bi ll Gats"); temp_array1.add("Ab rahim Linken");temp_array1.add("Je sse James");Set temp_array2 = new HashSet();temp_array2.add("Bill Ga ts"); temp_array2.add("Abrahim Lin ken"); temp_array2.add("Jesse Ja mes");Set&lt;Object&gt; temp_answer = new HashSet();Assert.assertEquals(temp_answer, getIntersection(temp_array1, temp_array2));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>5</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;BR&gt;&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;BR&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;&lt;BR&gt;&lt;ul&gt;&lt;BR&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;/p&gt;&lt;BR&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassThree
+ {&lt;BR&gt; public static boolean isPalindrome(String s)&lt;BR&gt; {&lt;BR&gt; /*&lt;BR&gt; Definition: A palindrome is a string that reads the same forward and backward.&lt;BR&gt; For example, "abcba" is a palindrome, "abab" is not.&lt;BR&gt; Please implement this method to&lt;BR&gt; return true if the parameter is a palindrome and false otherwise.&lt;BR&gt; */&lt;BR&gt; }&lt;BR&gt;&lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* Main Method*/&lt;BR&gt; }&lt;BR&gt; &lt;BR&gt; }&lt;BR&gt;</QUESTION_DESCRIPTION>
+      <ANSWER>public class MyClassThree&lt;br&gt; {&lt;br&gt; public static boolean isPalindrome(String s)&lt;br&gt; {&lt;br&gt; /*&lt;br&gt; Definition: A palindrome is a string that reads the same forward and backward.&lt;br&gt; For example, "abcba" is a palindrome, "abab" is not.&lt;br&gt; Please implement this method to&lt;br&gt; return true if the parameter is a palindrome and false otherwise.&lt;br&gt; */&lt;br&gt; return true;&lt;br&gt; }&lt;br&gt;&lt;br&gt; public static void main(String arr[])&lt;br&gt; {&lt;br&gt; /* Main Method*/&lt;br&gt; }&lt;br&gt; &lt;br&gt; }&lt;br&gt;</ANSWER>
+      <MARK>4</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void isPalindromeTest1(){ assertEquals(true,isPalindrome("lol"));}</TEST_SCRIPT>
+         <TEST_SCRIPT> @Test public void isPalindromeTest2(){ assertEquals(true,isPalindrome("repaper"));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void isPalindromeTest3(){ assertEquals(false,isPalindrome("lOL"));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void isPalindromeTest4(){ assertEquals(true,isPalindrome("TIT"));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void isPalindromeTest5(){ try{isPalindrome(null);}catch(NullPointerException e){ assertTrue(false);}}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>6</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;BR&gt;&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;BR&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;&lt;BR&gt;&lt;ul&gt;&lt;BR&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;/p&gt;&lt;BR&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>import java.util.*; 
+ public class MyClassThree
+  {
+   public static int generateRandomNumber(int min, int max) {
+    /*
+     Please implement this method to return a random number in between min number and max number. You need to use random() method available in java.lang.Math class. This method returns a double value between 0.0 to 1.0.
+      */
+       } 
+      public static void main(String arr[]){
+       /* Main Method*/
+        }
+        </QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void generateRandomNumber1(){Assert.assertTrue(20 &gt;=generateRandomNumber(2,20)&amp;&amp;2 &lt;=generateRandomNumber(2,20));} </TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void generateRandomNumber2(){Assert.assertTrue(2 &gt;= generateRandomNumber(0,2) &amp;&amp; 0 &lt;= generateRandomNumber(0,2));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void generateRandomNumber3(){Assert.assertTrue(30 &gt;= generateRandomNumber(20,30) &amp;&amp; 20 &lt;= generateRandomNumber(20,30));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void generateRandomNumber4(){Assert.assertTrue(1 &gt;= generateRandomNumber(1,1) &amp;&amp; 1 &lt;= generateRandomNumber(1,1));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void generateRandomNumber5(){Assert.assertTrue(120 &gt;= generateRandomNumber(100,120) &amp;&amp; 100 &lt;= generateRandomNumber(100,120));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>7</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>What will happen if you change a class while your Java application is running. Assume that the instance of this class has been already created by the application when change was made.</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>The changes made to the class would be reflected in the application since the byte code has changed</OPTION>
+         <OPTION>The changes made to the class would not be reflected in the class as the class is loaded in the memory</OPTION>
+         <OPTION>When the class change is detected, JVM reloads the class</OPTION>
+         <OPTION>When class change is detected, your application would crash</OPTION>
+         <OPTION>JVM loads the class only once, so the change would not be detected</OPTION>
+	</OPTIONS>
+      <ANSWER>1,2,1,2,2</ANSWER>
+      <MARK>-3</MARK>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      
+   </QUESTION>
+   
+   <QUESTION>
+      <QUESTION_ID>8</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>When is static block of a class called</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>Static block of a class is called when the class is loaded</OPTION>
+         <OPTION>Static block gets called as soon as application containing that class is started, irrespective of whether that class is referred or not</OPTION>
+         <OPTION>Static block gets called, when you refer to the class first time in the application lifecycle</OPTION>
+         <OPTION>Static block gets called every time when you create instance of the class</OPTION>
+         <OPTION>Static block gets called only once during execution of JVM</OPTION>         
+       
+      </OPTIONS>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      
+   </QUESTION>
+   
+   
+    <QUESTION>
+      <QUESTION_ID>9</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>How is ARP (Address resolution protocol) used in network communication.</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>When you browse a website (google.com), your computer uses ARP to get MAC address (physical address) of that website</OPTION>
+         <OPTION>ARP is only used only within a physical network where computers are directly connected to each other using a switch or hub. So for getting Mac address(physical address) of external website (Google.com), ARP is not used by your computer</OPTION>
+         <OPTION>ARP is used to get MAC address (physical address) of a computer using its IP address</OPTION>
+         <OPTION>ARP is used to get IP address of a computer using its MAC address (physical address)</OPTION>
+         <OPTION>When computer wants to directly/physically communicate with another computer it requires its physical address which is retrieved using ARP</OPTION>
+       </OPTIONS>
+       
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>    
+     
+      
+   </QUESTION>
+   
+</QUESTION_PAPER>

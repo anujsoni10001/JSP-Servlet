@@ -1,0 +1,6 @@
+package pp;
+
+public class Staff {
+private int StaffId;
+private String bhb;
+}

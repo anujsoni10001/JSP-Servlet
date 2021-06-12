@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Update Student Details Page</title>
+<link rel="stylesheet" type="text/css" href="styleu.css"> 
+</head>
+<body>
+<h3>Update All by ID (One by One)</h3>
+<div class="UpdatePage">
+<div class="Form1">
+<form action="UpProAll">
+<input type="text" name="id" placeholder="Enter the Service id">
+<input type="text" name="tyservice" placeholder="Enter the Type of Service">
+<input type="text" name="Location" placeholder="Enter the Location">
+<input type="text" name="mnumber" placeholder="Enter the Mobile Number"> 
+<input type="text" name="t" placeholder="Enter the Opening Time">
+<input type="text" name="t1" placeholder="Enter the Closing Time">
+<input type="text" name="a" placeholder="Enter the Working Days">
+<button type="submit">UpdateAll</button>
+</form>
+</div>
+<h3>Update All by ID (One by One)</h3>
+<div class="Form2">
+<form action="UpPro" method="post">
+<input type="text" name="id" placeholder="Enter the Service ID">
+<p class="message">Select the Update Categories </p>
+<select name="request">
+<option>tyservice</option>
+<option>Location</option>
+<option>mnumber</option>
+<option>t</option>
+<option>t1</option>
+<option>a</option>
+</select>
+<input type="text" name="updatefield" placeholder="Enter the Required Info. ">
+<button type="submit" value="byid" name="b">UpdateByID</button>
+</form>
+</div>
+</div>
+</body>
+</html>

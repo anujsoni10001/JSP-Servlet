@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<a href="Login.html">Patient-Login</a>
+<a href="register.html">Registration-of-Patient</a>
+<a href="">Staff-Login</a>
+<a href="adminlogin">Admin-Login</a>
+</body>
+</html>

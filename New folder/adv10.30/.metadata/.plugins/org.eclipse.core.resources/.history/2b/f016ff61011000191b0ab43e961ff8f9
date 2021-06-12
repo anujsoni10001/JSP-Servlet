@@ -1,0 +1,15 @@
+<%
+String id=request.getParameter("id");
+String pwd=request.getParameter("pwd");
+if(id.equals("admin")&&pwd.equals("12345"))
+{
+response.sendRedirect("new.jsp");	
+}
+else
+{
+	%>
+	<%="Invalid Id and Password" %>
+	<%
+//out.println("Invalid Id and Password");	
+}
+%>

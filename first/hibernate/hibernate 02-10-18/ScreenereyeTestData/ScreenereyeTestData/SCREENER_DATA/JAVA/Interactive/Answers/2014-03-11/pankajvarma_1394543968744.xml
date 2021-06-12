@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+   <QUESTION_PAPER_INFORMATION>
+      <QUESTION_PAPER_DESCRIPTION>SET B</QUESTION_PAPER_DESCRIPTION>
+   </QUESTION_PAPER_INFORMATION>
+   <QUESTION>
+      <QUESTION_ID>1</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Question: Select first_name, incentive_amount from person and incentives table for all persons even if they didn't get incentives.
+ &amp;nbsp;&lt;/div&gt;&lt;b&gt;Table : person&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table border="1" cellspacing="0" cellpadding="0" &gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PERSON_ID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;FIRST_NAME&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;LAST_NAME&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;SALARY&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;JOINING_DATE&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;DEPARTMENT&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;Jhon&lt;/td&gt;&lt;td&gt;Abraham&lt;/td&gt;&lt;td&gt;1000000&lt;/td&gt;&lt;td&gt;01-JAN-13 12.00.00 AM&lt;/td&gt;&lt;td&gt;Banking&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;Michael&lt;/td&gt;&lt;td&gt;Clarke&lt;/td&gt;&lt;td&gt;800000&lt;/td&gt;&lt;td&gt;01-JAN-13 12.00.00 AM&lt;/td&gt;&lt;td&gt;Insurance&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;Roy&lt;/td&gt;&lt;td&gt;Thomas&lt;/td&gt;&lt;td&gt;700000&lt;/td&gt;&lt;td&gt;01-FEB-13 12.00.00 AM&lt;/td&gt;&lt;td&gt;Banking&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;Tom&lt;/td&gt;&lt;td&gt;Jose&lt;/td&gt;&lt;td&gt;600000&lt;/td&gt;&lt;td&gt;01-FEB-13 12.00.00 AM&lt;/td&gt;&lt;td&gt;Insurance&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;Jerry&lt;/td&gt;&lt;td&gt;Pinto&lt;/td&gt;&lt;td&gt;650000&lt;/td&gt;&lt;td&gt;01-FEB-13 12.00.00 AM&lt;/td&gt;&lt;td&gt;Insurance&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;Philip&lt;/td&gt;&lt;td&gt;Mathew&lt;/td&gt;&lt;td&gt;750000&lt;/td&gt;&lt;td&gt;01-JAN-13 12.00.00 AM&lt;/td&gt;&lt;td&gt;Services&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;TestName1&lt;/td&gt;&lt;td&gt;123&lt;/td&gt;&lt;td&gt;650000&lt;/td&gt;&lt;td&gt;01-JAN-13 12.00.00 AM&lt;/td&gt;&lt;td&gt;Services&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;TestName2&lt;/td&gt;&lt;td&gt;Lname%&lt;/td&gt;&lt;td&gt;600000&lt;/td&gt;&lt;td&gt;01-FEB-13 12.00.00 AM&lt;/td&gt;&lt;td&gt;Insurance&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt;
+ &amp;nbsp;&lt;/div&gt;&lt;b&gt;Table : incentives&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table border="1" cellspacing="0" cellpadding="0" &gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;person_REF_ID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;INCENTIVE_DATE&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;INCENTIVE_AMOUNT&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;01-FEB-13&lt;/td&gt;&lt;td&gt;5000&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;01-FEB-13&lt;/td&gt;&lt;td&gt;3000&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;01-FEB-13&lt;/td&gt;&lt;td&gt;4000&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;01-JAN-13&lt;/td&gt;&lt;td&gt;4500&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;01-JAN-13&lt;/td&gt;&lt;td&gt;3500&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt;
+ </QUESTION_DESCRIPTION>
+      <ANSWER>select * from person;</ANSWER>
+      <MARK>1</MARK>
+      <CORRECT_ANSWER>[{"1":5000,"0":"john"},{"1":4500,"0":"john"},{"1":3000,"0":"Michael"},{"1":3500,"0":"Michael"},{"1":4000,"0":"Roy"},{"0":"Tom"},{"0":"Jerry"},{"0":"Philip"},{"0":"methew"},{"0":"bill"}]</CORRECT_ANSWER>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>2</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Question: Select department,total salary with respect to a department from person and incentives table where total salary greater than 800000 order by Total Salary in descending manner.
+&amp;nbsp;&lt;/div&gt;&lt;b&gt;Table : person&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table border="1" cellspacing="0" cellpadding="0" &gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PERSON_ID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;FIRST_NAME&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;LAST_NAME&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;SALARY&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;JOINING_DATE&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;DEPARTMENT&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;Jhon&lt;/td&gt;&lt;td&gt;Abraham&lt;/td&gt;&lt;td&gt;1000000&lt;/td&gt;&lt;td&gt;01-JAN-13 12.00.00 AM&lt;/td&gt;&lt;td&gt;Banking&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;Michael&lt;/td&gt;&lt;td&gt;Clarke&lt;/td&gt;&lt;td&gt;800000&lt;/td&gt;&lt;td&gt;01-JAN-13 12.00.00 AM&lt;/td&gt;&lt;td&gt;Insurance&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;Roy&lt;/td&gt;&lt;td&gt;Thomas&lt;/td&gt;&lt;td&gt;700000&lt;/td&gt;&lt;td&gt;01-FEB-13 12.00.00 AM&lt;/td&gt;&lt;td&gt;Banking&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;Tom&lt;/td&gt;&lt;td&gt;Jose&lt;/td&gt;&lt;td&gt;600000&lt;/td&gt;&lt;td&gt;01-FEB-13 12.00.00 AM&lt;/td&gt;&lt;td&gt;Insurance&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;Jerry&lt;/td&gt;&lt;td&gt;Pinto&lt;/td&gt;&lt;td&gt;650000&lt;/td&gt;&lt;td&gt;01-FEB-13 12.00.00 AM&lt;/td&gt;&lt;td&gt;Insurance&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;Philip&lt;/td&gt;&lt;td&gt;Mathew&lt;/td&gt;&lt;td&gt;750000&lt;/td&gt;&lt;td&gt;01-JAN-13 12.00.00 AM&lt;/td&gt;&lt;td&gt;Services&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;TestName1&lt;/td&gt;&lt;td&gt;123&lt;/td&gt;&lt;td&gt;650000&lt;/td&gt;&lt;td&gt;01-JAN-13 12.00.00 AM&lt;/td&gt;&lt;td&gt;Services&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;TestName2&lt;/td&gt;&lt;td&gt;Lname%&lt;/td&gt;&lt;td&gt;600000&lt;/td&gt;&lt;td&gt;01-FEB-13 12.00.00 AM&lt;/td&gt;&lt;td&gt;Insurance&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt;
+ &amp;nbsp;&lt;/div&gt;&lt;b&gt;Table : incentives&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table border="1" cellspacing="0" cellpadding="0" &gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PERSON_REF_ID&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;INCENTIVE_DATE&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;person_AMOUNT&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;01-FEB-13&lt;/td&gt;&lt;td&gt;5000&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;01-FEB-13&lt;/td&gt;&lt;td&gt;3000&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;01-FEB-13&lt;/td&gt;&lt;td&gt;4000&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;01-JAN-13&lt;/td&gt;&lt;td&gt;4500&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;01-JAN-13&lt;/td&gt;&lt;td&gt;3500&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt;</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>[{"1":2650000,"0":"Insurance"},{"1":1700000,"0":"Banking"},{"1":1400000,"0":"Services"}]</CORRECT_ANSWER>
+   </QUESTION>
+  
+   <QUESTION>
+      <QUESTION_ID>3</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;BR&gt;&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;BR&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;&lt;BR&gt;&lt;ul&gt;&lt;BR&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;/p&gt;&lt;BR&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassOne 
+{&lt;BR&gt; public static int getRequiredNumberOfBits(int N)&lt;BR&gt; { &lt;BR&gt; /* &lt;BR&gt; Please implement this method to &lt;BR&gt; return the number of bits which is just enough to store any integer from 0 to N-1 inclusively &lt;BR&gt; for any int N &gt; 0 &lt;BR&gt; Example: to store 5 integers from 0 to 4 you need 3 bits: 000, 001, 010, 011, 100 and 101 &lt;BR&gt; */ &lt;BR&gt; return 0;} &lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* Main Method*/&lt;BR&gt; }&lt;BR&gt;} &lt;BR&gt;</QUESTION_DESCRIPTION>
+      <ANSWER>public class MyClassOne &lt;br&gt;{&lt;br&gt; public static int getRequiredNumberOfBits(int N)&lt;br&gt; { &lt;br&gt; /* &lt;br&gt; Please implement this method to &lt;br&gt; return the number of bits which is just enough to store any integer from 0 to N-1 inclusively &lt;br&gt; for any int N &amp;gt; 0 &lt;br&gt; Example: to store 5 integers from 0 to 4 you need 3 bits: 000, 001, 010, 011, 100 and 101 &lt;br&gt; */ &lt;br&gt; return 0;} &lt;br&gt; public static void main(String arr[])&lt;br&gt; {&lt;br&gt; /* Main Method*/&lt;br&gt; }&lt;br&gt;} &lt;br&gt;</ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void getRequiredNumberOfBitsTest1(){ assertEquals(3,getRequiredNumberOfBits(1));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getRequiredNumberOfBitsTest2(){ assertEquals(4,getRequiredNumberOfBits(16));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getRequiredNumberOfBitsTest3(){ assertEquals(7,getRequiredNumberOfBits(100));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getRequiredNumberOfBitsTest4(){ assertEquals(3,getRequiredNumberOfBits(5));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getRequiredNumberOfBitsTest5(){ assertEquals(4,getRequiredNumberOfBits(16));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>4</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;br&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;br&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;/h5&gt;&lt;h5&gt;&lt;p&gt;&lt;/p&gt;&lt;br&gt;&lt;ul&gt;&lt;br&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;br&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;br&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;/h5&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>import java.util.Calendar;
+	import java.util.Date;
+	public class MyClassTwo
+ {&lt;BR&gt;public static int countDays (String fromDate, String toDate)&lt;BR&gt;{&lt;BR&gt;&lt;BR&gt;/*&lt;BR&gt; Please implement this method to return no of days between two date.&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;Example &lt;BR&gt;o Input (10-10-2012, 20-10-2012), Output – 10&lt;BR&gt;o Input (10-10-2011, 10-10-2012), Output - 366&lt;BR&gt;*/&lt;BR&gt;&lt;BR&gt; return 0;}&lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* Main Method*/&lt;BR&gt; }&lt;BR&gt; } &lt;BR&gt;</QUESTION_DESCRIPTION>
+      <ANSWER>import java.util.Calendar;&lt;br&gt; import java.util.Date;&lt;br&gt; public class MyClassTwo&lt;br&gt; {&lt;br&gt;public static int countDays (String fromDate, String toDate)&lt;br&gt;{&lt;br&gt;&lt;br&gt;/*&lt;br&gt; Please implement this method to return no of days between two date.&lt;br&gt;&lt;br&gt;&lt;br&gt;Example &lt;br&gt;o Input (10-10-2012, 20-10-2012), Output – 10&lt;br&gt;o Input (10-10-2011, 10-10-2012), Output - 366&lt;br&gt;*/&lt;br&gt;&lt;br&gt; return 0;}&lt;br&gt; public static void main(String arr[])&lt;br&gt; {&lt;br&gt; /* Main Method*/&lt;br&gt; }&lt;br&gt; } &lt;br&gt;</ANSWER>
+      <MARK>1</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void countDays1(){ String todate="10-10-2012"; String fromdate="20-10-2012"; assertEquals(10,countDays(todate,fromdate));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void countDays2(){ String todate="10-10-2013"; String fromdate="10-10-2014"; assertEquals(365,countDays(todate,fromdate));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void countDays3(){ String todate="10-8-2012"; String fromdate="10-10-2012"; assertEquals(61,countDays(todate,fromdate));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void countDays4(){ String todate="10-8-2012"; String fromdate="10-10-2014"; assertEquals(791,countDays(todate,fromdate));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void countDays5(){ String todate="10-8-2012"; String fromdate="10-8-2012"; assertEquals(0,countDays(todate,fromdate));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>5</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;br&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;br&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;/h5&gt;&lt;h5&gt;&lt;p&gt;&lt;/p&gt;&lt;br&gt;&lt;ul&gt;&lt;br&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;br&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;br&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;/h5&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassThree
+ {&lt;BR&gt; public static String removeDuplicate (String inputData)&lt;BR&gt;{&lt;BR&gt;/*&lt;BR&gt; Please implement this method to return the string which do not contain any duplicate character.&lt;BR&gt;&lt;BR&gt; Example data&lt;BR&gt;o Input: cutcopypaste, Output: uoyase&lt;BR&gt;o Input: Greetings, Output: Grtings&lt;BR&gt;*/&lt;BR&gt;return null; }&lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* Main Method*/&lt;BR&gt; }&lt;BR&gt; } &lt;BR&gt;</QUESTION_DESCRIPTION>
+      <ANSWER>public class MyClassThree&lt;br&gt; {&lt;br&gt; public static String removeDuplicate (String inputData)&lt;br&gt;{&lt;br&gt;/*&lt;br&gt; Please implement this method to return the string which do not contain any duplicate character.&lt;br&gt;&lt;br&gt; Example data&lt;br&gt;o Input: cutcopypaste, Output: uoyase&lt;br&gt;o Input: Greetings, Output: Grtings&lt;br&gt;*/&lt;br&gt;return null; }&lt;br&gt; public static void main(String arr[])&lt;br&gt; {&lt;br&gt; /* Main Method*/&lt;br&gt; }&lt;br&gt; } &lt;br&gt;</ANSWER>
+      <MARK>1</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void removeDuplicate1(){ String inputData="cutcopypaste"; String output="uoyase"; assertEquals(output,removeDuplicate(inputData));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void removeDuplicate2(){ String inputData="Innoeye"; String output="Ioy"; assertEquals(output,removeDuplicate(inputData));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void removeDuplicate3(){ String inputData="welcome"; String output="wlcom"; assertEquals(output,removeDuplicate(inputData));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void removeDuplicate4(){ try{removeDuplicate(null);} catch(NullPointerException e){assertTrue(false);}}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void removeDuplicate5(){ String inputData="Greetings"; String output="Grtings"; assertEquals(output,removeDuplicate(inputData));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   
+    <QUESTION>
+      <QUESTION_ID>6</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Which of the following statements are true regarding Serializable interface in Java</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>It contains method writeObject which used to write Java object to a file</OPTION>
+         <OPTION>This interface doesn’t contain any method</OPTION>
+         <OPTION>When a class implements this interface, it indicates JVM that this class can be converted to a byte stream</OPTION>
+         <OPTION>Java classes that implement this interface can be transferred over network using technologies like RMI</OPTION>
+         <OPTION>This interface contains toString() method which used to convert Java object to String</OPTION>
+      </OPTIONS>
+      <ANSWER>1,1,2,1,2</ANSWER>
+      <MARK>1</MARK>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      
+   </QUESTION>
+   
+   
+    <QUESTION>
+      <QUESTION_ID>7</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Which of following is true related to access specifiers (public, private, protected, default) in Java</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>static variables and methods of a class can be private or protected</OPTION>
+         <OPTION>Constructors can be private</OPTION>
+         <OPTION>Constructors are always public by default</OPTION>
+         <OPTION>Instance variables and methods of a class cannot be protected</OPTION>
+         <OPTION>Variables defined in an interface are always public</OPTION>
+      </OPTIONS>
+      <ANSWER>1,1,2,1,3</ANSWER>
+      <MARK>2</MARK>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      
+   </QUESTION>
+   
+   
+   <QUESTION>
+      <QUESTION_ID>8</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Which protocols are using during email communication</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>SMTP protocol is used to send emails while POP is used to receive emails</OPTION>
+         <OPTION>SMTP is used both send and receive emails</OPTION>
+         <OPTION>SMTP is used to send and receive emails while POP is used to retrieve emails from mailbox</OPTION>
+         <OPTION>Email communication do not use TCP/IP protocol stack </OPTION>
+         <OPTION>POP is used to retrieve emails from mailbox</OPTION>
+        
+      </OPTIONS>
+      <ANSWER>3,3,3,3,3</ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+   </QUESTION>
+   
+   
+   <QUESTION>
+      <QUESTION_ID>9</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Which of the following statements are true regarding concepts of multi-processing, multi-threading and multi-tasking in operating systems</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>An operating system is said to be supporting multi-processing when it can use multiple processors (CPUs) to execute various applications</OPTION>
+         <OPTION>Multi-processing is same as multi-tasking</OPTION>
+         <OPTION>Where multiprocessing systems include multiple complete processing units, multithreading aims to increase utilization of a single core by using thread-level as well as instruction-level parallelism</OPTION>
+         <OPTION>Multitasking is a method where multiple tasks (also known as processes) are performed during the same period of time</OPTION>
+         <OPTION>In multi-threading, operating system executes different parts of a program(threads) simultaneously while in multi-tasking multiple programs are executed simultaneously by a CPU</OPTION>
+         
+      </OPTIONS>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      
+   </QUESTION>
+   
+   
+   
+</QUESTION_PAPER>

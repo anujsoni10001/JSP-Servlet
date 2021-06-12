@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="pp.Que" table="que">
+<id name="id">
+<generator class="increment"></generator>
+</id>
+<property name="ques"></property>
+<set name="ans" table="ans">
+<key column="qid"></key>
+<element column="answer" type="java.lang.String"></element>
+</set>
+</class>
+
+</hibernate-mapping>

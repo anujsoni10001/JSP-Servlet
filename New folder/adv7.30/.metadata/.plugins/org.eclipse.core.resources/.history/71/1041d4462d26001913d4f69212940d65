@@ -1,0 +1,13 @@
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.cfg.Configuration;
+
+public class ShowAllData {
+
+	public static void main(String[] args) {
+		Session session=new Configuration().configure().buildSessionFactory().openSession();
+		Query qr=session.createQuery("from Product");
+		List<Product> al=qr.list();
+	}
+
+}

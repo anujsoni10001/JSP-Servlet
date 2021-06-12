@@ -1,0 +1,13 @@
+package pp;
+
+public class Staff {
+private int StaffId;
+private String Email;
+private String Password;
+private String FirstName;
+private String LastName;
+private String ICNumber;
+private String Telephone;
+private String bhb;
+private String bhb;
+}

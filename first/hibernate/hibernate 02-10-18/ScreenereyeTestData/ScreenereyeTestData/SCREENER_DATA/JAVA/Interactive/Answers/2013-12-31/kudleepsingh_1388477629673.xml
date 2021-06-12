@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+<QUESTION_PAPER_INFORMATION>
+  <QUESTION_PAPER_DESCRIPTION>SET E</QUESTION_PAPER_DESCRIPTION> 
+</QUESTION_PAPER_INFORMATION>
+
+<QUESTION>
+<QUESTION_ID>1</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>TEXT</QUESTION_TYPE>
+<QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+<QUESTION_DESCRIPTION>Write a SQL query to get department name, number of employees in that department, total salary of the department and order it by department name in descending fashion             
+&lt;b&gt;Table : employee&lt;/b&gt;
+&lt;pre id=""&gt;&lt;pre id="" &gt;&lt;table border="1" &gt; &lt;tbody&gt; &lt;tr&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th &gt;employeeid&lt;/th&gt;&lt;th &gt;employeename&lt;/th&gt;&lt;th &gt;salary&lt;/th&gt;&lt;th &gt;departmentname&lt;/th&gt;&lt;th &gt;sex&lt;/th&gt;&lt;th &gt;dob&lt;/th&gt;&lt;th &gt;join_date&lt;/th&gt;&lt;th &gt;leave_date&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;Amber&lt;/td&gt; &lt;td&gt;50000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1988-12-11&lt;/td&gt; &lt;td&gt;2011-12-13&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;Ajay&lt;/td&gt; &lt;td&gt;20000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;1998-07-11&lt;/td&gt; &lt;td&gt;2013-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;deepika&lt;/td&gt; &lt;td&gt;23500&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1986-02-21&lt;/td&gt; &lt;td&gt;2001-01-01&lt;/td&gt; &lt;td&gt;2012-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;Preeti&lt;/td&gt; &lt;td&gt;15000&lt;/td&gt; &lt;td&gt;Civil&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1960-11-10&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;5&lt;/td&gt; &lt;td&gt;Priyanka&lt;/td&gt; &lt;td&gt;12000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1973-01-16&lt;/td&gt; &lt;td&gt;1990-12-11&lt;/td&gt; &lt;td&gt;2012-12-07&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;6&lt;/td&gt; &lt;td&gt;Rajesh&lt;/td&gt; &lt;td&gt;10000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1982-12-11&lt;/td&gt; &lt;td&gt;1999-06-07&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;7&lt;/td&gt; &lt;td&gt;Ambuj&lt;/td&gt; &lt;td&gt;22000&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1978-10-01&lt;/td&gt; &lt;td&gt;1998-12-11 &lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt; 
+</QUESTION_DESCRIPTION>
+<ANSWER></ANSWER>
+<MARK>0</MARK>
+<CORRECT_ANSWER>[{"2":15000,"1":1,"0":"Civil"},{"2":60000,"1":2,"0":"Cs"},{"2":32000,"1":2,"0":"It"},{"2":45500,"1":2,"0":"Mech"}]</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+<QUESTION_ID>2</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>TEXT</QUESTION_TYPE>
+<QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+<QUESTION_DESCRIPTION>Write a SQL query to get department wise minimum salary and order it by salary in ascending fashion
+&lt;b&gt;Table : employee&lt;/b&gt;
+&lt;pre id=""&gt;&lt;pre id="" &gt;&lt;table border="1" &gt; &lt;tbody&gt; &lt;tr&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th &gt;employeeid&lt;/th&gt;&lt;th &gt;employeename&lt;/th&gt;&lt;th &gt;salary&lt;/th&gt;&lt;th &gt;departmentname&lt;/th&gt;&lt;th &gt;sex&lt;/th&gt;&lt;th &gt;dob&lt;/th&gt;&lt;th &gt;join_date&lt;/th&gt;&lt;th &gt;leave_date&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;Amber&lt;/td&gt; &lt;td&gt;50000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1988-12-11&lt;/td&gt; &lt;td&gt;2011-12-13&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;Ajay&lt;/td&gt; &lt;td&gt;20000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;1998-07-11&lt;/td&gt; &lt;td&gt;2013-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;deepika&lt;/td&gt; &lt;td&gt;23500&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1986-02-21&lt;/td&gt; &lt;td&gt;2001-01-01&lt;/td&gt; &lt;td&gt;2012-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;Preeti&lt;/td&gt; &lt;td&gt;15000&lt;/td&gt; &lt;td&gt;Civil&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1960-11-10&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;5&lt;/td&gt; &lt;td&gt;Priyanka&lt;/td&gt; &lt;td&gt;12000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1973-01-16&lt;/td&gt; &lt;td&gt;1990-12-11&lt;/td&gt; &lt;td&gt;2012-12-07&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;6&lt;/td&gt; &lt;td&gt;Rajesh&lt;/td&gt; &lt;td&gt;10000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1982-12-11&lt;/td&gt; &lt;td&gt;1999-06-07&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;7&lt;/td&gt; &lt;td&gt;Ambuj&lt;/td&gt; &lt;td&gt;22000&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1978-10-01&lt;/td&gt; &lt;td&gt;1998-12-11 &lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt; 
+ </QUESTION_DESCRIPTION>
+<ANSWER></ANSWER>
+<MARK>0</MARK>
+ <CORRECT_ANSWER>[{"1":15000,"0":"Civil"},{"1":12000,"0":"It"},{"1":22000,"0":"Mech"},{"1":10000,"0":"Cs"}]</CORRECT_ANSWER>
+ </QUESTION>
+ <QUESTION>
+<QUESTION_ID>3</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>TEXT</QUESTION_TYPE>
+<QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+<QUESTION_DESCRIPTION>Write a SQL query to get list of all the employees with their respective salary whose name starts with 'A' and are still currently employed with company (those who have left company, the leave_date column is filled with the date of leaving) with ascending order of salary        
+&lt;b&gt;Table : employee&lt;/b&gt;
+&lt;pre id=""&gt;&lt;pre id="" &gt;&lt;table border="1" &gt; &lt;tbody&gt; &lt;tr&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th &gt;employeeid&lt;/th&gt;&lt;th &gt;employeename&lt;/th&gt;&lt;th &gt;salary&lt;/th&gt;&lt;th &gt;departmentname&lt;/th&gt;&lt;th &gt;sex&lt;/th&gt;&lt;th &gt;dob&lt;/th&gt;&lt;th &gt;join_date&lt;/th&gt;&lt;th &gt;leave_date&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;Amber&lt;/td&gt; &lt;td&gt;50000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1988-12-11&lt;/td&gt; &lt;td&gt;2011-12-13&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;Ajay&lt;/td&gt; &lt;td&gt;20000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;1998-07-11&lt;/td&gt; &lt;td&gt;2013-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;deepika&lt;/td&gt; &lt;td&gt;23500&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1986-02-21&lt;/td&gt; &lt;td&gt;2001-01-01&lt;/td&gt; &lt;td&gt;2012-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;Preeti&lt;/td&gt; &lt;td&gt;15000&lt;/td&gt; &lt;td&gt;Civil&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1960-11-10&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;5&lt;/td&gt; &lt;td&gt;Priyanka&lt;/td&gt; &lt;td&gt;12000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1973-01-16&lt;/td&gt; &lt;td&gt;1990-12-11&lt;/td&gt; &lt;td&gt;2012-12-07&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;6&lt;/td&gt; &lt;td&gt;Rajesh&lt;/td&gt; &lt;td&gt;10000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1982-12-11&lt;/td&gt; &lt;td&gt;1999-06-07&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;7&lt;/td&gt; &lt;td&gt;Ambuj&lt;/td&gt; &lt;td&gt;22000&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1978-10-01&lt;/td&gt; &lt;td&gt;1998-12-11 &lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt; 
+</QUESTION_DESCRIPTION>
+<ANSWER></ANSWER>
+<MARK>0</MARK>
+  <CORRECT_ANSWER>[{"1":20000,"0":"Ajay"},{"1":22000,"0":"Ambuj"},{"1":50000,"0":"Amber"}]</CORRECT_ANSWER>
+ </QUESTION>
+ <QUESTION>
+<QUESTION_ID>4</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>TEXT</QUESTION_TYPE>
+
+
+<QUESTION_DESCRIPTION>import java.util.*;
+	
+	public class MyClassOne
+ { 
+ public static Set getIntersection(Set&lt;Object&gt; a, Set&lt;Object&gt; b) 
+ {
+        /*
+          Please implement this method to
+          return a Set equal to the intersection of the parameter Sets
+          The method should not chage the content of the parameters.
+         */
+  }
+    public static void main(String arr[])
+    {
+    /* Main Method*/
+    }
+    } 
+</QUESTION_DESCRIPTION>
+<QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;
+&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;
+&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;
+&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;
+&lt;li&gt;Add proper comments&lt;/li&gt;
+&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+</QUESTION_INSTRUCTION>
+<ANSWER></ANSWER>
+<MARK>0</MARK>
+<TEST_CASE>
+<TEST_SCRIPT>@Test public void getIntersectionTest1(){Set&lt;Object&gt; temp_array1 = new HashSet();temp_array1.add("Ian Darwin");temp_array1.add("Bill Dooley");temp_array1.add("Jesse James");Set&lt;Object&gt; temp_array2 = new HashSet(); temp_array2.add("Ian Darwin"); temp_array2.add("Bill Dooley"); temp_array2.add("Doolin' Dalton");Set&lt;Object&gt; temp_answer = new HashSet(); temp_answer.add("Ian Darwin");temp_answer.add("Bill Dooley");Assert.assertEquals(temp_answer, getIntersection(temp_array1, temp_array2));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getIntersectionTest2(){Set&lt;Object&gt; temp_array1 = new HashSet();temp_array1.add("Ian Darwin");temp_array1.add("Bill Dooley");temp_array1.add("Jesse James");Set&lt;Object&gt; temp_array2 = new HashSet(); temp_array2.add("Bill Gats"); temp_array2.add("james Gosling"); temp_array2.add("Doolin' Dalton");Set&lt;Object&gt; temp_answer = new HashSet();Assert.assertEquals(temp_answer, getIntersection(temp_array1, temp_array2));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getIntersectionTest3(){Set&lt;Object&gt; temp_array1 = new HashSet();temp_array1.add("Ian Darwin");temp_array1.add("Bill Dooley");temp_array1.add("Jesse James");Set&lt;Object&gt; temp_array2 = new HashSet(); temp_array2.add("iAN dARWIN"); temp_array2.add("bILL dOOLEY"); temp_array2.add("Doolin' Dalton");Set&lt;Object&gt; temp_answer = new HashSet(); Assert.assertEquals(temp_answer, getIntersection(temp_array1, temp_array2));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getIntersectionTest4(){Set&lt;Object&gt; temp_array1 = new HashSet();temp_array1.add("Bill Gats"); temp_array1.add("Abrahim Linken");temp_array1.add("Jesse James");Set&lt;Object&gt; temp_array2 = new HashSet(); temp_array2.add("Abrahim Linken"); temp_array2.add("Jesse James"); temp_array2.add("Bill Gats");Set&lt;Object&gt; temp_answer = new HashSet();temp_answer.add("Bill Gats"); temp_answer.add("Abrahim Linken");temp_answer.add("Jesse James");Assert.assertEquals(temp_answer, getIntersection(temp_array1, temp_array2));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getIntersectionTest5(){Set&lt;Object&gt; temp_array1 = new HashSet();temp_array1.add("Bi  ll Gats"); temp_array1.add("Ab rahim Linken");temp_array1.add("Je sse James");Set temp_array2 = new HashSet();temp_array2.add("Bill Ga ts"); temp_array2.add("Abrahim Lin ken"); temp_array2.add("Jesse Ja mes");Set&lt;Object&gt; temp_answer = new HashSet();Assert.assertEquals(temp_answer, getIntersection(temp_array1, temp_array2));}</TEST_SCRIPT>
+</TEST_CASE>
+</QUESTION>
+<QUESTION>
+<QUESTION_ID>5</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>TEXT</QUESTION_TYPE>
+<QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+<QUESTION_DESCRIPTION>import java.util.*;
+	public class MyClassTwo
+ {
+	public static String[] sortIgnoringSpaces(String[] a)
+	 {
+        /*
+          Please implement this method to
+          sort a given array of String in alphabetic order
+          ignoring spaces('' symbol) within the strings.
+          array.
+         */
+    }
+     public static void main(String arr[])
+		{
+    /* Main Method*/
+		}
+ }
+</QUESTION_DESCRIPTION>
+<ANSWER>import java.util.*;&lt;br&gt; public class MyClassTwo&lt;br&gt; {&lt;br&gt; public static String[] sortIgnoringSpaces(String[] a)&lt;br&gt; {&lt;br&gt; try&lt;br&gt; {&lt;br&gt; Arrays.sort(a);&lt;br&gt; }&lt;br&gt; catch(Exception e)&lt;br&gt; {&lt;br&gt; return a;&lt;br&gt; }&lt;br&gt; &lt;br&gt; return a; &lt;br&gt; &lt;br&gt; }&lt;br&gt; public static void main(String arr[])&lt;br&gt; {&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; }&lt;br&gt; }&lt;br&gt;</ANSWER>
+<MARK>3</MARK>
+<TEST_CASE>
+<TEST_SCRIPT>@Test public void sortIgnoringSpacesTest1(){String[] temp_array = {"john","hari","poter"}; String[] temp_answer = {"hari","john","poter"};Assert.assertTrue(Arrays.equals(temp_answer,sortIgnoringSpaces(temp_array)));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void sortIgnoringSpacesTest2(){String[] temp_array = {"shiv raj","shivrej","shiva"}; String[] temp_answer = {"shiv raj","shiva","shivrej"};Assert.assertTrue(Arrays.equals(temp_answer,sortIgnoringSpaces(temp_array)));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void sortIgnoringSpacesTest3(){String[] temp_array = {"Raaj","raaj","rAaj","RA Aj"}; String[] temp_answer = {"RA Aj","Raaj","rAaj","raaj"};Assert.assertTrue(Arrays.equals(temp_answer,sortIgnoringSpaces(temp_array)));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void sortIgnoringSpacesTest4(){String[] temp_array = {" j o h n ","john","JoHn"," J o H n"}; String[] temp_answer = {"J o H n","J o h n","joHn","john"};Assert.assertTrue(Arrays.equals(temp_answer,sortIgnoringSpaces(temp_array)));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void sortIgnoringSpacesTest5(){String[] temp_array = {"mery"," MERY "," mery ","ME    RY"}; String[] temp_answer = {"MERY","mery","ME RY","mery"};Assert.assertTrue(Arrays.equals(temp_answer,sortIgnoringSpaces(temp_array)));}</TEST_SCRIPT>
+
+</TEST_CASE>
+</QUESTION>
+<QUESTION>
+<QUESTION_ID>6</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>TEXT</QUESTION_TYPE>
+
+<QUESTION_DESCRIPTION>import java.util.*; 
+	public class MyClassThree
+ {
+	public static int generateRandomNumber(int min, int max) {
+
+	 
+        /*
+          Please implement this method to
+          return a random number in between min number and max number.
+         */
+    }
+     public static void main(String arr[])
+		{
+    /* Main Method*/
+		}
+ }
+</QUESTION_DESCRIPTION>
+<QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;
+&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;
+&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;
+&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;
+&lt;li&gt;Add proper comments&lt;/li&gt;
+&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+</QUESTION_INSTRUCTION>
+<ANSWER></ANSWER>
+<MARK>0</MARK>
+<TEST_CASE>
+<TEST_SCRIPT>@Test public void generateRandomNumber1(){Assert.assertTrue(20 &gt;=generateRandomNumber(2,20)&amp;&amp;2 &lt;=generateRandomNumber(2,20));} </TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void generateRandomNumber2(){Assert.assertTrue(2 &gt;= generateRandomNumber(0,2) &amp;&amp; 0 &lt;= generateRandomNumber(0,2));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void generateRandomNumber3(){Assert.assertTrue(30 &gt;= generateRandomNumber(20,30) &amp;&amp; 20 &lt;= generateRandomNumber(20,30));}
+</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void generateRandomNumber4(){Assert.assertTrue(1 &gt;= generateRandomNumber(1,1) &amp;&amp; 1 &lt;= generateRandomNumber(1,1));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void generateRandomNumber5(){Assert.assertTrue(120 &gt;= generateRandomNumber(100,120) &amp;&amp; 100 &lt;= generateRandomNumber(100,120));}</TEST_SCRIPT>
+
+</TEST_CASE>
+</QUESTION>
+</QUESTION_PAPER>

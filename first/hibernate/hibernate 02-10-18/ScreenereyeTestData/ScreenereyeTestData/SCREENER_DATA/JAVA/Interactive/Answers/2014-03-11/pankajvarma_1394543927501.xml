@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+   <QUESTION_PAPER_INFORMATION>
+      <QUESTION_PAPER_DESCRIPTION>SET G</QUESTION_PAPER_DESCRIPTION>
+   </QUESTION_PAPER_INFORMATION>
+   <QUESTION>
+      <QUESTION_ID>1</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;br&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;br&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;/h5&gt;&lt;h5&gt;&lt;p&gt;&lt;/p&gt;&lt;br&gt;&lt;ul&gt;&lt;br&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;br&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;br&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;/h5&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassOne
+ {&lt;BR&gt; public static String shortenedString (String inputData, char charcterToBeRemoved)&lt;BR&gt;{&lt;BR&gt; /*&lt;BR&gt;&lt;BR&gt; Please implement this method to return the string .to remove all dublicate character.&lt;BR&gt;&lt;BR&gt;&lt;BR&gt; For example, &lt;BR&gt; Input: (Greetings, e), Output: Grtings&lt;BR&gt; Input: (Amazing, a), Output: mzing&lt;BR&gt;&lt;BR&gt; */&lt;BR&gt; &lt;BR&gt; }&lt;BR&gt;&lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* Main Method*/&lt;BR&gt; }&lt;BR&gt; } &lt;BR&gt; </QUESTION_DESCRIPTION>
+      <ANSWER>public class MyClassOne&lt;br&gt; {&lt;br&gt; public static String shortenedString (String inputData, char charcterToBeRemoved)&lt;br&gt;{&lt;br&gt; /*&lt;br&gt;&lt;br&gt; Please implement this method to return the string .to remove all dublicate character.&lt;br&gt;&lt;br&gt;&lt;br&gt; For example, &lt;br&gt; Input: (Greetings, e), Output: Grtings&lt;br&gt; Input: (Amazing, a), Output: mzing&lt;br&gt;&lt;br&gt; */&lt;br&gt; return "mzing";&lt;br&gt; }&lt;br&gt;&lt;br&gt; public static void main(String arr[])&lt;br&gt; {&lt;br&gt; /* Main Method*/&lt;br&gt; }&lt;br&gt; } &lt;br&gt; </ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void shortenedString1(){ String input="welcome";char occurence = 'o'; String answer="welcme"; assertEquals(answer,shortenedString(input,occurence) );}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void shortenedString2(){ String input="hello world";char occurence = 'l'; String answer="heo word"; assertEquals(answer,shortenedString(input,occurence) );}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void shortenedString3(){ String input="Amazing";char occurence = 'a'; String answer="mzing"; assertEquals(answer,shortenedString(input,occurence) );}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void shortenedString4(){ String input="Johnson john";char occurence = 'J'; String answer="mzing"; assertEquals(answer,shortenedString(input,occurence) );}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void shortenedString5(){ String input="GrEettingEe";char occurence = 'E'; String answer="Grting"; assertEquals(answer,shortenedString(input,occurence) );}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>2</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;br&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;br&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;/h5&gt;&lt;h5&gt;&lt;p&gt;&lt;/p&gt;&lt;br&gt;&lt;ul&gt;&lt;br&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;br&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;br&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;/h5&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassTwo
+ {&lt;BR&gt;&lt;BR&gt;public static int CountOccurance (String doc [], String wordToSearch)&lt;BR&gt;{&lt;BR&gt;&lt;BR&gt;/* Please implement this method to return the no .of occurance in given array.&lt;BR&gt; For example, &lt;BR&gt;Example data&lt;BR&gt;o Input: ([abc, def, ghi, def, xyz], abc), Output: 1&lt;BR&gt;o Input: ([a1, a2, a1, a2, a3, a1, a3, a4], a3), Output: 2&lt;BR&gt; */&lt;BR&gt; }&lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* Main Method*/&lt;BR&gt; }&lt;BR&gt; } &lt;BR&gt;</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void CountOccurance1(){ String []input={"abc", "def", "ghi", "def", "xyz","abc","abc"};String s="abc"; assertEquals(3,CountOccurance(input,s));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void CountOccurance2(){ String []input={"abc", "def", "ghi", "def", "xyz","abc","abc"};String s="abc"; assertEquals(3,CountOccurance(input,s));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void CountOccurance3(){ String []input={"abc", "def", "ghi", "def", "xyz","abc","abc"};String s="abc"; assertEquals(3,CountOccurance(input,s));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void CountOccurance4(){ String []input={"abc", "def", "ghi", "def", "xyz","abc","abc"};String s="abc"; assertEquals(3,CountOccurance(input,s));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void CountOccurance5(){ String []input={"abc", "def", "ghi", "def", "xyz","abc","abc"};String s="abc"; assertEquals(3,CountOccurance(input,s));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>3</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;br&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;br&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;/h5&gt;&lt;h5&gt;&lt;p&gt;&lt;/p&gt;&lt;br&gt;&lt;ul&gt;&lt;br&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;br&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;br&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;/h5&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassThree
+ {&lt;BR&gt;public static int countDays (String fromDate, String toDate)&lt;BR&gt;{&lt;BR&gt;&lt;BR&gt;/*&lt;BR&gt; Please implement this method to return no of days between two date.&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;Example &lt;BR&gt;o Input (10-10-2012, 20-10-2012), Output – 10&lt;BR&gt;o Input (10-10-2011, 10-10-2012), Output - 365&lt;BR&gt;*/&lt;BR&gt;&lt;BR&gt; }&lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* Main Method*/&lt;BR&gt; }&lt;BR&gt; } &lt;BR&gt;</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void countDays1(){ String todate="10-10-2012"; String fromdate="20-10-2012"; assertEquals(10,countDays(todate,fromdate));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void countDays2(){ String todate="10-10-2013"; String fromdate="10-10-2014"; assertEquals(365,countDays(todate,fromdate));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void countDays3(){ String todate="10-8-2012"; String fromdate="10-10-2012"; assertEquals(61,countDays(todate,fromdate));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void countDays4(){ String todate="10-8-2012"; String fromdate="10-10-2014"; assertEquals(791,countDays(todate,fromdate));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void countDays5(){ String todate="10-8-2012"; String fromdate="10-8-2012"; assertEquals(0,countDays(todate,fromdate));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>4</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;br&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;br&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;/h5&gt;&lt;h5&gt;&lt;p&gt;&lt;/p&gt;&lt;br&gt;&lt;ul&gt;&lt;br&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;br&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;br&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;/h5&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassFour
+ {&lt;BR&gt; public static String removeDuplicate (String inputData)&lt;BR&gt;{&lt;BR&gt;/*&lt;BR&gt; Please implement this method to return the string which do not contain any duplicate character.&lt;BR&gt;&lt;BR&gt; Example data&lt;BR&gt;o Input: cutcopypaste, Output: uoyse&lt;BR&gt;o Input: Greetings, Output: Grtings&lt;BR&gt;*/&lt;BR&gt; }&lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* Main Method*/&lt;BR&gt; }&lt;BR&gt; } &lt;BR&gt;</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void removeDuplicate1(){ String inputData="cutcopypaste"; String output="uoyase"; assertEquals(output,removeDuplicate(inputData));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void removeDuplicate2(){ String inputData="Innoeye"; String output="Ioy"; assertEquals(output,removeDuplicate(inputData));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void removeDuplicate3(){ String inputData="welcome"; String output="wlcom"; assertEquals(output,removeDuplicate(inputData));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void removeDuplicate4(){ try{removeDuplicate(null);} catch(NullPointerException e){assertTrue(false);}}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void removeDuplicate5(){ String inputData="Greetings"; String output="Grtings"; assertEquals(output,removeDuplicate(inputData));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+</QUESTION_PAPER>

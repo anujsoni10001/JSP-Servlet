@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+<HEADER_INFORMATION>
+<QUESTION_PAPER_INFORMATION>
+  <QUESTION_PAPER_DESCRIPTION>SET D</QUESTION_PAPER_DESCRIPTION> 
+  <QUESTION_PAPER_ID>4</QUESTION_PAPER_ID> 
+<CATEGORIES>
+<CATEGORY>
+  <CATEGORY_NAME>Fundamentals</CATEGORY_NAME> 
+  <NUMBER_OF_QUESTIONS>30</NUMBER_OF_QUESTIONS> 
+  <TIME_DURATION>00:30</TIME_DURATION> 
+  </CATEGORY>
+<CATEGORY>
+  <CATEGORY_NAME>Java</CATEGORY_NAME> 
+  <NUMBER_OF_QUESTIONS>30</NUMBER_OF_QUESTIONS> 
+  <TIME_DURATION>00:30</TIME_DURATION> 
+</CATEGORY>
+</CATEGORIES>
+<INSTRUCTIONS>
+* Each category has limited time as noted above. Once test starts, Time remaining for that category is displayed on top. Time remaining in one category will NOT be available for next category. 
+* There is 1/4th negative marking; so please answer with caution. 
+* 2 buttons appear below each question: 'Submit' - submits the answer, 'Next' - Moves to next question without submitting the answer. 
+* To navigate across questions during test, please click on corresponding number in the block at the bottom of screen. Green boxes indicate answered questions and Red boxes indicate unanswered queations. You can change the answers to previously answered question 
+</INSTRUCTIONS>
+  </QUESTION_PAPER_INFORMATION>
+  </HEADER_INFORMATION>
+<QUESTION_CATEGORY>
+<QUESTION>
+      <QUESTION_ID>1</QUESTION_ID>
+  <QUESTION_DESCRIPTION> C,D,E,F,G,H, and I are father, mother, aunt, brother, sister, wife and daughter of J, but you do not know which is which. But you know that:
+  E and F are the same gender
+  C and D are of different genders
+  H was born before C
+  F is not the mother of J
+  Which of the following must be true ?
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>C is female</OPTION>
+    <OPTION>E is female</OPTION>
+    <OPTION>H is male</OPTION>
+    <OPTION>F is male</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>1</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>2</QUESTION_ID>
+  <QUESTION_DESCRIPTION> You are planning to tour a country and wish to visit several of cities G,H,I,J,K,L,M,N and O with the following restrictions:
+   You can not visit K and L in one tour
+   You can not visit J,M and N in one tour
+   You can not visit I,M and N in one tour
+   You can not visit G and M in one tour
+   Which of the following groups of cities can all be visited in one tour?
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>G,J,K,M</OPTION>
+    <OPTION>G,H,I,K</OPTION>
+    <OPTION>H,J,K,L</OPTION>
+    <OPTION>H,J,M,O</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>1</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>3</QUESTION_ID>
+  <QUESTION_DESCRIPTION> The average of 20 numbers is zero. Of them, at the most, how many may be greater than zero?
+</QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>0</OPTION>
+    <OPTION>1</OPTION>
+    <OPTION>10</OPTION>
+    <OPTION>19</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>4</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>4</QUESTION_ID>
+  <QUESTION_DESCRIPTION>  Step 1 : Multiply by 3
+  Step 2 : If less than 21, go to Step 1 and continue from there; otherwise proceed to step 3
+  step 3 : Divide by 2
+  Step 4 : Add 2
+  Which starting value will produce the largest result for the above process ?
+</QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>1</OPTION>
+    <OPTION>2</OPTION>
+    <OPTION>3</OPTION>
+    <OPTION>5</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>5</QUESTION_ID>
+  <QUESTION_DESCRIPTION> A person can run 10 Kilometers per hour in 25-minute bursts, then must slow to 3 kilometers per hour for 5 minutes to regain energy. How many Kilometers (round to the nearest integer ) can this person cover in 5 hours ?
+</QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>40 Kilometers</OPTION>
+    <OPTION>44 Kilometers</OPTION>
+    <OPTION>60 Kilometers </OPTION>
+    <OPTION>62 Kilometers</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>6</QUESTION_ID>
+  <QUESTION_DESCRIPTION> To avoid the race condition, the number of processes that may be simultaneously inside their critical section is
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>8</OPTION>
+    <OPTION>1</OPTION>
+    <OPTION>16</OPTION>
+    <OPTION>0</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>7</QUESTION_ID>
+  <QUESTION_DESCRIPTION> What is a process?
+</QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>A program in High level language kept on disk</OPTION>
+    <OPTION>Contents of main memory</OPTION>
+    <OPTION>A job in secondary memory</OPTION>
+    <OPTION>A program in execution</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>4</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>8</QUESTION_ID>
+  <QUESTION_DESCRIPTION> The strategy of allowing processes that are logically runnable to be temporarily suspended is called
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>preemptive scheduling</OPTION>
+    <OPTION>non preemptive scheduling</OPTION>
+    <OPTION>shortest job first</OPTION>
+    <OPTION>first come first served</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>9</QUESTION_ID>
+  <QUESTION_DESCRIPTION> The LRU algorithm
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>pages out pages that have been used recently</OPTION>
+    <OPTION>pages out pages that have NOT been used recently</OPTION>
+    <OPTION>pages out pages that have been least used recently</OPTION>
+    <OPTION>pages out the first page in a given area</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>10</QUESTION_ID>
+  <QUESTION_DESCRIPTION> A system program that sets up an executable program in main memory ready for execution is
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>assembler</OPTION>
+    <OPTION>linker</OPTION>
+    <OPTION>loader</OPTION>
+    <OPTION>compiler</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>11</QUESTION_ID>
+  <QUESTION_DESCRIPTION> Fragmentation of the file system
+</QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>occurs only if the file system is used improperly</OPTION>
+    <OPTION>can always be prevented</OPTION>
+    <OPTION>can be temporarily removed by compaction</OPTION>
+    <OPTION>is a characteristic of all file systems</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>12</QUESTION_ID>
+  <QUESTION_DESCRIPTION> ON UPDATE CASCADE ensures which of the following?
+</QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>Normalization</OPTION>
+    <OPTION>Data Integrity</OPTION>
+    <OPTION>Materialized Views</OPTION>
+    <OPTION>All of the above</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>13</QUESTION_ID>
+  <QUESTION_DESCRIPTION> Which SQL keyword is used with wildcards?
+</QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>LIKE</OPTION>
+    <OPTION>IN</OPTION>
+    <OPTION>CONTAINS</OPTION>
+    <OPTION>IN and NOT IN</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>14</QUESTION_ID>
+  <QUESTION_DESCRIPTION> Which of the following are the five built-in functions provided by SQL?
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>COUNT, SUM, AVG, MAX, MIN</OPTION>
+    <OPTION>SUM, AVG, MIN, MAX, MULT</OPTION>
+    <OPTION>SUM, AVG, MULT, DIV, MIN</OPTION>
+    <OPTION>SUM, AVG, MIN, MAX, NAME</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>15</QUESTION_ID>
+  <QUESTION_DESCRIPTION> Which of the following is used sort the results of a query?
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>SORT BY</OPTION>
+    <OPTION>GROUP BY</OPTION>
+    <OPTION>ORDER BY</OPTION>
+    <OPTION>None of the above is correct</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>16</QUESTION_ID>
+  <QUESTION_DESCRIPTION> Examine the description of the EMPLOYEES table: 
+   EMP_ID NUMBER(4) NOT NULL 
+   LAST_NAME VARCHAR2(30) NOT NULL 
+   FIRST_NAME VARCHAR2(30) 
+   DEPT_ID NUMBER(2) 
+    JOB_CAT VARCHARD2(30) SALARY NUMBER(8,2)
+    Which statement shows the maximum salary paid in each job category of each department?
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>SELECT dept_id, job_cat, MAX(salary) FROM employees WHERE salary &gt; MAX(salary);</OPTION>
+    <OPTION>SELECT dept_id, job_cat, MAX(salary) FROM employees GROUP BY dept_id, job_cat;</OPTION>
+    <OPTION>SELECT dept_id, job_cat, MAX(salary) FROM employees;</OPTION>
+    <OPTION>SELECT dept_id, job_cat, MAX(salary) FROM employees GROUP BY dept_id;</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>17</QUESTION_ID>
+  <QUESTION_DESCRIPTION> In SQL, The HAVING clause does which of the following? 
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>Acts like a WHERE clause but is used for groups rather than rows.</OPTION>
+    <OPTION>Acts like a WHERE clause but is used for rows rather than columns.</OPTION>
+    <OPTION>Acts like a WHERE clause but is used for columns rather than groups.</OPTION>
+    <OPTION>Acts EXACTLY like a WHERE clause.</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>18</QUESTION_ID>
+  <QUESTION_DESCRIPTION>B+ or B-trees are preferred to binary trees in databases because
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>Disk capacities are greater than memory capacities</OPTION>
+    <OPTION>Disk access is much slower than memory access</OPTION>
+    <OPTION>Disk data transfer rates are much less than memory data transfer rates</OPTION>
+    <OPTION>Disks are more reliable than memory</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>19</QUESTION_ID>
+  <QUESTION_DESCRIPTION> Consider following tree { in the form (root (Left Subtree) (Right Subtree ) ) }
+  (6 (4(1)(5)) (12 (10()(11))  (30) ))
+  If this tree is to be used for sorting, then a new number 13 should be placed as the :
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>right child of node labelled 30</OPTION>
+    <OPTION>left child of node labelled 1</OPTION>
+    <OPTION>right child of node labelled 11</OPTION>
+    <OPTION>left child of node labelled 10</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>20</QUESTION_ID>
+  <QUESTION_DESCRIPTION> Which data structure is used in recursion
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>Queue</OPTION>
+    <OPTION>Stack</OPTION>
+    <OPTION>Array</OPTION>
+    <OPTION>Tree</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>21</QUESTION_ID>
+  <QUESTION_DESCRIPTION> Which data structure is suitable and efficient for tree construction
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>Array</OPTION>
+    <OPTION>LinkedList</OPTION>
+    <OPTION>Queue</OPTION>
+    <OPTION>Stack</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>22</QUESTION_ID>
+  <QUESTION_DESCRIPTION> Which of the following is NOT the required condition for binary search algorithm
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>The list must be sorted</OPTION>
+    <OPTION>There should be the direct access to the middle element in any sublist</OPTION>
+    <OPTION>There must be mechanism to delete and/or insert elements in list</OPTION>
+    <OPTION>None of above</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>23</QUESTION_ID>
+  <QUESTION_DESCRIPTION> When inorder traversing a tree resulted E A C K F H D B G; the preorder traversal would return
+   </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>FAEKCDBHG</OPTION>
+    <OPTION>FAEKCDHGB</OPTION>
+    <OPTION>EAFKHDCBG</OPTION>
+    <OPTION>FEAKDCHBG</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>24</QUESTION_ID>
+  <QUESTION_DESCRIPTION> Which of the following data structures are indexed structures?
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>linear arrays</OPTION>
+    <OPTION>linked lists</OPTION>
+    <OPTION>both of above</OPTION>
+    <OPTION>none of above</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>25</QUESTION_ID>
+  <QUESTION_DESCRIPTION> Which of the following services use TCP?
+   1. DHCP
+   2. SMTP
+   3. HTTP
+   4. FTP
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>1 and 2
+    </OPTION>
+    <OPTION>2,3 and 4
+    </OPTION>
+    <OPTION>1,2 and 3
+    </OPTION>
+    <OPTION>2 and 3
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>26</QUESTION_ID>
+  <QUESTION_DESCRIPTION> You want to implement a mechanism that automates the IP configuration, including IP address, subnet mask, default gateway, and DNS information. Which protocol will you use to accomplish this?
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>SMTP
+    </OPTION>
+    <OPTION>SNMP
+    </OPTION>
+    <OPTION>DHCP
+    </OPTION>
+    <OPTION>ARP
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>27</QUESTION_ID>
+  <QUESTION_DESCRIPTION> Which of the following is private IP address?
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>12.0.0.1
+    </OPTION>
+    <OPTION>168.172.19.39
+    </OPTION>
+    <OPTION>172.15.14.36
+    </OPTION>
+    <OPTION>192.168.24.43
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>4</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>28</QUESTION_ID>
+  <QUESTION_DESCRIPTION> Which class of IP address provides a maximum of only 254 host addresses per network ID?
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>Class A
+    </OPTION>
+    <OPTION>Class B
+    </OPTION>
+    <OPTION>Class C
+    </OPTION>
+    <OPTION>Class D
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>29</QUESTION_ID>
+ <QUESTION_DESCRIPTION> Which protocol does Ping use?
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>TCP
+    </OPTION>
+    <OPTION>ARP
+    </OPTION>
+    <OPTION>ICMP
+    </OPTION>
+    <OPTION>BootP
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>30</QUESTION_ID>
+ <QUESTION_DESCRIPTION> What is the frequency range of the IEEE 802.11a standard?
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>2.4Gbps
+    </OPTION>
+    <OPTION>5Gbps
+    </OPTION>
+    <OPTION>2.4GHz
+    </OPTION>
+    <OPTION>5GHz
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>4</CORRECT_ANSWER>
+</QUESTION>
+</QUESTION_CATEGORY>
+<QUESTION_CATEGORY>
+<QUESTION>
+      <QUESTION_ID>1</QUESTION_ID>
+  <QUESTION_DESCRIPTION>
+   int i=1;
+   i=i++;
+   System.out.printlin(++i);
+   What will be output?
+   </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>1</OPTION>
+    <OPTION>0</OPTION>
+    <OPTION>2</OPTION>
+    <OPTION>3</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>1</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>2</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Which package is always imported by default?
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>java.lang</OPTION>
+    <OPTION>java.text</OPTION>
+    <OPTION>java.nio</OPTION>
+    <OPTION>java.math</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>1</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>3</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Which of the following can not be final?
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>method</OPTION>
+    <OPTION>main method</OPTION>
+    <OPTION>interface</OPTION>
+    <OPTION>class</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>4</QUESTION_ID>
+  <QUESTION_DESCRIPTION>
+   boolean var = false;
+   if(var = true) {
+     System.out.println("true");
+   }
+   else {
+	System.out.println("false");
+   }
+   output of the code?
+   </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>false</OPTION>
+    <OPTION>true</OPTION>
+    <OPTION>compilation error</OPTION>
+    <OPTION>runtime error</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>5</QUESTION_ID>
+  <QUESTION_DESCRIPTION>What is Iterator?</QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>class</OPTION>
+    <OPTION>method </OPTION>
+    <OPTION>interface</OPTION>
+    <OPTION> none of the above</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+  <QUESTION>
+            <QUESTION_ID>6</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which statement makes sure that x is an even number?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>x = x%2 == 1 ? x++ : x; 
+      </OPTION>
+      <OPTION>x = x%2 == 0 ? x+1 : x; 
+      </OPTION>
+      <OPTION>x += x%2 == 0 ? 0 : 1 ; 
+      </OPTION>
+      <OPTION>x += 2*x ; 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>7</QUESTION_ID>
+    <QUESTION_DESCRIPTION>What is the output for the below code ?
+     public class Test {
+		static { 
+			int a = 5; 
+		}
+		public static void main(String[] args){
+		System.out.println(a);
+		}
+ } 
+ </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>Compilation error 
+      </OPTION>
+      <OPTION>5 
+      </OPTION>
+      <OPTION>0 
+      </OPTION>
+      <OPTION>Runtime Exception 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>8</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which of the below statement is true about Error class?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>An Error is a subclass of Throwable 
+      </OPTION>
+      <OPTION>An Error is a subclass of Exception 
+      </OPTION>
+      <OPTION>Error indicates serious problems that a reasonable application should try to catch 
+      </OPTION>
+      <OPTION>Error cannot be thrown using throw clause
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>9</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Synchronized resizable-array implementation of the List interface is _____________?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>Vector 
+      </OPTION>
+      <OPTION>ArrayList 
+      </OPTION>
+      <OPTION>Hashtable 
+      </OPTION>
+      <OPTION>HashMap 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>10</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Consider the following piece of code, and select the correct statement:
+long val = 2;
+  ...
+  ...
+ switch (val){
+	default: 
+		System.out.println("Default");
+		break;
+	case 1:
+		System.out.println("1");
+		break;
+	case 2:
+		System.out.println("2");
+	case 3:
+		System.out.println("3");
+		break;
+		}
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>The code fails to compile because the argument for a switch statement cannot be a variable of type long. 
+      </OPTION>
+      <OPTION>The following is displayed: 2  3 
+      </OPTION>
+      <OPTION>The following is displayed: 2 
+      </OPTION>
+      <OPTION>The code fails to compile because break is not specified in case 2
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>11</QUESTION_ID>
+    <QUESTION_DESCRIPTION>What will happen if you compile/run the following code?
+  class Test
+  {
+	static void show()
+	{
+		System.out.println("Show method in Test class");
+	}
+  }
+ public class Q2 extends Test
+ {
+	static void show()
+	{
+		System.out.println("Show method in Q2 class");
+	}
+   public static void main(String[] args)
+   {
+	Test t = new Test();
+	t.show();
+	Q2 q = new Q2();
+	q.show();
+	t = q;
+	t.show();
+	q = t;
+	q.show();
+	} 
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>prints 
+	  Show method in Test class
+	  Show method in Q2 class 
+	  Show method in Q2 class 
+	  Show method in Q2 class 
+      </OPTION>
+      <OPTION>prints 
+	  Show method in Test class
+	  Show method in Q2 class 
+	  Show method in Test class
+	  Show method in Test class 
+      </OPTION>
+      <OPTION>prints 
+	  Show method in Test class
+	  Show method in Q2 class
+	  Show method in Test class
+	  Show method in Q2 class
+      </OPTION>
+      <OPTION>Compilation error due to invalid type casting. 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>12</QUESTION_ID>
+    <QUESTION_DESCRIPTION>What will happen if you compile/run this code?
+	public class Q10
+	{
+		public static void main(String[] args)
+		{
+			int i = 10;
+			int j = 10;
+			boolean b = false;
+			if( b = i == j)
+			System.out.println("True");
+			else
+			System.out.println("False");
+		}
+	}
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>Compilation error at line 9 . 
+      </OPTION>
+      <OPTION>Runtime error exception at line 9. 
+      </OPTION>
+      <OPTION>Prints "True". 
+      </OPTION>
+      <OPTION>Prints "False". 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>13</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which statement below is true about the following piece of code.
+	class Test implements Runnable{
+		public static void main(String [] args){
+		Thread t = new Thread(new Test());
+		t.start();
+		}
+		public void run(int limit){
+			for (int x = 0; x &lt; limit; x++)
+			System.out.println(x);
+		}
+   }
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>All the numbers up to (but not including) "limit" are printed out. 
+      </OPTION>
+      <OPTION>Nothing is displayed. There is no explicit call to the run() method. 
+      </OPTION>
+      <OPTION>The code fails to compile because the Runnable interface is not implemented correctly. 
+      </OPTION>
+      <OPTION>The code will NOT compile if class Test is declared abstract. 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>14</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which of the following are defined in the Object class?
+	(i)   toString()
+	(ii)  equals(Object o)
+	(iii) public static void main(String [] args)
+	(iv)  System.out.println()
+	(v)   wait()
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>(i),(ii),(iii) and (iv) 
+      </OPTION>
+      <OPTION>(ii),(iii),(iv) and (v) 
+      </OPTION>
+      <OPTION>(i),(ii) and (V) 
+      </OPTION>
+      <OPTION>All of them 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>15</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Select all the correct statements relating to the following piece of code?
+	public class A{
+		abstract int method();
+		void anotherMethod(){
+		}
+	class B extends A{
+		int method(){
+		return 2;
+		}
+	}
+  (i)   Changing "extends" to "implements" on line 6 will allow the code to compile correctly.
+  (ii)  The method() in class A cannot be abstract without the entire class being declared as abstract.
+  (iii) Declaring class A to be abstract will allow the code to compile correctly.
+  (iv)  The class A must have an explicit default constructor in order for it to be subclassed correctly.
+  (v)   The code fails to compile, because class B does not implement anotherMethod().
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>(i), (ii) and (iii) 
+      </OPTION>
+      <OPTION>(ii) and (iii) 
+      </OPTION>
+      <OPTION>(ii),(iii) and (iv) 
+      </OPTION>
+      <OPTION>All of them are correct 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>16</QUESTION_ID>
+    <QUESTION_DESCRIPTION>What is displayed when the following code fragment is compiled and executed (assume that the enveloping class and method is correctly declared and defined):
+	StringBuffer sb1 = new StringBuffer("abcd");
+	StringBuffer sb2 = new StringBuffer("abcd");
+	String s1 = new String("abcd");
+	String s2 = "abcd";
+	System.out.println(s1==s2);
+	System.out.println(s1=s2);
+	System.out.println(sb1==sb2);
+	System.out.println(s1.equals(sb1));
+	System.out.println(sb1.equals(sb2));
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+		<OPTION>The code fails to compile, complaining that the line      System.out.println(s1=s2);      is illegal. 
+		</OPTION>
+		<OPTION>The code fails to compile because the equals() method is not defined for the StringBuffer class. 
+		</OPTION>
+		<OPTION>false
+		true
+		true
+		false
+		false</OPTION>
+		<OPTION>false
+		abcd
+		false
+		false
+		false</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>17</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which of the following will compile without errors.
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>Byte b = new Byte(123); 
+      </OPTION>
+      <OPTION>Byte b = new Byte("123"); 
+      </OPTION>
+      <OPTION>Byte b = new Byte();      b = 123; 
+      </OPTION>
+      <OPTION>Byte b = new Byte((int)123.4); 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>18</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Given: 
+	int[ ][ ] items =   { {0, 1, 3, 4},
+						  {4, 3, 99, 0, 7 },
+						  {3, 2} } ;
+	Which of the following fragment replaces row 0 of items with an entirely new row?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>items[0][0] = 8;    items[0][1] = 12;  items[0][2] = 6; 
+      </OPTION>
+      <OPTION>items[0] = { 8, 12, 6 }; 
+      </OPTION>
+      <OPTION>items[0] = new { 8, 12, 6 }; 
+      </OPTION>
+      <OPTION>int[ ] temp = { 8, 12, 6 }; items[0] = temp; 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>19</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Say that a method catches an IOException in a catch{ } block. Is it possible for 
+	that block to do some processing and then throw the same exception to the caller?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>No---when an exception is caught the Exception object is destroyed. 
+      </OPTION>
+      <OPTION>No---an exception may be caught only once. 
+      </OPTION>
+      <OPTION>Yes---as long as the method also has a throws clause for that exception. 
+      </OPTION>
+      <OPTION>Yes---but the catch{ } block must construct a new Exception object. 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>20</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which of the following are methods within the String class.
+	(i)   substring()
+	(ii)  startsWith()
+	(iii) toString()
+	(iv)  toUpperCase()
+	(v)   indexOf()
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>(i), (iii), (iv) and (v) 
+      </OPTION>
+      <OPTION>(i), (ii), (iii) and (iv) 
+      </OPTION>
+      <OPTION>(i), (ii) and (v) 
+      </OPTION>
+      <OPTION>All of them 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>21</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Consider the following piece of code and select all statements which yield a boolean value of true as a result.
+	Double d1=new Double(10.0);
+	Double d2=new Double(10.0);
+	int x=10;
+	float f=10.0f;
+</QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>d1 == d2; 
+      </OPTION>
+      <OPTION>d1 == x; 
+      </OPTION>
+      <OPTION>d1.equals(d2); 
+      </OPTION>
+      <OPTION>None of the above 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>22</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which statement is FALSE about the try{ } block?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>Some of the statements in a try{} block will never throw an exception. 
+      </OPTION>
+      <OPTION>The statements in a try{ } block may throw several types of exception. 
+      </OPTION>
+      <OPTION>The statements in a try{ } block cannot include a loop. 
+      </OPTION>
+      <OPTION>The try{} block must be before the catch{ } blocks. 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>23</QUESTION_ID>
+    <QUESTION_DESCRIPTION>What will happen if you compile/run the following code?
+	public class Q11
+	{
+		static String str1 = "main method with String[] args";
+		static String str2 = "main method with int[] args";
+		public static void main(String[] args)
+		{
+			System.out.println(str1);
+		}
+		public static void main(int[] args)
+		{
+			System.out.println(str2);
+		}
+	}
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>Duplicate method main(), compilation error at line 6. 
+      </OPTION>
+      <OPTION>Duplicate method main(), compilation error at line 11. 
+      </OPTION>
+      <OPTION>Prints "main method with main String[] args". 
+      </OPTION>
+      <OPTION>Prints "main method with main int[] args". 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>24</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which statement is FALSE about catch{} blocks?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>There must be only one catch{} block in a try/catch structure. 
+      </OPTION>
+      <OPTION>The catch{} block for a child exception class must PRECEED that of a parent execption class. 
+      </OPTION>
+      <OPTION>The catch{} block for a child exception class must FOLLOW that of a parent execption class. 
+      </OPTION>
+      <OPTION>if there is no catch{} block there must be a finally{} block 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>25</QUESTION_ID>
+    <QUESTION_DESCRIPTION>What closing a file does?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>Flushes pending output and finishes processing the file. 
+      </OPTION>
+      <OPTION>Finishes processing the file, only. 
+      </OPTION>
+      <OPTION>Flushes pending output, but the file may still be written to. 
+      </OPTION>
+      <OPTION>Makes the file read-only. 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>26</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  In order for a source code file, containing the public class Test, to successfully compile, which of the following must be true? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  It must have a package statement 
+  </OPTION>
+<OPTION>  It must be named Test.java 
+  </OPTION>
+<OPTION>  It must import java.lang 
+  </OPTION>
+<OPTION>  It must have a method 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>2</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>27</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  What is the output for the below code ?
+public class Test {
+	static { 
+		int a = 5; 
+	}
+	public static void main(String[] args){
+		System.out.println(a);
+	}
+}  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  Compilation error 
+  </OPTION>
+<OPTION>  5 
+  </OPTION>
+<OPTION>  0 
+  </OPTION>
+<OPTION>  Runtime Exception 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>1</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>28</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  Which of the below statement is true about Error? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  An Error is a subclass of Throwable 
+  </OPTION>
+<OPTION>  An Error is a subclass of Exception 
+  </OPTION>
+<OPTION>  Error indicates serious problems that a reasonable application should try to catch 
+  </OPTION>
+  <OPTION>Error cannot be thrown using throw clause
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>1</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>29</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  Which of the following would you use to execute stored procedures?
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>Statement
+  </OPTION>
+<OPTION>PreparedStatement 
+  </OPTION>
+<OPTION>CallableStatement
+  </OPTION>
+<OPTION>StoredStatement
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>3</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>30</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  What is the minimum value of char type 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  0 
+  </OPTION>
+<OPTION>  -215 
+  </OPTION>
+<OPTION>  -28 
+  </OPTION>
+<OPTION>  -215 - 1 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>1</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION></QUESTION_CATEGORY>
+</QUESTION_PAPER>

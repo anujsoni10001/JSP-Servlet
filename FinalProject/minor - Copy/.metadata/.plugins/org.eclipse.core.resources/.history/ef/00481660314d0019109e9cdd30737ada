@@ -1,0 +1,8 @@
+<%@page import="pp.PatientAccountBean"%>
+<%@page import="pp.RegisteredDao"%>
+<%
+String account_id=request.getParameter("a_id");
+RegisteredDao rd=new RegisteredDao();
+PatientAccountBean p=new PatientAccountBean();
+rd.delete(p);
+%>

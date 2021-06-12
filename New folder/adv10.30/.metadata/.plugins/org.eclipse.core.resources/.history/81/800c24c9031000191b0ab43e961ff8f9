@@ -1,0 +1,6 @@
+<%
+String id=request.getParameter("id");
+String name=request.getParameter("name");
+String cat=request.getParameter("cat");
+String cmp=request.getParameter("cmp");
+%>

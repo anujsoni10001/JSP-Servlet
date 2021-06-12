@@ -1,0 +1,9 @@
+package pp;
+
+public class Student {
+private int sid;
+private String sname;
+private String course;
+private Trainer tname;
+
+}

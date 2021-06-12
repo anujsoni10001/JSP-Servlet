@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+<class name="pp.Trianer" table="tran123">
+<id name="id">
+<generator class="assigned"></generator>
+</id>
+<property name="name"></property>
+<set name="sname" cascade="all">
+<key column="stid"></key>
+<one-to-many class="pp.Student"></one-to-many>
+</set>
+</class>
+<class name="pp.Student" table="stdd123">
+<id name="sid">
+<generator class="assigned"></generator>
+</id>
+<property name="stname"></property>
+<property name="course"></property>
+</class>
+</hibernate-mapping>

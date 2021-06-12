@@ -1,0 +1,50 @@
+
+Jan 04, 2019 15:12:16.65 NEW SESSION
+Jan 04, 2019 15:12:16.65 [3136:3032:0104/151216.641:ERROR:gpu_process_transport_factory.cc(967)] Lost UI shared context.
+
+Jan 05, 2019 11:32:43.41 NEW SESSION
+Jan 05, 2019 11:32:43.41 [896:2480:0105/113243.408:ERROR:gpu_process_transport_factory.cc(967)] Lost UI shared context.
+
+Jan 07, 2019 11:19:47.13 NEW SESSION
+Jan 07, 2019 11:19:47.13 [2988:2192:0107/111947.127:ERROR:gpu_process_transport_factory.cc(967)] Lost UI shared context.
+Jan 07, 2019 11:26:09.98 [716:3432:0107/112609.987:ERROR:gpu_process_transport_factory.cc(967)] Lost UI shared context.
+Jan 07, 2019 14:09:22.76 [716:3432:0107/140922.758:ERROR:shared_buffer_dispatcher.cc(185)] Invalid serialized shared buffer dispatcher (invalid num_bytes?)
+
+Jan 08, 2019 11:10:59.15 NEW SESSION
+Jan 08, 2019 11:10:59.15 [2372:3372:0108/111059.149:ERROR:gpu_process_transport_factory.cc(967)] Lost UI shared context.
+
+Jan 08, 2019 12:49:27.22 NEW SESSION
+Jan 08, 2019 12:49:27.22 [1692:3056:0108/124927.223:ERROR:gpu_process_transport_factory.cc(967)] Lost UI shared context.
+
+Jan 09, 2019 19:01:34.11 NEW SESSION
+Jan 09, 2019 19:01:34.11 [5380:5012:0109/190134.110:ERROR:gpu_process_transport_factory.cc(967)] Lost UI shared context.
+
+Jan 11, 2019 10:39:56.11 NEW SESSION
+Jan 11, 2019 10:39:56.11 [1764:3360:0111/103956.113:ERROR:component_installer.cc(325)] Failed to read manifest or verify installation for CRLSet (C:\Users\pc\AppData\Local\Google\Chrome\User Data\CertificateRevocation\4903).: The system cannot find the file specified. (0x2)
+Jan 11, 2019 10:39:59.09 [1764:564:0111/103959.094:ERROR:gpu_process_transport_factory.cc(967)] Lost UI shared context.
+Jan 11, 2019 10:50:08.05 [3368:3720:0111/105008.055:ERROR:gpu_process_transport_factory.cc(967)] Lost UI shared context.
+
+Jan 12, 2019 09:36:30.73 NEW SESSION
+Jan 12, 2019 09:36:30.73 [3484:3488:0112/093630.730:ERROR:gpu_process_transport_factory.cc(967)] Lost UI shared context.
+
+Jan 12, 2019 11:24:43.74 NEW SESSION
+Jan 12, 2019 11:24:43.74 [1712:3808:0112/112443.745:ERROR:gpu_process_transport_factory.cc(967)] Lost UI shared context.
+Jan 12, 2019 11:25:05.73 [1712:3664:0112/112505.732:ERROR:backend_impl.cc(1062)] Critical error found -8
+Jan 12, 2019 11:25:05.73 [1712:3664:0112/112505.732:ERROR:entry_impl.cc(1062)] No file for a1014e74
+Jan 12, 2019 12:14:56.45 [1712:4944:0112/121456.459:ERROR:simple_index_file.cc(327)] Failed to write the temporary index file
+
+Jan 12, 2019 17:41:29.21 NEW SESSION
+Jan 12, 2019 17:41:29.21 [3892:4424:0112/174129.208:ERROR:gpu_process_transport_factory.cc(967)] Lost UI shared context.
+
+Jan 14, 2019 11:23:46.95 NEW SESSION
+Jan 14, 2019 11:23:46.95 [3288:1952:0114/112346.951:ERROR:gpu_process_transport_factory.cc(967)] Lost UI shared context.
+
+Jan 15, 2019 11:11:26.51 NEW SESSION
+Jan 15, 2019 11:11:26.52 [3448:3236:0115/111126.517:ERROR:gpu_process_transport_factory.cc(967)] Lost UI shared context.
+Jan 15, 2019 11:48:41.18 [4816:4944:0115/114841.185:ERROR:gpu_process_transport_factory.cc(967)] Lost UI shared context.
+
+Jan 18, 2019 11:13:52.44 NEW SESSION
+Jan 18, 2019 11:13:52.44 [1364:1296:0118/111352.445:ERROR:gpu_process_transport_factory.cc(967)] Lost UI shared context.
+
+Feb 21, 2019 20:21:02.92 NEW SESSION
+Feb 21, 2019 20:21:02.92 [4236:1196:0221/202102.922:ERROR:browser_process_sub_thread.cc(209)] Waited 955 ms for network service

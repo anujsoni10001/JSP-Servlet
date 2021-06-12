@@ -1,0 +1,1209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+<HEADER_INFORMATION>
+<QUESTION_PAPER_INFORMATION>
+  <QUESTION_PAPER_DESCRIPTION>SET A</QUESTION_PAPER_DESCRIPTION> 
+  <QUESTION_PAPER_ID>1</QUESTION_PAPER_ID> 
+<CATEGORIES>
+<CATEGORY>
+  <CATEGORY_NAME>Fundamentals</CATEGORY_NAME> 
+  <NUMBER_OF_QUESTIONS>30</NUMBER_OF_QUESTIONS> 
+  <TIME_DURATION>00:30</TIME_DURATION> 
+  </CATEGORY>
+<CATEGORY>
+  <CATEGORY_NAME>Java</CATEGORY_NAME> 
+  <NUMBER_OF_QUESTIONS>30</NUMBER_OF_QUESTIONS> 
+  <TIME_DURATION>00:30</TIME_DURATION> 
+</CATEGORY>
+</CATEGORIES>
+<INSTRUCTIONS>
+</INSTRUCTIONS>
+  </QUESTION_PAPER_INFORMATION>
+  </HEADER_INFORMATION>
+<QUESTION_CATEGORY>
+<QUESTION>
+      <QUESTION_ID>1</QUESTION_ID>
+  <QUESTION_DESCRIPTION>The cost price of 20 articles is the same as the selling price of x articles. If the profit is 25%, then the value of x is:
+</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>15
+    </OPTION>
+<OPTION>16
+    </OPTION>
+<OPTION>18
+    </OPTION>
+<OPTION>25
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>2</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>2</QUESTION_ID>
+  <QUESTION_DESCRIPTION>A sum of money at simple interest amounts to Rs. 815 in 3 years and to Rs. 854 in 4 years. The sum is:
+</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>Rs. 650
+    </OPTION>
+<OPTION>Rs. 690
+    </OPTION>
+<OPTION>Rs. 698
+    </OPTION>
+<OPTION>Rs. 700
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+
+<QUESTION>
+      <QUESTION_ID>3</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Two students appeared at an examination. One of them secured 9 marks more than the other and his marks was 56% of the sum of their marks. The marks obtained by them are:</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>39, 30
+    </OPTION>
+<OPTION>41, 32
+    </OPTION>
+<OPTION>42, 33
+    </OPTION>
+<OPTION>43, 34
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>4</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Introducing a boy, a girl said, "He is the son of the daughter of the father of my uncle." How is the boy related to the girl?
+</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>Brother
+    </OPTION>
+<OPTION>Nephew
+    </OPTION>
+<OPTION>Uncle
+    </OPTION>
+<OPTION>Son-in-law
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>4</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>5</QUESTION_ID>
+  <QUESTION_DESCRIPTION>You are planning sales meetings with prospective customers M,N,O,P,Q,R for Monday through Friday of a   given week At least one meeting must be scheduled each day
+  Only one day has more than one meeting
+  R is scheduled for the only meeting on Wednesday
+  P and Q are scheduled foe meeting exactly on the third day after N
+  M is scheduled earlier in the week than N and O
+  Which of the following must be true?</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>You meet with N on Monday
+    </OPTION>
+<OPTION>You meet with O on Monday
+    </OPTION>
+<OPTION>You meet with P on Thursday
+    </OPTION>
+<OPTION>You meet with N on Friday
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>6</QUESTION_ID>
+  <QUESTION_DESCRIPTION>The primary purpose of an operating system is:</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>To make the most efficient use of hardware
+    </OPTION>
+<OPTION>To allow people to use the computer
+    </OPTION>
+<OPTION>To keep systems programmers employed
+    </OPTION>
+<OPTION>To make computer easier to use
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>7</QUESTION_ID>
+  <QUESTION_DESCRIPTION>The process of transferring data intended for a peripheral device into a disk (or intermediate store) so that it can be transferred to peripheral at a more convenient time or in bulk, is know as</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>multiprogramming
+    </OPTION>
+<OPTION>spooling
+    </OPTION>
+<OPTION>caching
+    </OPTION>
+<OPTION>virtual programming
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>8</QUESTION_ID>
+  <QUESTION_DESCRIPTION>The command interpreter</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>Is usually the primary user interface
+    </OPTION>
+<OPTION>Requires fixed-format commands
+    </OPTION>
+<OPTION>Is menu-driven
+    </OPTION>
+<OPTION>Is quite different from the JCL interpreter
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>9</QUESTION_ID>
+  <QUESTION_DESCRIPTION>The linker</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>Is the same as the loader
+    </OPTION>
+<OPTION>Is required to create a load module
+    </OPTION>
+<OPTION>Uses source code as input
+    </OPTION>
+<OPTION>Is always used before programs are executed
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>10</QUESTION_ID>
+  <QUESTION_DESCRIPTION>The register or main memory location which contains the effective address of the operand is known as</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>pointer
+    </OPTION>
+<OPTION>indexed register
+    </OPTION>
+<OPTION>special location
+    </OPTION>
+<OPTION>scratch pad
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>11</QUESTION_ID>
+  <QUESTION_DESCRIPTION>A system program that sets us an executable program in main memory ready for execution is</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>assembler
+    </OPTION>
+<OPTION>linker
+    </OPTION>
+<OPTION>loader
+    </OPTION>
+<OPTION>text editor
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>12</QUESTION_ID>
+  <QUESTION_DESCRIPTION>One main measures for the efficiency of an algorithm is</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>Processor and memory
+    </OPTION>
+<OPTION>Complexity and capacity
+    </OPTION>
+<OPTION>Time and space
+    </OPTION>
+<OPTION>Data and space
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>13</QUESTION_ID>
+  <QUESTION_DESCRIPTION>The time factor when determining the efficiency of algorithm is measured by</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>Counting microseconds
+    </OPTION>
+<OPTION>Counting the number of key operations
+    </OPTION>
+<OPTION>Counting the number of statements
+    </OPTION>
+<OPTION>Counting the kilobytes of algorithm
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>14</QUESTION_ID>
+  <QUESTION_DESCRIPTION>The space factor when determining the efficiency of algorithm is measured by</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>Counting the maximum memory needed by the algorithm
+    </OPTION>
+<OPTION>Counting the minimum memory needed by the algorithm
+    </OPTION>
+<OPTION>Counting the average memory needed by the algorithm
+    </OPTION>
+<OPTION>Counting the maximum disk space needed by the algorithm
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>15</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Consider following tree { in the form (root (Left Subtree) (Right Subtree ) ) }
+(6 (4(1)(5)) (12 (10()(11))  (30) ))
+If this tree is to be used for sorting, then a new number 13 should be placed as the :</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>right child of node labelled 30
+    </OPTION>
+<OPTION>left child of node labelled 1
+    </OPTION>
+<OPTION>right child of node labelled 11
+    </OPTION>
+<OPTION>left child of node labelled 10
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>16</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Two main measures for the efficiency of an algorithm are</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>Processor and memory
+    </OPTION>
+<OPTION>Complexity and capacity
+    </OPTION>
+<OPTION>Time and space
+    </OPTION>
+<OPTION>Data and space
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>17</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Which statement about database views is true?</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>A view can be created as read only.
+    </OPTION>
+<OPTION>A view cannot have an ORDER BY clause in the SELECT statement.
+    </OPTION>
+<OPTION>A view cannot be created with a GROUP BY clause in the SELECT statement.
+    </OPTION>
+<OPTION>A view must have aliases defined for the column names in the SELECT statement.
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>18</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Examine the structure of the EMPLOYEES table: 
+  EMPLOYEE_ID NUMBER Primary Key 
+  FIRST_NAME VARCHAR2 (25) 
+  LAST_NAME VARCHAR2 (25) 
+  Which statement from below will insert a row into the table? </QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>INSERT INTO employees VALUES (NULL, 'John',' Smith');
+    </OPTION>
+<OPTION>INSERT INTO employees (first_name, last_name) VALUES ('John', 'Smith');
+    </OPTION>
+<OPTION>INSERT INTO employees(first_name, last_name, employee_id)VALUES ( 1000, 'John', 'Smith');
+    </OPTION>
+<OPTION>INSERT INTO employees (employee_id) VALUES (1000);
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>4</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>19</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Examine the description of the EMPLOYEES table: 
+	EMP_ID NUMBER(4) NOT NULL 
+	LAST_NAME VARCHAR2(30) NOT NULL 
+	FIRST_NAME VARCHAR2(30) 
+	DEPT_ID NUMBER(2) 
+	JOB_CAT VARCHARD2(30) SALARY NUMBER(8,2)
+	Which statement shows the maximum salary paid in each job category of each department?</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>SELECT dept_id, job_cat, MAX(salary) FROM employees WHERE salary &gt; MAX(salary);
+    </OPTION>
+<OPTION>SELECT dept_id, job_cat, MAX(salary) FROM employees GROUP BY dept_id, job_cat;
+    </OPTION>
+<OPTION>SELECT dept_id, job_cat, MAX(salary) FROM employees;
+    </OPTION>
+<OPTION>SELECT dept_id, job_cat, MAX(salary) FROM employees GROUP BY dept_id;
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>20</QUESTION_ID>
+  <QUESTION_DESCRIPTION>The employee information in a company is stored in the relation Employee (name, sex, salary, deptName) 
+ Consider the following SQL query 
+ Select deptName From Employee Where sex = 'M' Group by deptName Having avg(salary) &gt; (select avg (salary) from Employee); 
+ It returns the names of the department in which</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>the average salary is more than the average salary in the company
+    </OPTION>
+<OPTION>the average salary of male employees is more than the average salary of all male employees in the company
+    </OPTION>
+<OPTION>the average salary of male employees is more than the average salary of employees in the same department.
+    </OPTION>
+<OPTION>the average salary of male employees is more than the average salary in the company
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>4</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>21</QUESTION_ID>
+  <QUESTION_DESCRIPTION>B+ or B-trees are preferred to binary trees in databases because</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>Disk capacities are greater than memory capacities
+    </OPTION>
+<OPTION>Disk access is much slower than memory access
+    </OPTION>
+<OPTION>Disk data transfer rates are much less than memory data transfer rates
+    </OPTION>
+<OPTION>Disks are more reliable than memory
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>22</QUESTION_ID>
+  <QUESTION_DESCRIPTION>In airline reservation system, the entities are date, flight number, place of departure, destination, type of plane and seats available. The primary key should be:</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>flight number + date
+    </OPTION>
+<OPTION>date
+    </OPTION>
+<OPTION>flight number
+    </OPTION>
+<OPTION>date + any of the places
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>23</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Given the functional dependencies 
+	X -&gt; W ; 
+	X -&gt; Y ; 
+	Y -&gt; Z ; 
+	Z -&gt; PQ ;
+	Which of the following does not hold good ?</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>X -&gt; Z
+    </OPTION>
+<OPTION>W -&gt; Z
+    </OPTION>
+<OPTION>X  -&gt; WY
+    </OPTION>
+<OPTION>Y -&gt; Q
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>24</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Which statement describing the functions and use of constraints is incorrect? </QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>Constraints provide data independence.
+    </OPTION>
+<OPTION>Constraints enforce rules at the view level.
+    </OPTION>
+<OPTION>Constraints enforce rules at the table level.
+    </OPTION>
+<OPTION>Constraints prevent the deletion of a table if there are dependencies.
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>25</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Which statement correctly describe the functions and use of constraints?</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>Constraints provide data independence.
+    </OPTION>
+<OPTION>Constraints make complex queries easy.
+    </OPTION>
+<OPTION>Constraints enforce rules at the view level.
+    </OPTION>
+<OPTION>Constraints prevent the deletion of an index if there are dependencies.
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>26</QUESTION_ID>
+  <QUESTION_DESCRIPTION>What is DHCP used for
+</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>Allocating IP address to the computer
+    </OPTION>
+<OPTION>Getting machine address of the computer
+    </OPTION>
+<OPTION>binding computers to a domain name
+    </OPTION>
+<OPTION>Connecting computer to a network
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>27</QUESTION_ID>
+  <QUESTION_DESCRIPTION>What are different FTP transfer modes
+</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>bit and byte
+    </OPTION>
+<OPTION>UDP and TCP
+    </OPTION>
+<OPTION>ASCII and Binary
+    </OPTION>
+<OPTION>None of these
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>28</QUESTION_ID>
+  <QUESTION_DESCRIPTION>What does SSL stand for?
+</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>Secure System Login
+    </OPTION>
+<OPTION>Superuser System Login
+    </OPTION>
+<OPTION>Secure Socket Layer
+    </OPTION>
+<OPTION>System Socket Layer
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>29</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Asssuming that for a given network layer implementation , connection establishment overhead is 100 bytes and disconnection overhead is 28 bytes. What would be the minimum size of the packet the transport layer needs to keep up, If it wishes to implement a datagram service above the network layer &amp; needs to keep its overhead to maximum of 12.5 % (Assuming no transport layer overhead.)</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>512 bytes
+    </OPTION>
+<OPTION>768 bytes
+    </OPTION>
+<OPTION>1024 bytes
+    </OPTION>
+<OPTION>1152 bytes
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>30</QUESTION_ID>
+  <QUESTION_DESCRIPTION>How many characters per second ( 7 bits + 1 parity ) can be transmitted over a 2400 bps line if the transfer is synchronous ? ( Assume suitable number of start and stop bits)</QUESTION_DESCRIPTION>
+  <OPTIONS>
+<OPTION>300
+    </OPTION>
+<OPTION>240
+    </OPTION>
+<OPTION>About 218
+    </OPTION>
+<OPTION>Will depend upon number synchronization bits required between two characters
+    </OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+</QUESTION_CATEGORY>
+<QUESTION_CATEGORY>
+  
+  <QUESTION>
+            <QUESTION_ID>1</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which of the following is true about Threads?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>Calling start() method is same as calling run() method
+      </OPTION>
+  <OPTION>You cannot call run() method of a class extending Thread class
+      </OPTION>
+  <OPTION>start() is static method while run() is instance method
+      </OPTION>
+  <OPTION>All the three statements are false
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>1</GIVEN_ANSWER>
+  <CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>2</QUESTION_ID>
+    <QUESTION_DESCRIPTION>The following code will print
+	Double a = new Double(Double.NaN);
+	Double b = new Double(Double.NaN);
+	if( Double.NaN == Double.NaN )
+		System.out.println("True");
+	else
+		System.out.println("False");
+	if( a.equals(b) )
+		System.out.println("True");
+	else
+	    System.out.println("False");
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+		<OPTION>True
+		True
+		</OPTION>
+		<OPTION>True
+		False
+		</OPTION>
+		<OPTION>False
+		True
+		</OPTION>
+		<OPTION>False
+		False
+		</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>1</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>3</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Consider below method (assume that Java class around it is valid)
+int method(){
+	int a=0;
+	int b=1;
+	return a,b;
+}
+What will be the behavior
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>Compilation error, a method cannot return more that one value;
+      </OPTION>
+  <OPTION>When called, Runtime error would occur
+      </OPTION>
+  <OPTION>When called, method will return 0
+      </OPTION>
+  <OPTION>When called, method will return 1
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>4</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which of the following is Applet not a subclass of?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>Object
+      </OPTION>
+  <OPTION>Panel
+      </OPTION>
+  <OPTION>Container
+      </OPTION>
+  <OPTION>Window
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>5</QUESTION_ID>
+    <QUESTION_DESCRIPTION>The following code will print
+   int i = 1;
+   i &lt;&lt;= 31;
+   i &gt;&gt;= 31;
+   i &gt;&gt;= 1;
+   int j = 1;
+   j &lt;&lt;= 31;
+   j &gt;&gt;= 31;
+   System.out.println("i = " +i );
+   System.out.println("j = " +j);
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>i = 1
+  j = 1
+      </OPTION>
+  <OPTION>i = -1
+  j = 1
+      </OPTION>
+  <OPTION>i = 1
+  j = -1
+      </OPTION>
+  <OPTION>i = -1
+  j = -1
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>6</QUESTION_ID>
+    <QUESTION_DESCRIPTION>What will happen if you invoke the following method?
+    public void check()
+    {
+      System.out.println(Math.min(-0.0,+0.0));
+      System.out.println(Math.max(-0.0,+0.0));
+      System.out.println(Math.min(-0.0,+0.0) == Math.max(0.0,+0.0));
+    }
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>prints -0.0, +0.0 and false.
+      </OPTION>
+  <OPTION>prints -0.0, +0.0 and true.
+      </OPTION>
+  <OPTION>prints 0.0, 0.0 and false.
+      </OPTION>
+  <OPTION>prints 0.0, 0.0 and true.
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>7</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Given the following: 
+    double[ ][ ] things ={ {1.2, 9.0},
+							{9.2, 0.5, 0.0},
+							{7.3, 7.9, 1.2, 3.9} } ;
+    What is the value of things.length ?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>2
+      </OPTION>
+  <OPTION>3
+      </OPTION>
+  <OPTION>4
+      </OPTION>
+  <OPTION>9
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>8</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which of the following is true for synchronized keyword
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>synchronized keyword can be used with methods, blocks and instance variables in a java class</OPTION>
+      <OPTION>synchronized keyword can be used with only static methods and static blocks in a java class</OPTION>
+      <OPTION>synchronized keyword can be used with methods and blocks in a java class</OPTION>
+      <OPTION>synchronized keyword cannot be used with more than one method of a class</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>9</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which of following declarations are valid in an Interface?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>public static String x;
+      </OPTION>
+  <OPTION>public String x;
+      </OPTION>
+  <OPTION>public static final String x;
+      </OPTION>
+  <OPTION>None of the above are valid
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>10</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Consider the following piece of code and select the correct statements.
+    Object o = new String("abcd");
+    String s = o;
+    System.out.println(s);
+    System.out.println(o);
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>The following is displayed:
+       abcd
+       abcd
+      </OPTION>
+  <OPTION>The code fails to compile at line 1.
+      </OPTION>
+  <OPTION>The code fails to compile at line 2
+      </OPTION>
+  <OPTION>The code fails to compile at line 4.
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>11</QUESTION_ID>
+    <QUESTION_DESCRIPTION>What is the output:
+class Test 
+{
+	static String mountain = "Everest";
+	static Test favorite()
+	{
+		System.out.print("Mount ");
+		return null;
+	}
+	public static void main(String[ ] args)
+	{
+		System.out.println (favorite().mountain);
+	}
+}
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>Compilation-error
+      </OPTION>
+  <OPTION>Mount
+      </OPTION>
+  <OPTION>Mount Everest
+      </OPTION>
+  <OPTION>Run-time error
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>12</QUESTION_ID>
+    <QUESTION_DESCRIPTION>What is the output:
+class Base{
+	int i ;
+	Base( ){
+		System.out.println("Before add in Base" + i ) ;
+		add(1);
+		System.out.println("After add in Base" + i ) ;
+		}
+	void add( int v ){
+		System.out.println("In add of Base" + i ) ;
+		i+= v;
+		System.out.println("In add of Base" + i ) ;
+		}
+	void print(){
+		System.out.println(i) ;
+		}
+	}
+class Extension extends Base{
+	Extension(){
+		System.out.println("Before add in Extension" + i);
+		add(2);
+		System.out.println("After add in Extension" + i);
+		}
+	void add(int v){
+		System.out.println("In add of extension" + i);
+		i+=v*2;
+		System.out.println("In add of extension" + i);
+		} 
+}
+public class test{
+	public static void main(String[ ] args){
+		doit(new Extension());
+		}
+	static void doit(Base b){
+		b.add(8);
+		b.print();
+		}
+}
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>9
+      </OPTION>
+  <OPTION>18
+      </OPTION>
+  <OPTION>20
+      </OPTION>
+  <OPTION>21
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>13</QUESTION_ID>
+    <QUESTION_DESCRIPTION>What will happen if run the following code?
+Boolean[] b1 = new Boolean[10];
+boolean[] b2 = new boolean[10];
+System.out.println("The value of b1[1] = " +b1[1]);
+System.out.println("The value of b2[1] = " +b2[1]);
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>Prints "The value of b1[1] = false"
+             "The value of b2[1] = false".
+      </OPTION>
+  <OPTION>Prints "The value of b1[1] = null"
+             "The value of b2[1] = null".
+      </OPTION>
+  <OPTION>Prints "The value of b1[1] = null"
+             "The value of b2[1] = false".
+      </OPTION>
+  <OPTION>Prints "The value of b1[1] = false"
+             "The value of b2[1] = null".
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>14</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which of the following statements will compile without an error?
+        (i)   Boolean b = new Boolean("abcd");
+        (ii)  float f = 123;
+        (iii) byte b = 127;
+        (iv)  int x = (int)(1.23);
+        (v)   short s = 128;
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>(ii), (iii) and (v)
+      </OPTION>
+  <OPTION>(ii), (iii), (iv) and (v)
+      </OPTION>
+  <OPTION>(i), (ii), (iii) and (v)
+      </OPTION>
+  <OPTION>all of these will compile without an error
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>15</QUESTION_ID>
+    <QUESTION_DESCRIPTION>What is the output of the following code?
+class Test
+{
+	Test(int i)
+	{
+		System.out.println("Test(" +i +")");
+	}
+}
+public class Q12
+{
+	static Test t1 = new Test(1);
+	Test t2 = new Test(2);
+	static Test t3 = new Test(3);
+	public static void main(String[] args)
+	{
+		Q12 Q = new Q12();
+	}
+}
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>Test(1)
+       Test(2)
+       Test(3)
+      </OPTION>
+  <OPTION>Test(3)
+       Test(2)
+       Test(1)
+      </OPTION>
+  <OPTION>Test(2)
+      Test(1)
+      Test(3)
+      </OPTION>
+  <OPTION>Test(1)
+      Test(3)
+      Test(2)
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>16</QUESTION_ID>
+    <QUESTION_DESCRIPTION>What is the output of the following? 
+class ChangeIt
+{
+	static void doIt( int[] z )
+	{
+		z = null ;
+	}    
+}
+class TestIt
+{
+	public static void main ( String[ ] args )
+	{
+		int[ ] myArray = { 1, 2, 3, 4, 5 } ;
+		ChangeIt.doIt ( myArray ) ;
+		for (int j = 0 ;  j &lt; myArray.length ; j++ )
+		System.out.print ( myArray[ j ] + " " ) ;
+	}
+}
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>1 2 3 4 5
+      </OPTION>
+  <OPTION>Nothing will be printed.
+      </OPTION>
+  <OPTION>0 0 0 0 0
+      </OPTION>
+  <OPTION>The program will halt with a run time error.
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>17</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Consider these classes, defined in separate source files:
+public class Test1 {
+	public float aMethod(float a, float b)throws IOException {
+	}
+}
+public class Test2 extends Test1 {
+}
+Which of the following methods would be legal (individually) at line 2 in class Test2?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>float aMethod(float a, float b) { }
+      </OPTION>
+  <OPTION>public int aMethod(int a, int b) throws Exception { }
+      </OPTION>
+  <OPTION>public float aMethod(float a, float b) throws _Exception { }
+      </OPTION>
+  <OPTION>private float aMethod(float p, float q) { }
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>18</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which one of the following creates an instance of Vector with an initial capacity of 10, and an  incremental capacity of 5.
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>new Vector(10, 5);
+      </OPTION>
+  <OPTION>new Vector(5,10);
+      </OPTION>
+  <OPTION>None. There is no constructor of Vector which provides this feature.
+      </OPTION>
+  <OPTION>Vector is declared as final, and it is therefore not possible to instantiate it.
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>19</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which of the following will display the string "ica", given:
+     String s = "Metallica";
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>System.out.println(s.subString(7));
+      </OPTION>
+  <OPTION>System.out.println(s.substring(6));
+      </OPTION>
+  <OPTION>System.out.println(s.subString(6, 8));
+      </OPTION>
+  <OPTION>System.out.println(s.substring(7, 9));
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>20</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Select the correct statement from the following:
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>The class RandomAccessFile is a subclass of the java.io.File class.
+      </OPTION>
+  <OPTION>The class java.io.FileWriter contains methods to write primitives (eg, writeInt(), writeFloat(), etc)
+      </OPTION>
+  <OPTION>The class java.io.BufferedOutputStream contains methods to write primitives (eg, writeInt(), writeFloat(), etc)
+      </OPTION>
+  <OPTION>The File class defines a method which can be used to delete files and directories from a disk.
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>21</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Before which of the following can the keyword "synchronized" be placed, without causing a compile error.
+     (i)   class methods
+     (ii)  instance methods
+     (iii) any block of code within a method
+     (iv) variables
+     (v) a class
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>(i), (ii) and (iii)
+      </OPTION>
+  <OPTION>(i) only
+      </OPTION>
+  <OPTION>(i), (iii), (iv) and (v)
+      </OPTION>
+  <OPTION>All of them
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>22</QUESTION_ID>
+    <QUESTION_DESCRIPTION>What will happen if you compile/run the folowing lines of code?
+		Vector a = new Vector();
+		a.addElement(10);
+		System.out.println(a.elementAt(0));
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>Prints 10.
+      </OPTION>
+  <OPTION>Prints 11.
+      </OPTION>
+  <OPTION>Compilation error at line 3.
+      </OPTION>
+  <OPTION>Prints some garbage.
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>23</QUESTION_ID>
+    <QUESTION_DESCRIPTION>What will the following code output....
+         String s1 = new String("Hello World");
+         String s2 = new String("Hello World");
+         if (s1 == s2) {
+           System.out.println("The strings are the same.");
+         }
+         else {
+           System.out.println("The strings are different.");
+         }
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>The strings are the same.
+      </OPTION>
+  <OPTION>The strings are different.
+      </OPTION>
+  <OPTION>Exception will be thrown
+      </OPTION>
+  <OPTION>Compile time error
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>24</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which of the following are valid expressions.
+        (i)   Object o = new String("abcd");
+        (ii)  Boolean b = true;
+        (iii) Panel p = new Frame();
+        (iv)  Applet a = new Panel()
+        (v)  Panel p = new Applet()
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>(i), (ii) and (iii)
+      </OPTION>
+  <OPTION>(i) and (v)
+      </OPTION>
+  <OPTION>(i), (iv) and (v)
+      </OPTION>
+  <OPTION>(i),(ii),(iii) and (v)
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>25</QUESTION_ID>
+    <QUESTION_DESCRIPTION>In order for a source code file, containing the public class Test, to successfully compile, which of the following must be true?
+   </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>It must have a package statement</OPTION>
+      <OPTION>It must be named Test.java</OPTION>
+      <OPTION>It must import java.lang</OPTION>
+      <OPTION>It must declare a public class named Test</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>26</QUESTION_ID>
+    <QUESTION_DESCRIPTION>What are the advantages of inheritance?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>Reusability of code</OPTION>
+      <OPTION>accessibility of variables of the superclass by subclasses.</OPTION>
+      <OPTION>Accessibility of methods of the superclass by subclasses.</OPTION>
+      <OPTION>Option a and b</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>27</QUESTION_ID>
+    <QUESTION_DESCRIPTION>What are all the values for the following level, respectively? max-priority min-priority normal-priority.
+   </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>10,5,1</OPTION>
+      <OPTION>1,10,5</OPTION>
+      <OPTION>1,5,10</OPTION>
+      <OPTION>10,1,5</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>28</QUESTION_ID>
+    <QUESTION_DESCRIPTION>For characters, Which of the following statements are true?
+   </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>UTF characters are all 8-bits.</OPTION>
+      <OPTION>UTF characters are all 16-bits.</OPTION>
+      <OPTION>UTF characters are all 32-bits.</OPTION>
+      <OPTION>Unicode characters are all 16-bits.</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>29</QUESTION_ID>
+    <QUESTION_DESCRIPTION>What is the minimum value of char type
+   </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>0</OPTION>
+      <OPTION>-215</OPTION>
+      <OPTION>-28</OPTION>
+      <OPTION>-215 - 1</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>30</QUESTION_ID>
+    <QUESTION_DESCRIPTION>When is a finally{} block executed?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>Only when an unhandled exception is thrown in a try{} block.
+      </OPTION>
+  <OPTION>Only when any exception is thrown in a try{} block.
+      </OPTION>
+  <OPTION>Always after execution has left a try{} block, no matter for what reason.
+      </OPTION>
+  <OPTION>Always just as a method is about to finish
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+</QUESTION_CATEGORY>
+</QUESTION_PAPER>

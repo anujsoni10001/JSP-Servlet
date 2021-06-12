@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<a href="Appointment2.jsp">New Appointment</a>
+<a href="MyAppointment.jsp">My Appointment</a>
+<a href="MyAccount.jsp">My Account</a>
+<a href="rating.jsp">Consultation-rating-page</a>
+<a href="rating.jsp">Doctor-Records</a>
+<a href="LogOut">LogOut</a>
+</body>
+</html>

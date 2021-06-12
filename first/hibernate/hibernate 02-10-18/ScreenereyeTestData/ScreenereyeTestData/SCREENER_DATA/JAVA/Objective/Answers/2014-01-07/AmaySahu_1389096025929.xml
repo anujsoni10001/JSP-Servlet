@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+<HEADER_INFORMATION>
+<QUESTION_PAPER_INFORMATION>
+  <QUESTION_PAPER_DESCRIPTION>SET B</QUESTION_PAPER_DESCRIPTION> 
+  <QUESTION_PAPER_ID>1</QUESTION_PAPER_ID> 
+<CATEGORIES>
+<CATEGORY>
+  <CATEGORY_NAME>Fundamentals</CATEGORY_NAME> 
+  <NUMBER_OF_QUESTIONS>30</NUMBER_OF_QUESTIONS> 
+  <TIME_DURATION>00:30</TIME_DURATION> 
+  </CATEGORY>
+<CATEGORY>
+  <CATEGORY_NAME>Java</CATEGORY_NAME> 
+  <NUMBER_OF_QUESTIONS>30</NUMBER_OF_QUESTIONS> 
+  <TIME_DURATION>00:30</TIME_DURATION> 
+</CATEGORY>
+</CATEGORIES>
+<INSTRUCTIONS>
+</INSTRUCTIONS>
+  </QUESTION_PAPER_INFORMATION>
+  </HEADER_INFORMATION>
+<QUESTION_CATEGORY>
+<QUESTION>
+      <QUESTION_ID>1</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>52</OPTION>
+    <OPTION>56</OPTION>
+    <OPTION>96</OPTION>
+    <OPTION>128</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>2</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>2</QUESTION_ID>
+  <QUESTION_DESCRIPTION>If a person walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km more. The actual distance travelled by him is:
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>50 km</OPTION>
+    <OPTION>56 km</OPTION>
+    <OPTION>70 km</OPTION>
+    <OPTION>80 km</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>3</QUESTION_ID>
+  <QUESTION_DESCRIPTION>The average of 20 numbers is zero. Of them, at the most, how many may be greater than zero?
+</QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>0</OPTION>
+    <OPTION>1</OPTION>
+    <OPTION>10</OPTION>
+    <OPTION>19</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>4</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>4</QUESTION_ID>
+  <QUESTION_DESCRIPTION>A, P, R, X, S and Z are sitting in a row. S and Z are in the centre. A and P are at the ends. R is sitting to the left of A. Who is to the right of P ?
+</QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>A</OPTION>
+    <OPTION>X</OPTION>
+    <OPTION>S</OPTION>
+    <OPTION>Z</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>5</QUESTION_ID>
+  <QUESTION_DESCRIPTION>There are 8 houses in a line and in each house only one boy lives with the conditions as given below:
+  1. Jack is not the neighbour Siman.
+  2. Harry is just next to the left of Larry.
+  3. There is at least one to the left of Larry.
+  4. Paul lives in one of the two houses in the middle.
+  5. Mike lives in between Paul and Larry.
+  If at least one lives to the right of Robert and Harry is not between Taud and Larry, then which one of the following statement is not correct ?
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>Robert is not at the left end.</OPTION>
+    <OPTION>Robert is in between Simon and Taud.</OPTION>
+    <OPTION>Taud is in between Paul and Jack.</OPTION>
+    <OPTION>There are three persons to the right of Paul.</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>6</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Correct sequence of time delays that happen during a data trasfer from a disk to memory is :
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>seek time, latency time and tranfer time</OPTION>
+    <OPTION>seek time, access time and tranfer time</OPTION>
+    <OPTION>latency time, seek time and tranfer time</OPTION>
+    <OPTION>latency time, access time and tranfer time</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>7</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Generation of intermediate code based on an abstract machine model is useful in compilers because:
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>It makes implementation of lexical and syntax analysis easier</OPTION>
+    <OPTION>Syntax-directed translations can be written for intermediate code generation</OPTION>
+    <OPTION>It enhances the portability of the front-end of the compiler</OPTION>
+    <OPTION>It is not possible to generate code for real machines directly from high level language programs</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>8</QUESTION_ID>
+  <QUESTION_DESCRIPTION>When is an interpreter is preferred over a compiler</QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>it entirely depends on the language</OPTION>
+    <OPTION>during program development phase</OPTION>
+    <OPTION>when efficient use of computer time is the considerarion</OPTION>
+    <OPTION>none of the above</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>9</QUESTION_ID>
+  <QUESTION_DESCRIPTION>In a time sharing operating system, when the time slot given to a process is completed, the process from the RUNNING state goes to which state?
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>TERMINATED</OPTION>
+    <OPTION>READY</OPTION>
+    <OPTION>SUSPENDED</OPTION>
+    <OPTION>BLOCKED</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>10</QUESTION_ID>
+  <QUESTION_DESCRIPTION>A computer system has 6 tape drives, with p process competing for them. Each process may need upto 3 tape drives. The maximum value of 'p', for which the system is GUARANTEED to be deadlock free is :
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>1</OPTION>
+    <OPTION>2</OPTION>
+    <OPTION>3</OPTION>
+    <OPTION>4</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>11</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Semaphores are used to solve the problem of :
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>process synchronization</OPTION>
+    <OPTION>mutual exclusion</OPTION>
+    <OPTION>both of the above</OPTION>
+    <OPTION>None of the above</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>12</QUESTION_ID>
+  <QUESTION_DESCRIPTION>What is meant by timeslicing?
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>Timeslicing is the method of de-allocating CPU time to individual threads in a priority schedule.</OPTION>
+    <OPTION>Timeslicing is the method of allocating CPU space to individual threads in a priority schedule.</OPTION>
+    <OPTION>Timeslicing is the method of allocating CPU time to individual threads in a priority schedule.</OPTION>
+    <OPTION>Timeslicing is the method of de-allocating CPU space to individual threads in a priority schedule.</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>13</QUESTION_ID>
+  <QUESTION_DESCRIPTION>A SQL command that lets you change one or more fields in a record is
+</QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>Insert</OPTION>
+    <OPTION>Update</OPTION>
+    <OPTION>Look-up</OPTION>
+    <OPTION>All of the above</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>14</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Which of the following contains a complete record of all activity that affected the contents of a database during a certain period of time ?
+</QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>Report writer</OPTION>
+    <OPTION>Query language</OPTION>
+    <OPTION>Data manipulation language</OPTION>
+    <OPTION>Transaction Log</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>4</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>15</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Which statement about database views is true?</QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>A view can have ORDER BY and GROUP BY clauses in the SELECT statement.</OPTION>
+    <OPTION>A view cannot have an ORDER BY clause in the SELECT statement.</OPTION>
+    <OPTION>A view cannot be created with a GROUP BY clause in the SELECT statement.</OPTION>
+    <OPTION>A view must have aliases defined for the column names in the SELECT statement.</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>16</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Examine the structure of the EMPLOYEES table: 
+  EMPLOYEE_ID NUMBER Primary Key 
+  FIRST_NAME VARCHAR2 (25) 
+  LAST_NAME VARCHAR2 (25) 
+  Which statement will insert a row into the table? 
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>INSERT INTO employees VALUES (NULL, 'John',' Smith');</OPTION>
+    <OPTION>INSERT INTO employees (first_name, last_name) VALUES ('John', 'Smith');</OPTION>
+    <OPTION>INSERT INTO employees VALUES ('1000','John', NULL);</OPTION>
+    <OPTION>INSERT INTO employees(first_name, last_name, employee_id)VALUES ( 1000, 'John', 'Smith');</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>17</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Examine the description of the EMPLOYEES table: 
+  EMP_ID NUMBER(4) NOT NULL 
+  LAST_NAME VARCHAR2(30) NOT NULL 
+  FIRST_NAME VARCHAR2(30) 
+  DEPT_ID NUMBER(2) 
+  JOB_CAT VARCHARD2(30) SALARY NUMBER(8,2)
+  Which statement shows the maximum salary paid in each job category of each department?
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>SELECT dept_id, job_cat, MAX(salary) FROM employees WHERE salary &gt; MAX(salary);</OPTION>
+    <OPTION>SELECT dept_id, job_cat, MAX(salary) FROM employees GROUP BY dept_id, job_cat;</OPTION>
+    <OPTION>SELECT dept_id, job_cat, MAX(salary) FROM employees;</OPTION>
+    <OPTION>SELECT dept_id, job_cat, MAX(salary) FROM employees GROUP BY dept_id;</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>18</QUESTION_ID>
+  <QUESTION_DESCRIPTION>The employee information in a company is stored in the relation Employee (name, sex, salary, deptName) 
+  Consider the following SQL query 
+  Select deptName From Employee Where sex = 'M' Group by deptName Having avg(salary) &gt; (select avg (salary) from Employee); 
+  It returns the names of the department in which
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>the average salary is more than the average salary in the company
+   </OPTION>
+    <OPTION>the average salary of male employees is more than the average salary of all male employees in the company</OPTION>
+    <OPTION>the average salary of male employees is more than the average salary of employees in the same department.</OPTION>
+    <OPTION>the average salary of male employees is more than the average salary in the company</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>4</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>19</QUESTION_ID>
+  <QUESTION_DESCRIPTION>B+ or B-trees are preferred to binary trees in databases because
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>Disk capacities are greater than memory capacities</OPTION>
+    <OPTION>Disk access is much slower than memory access</OPTION>
+    <OPTION>Disk data transfer rates are much less than memory data transfer rates</OPTION>
+    <OPTION>Disks are more reliable than memory</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>20</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Which of the following contains a complete record of all activity that affected the contents of a database during a certain period of time ?
+</QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>Report writer</OPTION>
+    <OPTION>Query language</OPTION>
+    <OPTION>Data manipulation language</OPTION>
+    <OPTION>Transaction Log</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>4</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>21</QUESTION_ID>
+  <QUESTION_DESCRIPTION>In a program that counts the frequencies of characters in a textfile which of the following containers will be the most useful
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>List</OPTION>
+    <OPTION>Vector</OPTION>
+    <OPTION>Stack</OPTION>
+    <OPTION>Deque</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>22</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Which of the following containers dosen't support iterators
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION> Map</OPTION>
+    <OPTION>Vector</OPTION>
+    <OPTION>List</OPTION>
+    <OPTION>Stack</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>4</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>23</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Each data item in a record may be a group item composed of sub-items;
+ those items which are indecomposable are called
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>elementary items</OPTION>
+    <OPTION>atoms</OPTION>
+    <OPTION>scalars</OPTION>
+    <OPTION>all of above</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>4</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>24</QUESTION_ID>
+  <QUESTION_DESCRIPTION>The difference between linear array and a record is
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>An array is suitable for homogeneous data but the data items in a record may have different data type</OPTION>
+    <OPTION>In a record, there may not be a natural ordering in as opposed to linear array.</OPTION>
+    <OPTION>A record form a hierarchical structure but a lienear array does not</OPTION>
+    <OPTION>All of above</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>4</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>25</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Which of the following statement is false?</QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>Arrays are dense lists and static data structure</OPTION>
+    <OPTION>data elements in linked list need not be stored in adjecent space in memory</OPTION>
+    <OPTION>pointers store the next data element of a linked list</OPTION>
+    <OPTION>linked lists are collection of the nodes that contain only data part</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>26</QUESTION_ID>
+  <QUESTION_DESCRIPTION>What is a router?</QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>A device that make sures all devices on your network get power</OPTION>
+    <OPTION>A device that manages the data flow of a network</OPTION>
+    <OPTION>A device that always has a firewall for security</OPTION>
+    <OPTION>A device that connects to the internet and a modem</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>27</QUESTION_ID>
+  <QUESTION_DESCRIPTION>What is the central device in star topology?
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>STP server</OPTION>
+    <OPTION>Hub/switch</OPTION>
+    <OPTION>PDC</OPTION>
+    <OPTION>Router</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>28</QUESTION_ID>
+  <QUESTION_DESCRIPTION>A standalone program that has been modified to work on a LAN by including concurrency controls such as file and record locking is an example of
+ </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>LAN intrinsic software</OPTION>
+    <OPTION>LAN aware software</OPTION>
+    <OPTION>Groupware</OPTION>
+    <OPTION>LAN ignorant software</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>29</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Modems
+   </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>stand for "Modulator/demodulators"</OPTION>
+    <OPTION>Connect to multiple computers</OPTION>
+    <OPTION>Broadcast wireless signals</OPTION>
+    <OPTION>Only work with AOL</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>30</QUESTION_ID>
+  <QUESTION_DESCRIPTION>Which of the following is not a transmission medium?
+</QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>telephone lines</OPTION>
+    <OPTION>coaxial cables</OPTION>
+    <OPTION>modem</OPTION>
+    <OPTION>microwave systems</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+</QUESTION_CATEGORY>
+<QUESTION_CATEGORY>
+
+  <QUESTION>
+            <QUESTION_ID>1</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Consider the following class definition:
+	public class Test extends Base {
+		public Test(int j) {
+		}
+		public Test(int j, int k) {
+			super(j, k);
+		}
+	}
+    Which of the following forms of constructor must exist explicitly in the definition of the Base class?
+        (I) Base() { }
+        (II) Base(int j) { }
+        (III) Base(int j, int k) { }
+        (Iv) Base(int j, int k, int l) { }
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>I and III 
+      </OPTION>
+      <OPTION>I , II , III and IV 
+      </OPTION>
+      <OPTION>I and IV 
+      </OPTION>
+      <OPTION>II and III 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>1</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+
+  <QUESTION>
+            <QUESTION_ID>2</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which is the valid declarations within an interface definition?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>public double methoda(); 
+      </OPTION>
+      <OPTION>public final double methoda(); 
+      </OPTION>
+      <OPTION>static void methoda(double d1); 
+      </OPTION>
+      <OPTION>protected void methoda(double d1); 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>3</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which is a reserved word in the Java programming language?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>method 
+      </OPTION>
+      <OPTION>native 
+      </OPTION>
+      <OPTION>subclass 
+      </OPTION>
+      <OPTION>array 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>4</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which class does not override the equals() and hashCode() methods, inheriting them directly from class Object?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>java.lang.String 
+      </OPTION>
+      <OPTION>java.lang.Double 
+      </OPTION>
+      <OPTION>java.lang.StringBuffer 
+      </OPTION>
+      <OPTION>java.lang.Character 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+      <QUESTION_ID>5</QUESTION_ID>
+  <QUESTION_DESCRIPTION>
+   Running MyProg from commandline, 
+   java MyProg I like tests 
+   what would be the value of args[ 1 ] inside the main( ) method?
+   </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>MyProg</OPTION>
+    <OPTION>"I"</OPTION>
+    <OPTION>"like"</OPTION>
+    <OPTION> null, until a value is assigned</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>6</QUESTION_ID>
+  <QUESTION_DESCRIPTION>
+  int i=10011100;
+  int y = 1 &lt;&lt; 7;
+  System.out.println(z);
+  output of the program?
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>10000000</OPTION>
+    <OPTION>64</OPTION>
+    <OPTION>1000000</OPTION>
+    <OPTION>128</OPTION>
+  </OPTIONS>
+  <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>4</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+      <QUESTION_ID>7</QUESTION_ID>
+  <QUESTION_DESCRIPTION>
+   int x = 2;
+   switch (x) {
+		case 1:System.out.print("1");
+		case 2: 
+		case 3:System.out.print("3");
+		case 4:
+		case 5:System.out.println("5");
+   }
+   what will be the output?
+  </QUESTION_DESCRIPTION>
+  <OPTIONS>
+    <OPTION>35\n</OPTION>
+    <OPTION>3\n5</OPTION>
+    <OPTION>35</OPTION>
+    <OPTION>3\n5\n</OPTION>
+  Note: \n specifies newline character. 
+  </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>8</QUESTION_ID>
+    <QUESTION_DESCRIPTION>
+     byte myByte;
+     int myInt;
+     long myLong;
+     char myChar;
+     float myFloat;
+     which of the following needs explicit type casting?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>myInt = myByte;</OPTION>
+      <OPTION>myInt = myLong;</OPTION>
+      <OPTION>myFloat = myChar;</OPTION>
+      <OPTION> myInt = myChar;</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>9</QUESTION_ID>
+    <QUESTION_DESCRIPTION>
+    public static void main( String args[] ) {
+		int a = 5;
+		System.out.println( cube( a ) );
+     }
+     int cube( int theNum ) {
+		return theNum * theNum * theNum;
+     }
+     What will happen when you attempt to compile and run this code?
+     </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>It will not compile because cube is already defined in the java.lang.Math class.</OPTION>
+      <OPTION>It will not compile because cube is not static.</OPTION>
+      <OPTION>It will compile, but throw an arithmetic exception.</OPTION>
+      <OPTION>It will run perfectly and print "125" to standard output.</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>10</QUESTION_ID>
+    <QUESTION_DESCRIPTION>
+    For the code 
+    m = 0;
+    while( m &lt; 2 )
+    System.out.print( m++ );
+    what will be the output
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>01</OPTION>
+      <OPTION>12</OPTION>
+      <OPTION>stack overflow</OPTION>
+      <OPTION>Compilation error</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>11</QUESTION_ID>
+    <QUESTION_DESCRIPTION>
+     What will be the output for below code:
+     char[] c = new char[100];
+     System.out.print((int)(c[50]));
+     </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>0</OPTION>
+      <OPTION>null</OPTION>
+      <OPTION>50</OPTION>
+      <OPTION>Compilation error</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>12</QUESTION_ID>
+    <QUESTION_DESCRIPTION>
+    If you compile and execute an application with the following code in its main() method: 
+    String s = new String( "Computer" );
+		if( s == "Computer" ) 
+			System.out.println( "Equal A" );
+		if( s.equals( "Computer" ) ) 
+			System.out.println( "Equal B" );
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>It will compile and run, but nothing is printed.</OPTION>
+      <OPTION>"Equal A" is the only thing that is printed.</OPTION>
+      <OPTION>"Equal B" is the only thing that is printed.</OPTION>
+      <OPTION>Both "Equal A" and "Equal B" are printed.</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>13</QUESTION_ID>
+    <QUESTION_DESCRIPTION>
+    For below code output: 
+    String s1 = "phenobarbital";
+    String s2 = s1.substring( 3, 2 );
+    System.out.println(s2);
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>It will throw a compilation excepton.</OPTION>
+      <OPTION>It will print "no".</OPTION>
+      <OPTION>It will print "en".</OPTION>
+      <OPTION>It will throw a runtime exception.</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>14</QUESTION_ID>
+    <QUESTION_DESCRIPTION>
+    public class test {
+		public static void main(String [] args) {
+		int x = 3;
+		int y = 1;
+		if (x = y) 
+			System.out.println("Not equal");
+		else 
+			System.out.println("Equal");
+		}
+    }
+    What is the result?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>The output is "Equal"</OPTION>
+      <OPTION>The output is "Not Equal"</OPTION>
+      <OPTION>An error at " if (x = y)" causes compilation to fall.</OPTION>
+      <OPTION>The program executes but no output is show on console.</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>15</QUESTION_ID>
+    <QUESTION_DESCRIPTION>If we do not provide any arguments on the command line, then the String array of Main method will have
+   </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>null</OPTION>
+      <OPTION>empty</OPTION>
+      <OPTION>line feed</OPTION>
+      <OPTION>device control character</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>16</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Out of following Name interfaces with a method</QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>Serializable</OPTION>
+      <OPTION>Cloneble</OPTION>
+      <OPTION>Remote</OPTION>
+      <OPTION>Externalizable</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>17</QUESTION_ID>
+    <QUESTION_DESCRIPTION>What is an example of polymorphism?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>Inner class</OPTION>
+      <OPTION> Anonymous classes</OPTION>
+      <OPTION> Method overloading</OPTION>
+      <OPTION>Method overriding</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>18</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which of the following is a primitive type?
+   </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>Byte</OPTION>
+      <OPTION>String</OPTION>
+      <OPTION>Integer</OPTION>
+      <OPTION>float</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>19</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which of the following is true for synchronized keyword
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>synchronized keyword can be used with methods, blocks and instance variables in a java class</OPTION>
+      <OPTION>synchronized keyword can be used with only static methods and static blocks in a java class</OPTION>
+      <OPTION>synchronized keyword can be used with methods and blocks in a java class</OPTION>
+      <OPTION>synchronized keyword cannot be used with more than one method of a class</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>20</QUESTION_ID>
+    <QUESTION_DESCRIPTION> Which of the following classes is used to perform basic console I/O?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>SecurityManager</OPTION>
+      <OPTION>System</OPTION>
+      <OPTION>Math</OPTION>
+      <OPTION>Runtime</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>21</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which of the following are correct?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>128 &gt;&gt; 1 gives 64</OPTION>
+      <OPTION>128 &gt;&gt;&gt; 1 gives 64</OPTION>
+      <OPTION>128 &gt;&gt; 1 gives -64</OPTION>
+      <OPTION>128 &gt;&gt;&gt; 1 gives -64</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>22</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which of these is the correct format to use to create the literal char value a?
+   </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION> 'a'</OPTION>
+      <OPTION>"a" </OPTION>
+      <OPTION>new Character(a)</OPTION>
+      <OPTION>\000a </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>23</QUESTION_ID>
+    <QUESTION_DESCRIPTION>You would use the ____ operator to create a single instance of a named class.
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>dot</OPTION>
+      <OPTION>equals</OPTION>
+      <OPTION>=</OPTION>
+      <OPTION>new</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>24</QUESTION_ID>
+    <QUESTION_DESCRIPTION>How many threads at a time can access a monitor?
+   </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>0</OPTION>
+      <OPTION>1</OPTION>
+      <OPTION>2</OPTION>
+      <OPTION>unlimited</OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+    <CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>25</QUESTION_ID>
+    <QUESTION_DESCRIPTION>
+	   public class Q8
+       {
+			int i = 20;
+			static
+			{
+				int i = 10;
+			}
+			public static void main(String[] args)
+			{
+				Q8 a = new Q8();
+				System.out.println(a.i);
+			}
+       }
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>Compilation error, variable "i" declared twice.
+      </OPTION>
+  <OPTION>Compilation error, static initializers for initialization purpose only.
+      </OPTION>
+  <OPTION>Prints 10.
+      </OPTION>
+  <OPTION>Prints 20.
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>26</QUESTION_ID>
+    <QUESTION_DESCRIPTION>c) Which statements, when inserted at the indicated position in the following code, will cause a runtime exception when attempting to run the program?
+     class A { }
+     class B extends A { }
+     class C extends A { }
+     public class test
+     {
+      public static void main(String[ ] args)
+      {
+		A  x = new A( ) ;  
+		B  y = new B( ) ;  
+		C z = new C ( ) ;
+     // insert statement here
+       }
+     }
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>x = y ;
+      </OPTION>
+  <OPTION>z = x ;
+      </OPTION>
+  <OPTION>y = (B) x ;
+      </OPTION>
+  <OPTION>z = (C)y ;
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>27</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which of the following is a correct outline of a method that throws an exception when it finds a problem?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>public void someMethod ()  {
+	...
+	if ( problem )
+	throw new Exception("Useful Message");
+   }
+      </OPTION>
+  <OPTION>public void someMethod () throws Exception {
+  ...
+  if ( problem )
+   Exception("Useful Message");
+  ...
+  }
+      </OPTION>
+  <OPTION>public void someMethod () throws Exception  {
+  ...
+  if ( problem )
+   throw( new Exception("Useful Message") );
+  ...
+  }
+      </OPTION>
+  <OPTION>public void someMethod () throws Exception {
+  ...
+  if ( problem )
+   throw new Exception("Useful Message");
+  ...
+  }
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>28</QUESTION_ID>
+    <QUESTION_DESCRIPTION>The following code will give
+       class Test
+       {
+			void show()
+			{
+				System.out.println("non-static method in Test");
+			}
+       }
+       public class Q3 extends Test
+       {
+			static void show()
+			{
+				System.out.println("Overridden non-static method in Q3");
+			}
+			public static void main(String[] args)
+			{
+				Q3 a = new Q3();
+			}
+       }
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>Compilation error at line 3.
+      </OPTION>
+  <OPTION>Compilation error at line 10.
+      </OPTION>
+  <OPTION>No compilation error, but runtime exception at line 3.
+      </OPTION>
+  <OPTION>No compilation error, but runtime exception at line 10.
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>29</QUESTION_ID>
+    <QUESTION_DESCRIPTION>What happens in a method if an exception is thrown in a try{} block and there is NO MATCHING catch{} block?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+  <OPTION>This is not legal, so the program will not compile
+      </OPTION>
+  <OPTION>The method throws the exception to its caller, exactly if there were no try{} block.
+      </OPTION>
+  <OPTION>The program halts immediately.
+      </OPTION>
+  <OPTION>The program ignores the exception.
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+    <QUESTION>
+            <QUESTION_ID>30</QUESTION_ID>
+    <QUESTION_DESCRIPTION>What is the result of the following code :
+public class SuperEx {
+	String r;
+	String s;
+	public SuperEx(String a,String b) {
+		r = a;
+		s = b;
+	}
+	public void aMethod() {
+		System.out.println("r :" + r);
+	}
+public class NewSuper extends SuperEx {
+	public NewSuper(String a,String b) {
+	super(a,b);
+	}
+	public static void main(String args []) {
+		SuperEx a = new SuperEx("Hi","Tom");
+		SuperEx b = new NewSuper("Hi","Bart");
+		a.aMethod();
+		b.aMethod();
+	}
+	public void aMethod() {
+	System.out.println("r :" + r + "  s:" + s);
+	}
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>The following is displayed:          r:Hi          s:Hi 
+      </OPTION>
+      <OPTION>Compiler error at the line "SuperEx b = new NewSuper("Hi","Bart");" 
+      </OPTION>
+      <OPTION>The following is displayed:          r:Hi          r:Hi s:Bart 
+      </OPTION>
+      <OPTION>The following is displayed          r:Hi s:Tom          r:Hi s:Bart 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+</QUESTION_CATEGORY>
+</QUESTION_PAPER>

@@ -1,0 +1,23 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="pp.Trainer" table="tr2">
+<id name="id">
+<generator class="assigned"></generator>
+</id>
+<property name="name"></property>
+<joined-subclass name="pp.Fulltime" table="ft2">
+<key column="tid"></key>
+<property name="sal"  />
+<property name="batches"></property>
+</joined-subclass>
+<joined-subclass name="pp.Parttime" table="pt2">
+<key column="tid"></key>
+<property name="perhour"  />
+<property name="pbatch"></property>
+</joined-subclass>
+
+</class>
+
+</hibernate-mapping>

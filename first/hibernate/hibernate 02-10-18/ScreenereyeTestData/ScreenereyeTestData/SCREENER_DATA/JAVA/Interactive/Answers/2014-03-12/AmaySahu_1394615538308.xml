@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+   <QUESTION_PAPER_INFORMATION>
+      <QUESTION_PAPER_DESCRIPTION>SET C</QUESTION_PAPER_DESCRIPTION>
+   </QUESTION_PAPER_INFORMATION>
+   <QUESTION>
+      <QUESTION_ID>1</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Question: Write an SQL query that returns the Projectect name, hours worked, and Projectect number for all works on records where hours &gt; 10.
+      &amp;nbsp;&lt;/div&gt;&lt;b&gt;Table : working_hours&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table cellspacing="0" cols="5" border="1"&gt; &lt;tbody&gt;&lt;tr&gt;&lt;th&gt;employee_number&lt;/th&gt;&lt;th&gt;project_number&lt;/th&gt; &lt;th&gt;hours&lt;/th&gt;&lt;th&gt;id&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;1000&lt;/td&gt; &lt;td&gt;14&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;1003&lt;/td&gt; &lt;td&gt;12&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;1002&lt;/td&gt; &lt;td&gt;10&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1000&lt;/td&gt; &lt;td&gt;13&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;1000&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt;
+      &amp;nbsp;&lt;/div&gt;&lt;b&gt;Table : project&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table cellspacing="0" cols="4" border="1"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;project_number&lt;/th&gt;&lt;th&gt;pname&lt;/th&gt;&lt;th&gt;budget&lt;/th&gt;&lt;th&gt;department_number&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1000&lt;/td&gt;&lt;td&gt;projeect1&lt;/td&gt;&lt;td&gt;10000000&lt;/td&gt;&lt;td&gt;103&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1001&lt;/td&gt;&lt;td&gt;project2&lt;/td&gt;&lt;td&gt;15000000&lt;/td&gt;&lt;td&gt;102&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1002&lt;/td&gt;&lt;td&gt;project3&lt;/td&gt;&lt;td&gt;30000000&lt;/td&gt;&lt;td&gt;104&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1003&lt;/td&gt;&lt;td&gt;project4&lt;/td&gt;&lt;td&gt;20000000&lt;/td&gt;&lt;td&gt;103&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1004&lt;/td&gt;&lt;td&gt;project5&lt;/td&gt;&lt;td&gt;25000000&lt;/td&gt;&lt;td&gt;102&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt;
+
+      </QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>[{"2":1000,"1":14,"0":"project1"},{"2":1000,"1":13,"0":"project1"},{"2":1003,"1":12,"0":"project4"}]</CORRECT_ANSWER>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>2</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> 
+      
+      </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Question: Write an SQL query that returns the Employeeloyee name, Projectect name, Employeeloyee title, and hours for all works on records.
+      &amp;nbsp;&lt;/div&gt;&lt;b&gt;Table : emp&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table cellspacing="0" cols="6" border="1"&gt; &lt;tbody&gt;&lt;tr&gt;&lt;th&gt;employee_number&lt;/th&gt;&lt;th&gt;ename&lt;/th&gt;&lt;th&gt;bdate&lt;/th&gt;&lt;th&gt;title&lt;/th&gt;&lt;th&gt;salary&lt;/th&gt;&lt;th&gt;department_number&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;john&lt;/td&gt;&lt;td&gt;1975-01-01 00:00:00&lt;/td&gt;&lt;td&gt;manager&lt;/td&gt;&lt;td&gt;10000&lt;/td&gt;&lt;td&gt;101&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;Michael&lt;/td&gt;&lt;td&gt;1968-05-04 00:00:00&lt;/td&gt;&lt;td&gt;worker&lt;/td&gt;&lt;td&gt;20000&lt;/td&gt;&lt;td&gt;105&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;Jerry&lt;/td&gt;&lt;td&gt;1982-07-17 00:00:00&lt;/td&gt;&lt;td&gt;employee&lt;/td&gt;&lt;td&gt;35000&lt;/td&gt;&lt;td&gt;102&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;mithew&lt;/td&gt;&lt;td&gt;1980-09-20 00:00:00&lt;/td&gt;&lt;td&gt;project manager&lt;/td&gt;&lt;td&gt;83000&lt;/td&gt;&lt;td&gt;101&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;Philip&lt;/td&gt;&lt;td&gt;1970-09-30 00:00:00&lt;/td&gt;&lt;td&gt;employee&lt;/td&gt;&lt;td&gt;45000&lt;/td&gt;&lt;td&gt;105&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt;
+      &amp;nbsp;&lt;/div&gt;&lt;b&gt;Table : project&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table cellspacing="0" cols="4" border="1"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;project_number&lt;/th&gt;&lt;th&gt;pname&lt;/th&gt;&lt;th&gt;budget&lt;/th&gt;&lt;th&gt;department_number&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1000&lt;/td&gt;&lt;td&gt;projeect1&lt;/td&gt;&lt;td&gt;10000000&lt;/td&gt;&lt;td&gt;103&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1001&lt;/td&gt;&lt;td&gt;project2&lt;/td&gt;&lt;td&gt;15000000&lt;/td&gt;&lt;td&gt;102&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1002&lt;/td&gt;&lt;td&gt;project3&lt;/td&gt;&lt;td&gt;30000000&lt;/td&gt;&lt;td&gt;104&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1003&lt;/td&gt;&lt;td&gt;project4&lt;/td&gt;&lt;td&gt;20000000&lt;/td&gt;&lt;td&gt;103&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1004&lt;/td&gt;&lt;td&gt;project5&lt;/td&gt;&lt;td&gt;25000000&lt;/td&gt;&lt;td&gt;102&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt;
+      &amp;nbsp;&lt;/div&gt;&lt;b&gt;Table : working_hours&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table cellspacing="0" cols="5" border="1"&gt; &lt;tbody&gt;&lt;tr&gt;&lt;th&gt;employee_number&lt;/th&gt;&lt;th&gt;project_number&lt;/th&gt; &lt;th&gt;hours&lt;/th&gt;&lt;th&gt;id&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;1000&lt;/td&gt; &lt;td&gt;14&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;1003&lt;/td&gt; &lt;td&gt;12&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;1002&lt;/td&gt; &lt;td&gt;10&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1000&lt;/td&gt; &lt;td&gt;13&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;1000&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt;
+
+      </QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>[{"3":14,"2":"employee","1":"project1","0":"Jerry"},{"3":12,"2":"project manager","1":"project4","0":"mithew"},{"3":10,"2":"employee","1":"project3","0":"Philip"},{"3":13,"2":"manager","1":"project1","0":"john"},{"3":10,"2":"employee","1":"project1","0":"Philip"}]</CORRECT_ANSWER>
+   </QUESTION>
+  
+   <QUESTION>
+      <QUESTION_ID>3</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;BR&gt;&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;BR&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;&lt;BR&gt;&lt;ul&gt;&lt;BR&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;/p&gt;&lt;BR&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassOne
+ { &lt;BR&gt; public static int getCountOfOnes(int n) &lt;BR&gt; {&lt;BR&gt; /*&lt;BR&gt; Please implement this method to&lt;BR&gt; return the number of '1's in the binary representation of n&lt;BR&gt; for any integer n, where n &gt; 0&lt;BR&gt;&lt;BR&gt; Example: for n=6 the binary representation is '110' and the number of '1's in that &lt;BR&gt; representation is 2&lt;BR&gt;&lt;BR&gt; */&lt;BR&gt;return 1; }&lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* Main Method*/&lt;BR&gt; }&lt;BR&gt; &lt;BR&gt; } &lt;BR&gt;</QUESTION_DESCRIPTION>
+      <ANSWER>public class MyClassOne&lt;br&gt; { &lt;br&gt; public static int getCountOfOnes(int n) &lt;br&gt; {&lt;br&gt; int count=0;&lt;br&gt; while(n&amp;gt;0)&lt;br&gt; { &lt;br&gt; int rem =n%2;&lt;br&gt; if(rem==1)&lt;br&gt; {&lt;br&gt; count++;&lt;br&gt; }&lt;br&gt; n=n/2;&lt;br&gt; &lt;br&gt; }&lt;br&gt;&lt;br&gt;return count ; }&lt;br&gt; public static void main(String arr[])&lt;br&gt; {&lt;br&gt; /* Main Method*/&lt;br&gt; }&lt;br&gt; &lt;br&gt; } &lt;br&gt;</ANSWER>
+      <MARK>5</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void getCountOfOnesTest1(){ assertEquals(1,getCountOfOnes(1));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getCountOfOnesTest2(){ assertEquals(1,getCountOfOnes(16));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getCountOfOnesTest3(){ assertEquals(6,getCountOfOnes(63));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getCountOfOnesTest4(){ assertEquals(3,getCountOfOnes(7));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getCountOfOnesTest5(){ assertEquals(2,getCountOfOnes(5));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>4</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;br&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;br&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;/h5&gt;&lt;h5&gt;&lt;p&gt;&lt;/p&gt;&lt;br&gt;&lt;ul&gt;&lt;br&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;br&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;br&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;/h5&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassTwo
+ {
+ public static int [] findDuplicate (int puzzle [])
+{
+ /*
+ Please implement this method to return the iindex where the duplication is occurring, assume that exactly one value is repeated once and you are tasked to find it.
+.
+ For example,
+o Input: (1, 5, 10, 2, 1, 3), Output on console: 0 &amp; 4
+o Input: (1, 3, 5, 7, 4, 3, 6), Output on console: 1 &amp; 5
+ */
+ return null;
+ }
+ public static void main(String arr[])
+{
+/* Main Method*/
+}
+} 
+</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void findDuplicate1(){ int[] input={1, 5, 1,10, 2, 1, 3}; int [] output={0,2,5}; Assert.assertTrue(Arrays.equals(output,findDuplicate(input)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void findDuplicate2(){ int[] input={1, 3, 5, 7, 4, 3, 6}; int [] output={1,5}; Assert.assertTrue(Arrays.equals(output,findDuplicate(input)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void findDuplicate3(){ int[] input={1, 5, 10, 2, 1, 3}; int [] output={0,4}; Assert.assertTrue(Arrays.equals(output,findDuplicate(input)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void findDuplicate4(){ int[] input={7,6,9,11,3,5,1}; int [] output={}; Assert.assertTrue(Arrays.equals(output,findDuplicate(input)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void findDuplicate5(){ int[] input={4,7,1,9,3,2,2}; int [] output={5,6}; Assert.assertTrue(Arrays.equals(output,findDuplicate(input)));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>5</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5 style="font-family: 'Open Sans'; color: rgb(0, 0, 0);"&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;br&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;br&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;h5 style="font-family: 'Open Sans'; color: rgb(0, 0, 0);"&gt;Please ensure that the code you submit is professionally written i.e.&lt;/h5&gt;&lt;h5 style="font-family: 'Open Sans'; color: rgb(0, 0, 0);"&gt;&lt;p&gt;&lt;/p&gt;&lt;br&gt;&lt;ul&gt;&lt;br&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;br&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;br&gt;&lt;li&gt;Perform appropriate exception handling wherever needed&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;/h5&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassThree
+ {&lt;BR&gt;&lt;BR&gt; public static int largestSum (int series [])&lt;BR&gt;&lt;BR&gt;{&lt;BR&gt; /*&lt;BR&gt;&lt;BR&gt; &lt;BR&gt;Please implement this method to return the largest sum of continuous sequence.&lt;BR&gt;&lt;BR&gt;For example, &lt;BR&gt;o Input: [2, -8, 3, -2, 4, -10], Output: 5 (sum of {3, -2, 4})&lt;BR&gt;o Input: [1, 10, 3, -6, 15, 1], Output: 16 (sum of {15, 1})&lt;BR&gt;&lt;BR&gt; */&lt;BR&gt; &lt;BR&gt; return 0;}&lt;BR&gt;&lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* Main Method*/&lt;BR&gt; }&lt;BR&gt; } &lt;BR&gt;</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void largestSum1(){int a[]={2, -8, 3, -2, 4,-10}; assertEquals(5,largestSum(a));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void largestSum2(){int a[]={1, 10, 3, -6, 15, 1}; assertEquals(24,largestSum(a));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void largestSum3(){int a[]={2, -8, 3, -6, 15, 1,-10}; assertEquals(16,largestSum(a));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void largestSum4(){int a[]={-2, -8, -3, -9}; assertEquals(-10,largestSum(a));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void largestSum5(){int a[]={3,-1,8,-5,-7,-3}; assertEquals(10,largestSum(a));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   
+    <QUESTION>
+      <QUESTION_ID>6</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Which of the following statements are true regarding lifecycle of a servlet</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>Only one instance of servlet is created throughout the lifecycle of a servlet</OPTION>
+         <OPTION>All requests submitted to a servlet invokes “service” method of the same instance of the servlet</OPTION>
+         <OPTION>New instance of the servlet is created to handle each request submitted to the servlet</OPTION>
+         <OPTION>A variable declared within a servlet will be shared in processing of all requests submitted to the servlet</OPTION>
+         <OPTION>Service method of the servlet can be invoked by only one request submitted to it at a time</OPTION>
+         
+      </OPTIONS>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+     
+      
+   </QUESTION>
+   
+    <QUESTION>
+      <QUESTION_ID>7</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Which of the following statements are true regarding Interface in Java</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>Interface can have private and protected methods</OPTION>
+         <OPTION>All methods declared in interface are public</OPTION>
+         <OPTION>All variables declared in interface are public</OPTION>
+         <OPTION>All variables declared in interface are instance variables</OPTION>
+         <OPTION>All variables declared in interface are final</OPTION>
+      </OPTIONS>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>8</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>How does your computer when connected to network know which DNS server (Domain name server) it should use while browsing websites using names (e.g. Google.com).</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>User can manually configure the DNS server computer should use</OPTION>
+         <OPTION>Computer automatically receives it from DHCP server</OPTION>
+         <OPTION>Computer doesn’t know which DNS server to use, it is ISP (Internet service provider’s) responsibility to convert domain names to IP address</OPTION>
+         <OPTION>Computer doesn’t know the IP address of DNS server, browser gets it from internet and sends the Domain name request to it to get IP address</OPTION>
+         <OPTION> Browser uses the DNS server’s address configured in computer to send the Domain name request to get IP address</OPTION>
+       
+      </OPTIONS>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>      
+     
+   </QUESTION>
+   
+    <QUESTION>
+      <QUESTION_ID>9</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Semaphore is a variable used for controlling access to a common resource in parallel programming or multi-user environment. Please mark statements as correct or incorrect in context of Semaphores used in Operating System</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>Semaphore cannot be accessed by multiple processes together</OPTION>
+         <OPTION>Semaphores which allow an arbitrary resource count are called counting semaphores</OPTION>
+         <OPTION>Mutex is essentially the same thing as a binary semaphore and sometimes uses the same basic implementation</OPTION>
+         <OPTION>Semaphores are equipped with 2 operations Wait and Signal</OPTION>
+         <OPTION>Semaphore have a concept of an owner, which is the process that locked the Semaphore. Only the process that locked the Semaphore can unlock it. In contrast, a Mutex has no concept of an owner. Any process can unlock a Mutex</OPTION>
+        
+       
+      </OPTIONS>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+        
+     
+   </QUESTION>
+   
+   
+   
+   
+</QUESTION_PAPER>

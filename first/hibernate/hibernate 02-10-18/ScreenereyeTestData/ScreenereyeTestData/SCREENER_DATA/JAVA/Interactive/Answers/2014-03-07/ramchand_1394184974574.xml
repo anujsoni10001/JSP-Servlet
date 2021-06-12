@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+   <QUESTION_PAPER_INFORMATION>
+      <QUESTION_PAPER_DESCRIPTION>SET D</QUESTION_PAPER_DESCRIPTION>
+   </QUESTION_PAPER_INFORMATION>
+   <QUESTION>
+      <QUESTION_ID>1</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION> Write SQL Select query to get all details of customers having “y” in
+ their firstnames or lastname in ascending order of their city names. &lt;BR&gt;&lt;b&gt;Table : customer&lt;/b&gt;&lt;BR&gt;&lt;pre id="" &gt;&lt;table border="1" &gt; &lt;tbody&gt; &lt;tr&gt; &lt;th &gt;customerid&lt;/th&gt;&lt;th &gt;firstname&lt;/th&gt;&lt;th &gt;lastname&lt;/th&gt;&lt;th &gt;city&lt;/th&gt;&lt;th &gt;state&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;John&lt;/td&gt; &lt;td&gt;Gray&lt;/td&gt; &lt;td&gt;Lynden&lt;/td&gt; &lt;td&gt;Washington&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;Lyon&lt;/td&gt; &lt;td&gt;Brown&lt;/td&gt; &lt;td&gt;Pinetop&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10299&lt;/td&gt; &lt;td&gt;Elory&lt;/td&gt; &lt;td&gt;Keller&lt;/td&gt; &lt;td&gt;Snoqualmie&lt;/td&gt; &lt;td&gt;Washington&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10315&lt;/td&gt; &lt;td&gt;Lisa&lt;/td&gt; &lt;td&gt;Jones&lt;/td&gt; &lt;td&gt;Oshkosh&lt;/td&gt; &lt;td&gt;Wisconsin&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10325&lt;/td&gt; &lt;td&gt;Ginger&lt;/td&gt; &lt;td&gt;Schultz&lt;/td&gt; &lt;td&gt;Pocatello&lt;/td&gt; &lt;td&gt;Idaho&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10329&lt;/td&gt; &lt;td&gt;Kelly&lt;/td&gt; &lt;td&gt;Mendoza&lt;/td&gt; &lt;td&gt;Kailua&lt;/td&gt; &lt;td&gt;Hawaii&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10330&lt;/td&gt; &lt;td&gt;Shawn&lt;/td&gt; &lt;td&gt;Dalton&lt;/td&gt; &lt;td&gt;Kannonbeach&lt;/td&gt; &lt;td&gt;Oragon&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10338&lt;/td&gt; &lt;td&gt;Michel&lt;/td&gt; &lt;td&gt;Howell&lt;/td&gt; &lt;td&gt;Tillamook&lt;/td&gt; &lt;td&gt;Oragon&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10339&lt;/td&gt; &lt;td&gt;Anthony&lt;/td&gt; &lt;td&gt;Sanchez&lt;/td&gt; &lt;td&gt;Winslow&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10408&lt;/td&gt; &lt;td&gt;Elron&lt;/td&gt; &lt;td&gt;Cleaver&lt;/td&gt; &lt;td&gt;Globe&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10410&lt;/td&gt; &lt;td&gt;MaryAnn&lt;/td&gt; &lt;td&gt;Howell&lt;/td&gt; &lt;td&gt;Charleston&lt;/td&gt; &lt;td&gt;SouthCarolina&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;Cofi&lt;/td&gt; &lt;td&gt;Annan&lt;/td&gt; &lt;td&gt;Toronto&lt;/td&gt; &lt;td&gt;Idhao&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/pre&gt;</QUESTION_DESCRIPTION>
+      <ANSWER>Please write your query here</ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>[{"3":"Charleston","2":"Howell","1":"MaryAnn","0":10410,"4":"SouthCarolina"},{"3":"Kailua","2":"Mendoza","1":"Kelly","0":10329,"4":"Hawaii"},{"3":"Lynden","2":"Gray","1":"John","0":10101,"4":"Washington"},{"3":"Pinetop","2":"Brown","1":"Lyon","0":10298,"4":"Arizona"},{"3":"Snoqualmie","2":"Keller","1":"Elory","0":10299,"4":"Washington"},{"3":"Winslow","2":"Sanchez","1":"Anthony","0":10339,"4":"Arizona"}]</CORRECT_ANSWER>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>2</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>&lt;div&gt;The schema for "purchase_order" table is defined below with sample data.&lt;/div&gt;Write SQL select query to get the
+ list of item names with total quantity ordered for it&lt;div&gt;&lt;b&gt;Sample output:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Bicycle &amp;nbsp; 1&lt;/div&gt;&lt;div&gt;Canoe &amp;nbsp; &amp;nbsp; 1&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;b&gt;Table : purchase_order&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table border="1"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;th&gt;purchase_order_id&lt;/th&gt;&lt;th&gt;customerid&lt;/th&gt;&lt;th&gt;order_date&lt;/th&gt;&lt;th&gt;item&lt;/th&gt;&lt;th&gt;quantity&lt;/th&gt;&lt;th&gt;price&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;10330&lt;/td&gt; &lt;td&gt;1990-06-30&lt;/td&gt; &lt;td&gt;Pogo stick&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;28&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-06-30&lt;/td&gt; &lt;td&gt;Raft&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;58&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;1999-07-01&lt;/td&gt; &lt;td&gt;Skateboard&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;33&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-07-01&lt;/td&gt; &lt;td&gt;Life Vest&lt;/td&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;125&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;5&lt;/td&gt; &lt;td&gt;10299&lt;/td&gt; &lt;td&gt;1999-07-06&lt;/td&gt; &lt;td&gt;Parachute&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;1250&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;6&lt;/td&gt; &lt;td&gt;10339&lt;/td&gt; &lt;td&gt;1999-07-27&lt;/td&gt; &lt;td&gt;Umbrella&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;4.5&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;7&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-08-13&lt;/td&gt; &lt;td&gt;Unicycle&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;180.79&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;8&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-08-18&lt;/td&gt; &lt;td&gt;Raln Coat&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;18.3&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;9&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-09-01&lt;/td&gt; &lt;td&gt;Snow Shoes&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;45&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-08-14&lt;/td&gt; &lt;td&gt;Ski Poles&lt;/td&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;25&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;11&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-09-18&lt;/td&gt; &lt;td&gt;Tent&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;58&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;12&lt;/td&gt; &lt;td&gt;10410&lt;/td&gt; &lt;td&gt;1999-10-28&lt;/td&gt; &lt;td&gt;Sleeping Bag&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;89.22&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;13&lt;/td&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;1999-09-19&lt;/td&gt; &lt;td&gt;Lantern&lt;/td&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;29&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;14&lt;/td&gt; &lt;td&gt;10338&lt;/td&gt; &lt;td&gt;1999-09-01&lt;/td&gt; &lt;td&gt;Umbrella&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;6.75&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;15&lt;/td&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;1999-12-01&lt;/td&gt; &lt;td&gt;Helmet&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;22&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;16&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-12-15&lt;/td&gt; &lt;td&gt;Bicycle&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;380.5&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;17&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-12-22&lt;/td&gt; &lt;td&gt;Canoe&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;280&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;18&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-12-30&lt;/td&gt; &lt;td&gt;Hoola Hoop&lt;/td&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;14.75&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/pre&gt; &lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>[{"1":1,"0":"Bicycle"},{"1":1,"0":"Canoe"},{"1":1,"0":"Helmet"},{"1":3,"0":"Hoola Hoop"},{"1":2,"0":"Lantern"},{"1":4,"0":"Life Vest"},{"1":1,"0":"Parachute"},{"1":1,"0":"Pogo stick"},{"1":1,"0":"Raft"},{"1":1,"0":"Raln Coat"},{"1":1,"0":"Skateboard"},{"1":2,"0":"Ski Poles"},{"1":1,"0":"Sleeping Bag"},{"1":1,"0":"Snow Shoes"},{"1":1,"0":"Tent"},{"1":2,"0":"Umbrella"},{"1":1,"0":"Unicycle"}]</CORRECT_ANSWER>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>3</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>&lt;div&gt;Write a SQL query to get name of all employees with their respective salary whose name starts with A and are still currently employed with company (those who have left company, the leave_date column is filled with the date of leaving) with ascending order of salary&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;Sample Output:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Ambuj &amp;nbsp; &amp;nbsp; 22000&lt;/div&gt;&lt;div&gt;Amber &amp;nbsp; &amp;nbsp; 50000&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Table : employee&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table border="1"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th&gt;employeeid&lt;/th&gt;&lt;th&gt;employeename&lt;/th&gt;&lt;th&gt;salary&lt;/th&gt;&lt;th&gt;departmentname&lt;/th&gt;&lt;th&gt;sex&lt;/th&gt;&lt;th&gt;dob&lt;/th&gt;&lt;th&gt;join_date&lt;/th&gt;&lt;th&gt;leave_date&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;Amber&lt;/td&gt; &lt;td&gt;50000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1988-12-11&lt;/td&gt; &lt;td&gt;2011-12-13&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;Ajay&lt;/td&gt; &lt;td&gt;20000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;1998-07-11&lt;/td&gt; &lt;td&gt;2013-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;deepika&lt;/td&gt; &lt;td&gt;23500&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1986-02-21&lt;/td&gt; &lt;td&gt;2001-01-01&lt;/td&gt; &lt;td&gt;2012-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;Preeti&lt;/td&gt; &lt;td&gt;15000&lt;/td&gt; &lt;td&gt;Civil&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1960-11-10&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;5&lt;/td&gt; &lt;td&gt;Priyanka&lt;/td&gt; &lt;td&gt;12000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1973-01-16&lt;/td&gt; &lt;td&gt;1990-12-11&lt;/td&gt; &lt;td&gt;2012-12-07&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;6&lt;/td&gt; &lt;td&gt;Rajesh&lt;/td&gt; &lt;td&gt;10000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1982-12-11&lt;/td&gt; &lt;td&gt;1999-06-07&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;7&lt;/td&gt; &lt;td&gt;Ambuj&lt;/td&gt; &lt;td&gt;22000&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1978-10-01&lt;/td&gt; &lt;td&gt;1998-12-11 &lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt; &lt;br&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>[{"1":22000,"0":"Ambuj"},{"1":50000,"0":"Amber"}]</CORRECT_ANSWER>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>4</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;BR&gt;&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;BR&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;&lt;BR&gt;&lt;ul&gt;&lt;BR&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;/p&gt;&lt;BR&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassOne 
+      { 
+       public static int[] retainPositiveNumbers(int[] a) {
+       
+    /* Please implement this method to&amp;nbsp;return a new array with only positive numbers from the given array.The elements in the resulting array shall be sorted in the ascending order.
+         For example, input [1,4,-2,3,-3] output [1,4,3] */ 
+         
+         } 
+         public static void main(String arr[]) {
+          /* Main Method*/
+          
+          }
+          } 
+          </QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void retainPositiveNumbersTest1(){int[] temp_array = {-9,-16,9}; int[] temp_answer = {9};Assert.assertTrue(Arrays.equals(temp_answer,retainPositiveNumbers(temp_array)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void retainPositiveNumbersTest2(){int[] temp_array = {10, 22, -16, 18, -5, 17}; int[] temp_answer = {10, 17, 18, 22}; Assert.assertTrue(Arrays.equals(temp_answer,retainPositiveNumbers(temp_array)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void retainPositiveNumbersTest3(){int[] temp_array = {9, 22, -25, 3, 5, 8}; int[] temp_answer = {3, 5, 8, 9, 22}; Assert.assertTrue(Arrays.equals(temp_answer,retainPositiveNumbers(temp_array)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void retainPositiveNumbersTest4(){int[] temp_array = {6, 7, -8, -2, -4, -1}; int[] temp_answer = {6,7}; Assert.assertTrue(Arrays.equals(temp_answer,retainPositiveNumbers(temp_array)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void retainPositiveNumbersTest5(){int[] temp_array = {-9, 22, 3, 3, 5, -8};int[] temp_answer = {3, 3, 5, 22}; Assert.assertTrue(Arrays.equals(temp_answer,retainPositiveNumbers(temp_array)));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>5</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;BR&gt;&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;BR&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;&lt;BR&gt;&lt;ul&gt;&lt;BR&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;/p&gt;&lt;BR&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassTwo 
+ { &lt;BR&gt; public static int getSumOfNumbers(String s)&lt;BR&gt; {&lt;BR&gt; /*&lt;BR&gt; Please implement this method to&lt;BR&gt; return the sum of all integers found in the parameter String. You can assume that&lt;BR&gt; integers are separated from other parts with one or more spaces (' ' symbol).&lt;BR&gt; For example, s="12 some text 3 7", result: 22 (12+3+7=22)&lt;BR&gt; */&lt;BR&gt; }&lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* Main Method*/&lt;BR&gt; }&lt;BR&gt; &lt;BR&gt; }&lt;BR&gt;</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void getSumOfNumbersTest1(){ assertEquals(50,getSumOfNumbers("20 30"));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getSumOfNumbersTest2(){ assertEquals(0,getSumOfNumbers(""));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getSumOfNumbersTest3(){ assertEquals(5,getSumOfNumbers("ram singh 5"));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getSumOfNumbersTest4(){ assertEquals(60,getSumOfNumbers("10 asdhf 20 adf 30"));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getSumOfNumbersTest5(){ try{ getSumOfNumbers(null); assertTrue(true);}catch(NullPointerException e){ assertTrue(false);}}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+  
+</QUESTION_PAPER>

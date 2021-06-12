@@ -1,0 +1,5 @@
+<%
+RequestDispatcher rd=request.getRequestDispatcher("patientrecord.jsp");
+rd.include(request,response);
+
+%>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/java/hib3/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/java/hib3/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/java/hib3/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/java/hib3/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/java/hib3/hibernate-cglib-repack-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/java/hib3/javassist-3.4.GA.jar"/>
+	<classpathentry kind="lib" path="C:/java/hib3/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/java/hib3/log4j.jar"/>
+	<classpathentry kind="lib" path="C:/java/hib3/slf4j-api-1.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/java/hib3/slf4j-log4j12.jar"/>
+	<classpathentry kind="lib" path="C:/java/jars/mysql-connector-java-5.1.16-bin.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

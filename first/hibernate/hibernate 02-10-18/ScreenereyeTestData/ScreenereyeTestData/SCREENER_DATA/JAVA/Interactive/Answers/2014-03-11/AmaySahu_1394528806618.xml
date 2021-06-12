@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+   <QUESTION_PAPER_INFORMATION>
+      <QUESTION_PAPER_DESCRIPTION>SET E</QUESTION_PAPER_DESCRIPTION>
+   </QUESTION_PAPER_INFORMATION>
+   <QUESTION>
+      <QUESTION_ID>1</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Write an SQL query that returns the Projectect name, department name, and budget for all Projectects with a budget &gt; $20000000.
+      &amp;nbsp;&lt;/div&gt;&lt;b&gt;Table : department&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table cellspacing="0" cols="3" border="1"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;department_number&lt;/th&gt;&lt;th&gt;dname&lt;/th&gt;&lt;th&gt;Manager_Employee_number&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;101&lt;/td&gt;&lt;td&gt;banking&lt;/td&gt;&lt;td&gt;10101&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;102&lt;/td&gt;&lt;td&gt;insarance&lt;/td&gt;&lt;td&gt;10102&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;103&lt;/td&gt;&lt;td&gt;services&lt;/td&gt;&lt;td &gt;10103&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;104&lt;/td&gt;&lt;td&gt;banking&lt;/td&gt;&lt;td&gt;10104&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;105&lt;/td&gt;&lt;td&gt;services&lt;/td&gt;&lt;td&gt;10105&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt;
+      &amp;nbsp;&lt;/div&gt;&lt;b&gt;Table : project&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table cellspacing="0" cols="4" border="1"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;project_number&lt;/th&gt;&lt;th&gt;pname&lt;/th&gt;&lt;th&gt;budget&lt;/th&gt;&lt;th&gt;department_number&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1000&lt;/td&gt;&lt;td&gt;projeect1&lt;/td&gt;&lt;td&gt;10000000&lt;/td&gt;&lt;td&gt;103&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1001&lt;/td&gt;&lt;td&gt;project2&lt;/td&gt;&lt;td&gt;15000000&lt;/td&gt;&lt;td&gt;102&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1002&lt;/td&gt;&lt;td&gt;project3&lt;/td&gt;&lt;td&gt;30000000&lt;/td&gt;&lt;td&gt;104&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1003&lt;/td&gt;&lt;td&gt;project4&lt;/td&gt;&lt;td&gt;20000000&lt;/td&gt;&lt;td&gt;103&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1004&lt;/td&gt;&lt;td&gt;project5&lt;/td&gt;&lt;td&gt;25000000&lt;/td&gt;&lt;td&gt;102&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt;</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>[{"2":15000000,"1":"insarance","0":"project2"},{"2":10000000,"1":"Consulting","0":"project1"}]</CORRECT_ANSWER>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>2</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Question: Write an SQL query that returns the Employeeloyee numbers and salaries of all Employeeloyees in the 'finance' department ordered by descending salary.
+      &amp;nbsp;&lt;/div&gt;&lt;b&gt;Table : department&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table cellspacing="0" cols="3" border="1"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;department_number&lt;/th&gt;&lt;th&gt;dname&lt;/th&gt;&lt;th&gt;Manager_Employee_number&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;101&lt;/td&gt;&lt;td&gt;banking&lt;/td&gt;&lt;td&gt;10101&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;102&lt;/td&gt;&lt;td&gt;insarance&lt;/td&gt;&lt;td&gt;10102&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;103&lt;/td&gt;&lt;td&gt;services&lt;/td&gt;&lt;td &gt;10103&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;104&lt;/td&gt;&lt;td&gt;banking&lt;/td&gt;&lt;td&gt;10104&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;105&lt;/td&gt;&lt;td&gt;services&lt;/td&gt;&lt;td&gt;10105&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt;
+	&amp;nbsp;&lt;/div&gt;&lt;b&gt;Table : emp&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table cellspacing="0" cols="6" border="1"&gt; &lt;tbody&gt;&lt;tr&gt;&lt;th&gt;employee_number&lt;/th&gt;&lt;th&gt;ename&lt;/th&gt;&lt;th&gt;bdate&lt;/th&gt;&lt;th&gt;title&lt;/th&gt;&lt;th&gt;salary&lt;/th&gt;&lt;th&gt;department_number&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;john&lt;/td&gt;&lt;td&gt;1975-01-01 00:00:00&lt;/td&gt;&lt;td&gt;manager&lt;/td&gt;&lt;td&gt;10000&lt;/td&gt;&lt;td&gt;101&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;Michael&lt;/td&gt;&lt;td&gt;1968-05-04 00:00:00&lt;/td&gt;&lt;td&gt;worker&lt;/td&gt;&lt;td&gt;20000&lt;/td&gt;&lt;td&gt;105&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;Jerry&lt;/td&gt;&lt;td&gt;1982-07-17 00:00:00&lt;/td&gt;&lt;td&gt;employee&lt;/td&gt;&lt;td&gt;35000&lt;/td&gt;&lt;td&gt;102&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;mithew&lt;/td&gt;&lt;td&gt;1980-09-20 00:00:00&lt;/td&gt;&lt;td&gt;project manager&lt;/td&gt;&lt;td&gt;83000&lt;/td&gt;&lt;td&gt;101&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;Philip&lt;/td&gt;&lt;td&gt;1970-09-30 00:00:00&lt;/td&gt;&lt;td&gt;employee&lt;/td&gt;&lt;td&gt;45000&lt;/td&gt;&lt;td&gt;105&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt; </QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER> [{"1":83000,"0":4},{"1":10000,"0":1}]</CORRECT_ANSWER>
+   </QUESTION>
+  
+   <QUESTION>
+      <QUESTION_ID>3</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;BR&gt;&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;BR&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;&lt;BR&gt;&lt;ul&gt;&lt;BR&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;/p&gt;&lt;BR&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>import java.util.*;
+ &lt;BR&gt; public class MyClassOne&lt;BR&gt; { &lt;BR&gt; public static Set getIntersection(Set&lt;Object&gt; a, Set&lt;Object&gt; b) &lt;BR&gt; {&lt;BR&gt; /*&lt;BR&gt; Please implement this method to&lt;BR&gt; return a Set equal to the intersection of the parameter Sets&lt;BR&gt; The method should not chage the content of the parameters.&lt;BR&gt; */&lt;BR&gt; return null;}&lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* Main Method*/&lt;BR&gt; }&lt;BR&gt; } &lt;BR&gt;</QUESTION_DESCRIPTION>
+      <ANSWER>import java.util.*;&lt;br&gt; &lt;br&gt; public class MyClassOne&lt;br&gt; { &lt;br&gt; public static Set getIntersection(Set&amp;lt;Object&amp;gt; a, Set&amp;lt;Object&amp;gt; b) &lt;br&gt; {&lt;br&gt; /*&lt;br&gt; Please implement this method to&lt;br&gt; return a Set equal to the intersection of the parameter Sets&lt;br&gt; The method should not chage the content of the parameters.&lt;br&gt; */&lt;br&gt; return null;}&lt;br&gt; public static void main(String arr[])&lt;br&gt; {&lt;br&gt; /* Main Method*/&lt;br&gt; }&lt;br&gt; } &lt;br&gt;</ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void getIntersectionTest1(){Set&lt;Object&gt; temp_array1 = new HashSet();temp_array1.add("Ian Darwin");temp_array1.add("Bill Dooley");temp_array1.add("Jesse James");Set&lt;Object&gt; temp_array2 = new HashSet(); temp_array2.add("Ian Darwin"); temp_array2.add("Bill Dooley"); temp_array2.add("Doolin' Dalton");Set&lt;Object&gt; temp_answer = new HashSet(); temp_answer.add("Ian Darwin");temp_answer.add("Bill Dooley");Assert.assertEquals(temp_answer, getIntersection(temp_array1, temp_array2));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getIntersectionTest2(){Set&lt;Object&gt; temp_array1 = new HashSet();temp_array1.add("Ian Darwin");temp_array1.add("Bill Dooley");temp_array1.add("Jesse James");Set&lt;Object&gt; temp_array2 = new HashSet(); temp_array2.add("Bill Gats"); temp_array2.add("james Gosling"); temp_array2.add("Doolin' Dalton");Set&lt;Object&gt; temp_answer = new HashSet();Assert.assertEquals(temp_answer, getIntersection(temp_array1, temp_array2));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getIntersectionTest3(){Set&lt;Object&gt; temp_array1 = new HashSet();temp_array1.add("Ian Darwin");temp_array1.add("Bill Dooley");temp_array1.add("Jesse James");Set&lt;Object&gt; temp_array2 = new HashSet(); temp_array2.add("iAN dARWIN"); temp_array2.add("bILL dOOLEY"); temp_array2.add("Doolin' Dalton");Set&lt;Object&gt; temp_answer = new HashSet(); Assert.assertEquals(temp_answer, getIntersection(temp_array1, temp_array2));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getIntersectionTest4(){Set&lt;Object&gt; temp_array1 = new HashSet();temp_array1.add("Bill Gats"); temp_array1.add("Abrahim Linken");temp_array1.add("Jesse James");Set&lt;Object&gt; temp_array2 = new HashSet(); temp_array2.add("Abrahim Linken"); temp_array2.add("Jesse James"); temp_array2.add("Bill Gats");Set&lt;Object&gt; temp_answer = new HashSet();temp_answer.add("Bill Gats"); temp_answer.add("Abrahim Linken");temp_answer.add("Jesse James");Assert.assertEquals(temp_answer, getIntersection(temp_array1, temp_array2));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getIntersectionTest5(){Set&lt;Object&gt; temp_array1 = new HashSet();temp_array1.add("Bi ll Gats"); temp_array1.add("Ab rahim Linken");temp_array1.add("Je sse James");Set temp_array2 = new HashSet();temp_array2.add("Bill Ga ts"); temp_array2.add("Abrahim Lin ken"); temp_array2.add("Jesse Ja mes");Set&lt;Object&gt; temp_answer = new HashSet();Assert.assertEquals(temp_answer, getIntersection(temp_array1, temp_array2));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>4</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;BR&gt;&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;BR&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;&lt;BR&gt;&lt;ul&gt;&lt;BR&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;/p&gt;&lt;BR&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassTwo
+ {&lt;BR&gt; 
+public static int[] stringMergeToIntergerArray (String a, String b)
+{
+&lt;BR&gt; /*&lt;BR&gt; Please implement this method to return the sorted array of integer.You are given 2 separate pipe separated strings (let’s call them A &amp; B) and each one contains numeric values separated by pipe ‘|’ character.Write a method to read all the values in A &amp; B and merge them and then finally present the sorted integer array as output
+
+Example,
+o Input: (‘1|2|5’, ‘3|6’]), Output: [1, 2, 3, 5, 6]
+o Input: (‘10|15|20’, ‘1|50’), Output: [1, 10, 15, 20, 50]
+&lt;BR&gt; */&lt;BR&gt;return null; }&lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* Main Method*/&lt;BR&gt; }&lt;BR&gt; } &lt;BR&gt; </QUESTION_DESCRIPTION>
+      <ANSWER>public class MyClassTwo&lt;br&gt; {&lt;br&gt; &lt;br&gt;public static int[] stringMergeToIntergerArray (String a, String b)&lt;br&gt;{&lt;br&gt;&lt;br&gt; /*&lt;br&gt; Please implement this method to return the sorted array of integer.You are given 2 separate pipe separated strings (let’s call them A &amp; B) and each one contains numeric values separated by pipe ‘|’ character.Write a method to read all the values in A &amp; B and merge them and then finally present the sorted integer array as output&lt;br&gt;&lt;br&gt;Example,&lt;br&gt;o Input: (‘1|2|5’, ‘3|6’]), Output: [1, 2, 3, 5, 6]&lt;br&gt;o Input: (‘10|15|20’, ‘1|50’), Output: [1, 10, 15, 20, 50]&lt;br&gt;&lt;br&gt; */&lt;br&gt;return null; }&lt;br&gt; public static void main(String arr[])&lt;br&gt; {&lt;br&gt; /* Main Method*/&lt;br&gt; }&lt;br&gt; } &lt;br&gt; </ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void stringMergeToIntergerArray1(){ String firstinput="8|18|15|3"; String secondinput="4|9|12|19|20|16";int[] output={3,4,8,9,12,15,16,18,19,20}; Assert.assertTrue(Arrays.equals(output,stringMergeToIntergerArray(firstinput,secondinput)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void stringMergeToIntergerArray2(){ String firstinput="4|10|2|9|6"; String secondinput="8|18|15|3";int []output={2,3,4,6,8,9,10,15,18}; Assert.assertTrue(Arrays.equals(output,stringMergeToIntergerArray(firstinput,secondinput)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void stringMergeToIntergerArray3(){ String firstinput="4|9|12|19|20|16"; String secondinput="8|18|23|12|19|15|3";int []output={3,4,8,9,12,12,15,16,18,19,19,20,23}; Assert.assertTrue(Arrays.equals(output,stringMergeToIntergerArray(firstinput,secondinput)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void stringMergeToIntergerArray4(){ try{String firstinput="4|9|12|19|20|16"; String secondinput="8|18|23|12|19|15|3";} catch(NullPointerException e){assertTrue(false);}}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void stringMergeToIntergerArray5(){ String firstinput="11|4|6"; String secondinput="8|18|23";int []output={4,6,8,11,18,23}; Assert.assertTrue(Arrays.equals(output,stringMergeToIntergerArray(firstinput,secondinput)));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>5</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;BR&gt;&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;BR&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;&lt;BR&gt;&lt;ul&gt;&lt;BR&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;/p&gt;&lt;BR&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>import java.util.*; 
+public class MyClassThree
+{
+
+public static int generateRandomNumber(int min, int max) 
+{
+
+/*
+Please implement this method to return a random number in between min number and max number. You need to use random() method available in java.lang.Math class. This method returns a double value between 0.0 to 1.0.
+*/
+return 0;
+} 
+
+public static void main(String arr[])
+{
+
+/* Main Method*/
+
+}
+
+}
+        </QUESTION_DESCRIPTION>
+      <ANSWER>import java.util.*; &lt;br&gt;public class MyClassThree&lt;br&gt;{&lt;br&gt;&lt;br&gt;public static int generateRandomNumber(int min, int max) &lt;br&gt;{&lt;br&gt;&lt;br&gt;/*&lt;br&gt;Please implement this method to return a random number in between min number and max number. You need to use random() method available in java.lang.Math class. This method returns a double value between 0.0 to 1.0.&lt;br&gt;*/&lt;br&gt;return 0;&lt;br&gt;} &lt;br&gt;&lt;br&gt;public static void main(String arr[])&lt;br&gt;{&lt;br&gt;&lt;br&gt;/* Main Method*/&lt;br&gt;&lt;br&gt;}&lt;br&gt;&lt;br&gt;}&lt;br&gt; </ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void generateRandomNumber1(){Assert.assertTrue(20 &gt;=generateRandomNumber(2,20)&amp;&amp;2 &lt;=generateRandomNumber(2,20));} </TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void generateRandomNumber2(){Assert.assertTrue(2 &gt;= generateRandomNumber(0,2) &amp;&amp; 0 &lt;= generateRandomNumber(0,2));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void generateRandomNumber3(){Assert.assertTrue(30 &gt;= generateRandomNumber(20,30) &amp;&amp; 20 &lt;= generateRandomNumber(20,30));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void generateRandomNumber4(){Assert.assertTrue(1 &gt;= generateRandomNumber(1,1) &amp;&amp; 1 &lt;= generateRandomNumber(1,1));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void generateRandomNumber5(){Assert.assertTrue(120 &gt;= generateRandomNumber(100,120) &amp;&amp; 100 &lt;= generateRandomNumber(100,120));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>6</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>What will happen if you change a class while your Java application is running. Assume that the instance of this class has been already created by the application when change was made.</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>The changes made to the class would be reflected in the application since the byte code has changed</OPTION>
+         <OPTION>The changes made to the class would not be reflected in the class as the class is loaded in the memory</OPTION>
+         <OPTION>When the class change is detected, JVM reloads the class</OPTION>
+         <OPTION>When class change is detected, your application would crash</OPTION>
+         <OPTION>JVM loads the class only once, so the change would not be detected</OPTION>
+	</OPTIONS>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      
+   </QUESTION>
+   
+   <QUESTION>
+      <QUESTION_ID>7</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>When is static block of a class called</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>Static block of a class is called when the class is loaded</OPTION>
+         <OPTION>Static block gets called as soon as application containing that class is started, irrespective of whether that class is referred or not</OPTION>
+         <OPTION>Static block gets called, when you refer to the class first time in the application lifecycle</OPTION>
+         <OPTION>Static block gets called every time when you create instance of the class</OPTION>
+         <OPTION>Static block gets called only once during execution of JVM</OPTION>         
+       
+      </OPTIONS>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      
+   </QUESTION>
+   
+   
+    <QUESTION>
+      <QUESTION_ID>8</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>How is ARP (Address resolution protocol) used in network communication.</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>When you browse a website (google.com), your computer uses ARP to get MAC address (physical address) of that website</OPTION>
+         <OPTION>ARP is only used only within a physical network where computers are directly connected to each other using a switch or hub. So for getting Mac address(physical address) of external website (Google.com), ARP is not used by your computer</OPTION>
+         <OPTION>ARP is used to get MAC address (physical address) of a computer using its IP address</OPTION>
+         <OPTION>ARP is used to get IP address of a computer using its MAC address (physical address)</OPTION>
+         <OPTION>When computer wants to directly/physically communicate with another computer it requires its physical address which is retrieved using ARP</OPTION>
+       </OPTIONS>
+       
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>    
+     
+      
+   </QUESTION>
+   
+   
+    <QUESTION>
+      <QUESTION_ID>9</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Preemption is the act of temporarily interrupting a task being carried out by a computer system, without requiring its cooperation, and with the intention of resuming the task at a later time. Please mark statements as correct or incorrect in context of Preemption concept used in Operating System</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>This is also known generally as Context Switching</OPTION>
+         <OPTION>It is normally carried out by a privileged task or part of the system known as a preemptive scheduler, which has the power to preempt, or interrupt, and later resume, other tasks in the system</OPTION>
+         <OPTION>The period of time for which a process is allowed to run in a preemptive multitasking system is generally called the time slice, or quantum. The scheduler is run once every time slice to choose the next process to run</OPTION>
+         <OPTION>Multitasking operating system do not permit preemption of tasks whereas Cooperative operating system  does allow preemption. Therefore in Multitasking operating system, processes/tasks must be explicitly programmed to yield when they do not require system resources</OPTION>
+         <OPTION> Preemptive multitasking  do not interrupt the current running processes; but rather allow them to complete and then find the next process to execute. This basically saves operating system from switching context again and again and thereby save its resources</OPTION>
+        
+       </OPTIONS>
+       
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+         
+     
+      
+   </QUESTION>
+   
+</QUESTION_PAPER>

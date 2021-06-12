@@ -1,0 +1,6 @@
+package pp;
+
+public class Trainer {
+private int id;
+private String name;
+}

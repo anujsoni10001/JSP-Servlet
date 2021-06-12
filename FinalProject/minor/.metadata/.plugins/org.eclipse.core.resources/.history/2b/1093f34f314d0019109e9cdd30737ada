@@ -1,0 +1,5 @@
+<%@page import="pp.RegisteredDao"%>
+<%
+String account_id=request.getParameter("a_id");
+RegisteredDao rd=new RegisteredDao();
+%>

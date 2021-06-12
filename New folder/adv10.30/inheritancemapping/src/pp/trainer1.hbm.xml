@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="pp.Trainer" table="tr1">
+<id name="id">
+<generator class="assigned"></generator>
+</id>
+<property name="name"></property>
+<union-subclass name="pp.Fulltime" table="ft1">
+<property name="sal"></property>
+<property name="batches"></property>
+</union-subclass>
+<union-subclass name="pp.Parttime" table="pt1">
+<property name="perhour"></property>
+<property name="pbatch"></property>
+</union-subclass>
+
+</class>
+
+</hibernate-mapping>

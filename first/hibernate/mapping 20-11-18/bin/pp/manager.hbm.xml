@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="pp.Manager">
+<id name="id">
+<generator class="increment"></generator>
+</id>
+<property name="name"></property>
+<map name="emps" table="emps">
+<key column="pname"></key>
+<index column="type" type="java.lang.String"></index>
+<element column="ename" type="java.lang.String"></element>
+</map>
+</class>
+
+</hibernate-mapping>

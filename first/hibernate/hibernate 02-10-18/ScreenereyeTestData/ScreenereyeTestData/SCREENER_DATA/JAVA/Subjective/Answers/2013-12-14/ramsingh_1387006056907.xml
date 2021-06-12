@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+<QUESTION_PAPER_INFORMATION>
+  <QUESTION_PAPER_DESCRIPTION>SET B</QUESTION_PAPER_DESCRIPTION> 
+  <TIME_DURATION>01:30</TIME_DURATION> 
+</QUESTION_PAPER_INFORMATION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Operating System</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>&lt;div&gt;Make a normalized database model (table structure) based on following information. You need to model the requirements as database tables with accompanying attributes and establish the relationship between various tables&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;There are many engineering colleges offering various branches to students. Any given college offers only limited branches out of all possible branches. You are expected to store which college offers which branches and which student is enrolled in which college&lt;/li&gt;&lt;li&gt;Any given branch offers multiple Subjects to its Students. For simplicity sake, assume that there is no common Subject between various branches i.e. if a Subject if offered by one branch, then it cannot be offered by another branch. You are expected to store which subjects are offered in which branch&lt;/li&gt;&lt;li&gt;A student can enroll to only one engineering college and chooses a branch offered by that college. You are expected to store student enrollment year and selected branch&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Present the final database table structure as your answer in following format&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Table 1 (column 1, column 2...)&lt;/div&gt;&lt;div&gt;Table 2 (column 1, column 2...)&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>
+<ANSWER>kuldeep songh kasjdfkaskjdfkadjsf&lt;div&gt;asdkfklahdfkas""""&lt;/div&gt;&lt;div&gt;asdfjkajdsfkjsad"""""&lt;/div&gt;&lt;div&gt;asdhfkahsdfkhsadkf&lt;/div&gt;</ANSWER> 
+</QUESTION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Operating System</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>&lt;div&gt;Refer employee table structure below&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Employee (employee name, salary, department name, sex, DOB, Join_date, leave_date)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1) Write a SQL query to get department name, number of employees in that department, total salary of the department and order it by department name in descending fashion&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output expected:&lt;/div&gt;&lt;div&gt;Department&lt;span class="Apple-tab-span" style="white-space:pre"&gt;	&lt;/span&gt;Number of Employees&lt;span class="Apple-tab-span" style="white-space:pre"&gt;	&lt;/span&gt;Total Department Salary&lt;/div&gt;&lt;div&gt;B&lt;span class="Apple-tab-span" style="white-space:pre"&gt;		&lt;/span&gt;100&lt;span class="Apple-tab-span" style="white-space:pre"&gt;			&lt;/span&gt;50000&lt;/div&gt;&lt;div&gt;A&lt;span class="Apple-tab-span" style="white-space:pre"&gt;		&lt;/span&gt;50&lt;span class="Apple-tab-span" style="white-space:pre"&gt;			&lt;/span&gt;20000&lt;span class="Apple-tab-span" style="white-space:pre"&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2) Write a SQL query to get department wise minimum salary and order it by salary in ascending fashion&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output expected:&lt;/div&gt;&lt;div&gt;Department&lt;span class="Apple-tab-span" style="white-space:pre"&gt;	&lt;/span&gt;Minimal salary&lt;span class="Apple-tab-span" style="white-space:pre"&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div&gt;A&lt;span class="Apple-tab-span" style="white-space:pre"&gt;		&lt;/span&gt;2000&lt;span class="Apple-tab-span" style="white-space:pre"&gt;		&lt;/span&gt;&lt;/div&gt;&lt;div&gt;B&lt;span class="Apple-tab-span" style="white-space:pre"&gt;		&lt;/span&gt;5000&lt;span class="Apple-tab-span" style="white-space:pre"&gt;			&lt;/span&gt;&lt;/div&gt;&lt;div&gt;X&lt;span class="Apple-tab-span" style="white-space:pre"&gt;		&lt;/span&gt;8000&lt;/div&gt;&lt;div&gt;P&lt;span class="Apple-tab-span" style="white-space:pre"&gt;		&lt;/span&gt;10000&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3) Write a SQL query to get list of all the employees with their respective salary whose name starts with 'A' and are still currently employed with company (those who have left company, the leave_date column is filled with the date of leaving) with ascending order of salary&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output expected:&lt;/div&gt;&lt;div&gt;Employee&lt;span class="Apple-tab-span" style="white-space:pre"&gt;	&lt;/span&gt;Salary&lt;/div&gt;&lt;div&gt;Aakash&lt;span class="Apple-tab-span" style="white-space:pre"&gt;		&lt;/span&gt;2000&lt;/div&gt;&lt;div&gt;Amber&lt;span class="Apple-tab-span" style="white-space:pre"&gt;		&lt;/span&gt;5000&lt;/div&gt;&lt;div&gt;Aman&lt;span class="Apple-tab-span" style="white-space:pre"&gt;		&lt;/span&gt;8000&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>
+	<ANSWER>&lt;br&gt;</ANSWER> 
+</QUESTION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Operating System</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>&lt;div&gt;Please explain the differences between String and Stringbuffer classes in Java. Which should be used in which situation&lt;/div&gt;</QUESTION_DESCRIPTION>
+<ANSWER>&lt;br&gt;</ANSWER> 
+</QUESTION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Operating System</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>&lt;div&gt;&lt;span style="font-size: 10pt; font-family: Tahoma, sans-serif; background-position: initial initial; background-repeat: initial initial;"&gt;Explain the difference between JDK, JRE and JVM. What is the role of
+each one of them&lt;/span&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>Describe what is DNS and how is it used when you browse a website (e.g. www.gmail.com) using a browser
+<ANSWER>&lt;br&gt;</ANSWER> 
+</QUESTION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Operating System</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>&lt;div&gt;&lt;b&gt;Networking:&lt;/b&gt; Describe what is DNS and how is it used when you browse a website (e.g. www.gmail.com) using a browser&lt;/div&gt;</QUESTION_DESCRIPTION>
+<ANSWER>&lt;br&gt;</ANSWER> 
+</QUESTION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Operating System</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>&lt;div&gt;&lt;div&gt;Write Java code to check a String is palindrome or not? Assume that a string will be send as argument and you are expected to return True or False based on whether input string is palindrome (Palindrome are those String whose reverse is equal to original e.g. SaaS)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"&gt;&lt;div&gt;&lt;div&gt;Public boolean checkPalindrome (String inputData)&lt;/div&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Example data&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Input: SaaS, Output: True&lt;/li&gt;&lt;li&gt;Input: Amazing, Output: False&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;You are expected to&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Write the method implementation code&lt;/li&gt;&lt;li&gt;Call the method with sample data from main method&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;div&gt;Please write professional code i.e.&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Follow proper naming conventions&lt;/li&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;li&gt;Perform appropriate exception handling as needed&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>
+<ANSWER>&lt;br&gt;</ANSWER> 
+</QUESTION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Java</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>&lt;div&gt;Write Java code to find out the number of days in between two given dates. Here you will be provided with 2 String arguments from command line in dd-mm-yyyy format. You first need to convert them to dates and then return the numbers of days between them&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Public int countDays (String fromDate, String toDate)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Example data&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Input (10-10-2012, 20-10-2012), Output - 10&lt;/li&gt;&lt;li&gt;Input (10-10-2011, 10-10-2012), Output - 365&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;You are expected to&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Write the method implementation code&lt;/li&gt;&lt;li&gt;Call the method with sample data from main method&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;Please write professional code i.e.&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Follow proper naming conventions&lt;/li&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;li&gt;Perform appropriate exception handling as needed&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>
+<ANSWER>&lt;br&gt;</ANSWER> 
+</QUESTION>
+<QUESTION>
+  <QUESTION_CATEGORY_NAME>Java</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>&lt;div&gt;Write a program to create a thread in Java as per guidelines below&lt;div&gt;&lt;ul&gt;&lt;li&gt;The thread on being started should print the input String to the console&lt;/li&gt;&lt;li&gt;The main method should take the input String as an command line argument, pass it to the thread and start the Thread&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;Please write professional code i.e.&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Follow proper naming conventions&lt;/li&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;li&gt;Perform appropriate exception handling as needed&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>
+<ANSWER>&lt;br&gt;</ANSWER>
+</QUESTION>
+</QUESTION_PAPER>

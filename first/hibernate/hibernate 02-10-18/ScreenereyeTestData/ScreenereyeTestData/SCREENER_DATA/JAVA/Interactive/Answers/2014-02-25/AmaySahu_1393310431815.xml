@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+   <QUESTION_PAPER_INFORMATION>
+      <QUESTION_PAPER_DESCRIPTION>SET X</QUESTION_PAPER_DESCRIPTION>
+   </QUESTION_PAPER_INFORMATION>
+   <QUESTION>
+      <QUESTION_ID>1</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;br&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;br&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;/h5&gt;&lt;h5&gt;&lt;p&gt;&lt;/p&gt;&lt;br&gt;&lt;ul&gt;&lt;br&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;br&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;br&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;/h5&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassOne
+ {&lt;BR&gt; 
+public static int[] stringMergeToIntergerArray (String a, String b)
+{
+&lt;BR&gt; /*&lt;BR&gt; Please implement this method to return the sorted array of integer.You are given 2 separate pipe separated strings (let’s call them A &amp; B) and each one contains numeric values separated by pipe ‘|’ character.Write a method to read all the values in A &amp; B and merge them and then finally present the sorted integer array as output
+
+Example,
+o Input: (‘1|2|5’, ‘3|6’]), Output: [1, 2, 3, 5, 6]
+o Input: (‘10|15|20’, ‘1|50’), Output: [1, 10, 15, 20, 50]
+&lt;BR&gt; */&lt;BR&gt; }&lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* Main Method*/&lt;BR&gt; }&lt;BR&gt; } &lt;BR&gt; </QUESTION_DESCRIPTION>
+      <ANSWER>import java.util.Arrays;&lt;br&gt;public class MyClassOne&lt;br&gt; {&lt;br&gt; &lt;br&gt;public static int[] stringMergeToIntergerArray (String a, String b)&lt;br&gt;{&lt;br&gt;&lt;br&gt; String s3=a+"|"+b;&lt;br&gt; &lt;br&gt; String []ss=s3.split("^^|");&lt;br&gt; int []newarray=new int[ss.length];&lt;br&gt; try{&lt;br&gt; for(int i=0;i&amp;lt;ss.length;i++)&lt;br&gt; {&lt;br&gt; newarray[i]=Integer.parseInt(ss[i]);&lt;br&gt; }&lt;br&gt; Arrays.sort(newarray);&lt;br&gt; //for(int m:newarray) { System.out.print(m+","); }&lt;br&gt; }catch (Exception e) {&lt;br&gt; // TODO: handle exception&lt;br&gt; }&lt;br&gt;return newarray;&lt;br&gt; }&lt;br&gt; public static void main(String arr[])&lt;br&gt; {&lt;br&gt; /* Main Method*/&lt;br&gt; }&lt;br&gt; } &lt;br&gt; </ANSWER>
+      <MARK>5</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void stringMergeToIntergerArray1(){ String firstinput="8|18|15|3"; String secondinput="4|9|12|19|20|16";int[] output={3,4,8,9,12,15,16,18,19,20}; Assert.assertTrue(Arrays.equals(output,stringMergeToIntergerArray(firstinput,secondinput)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void stringMergeToIntergerArray2(){ String firstinput="4|10|2|9|6"; String secondinput="8|18|15|3";int []output={2,3,4,6,8,9,10,15,18}; Assert.assertTrue(Arrays.equals(output,stringMergeToIntergerArray(firstinput,secondinput)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void stringMergeToIntergerArray3(){ String firstinput="4|9|12|19|20|16"; String secondinput="8|18|23|12|19|15|3";int []output={3,4,8,9,12,12,15,16,18,19,19,20,23}; Assert.assertTrue(Arrays.equals(output,stringMergeToIntergerArray(firstinput,secondinput)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void stringMergeToIntergerArray4(){ try{String firstinput="4|9|12|19|20|16"; String secondinput="8|18|23|12|19|15|3";} catch(NullPointerException e){assertTrue(false);}}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void stringMergeToIntergerArray5(){ String firstinput="11|4|6"; String secondinput="8|18|23";int []output={4,6,8,11,18,23}; Assert.assertTrue(Arrays.equals(output,stringMergeToIntergerArray(firstinput,secondinput)));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+</QUESTION_PAPER>

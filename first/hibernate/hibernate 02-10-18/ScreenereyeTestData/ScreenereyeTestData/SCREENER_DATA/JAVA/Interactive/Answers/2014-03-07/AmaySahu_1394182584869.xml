@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+   <QUESTION_PAPER_INFORMATION>
+      <QUESTION_PAPER_DESCRIPTION>SET C</QUESTION_PAPER_DESCRIPTION>
+   </QUESTION_PAPER_INFORMATION>
+   <QUESTION>
+      <QUESTION_ID>1</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>&lt;div&gt;The schema for "customer" table is defined below with sample data.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Write a SQL query to get state-wise count of customers with ascending order of state.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;3 &amp;nbsp; Arizona&lt;/div&gt;&lt;div&gt;1 &amp;nbsp; Hawaii&lt;/div&gt;&lt;div&gt;.....&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;b&gt;Table : customer&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;table border="1"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;th&gt;customerid&lt;/th&gt;&lt;th&gt;firstname&lt;/th&gt;&lt;th&gt;lastname&lt;/th&gt;&lt;th&gt;city&lt;/th&gt;&lt;th&gt;state&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;John&lt;/td&gt; &lt;td&gt;Gray&lt;/td&gt; &lt;td&gt;Lynden&lt;/td&gt; &lt;td&gt;Washington&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;Lyon&lt;/td&gt; &lt;td&gt;Brown&lt;/td&gt; &lt;td&gt;Pinetop&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10299&lt;/td&gt; &lt;td&gt;Elory&lt;/td&gt; &lt;td&gt;Keller&lt;/td&gt; &lt;td&gt;Snoqualmie&lt;/td&gt; &lt;td&gt;Washington&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10315&lt;/td&gt; &lt;td&gt;Lisa&lt;/td&gt; &lt;td&gt;Jones&lt;/td&gt; &lt;td&gt;Oshkosh&lt;/td&gt; &lt;td&gt;Wisconsin&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10325&lt;/td&gt; &lt;td&gt;Ginger&lt;/td&gt; &lt;td&gt;Schultz&lt;/td&gt; &lt;td&gt;Pocatello&lt;/td&gt; &lt;td&gt;Idaho&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10329&lt;/td&gt; &lt;td&gt;Kelly&lt;/td&gt; &lt;td&gt;Mendoza&lt;/td&gt; &lt;td&gt;Kailua&lt;/td&gt; &lt;td&gt;Hawaii&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10330&lt;/td&gt; &lt;td&gt;Shawn&lt;/td&gt; &lt;td&gt;Dalton&lt;/td&gt; &lt;td&gt;Kannonbeach&lt;/td&gt; &lt;td&gt;Oragon&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10338&lt;/td&gt; &lt;td&gt;Michel&lt;/td&gt; &lt;td&gt;Howell&lt;/td&gt; &lt;td&gt;Tillamook&lt;/td&gt; &lt;td&gt;Oragon&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10339&lt;/td&gt; &lt;td&gt;Anthony&lt;/td&gt; &lt;td&gt;Sanchez&lt;/td&gt; &lt;td&gt;Winslow&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10408&lt;/td&gt; &lt;td&gt;Elron&lt;/td&gt; &lt;td&gt;Cleaver&lt;/td&gt; &lt;td&gt;Globe&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10410&lt;/td&gt; &lt;td&gt;MaryAnn&lt;/td&gt; &lt;td&gt;Howell&lt;/td&gt; &lt;td&gt;Charleston&lt;/td&gt; &lt;td&gt;SouthCarolina&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;Cofi&lt;/td&gt; &lt;td&gt;Annan&lt;/td&gt; &lt;td&gt;Toronto&lt;/td&gt; &lt;td&gt;Idhao&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/pre&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>
+      <ANSWER>select * from customer;</ANSWER>
+      <MARK>1</MARK>
+      <CORRECT_ANSWER>[{"1":"Arizona","0":3},{"1":"Hawaii","0":1},{"1":"Idaho","0":1},{"1":"Idhao","0":1},{"1":"Oragon","0":2},{"1":"SouthCarolina","0":1},{"1":"Washington","0":2},{"1":"Wisconsin","0":1}]</CORRECT_ANSWER>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>2</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Write a SQL query to get list of all the employees (employee name,salary) with their respective salary whose name starts with 'A' and are still currently employed with company (those who have left company, the leave_date column is filled with the date of leaving) with ascending order of salary 
+&lt;b&gt;Table : employee&lt;/b&gt;&lt;BR&gt;&lt;pre id=""&gt;&lt;pre id="" &gt;&lt;table border="1" &gt; &lt;tbody&gt; &lt;tr&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th &gt;employeeid&lt;/th&gt;&lt;th &gt;employeename&lt;/th&gt;&lt;th &gt;salary&lt;/th&gt;&lt;th &gt;departmentname&lt;/th&gt;&lt;th &gt;sex&lt;/th&gt;&lt;th &gt;dob&lt;/th&gt;&lt;th &gt;join_date&lt;/th&gt;&lt;th &gt;leave_date&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;Amber&lt;/td&gt; &lt;td&gt;50000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1988-12-11&lt;/td&gt; &lt;td&gt;2011-12-13&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;Ajay&lt;/td&gt; &lt;td&gt;20000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;1998-07-11&lt;/td&gt; &lt;td&gt;2013-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;deepika&lt;/td&gt; &lt;td&gt;23500&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1986-02-21&lt;/td&gt; &lt;td&gt;2001-01-01&lt;/td&gt; &lt;td&gt;2012-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;Preeti&lt;/td&gt; &lt;td&gt;15000&lt;/td&gt; &lt;td&gt;Civil&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1960-11-10&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;5&lt;/td&gt; &lt;td&gt;Priyanka&lt;/td&gt; &lt;td&gt;12000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1973-01-16&lt;/td&gt; &lt;td&gt;1990-12-11&lt;/td&gt; &lt;td&gt;2012-12-07&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;6&lt;/td&gt; &lt;td&gt;Rajesh&lt;/td&gt; &lt;td&gt;10000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1982-12-11&lt;/td&gt; &lt;td&gt;1999-06-07&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;7&lt;/td&gt; &lt;td&gt;Ambuj&lt;/td&gt; &lt;td&gt;22000&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1978-10-01&lt;/td&gt; &lt;td&gt;1998-12-11 &lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt; &lt;BR&gt;</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>[{"1":20000,"0":"Ajay"},{"1":22000,"0":"Ambuj"},{"1":50000,"0":"Amber"}]</CORRECT_ANSWER>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>3</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Write a SQL SELECT query to get count of all the employees(year, count) joined in various years in year-by-year fashion in ascending order of year&amp;nbsp;&lt;div&gt;&lt;b&gt;Sample output:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;1980 &amp;nbsp; &amp;nbsp;1&lt;/div&gt;&lt;div&gt;1990 &amp;nbsp; &amp;nbsp;1&lt;br&gt;&lt;div&gt;&lt;b&gt;.....&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Table : employee&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table border="1"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th&gt;employeeid&lt;/th&gt;&lt;th&gt;employeename&lt;/th&gt;&lt;th&gt;salary&lt;/th&gt;&lt;th&gt;departmentname&lt;/th&gt;&lt;th&gt;sex&lt;/th&gt;&lt;th&gt;dob&lt;/th&gt;&lt;th&gt;join_date&lt;/th&gt;&lt;th&gt;leave_date&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;Amber&lt;/td&gt; &lt;td&gt;50000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1988-12-11&lt;/td&gt; &lt;td&gt;2011-12-13&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;Ajay&lt;/td&gt; &lt;td&gt;20000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;1998-07-11&lt;/td&gt; &lt;td&gt;2013-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;deepika&lt;/td&gt; &lt;td&gt;23500&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1986-02-21&lt;/td&gt; &lt;td&gt;2001-01-01&lt;/td&gt; &lt;td&gt;2012-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;Preeti&lt;/td&gt; &lt;td&gt;15000&lt;/td&gt; &lt;td&gt;Civil&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1960-11-10&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;5&lt;/td&gt; &lt;td&gt;Priyanka&lt;/td&gt; &lt;td&gt;12000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1973-01-16&lt;/td&gt; &lt;td&gt;1990-12-11&lt;/td&gt; &lt;td&gt;2012-12-07&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;6&lt;/td&gt; &lt;td&gt;Rajesh&lt;/td&gt; &lt;td&gt;10000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1982-12-11&lt;/td&gt; &lt;td&gt;1999-06-07&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;7&lt;/td&gt; &lt;td&gt;Ambuj&lt;/td&gt; &lt;td&gt;22000&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1978-10-01&lt;/td&gt; &lt;td&gt;1998-12-11 &lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt; &lt;br&gt; &lt;/div&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>[{"1":1,"0":1980},{"1":1,"0":1990},{"1":2,"0":1998},{"1":1,"0":1999},{"1":1,"0":2001},{"1":1,"0":2011}]</CORRECT_ANSWER>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>4</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;BR&gt;&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;BR&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;&lt;BR&gt;&lt;ul&gt;&lt;BR&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;/p&gt;&lt;BR&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassOne
+ { &lt;BR&gt; public static int getCountOfOnes(int n) &lt;BR&gt; {&lt;BR&gt; /*&lt;BR&gt; Please implement this method to&lt;BR&gt; return the number of '1's in the binary representation of n&lt;BR&gt; for any integer n, where n &gt; 0&lt;BR&gt;&lt;BR&gt; Example: for n=6 the binary representation is '110' and the number of '1's in that &lt;BR&gt; representation is 2&lt;BR&gt;&lt;BR&gt; */&lt;BR&gt; }&lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* Main Method*/&lt;BR&gt; }&lt;BR&gt; &lt;BR&gt; } &lt;BR&gt;</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void getCountOfOnesTest1(){ assertEquals(1,getCountOfOnes(1));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getCountOfOnesTest2(){ assertEquals(1,getCountOfOnes(16));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getCountOfOnesTest3(){ assertEquals(6,getCountOfOnes(63));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getCountOfOnesTest4(){ assertEquals(3,getCountOfOnes(7));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getCountOfOnesTest5(){ assertEquals(2,getCountOfOnes(5));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>5</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;BR&gt;&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;BR&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;&lt;BR&gt;&lt;ul&gt;&lt;BR&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;/p&gt;&lt;BR&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassTwo 
+{&lt;BR&gt; public static int getSumOfNumbers(String s) &lt;BR&gt; {&lt;BR&gt; /*&lt;BR&gt; Please implement this method to&lt;BR&gt; return the sum of all integers found in the parameter String. You can assume that&lt;BR&gt; integers are separated from other parts with one or more spaces (' ' symbol).&lt;BR&gt; For example, s="12 some text 3 7", result: 22 (12+3+7=22)&lt;BR&gt; */&lt;BR&gt; }&lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* Main Method*/&lt;BR&gt; }&lt;BR&gt; &lt;BR&gt; }&lt;BR&gt;</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void getSumOfNumbersTest1(){ assertEquals(50,getSumOfNumbers("20 30"));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getSumOfNumbersTest2(){ assertEquals(5,getSumOfNumbers("5 sad"));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getSumOfNumbersTest3(){ assertEquals(10,getSumOfNumbers("10"));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getSumOfNumbersTest4(){ assertEquals(60,getSumOfNumbers("10 asdhf 20 adf 30"));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getSumOfNumbersTest5(){ try{ getSumOfNumbers(null); assertTrue(true);}catch(NullPointerException e){ assertTrue(false);} ;}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>6</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;BR&gt;&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;BR&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;&lt;BR&gt;&lt;ul&gt;&lt;BR&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;/p&gt;&lt;BR&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION> public class MyClassThree  {  
+      
+  public static int getSumOfTwoClosestToZeroElements(int[] a) {
+ /*
+  Please implement this method to return the sum of the two elements closest to zero. If there are two elements equally close to zero like -2 and 2, consider the positive element to be "closer" to zero than the negative one.
+  For example:
+  Input: [2,4,1,-5], Output: 3;
+  Input: [-1,1,4,3,-5], Output: 0;
+  */
+  
+  }
+   public static void main(String arr[])
+   {
+    /* Main Method*/
+    }
+    
+     }</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void getSumOfTwoClosestToZeroElementsTest1(){ int temp_array[]={10,20,30}; assertEquals(30,getSumOfTwoClosestToZeroElements(temp_array));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getSumOfTwoClosestToZeroElementsTest2(){int temp_array[]={-5,-10,5}; assertEquals(0,getSumOfTwoClosestToZeroElements(temp_array));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getSumOfTwoClosestToZeroElementsTest3(){int temp_array[]={-5,-10,-15}; assertEquals(-15,getSumOfTwoClosestToZeroElements(temp_array));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getSumOfTwoClosestToZeroElementsTest4(){int temp_array[]={5,3,10}; assertEquals(8,getSumOfTwoClosestToZeroElements(temp_array));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getSumOfTwoClosestToZeroElementsTest5(){int temp_array[]={-2,-3,-10}; assertEquals(-5,getSumOfTwoClosestToZeroElements(temp_array));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   
+    <QUESTION>
+      <QUESTION_ID>7</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Which of the following statements are true regarding lifecycle of a servlet</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>Only one instance of servlet is created throughout the lifecycle of a servlet</OPTION>
+         <OPTION>All requests submitted to a servlet invokes “service” method of the same instance of the servlet</OPTION>
+         <OPTION>New instance of the servlet is created to handle each request submitted to the servlet</OPTION>
+         <OPTION>A variable declared within a servlet will be shared in processing of all requests submitted to the servlet</OPTION>
+         <OPTION>Service method of the servlet can be invoked by only one request submitted to it at a time</OPTION>
+         
+      </OPTIONS>
+      <ANSWER>1,2,1,1,2</ANSWER>
+      <MARK>1</MARK>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+     
+      
+   </QUESTION>
+   
+    <QUESTION>
+      <QUESTION_ID>8</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Which of the following statements are true regarding Interface in Java</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>Interface can have private and protected methods</OPTION>
+         <OPTION>All methods declared in interface are public</OPTION>
+         <OPTION>All variables declared in interface are public</OPTION>
+         <OPTION>All variables declared in interface are instance variables</OPTION>
+         <OPTION>All variables declared in interface are final</OPTION>
+      </OPTIONS>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>9</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>How does your computer when connected to network know which DNS server (Domain name server) it should use while browsing websites using names (e.g. Google.com).</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>User can manually configure the DNS server computer should use</OPTION>
+         <OPTION>Computer automatically receives it from DHCP server</OPTION>
+         <OPTION>Computer doesn’t know which DNS server to use, it is ISP (Internet service provider’s) responsibility to convert domain names to IP address</OPTION>
+         <OPTION>Computer doesn’t know the IP address of DNS server, browser gets it from internet and sends the Domain name request to it to get IP address</OPTION>
+         <OPTION> Browser uses the DNS server’s address configured in computer to send the Domain name request to get IP address</OPTION>
+       
+      </OPTIONS>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>      
+     
+   </QUESTION>
+   
+   
+   
+   
+</QUESTION_PAPER>

@@ -1,0 +1,27 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="pp.Student" table="student">
+<id name="sid">
+<generator class="assigned"></generator>
+</id>
+<property name="sname"></property>
+<set name="courses" cascade="all" table="allsc">
+<key column="cid"></key>
+<many-to-many class="pp.Course" column="c_id"></many-to-many>
+</set>
+</class>
+<class name="pp.Course" table="course">
+<id name="cid">
+<generator class="assigned"></generator>
+</id>
+<property name="cname"></property>
+<property name="duration"></property>
+<set name="Students" cascade="all">
+<key column="sid"></key>
+<many-to-many class="pp.Student" column="s-id" ></many-to-many>
+</set>
+</class>
+
+</hibernate-mapping>

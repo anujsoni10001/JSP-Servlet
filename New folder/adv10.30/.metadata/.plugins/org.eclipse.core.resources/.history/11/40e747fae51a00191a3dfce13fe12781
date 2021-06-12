@@ -1,0 +1,3 @@
+<jsp:useBean id="e" class="pp.Emp"></jsp:useBean>
+<jsp:setProperty property="*" name="i"/>
+<jsp:useBean id="rd" class="pp.RegisterDao"></jsp:useBean>

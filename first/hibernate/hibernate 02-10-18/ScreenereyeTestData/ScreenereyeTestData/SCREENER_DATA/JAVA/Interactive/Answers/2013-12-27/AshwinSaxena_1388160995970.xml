@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+<QUESTION_PAPER_INFORMATION>
+  <QUESTION_PAPER_DESCRIPTION>SET C</QUESTION_PAPER_DESCRIPTION> 
+</QUESTION_PAPER_INFORMATION>
+<QUESTION>
+  <QUESTION_ID>1</QUESTION_ID>
+  <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>Write SQL select query to get which return the
+                         list of item names with total quantity ordered for it
+&lt;b&gt;Table : purchase_order&lt;/b&gt;
+&lt;pre id=""&gt;&lt;pre id="" &gt;&lt;table border="1" &gt; &lt;tbody&gt; &lt;tr&gt; &lt;th &gt;purchase_order_id&lt;/th&gt;&lt;th &gt;customerid&lt;/th&gt;&lt;th &gt;order_date&lt;/th&gt;&lt;th &gt;item&lt;/th&gt;&lt;th &gt;quantity&lt;/th&gt;&lt;th &gt;price&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;10330&lt;/td&gt; &lt;td&gt;1990-06-30&lt;/td&gt; &lt;td&gt;Pogo stick&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;28&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-06-30&lt;/td&gt; &lt;td&gt;Raft&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;58&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;1999-07-01&lt;/td&gt; &lt;td&gt;Skateboard&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;33&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-07-01&lt;/td&gt; &lt;td&gt;Life Vest&lt;/td&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;125&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;5&lt;/td&gt; &lt;td&gt;10299&lt;/td&gt; &lt;td&gt;1999-07-06&lt;/td&gt; &lt;td&gt;Parachute&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;1250&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;6&lt;/td&gt; &lt;td&gt;10339&lt;/td&gt; &lt;td&gt;1999-07-27&lt;/td&gt; &lt;td&gt;Umbrella&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;4.5&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;7&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-08-13&lt;/td&gt; &lt;td&gt;Unicycle&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;180.79&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;8&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-08-18&lt;/td&gt; &lt;td&gt;Raln Coat&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;18.3&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;9&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-09-01&lt;/td&gt; &lt;td&gt;Snow Shoes&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;45&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-08-14&lt;/td&gt; &lt;td&gt;Ski Poles&lt;/td&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;25&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;11&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-09-18&lt;/td&gt; &lt;td&gt;Tent&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;58&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;12&lt;/td&gt; &lt;td&gt;10410&lt;/td&gt; &lt;td&gt;1999-10-28&lt;/td&gt; &lt;td&gt;Sleeping Bag&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;89.22&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;13&lt;/td&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;1999-09-19&lt;/td&gt; &lt;td&gt;Lantern&lt;/td&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;29&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;14&lt;/td&gt; &lt;td&gt;10338&lt;/td&gt; &lt;td&gt;1999-09-01&lt;/td&gt; &lt;td&gt;Umbrella&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;6.75&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;15&lt;/td&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;1999-12-01&lt;/td&gt; &lt;td&gt;Helmet&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;22&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;16&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-12-15&lt;/td&gt; &lt;td&gt;Bicycle&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;380.5&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;17&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-12-22&lt;/td&gt; &lt;td&gt;Canoe&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;280&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;18&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-12-30&lt;/td&gt; &lt;td&gt;Hoola Hoop&lt;/td&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;14.75&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/pre&gt; &lt;/pre&gt;</QUESTION_DESCRIPTION>
+<ANSWER>SELECT item,sum(quantity) as totalquantity FROM purchase_order GROUP BY item;</ANSWER>
+<MARK>3</MARK>
+<CORRECT_ANSWER>[{"1":1,"0":"Bicycle"},{"1":1,"0":"Canoe"},{"1":1,"0":"Helmet"},{"1":3,"0":"Hoola Hoop"},{"1":2,"0":"Lantern"},{"1":4,"0":"Life Vest"},{"1":1,"0":"Parachute"},{"1":1,"0":"Pogo stick"},{"1":1,"0":"Raft"},{"1":1,"0":"Raln Coat"},{"1":1,"0":"Skateboard"},{"1":2,"0":"Ski Poles"},{"1":1,"0":"Sleeping Bag"},{"1":1,"0":"Snow Shoes"},{"1":1,"0":"Tent"},{"1":2,"0":"Umbrella"},{"1":1,"0":"Unicycle"}]</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+  <QUESTION_ID>2</QUESTION_ID>
+  <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>Write SQL select query to get which return 
+                        the list of item names with total sales for it
+&lt;b&gt;Table : purchase_order&lt;/b&gt;
+&lt;pre id=""&gt;&lt;pre id="" &gt;&lt;table border="1" &gt; &lt;tbody&gt; &lt;tr&gt; &lt;th &gt;purchase_order_id&lt;/th&gt;&lt;th &gt;customerid&lt;/th&gt;&lt;th &gt;order_date&lt;/th&gt;&lt;th &gt;item&lt;/th&gt;&lt;th &gt;quantity&lt;/th&gt;&lt;th &gt;price&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;10330&lt;/td&gt; &lt;td&gt;1990-06-30&lt;/td&gt; &lt;td&gt;Pogo stick&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;28&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-06-30&lt;/td&gt; &lt;td&gt;Raft&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;58&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;1999-07-01&lt;/td&gt; &lt;td&gt;Skateboard&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;33&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-07-01&lt;/td&gt; &lt;td&gt;Life Vest&lt;/td&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;125&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;5&lt;/td&gt; &lt;td&gt;10299&lt;/td&gt; &lt;td&gt;1999-07-06&lt;/td&gt; &lt;td&gt;Parachute&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;1250&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;6&lt;/td&gt; &lt;td&gt;10339&lt;/td&gt; &lt;td&gt;1999-07-27&lt;/td&gt; &lt;td&gt;Umbrella&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;4.5&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;7&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-08-13&lt;/td&gt; &lt;td&gt;Unicycle&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;180.79&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;8&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-08-18&lt;/td&gt; &lt;td&gt;Raln Coat&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;18.3&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;9&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-09-01&lt;/td&gt; &lt;td&gt;Snow Shoes&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;45&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-08-14&lt;/td&gt; &lt;td&gt;Ski Poles&lt;/td&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;25&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;11&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-09-18&lt;/td&gt; &lt;td&gt;Tent&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;58&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;12&lt;/td&gt; &lt;td&gt;10410&lt;/td&gt; &lt;td&gt;1999-10-28&lt;/td&gt; &lt;td&gt;Sleeping Bag&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;89.22&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;13&lt;/td&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;1999-09-19&lt;/td&gt; &lt;td&gt;Lantern&lt;/td&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;29&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;14&lt;/td&gt; &lt;td&gt;10338&lt;/td&gt; &lt;td&gt;1999-09-01&lt;/td&gt; &lt;td&gt;Umbrella&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;6.75&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;15&lt;/td&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;1999-12-01&lt;/td&gt; &lt;td&gt;Helmet&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;22&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;16&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-12-15&lt;/td&gt; &lt;td&gt;Bicycle&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;380.5&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;17&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-12-22&lt;/td&gt; &lt;td&gt;Canoe&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;280&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;18&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-12-30&lt;/td&gt; &lt;td&gt;Hoola Hoop&lt;/td&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;14.75&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/pre&gt; &lt;/pre&gt;</QUESTION_DESCRIPTION>
+<ANSWER>SELECT item,sum(price) as totalsales FROM purchase_order GROUP BY item;</ANSWER>
+<MARK>3</MARK>
+<CORRECT_ANSWER>[{"1":380.5,"0":"Bicycle"},{"1":280,"0":"Canoe"},{"1":22,"0":"Helmet"},{"1":14.75,"0":"Hoola Hoop"},{"1":29,"0":"Lantern"},{"1":125,"0":"Life Vest"},{"1":1250,"0":"Parachute"},{"1":28,"0":"Pogo stick"},{"1":58,"0":"Raft"},{"1":18.3,"0":"Raln Coat"},{"1":33,"0":"Skateboard"},{"1":25,"0":"Ski Poles"},{"1":89.22,"0":"Sleeping Bag"},{"1":45,"0":"Snow Shoes"},{"1":58,"0":"Tent"},{"1":11.25,"0":"Umbrella"},{"1":180.79,"0":"Unicycle"}]</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+  <QUESTION_ID>3</QUESTION_ID>
+  <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+  <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+  <QUESTION_DESCRIPTION>Write SQL select query to get total sales&lt;/font &gt;
+&lt;b&gt;Table : purchase_order&lt;/b&gt;
+&lt;pre id=""&gt;&lt;pre id="" &gt;&lt;table border="1" &gt; &lt;tbody&gt; &lt;tr&gt; &lt;th &gt;purchase_order_id&lt;/th&gt;&lt;th &gt;customerid&lt;/th&gt;&lt;th &gt;order_date&lt;/th&gt;&lt;th &gt;item&lt;/th&gt;&lt;th &gt;quantity&lt;/th&gt;&lt;th &gt;price&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;10330&lt;/td&gt; &lt;td&gt;1990-06-30&lt;/td&gt; &lt;td&gt;Pogo stick&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;28&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-06-30&lt;/td&gt; &lt;td&gt;Raft&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;58&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;1999-07-01&lt;/td&gt; &lt;td&gt;Skateboard&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;33&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-07-01&lt;/td&gt; &lt;td&gt;Life Vest&lt;/td&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;125&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;5&lt;/td&gt; &lt;td&gt;10299&lt;/td&gt; &lt;td&gt;1999-07-06&lt;/td&gt; &lt;td&gt;Parachute&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;1250&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;6&lt;/td&gt; &lt;td&gt;10339&lt;/td&gt; &lt;td&gt;1999-07-27&lt;/td&gt; &lt;td&gt;Umbrella&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;4.5&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;7&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-08-13&lt;/td&gt; &lt;td&gt;Unicycle&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;180.79&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;8&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-08-18&lt;/td&gt; &lt;td&gt;Raln Coat&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;18.3&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;9&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-09-01&lt;/td&gt; &lt;td&gt;Snow Shoes&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;45&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-08-14&lt;/td&gt; &lt;td&gt;Ski Poles&lt;/td&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;25&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;11&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-09-18&lt;/td&gt; &lt;td&gt;Tent&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;58&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;12&lt;/td&gt; &lt;td&gt;10410&lt;/td&gt; &lt;td&gt;1999-10-28&lt;/td&gt; &lt;td&gt;Sleeping Bag&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;89.22&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;13&lt;/td&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;1999-09-19&lt;/td&gt; &lt;td&gt;Lantern&lt;/td&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;29&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;14&lt;/td&gt; &lt;td&gt;10338&lt;/td&gt; &lt;td&gt;1999-09-01&lt;/td&gt; &lt;td&gt;Umbrella&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;6.75&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;15&lt;/td&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;1999-12-01&lt;/td&gt; &lt;td&gt;Helmet&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;22&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;16&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-12-15&lt;/td&gt; &lt;td&gt;Bicycle&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;380.5&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;17&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-12-22&lt;/td&gt; &lt;td&gt;Canoe&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;280&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;18&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-12-30&lt;/td&gt; &lt;td&gt;Hoola Hoop&lt;/td&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;14.75&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/pre&gt; &lt;/pre&gt;</QUESTION_DESCRIPTION>
+<ANSWER>SELECT sum(price) as totalsales FROM purchase_order;</ANSWER>
+<MARK>3</MARK>
+<CORRECT_ANSWER>[{"0":2647.81}]</CORRECT_ANSWER>
+</QUESTION>
+ <QUESTION>
+<QUESTION_ID>4</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>TEXT</QUESTION_TYPE>
+<QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+<QUESTION_DESCRIPTION>public class MyClassOne
+ { 
+	public static int getCountOfOnes(int n) 
+	{
+        /*
+         Please implement this method to
+         return the number of '1's in the binary representation of n
+         for any integer n, where n &gt; 0
+
+         Example: for n=6 the binary representation is '110' and the number of '1's in that 
+         representation is 2
+
+        */
+    }
+    public static void main(String arr[])
+		{
+    /* Main Method*/
+		}
+    
+    } 
+</QUESTION_DESCRIPTION>
+<ANSWER>public class MyClassOne&lt;br&gt; { &lt;br&gt; public static int getCountOfOnes(int n) &lt;br&gt; {&lt;br&gt; int count=0;&lt;br&gt; while(n&gt;0)&lt;br&gt; { &lt;br&gt; int rem =n%2;&lt;br&gt; if(rem==1)&lt;br&gt; {&lt;br&gt; count++;&lt;br&gt; }&lt;br&gt; n=n/2;&lt;br&gt; &lt;br&gt; }&lt;br&gt;&lt;br&gt;return count ;&lt;br&gt; }&lt;br&gt; public static void main(String arr[])&lt;br&gt; {&lt;br&gt; /* Main Method*/&lt;br&gt; }&lt;br&gt; &lt;br&gt; } &lt;br&gt;</ANSWER>
+<MARK>5</MARK>
+<TEST_CASE>
+<TEST_SCRIPT>@Test public void getCountOfOnesTest1(){ assertEquals(1,getCountOfOnes(1));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getCountOfOnesTest2(){ assertEquals(1,getCountOfOnes(16));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getCountOfOnesTest3(){ assertEquals(6,getCountOfOnes(63));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getCountOfOnesTest4(){ assertEquals(3,getCountOfOnes(7));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getCountOfOnesTest5(){ assertEquals(2,getCountOfOnes(5));}</TEST_SCRIPT>
+
+</TEST_CASE>
+</QUESTION>
+
+<QUESTION>
+<QUESTION_ID>5</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>TEXT</QUESTION_TYPE>
+<QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+<QUESTION_DESCRIPTION>public class MyClassTwo 
+{
+ public static int getSumOfNumbers(String s) 
+	{
+        /*
+          Please implement this method to
+          return the sum of all integers found in the parameter String. You can assume that
+          integers are separated from other parts with one or more spaces (' ' symbol).
+          For example, s="12 some text 3  7", result: 22 (12+3+7=22)
+         */
+    }
+     public static void main(String arr[])
+		{
+    /* Main Method*/
+		}
+    
+    }
+</QUESTION_DESCRIPTION>
+<ANSWER>public class MyClassTwo &lt;br&gt;{&lt;br&gt; public static int getSumOfNumbers(String s) &lt;br&gt; {&lt;br&gt; int sum = 0;&lt;br&gt; if(s==null)&lt;br&gt; {&lt;br&gt; return 0;&lt;br&gt; }&lt;br&gt; String tokens[] = s.split(" ");&lt;br&gt; &lt;br&gt; String trimmed = s.trim();&lt;br&gt; &lt;br&gt; for(String token : tokens) {&lt;br&gt; if (token == null || !token.isEmpty()) {&lt;br&gt; try {&lt;br&gt; sum += new Integer(token);&lt;br&gt; } catch (NumberFormatException e) {&lt;br&gt; }&lt;br&gt; }&lt;br&gt; }&lt;br&gt; return sum;&lt;br&gt; }&lt;br&gt; public static void main(String arr[])&lt;br&gt; {&lt;br&gt; /* Main Method*/&lt;br&gt; }&lt;br&gt; &lt;br&gt; }&lt;br&gt;</ANSWER>
+<MARK>5</MARK>
+<TEST_CASE>
+<TEST_SCRIPT>@Test public void getSumOfNumbersTest1(){ assertEquals(50,getSumOfNumbers("20 30"));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getSumOfNumbersTest2(){ assertEquals(5,getSumOfNumbers("5 sad"));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getSumOfNumbersTest3(){ assertEquals(10,getSumOfNumbers("10"));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getSumOfNumbersTest4(){ assertEquals(60,getSumOfNumbers("10 asdhf 20 adf 30"));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getSumOfNumbersTest5(){ try{ getSumOfNumbers(null);  assertTrue(true);}catch(NullPointerException e){ assertTrue(false);}  ;}</TEST_SCRIPT>
+
+</TEST_CASE>
+</QUESTION>
+
+<QUESTION>
+<QUESTION_ID>6</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+
+<QUESTION_TYPE>TEXT</QUESTION_TYPE>
+<QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+<QUESTION_DESCRIPTION> public class MyClassThree
+ {  
+	public static int getSumOfTwoClosestToZeroElements(int[] a)
+	 {
+        /*
+          Please implement this method to
+          return the sum of the two elements closest to zero.
+          If there are two elements equally close to zero like -2 and 2,
+          consider the positive element to be "closer" to zero than the negative one.
+         */
+    }
+     
+     public static void main(String arr[])
+		{
+    /* Main Method*/
+		}
+     
+    
+    }
+</QUESTION_DESCRIPTION>
+<ANSWER> public class MyClassThree&lt;br&gt; { &lt;br&gt; public static int getSumOfTwoClosestToZeroElements(int[] a)&lt;br&gt; {&lt;br&gt; int index=getIndexOfClosestToZeroElements(a);&lt;br&gt; int value=a[index];&lt;br&gt; a=removeElt(a,index);&lt;br&gt; index=getIndexOfClosestToZeroElements(a);&lt;br&gt; value+=a[index];&lt;br&gt; return value;&lt;br&gt; }&lt;br&gt; public static int[] removeElt( int [] arr, int remIndex )&lt;br&gt;{&lt;br&gt; for ( int i = remIndex ; i &lt; arr.length - 1 ; i++ )&lt;br&gt; {&lt;br&gt; arr[ i ] = arr[ i + 1 ] ; &lt;br&gt; &lt;br&gt; }&lt;br&gt; return arr;&lt;br&gt;}&lt;br&gt; public static int getIndexOfClosestToZeroElements(int[] a)&lt;br&gt; {&lt;br&gt; &lt;br&gt; int num = a[0];&lt;br&gt; int index=0;&lt;br&gt; int absNum = Math.abs(num);&lt;br&gt;&lt;br&gt;&lt;br&gt; for(int i = 1; i &lt; a.length; ++i) &lt;br&gt; { &lt;br&gt; &lt;br&gt; &lt;br&gt; int newAbs = Math.abs(a[i]);&lt;br&gt;&lt;br&gt; if(newAbs &lt; absNum) &lt;br&gt; {&lt;br&gt;&lt;br&gt; absNum = newAbs;&lt;br&gt; num = a[i];&lt;br&gt; index=i;&lt;br&gt;&lt;br&gt; } &lt;br&gt; else if(newAbs==absNum)&lt;br&gt; {&lt;br&gt; if(num&lt;a[i])&lt;br&gt; {&lt;br&gt; num=a[i];&lt;br&gt; index=i;&lt;br&gt; }&lt;br&gt; }&lt;br&gt; }&lt;br&gt; return index;&lt;br&gt; }&lt;br&gt; &lt;br&gt; public static void main(String arr[])&lt;br&gt; {&lt;br&gt; /* Main Method*/&lt;br&gt; }&lt;br&gt; &lt;br&gt; &lt;br&gt; }&lt;br&gt;</ANSWER>
+<MARK>4</MARK>
+<TEST_CASE>
+<TEST_SCRIPT>@Test public void getSumOfTwoClosestToZeroElementsTest1(){
+ int temp_array[]={10,20,30};  assertEquals(30,getSumOfTwoClosestToZeroElements(temp_array));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getSumOfTwoClosestToZeroElementsTest2(){
+int temp_array[]={-5,-10,5};   assertEquals(0,getSumOfTwoClosestToZeroElements(temp_array));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getSumOfTwoClosestToZeroElementsTest3(){
+int temp_array[]={-5,-10,-15}; assertEquals(-15,getSumOfTwoClosestToZeroElements(temp_array));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getSumOfTwoClosestToZeroElementsTest4(){
+int temp_array[]={5,3,10}; assertEquals(8,getSumOfTwoClosestToZeroElements(temp_array));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getSumOfTwoClosestToZeroElementsTest5(){
+int temp_array[]={-2,-3,-10}; assertEquals(-5,getSumOfTwoClosestToZeroElements(temp_array));}</TEST_SCRIPT>
+
+</TEST_CASE>
+</QUESTION>
+</QUESTION_PAPER>

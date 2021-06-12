@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="D:/first/hibernate/hibernate_jarfiles/antlr-2.7.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/first/hibernate/hibernate_jarfiles/commons-collections-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/first/hibernate/hibernate_jarfiles/dom4j-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/first/hibernate/hibernate_jarfiles/hibernate3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/first/hibernate/hibernate_jarfiles/hibernate-cglib-repack-2.1_3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/first/hibernate/hibernate_jarfiles/javassist-3.4.GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/first/hibernate/hibernate_jarfiles/jta-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/first/hibernate/hibernate_jarfiles/log4j.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/first/hibernate/hibernate_jarfiles/mysql-connector-java-5.1.16-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/first/hibernate/hibernate_jarfiles/slf4j-api-1.5.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/first/hibernate/hibernate_jarfiles/slf4j-log4j12.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/first/hibernate/hibernate_jarfiles/annotation/ejb3-persistence.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/first/hibernate/hibernate_jarfiles/annotation/hibernate-annotations.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/first/hibernate/hibernate_jarfiles/annotation/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

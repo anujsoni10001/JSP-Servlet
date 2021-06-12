@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+<QUESTION_PAPER_INFORMATION>
+  <QUESTION_PAPER_DESCRIPTION>SET D</QUESTION_PAPER_DESCRIPTION> 
+</QUESTION_PAPER_INFORMATION>
+
+
+<QUESTION>
+<QUESTION_ID>1</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>TEXT</QUESTION_TYPE>
+<QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+<QUESTION_DESCRIPTION>Write a SQL query to get list of all the employees with their respective salary whose name starts with  A   and are still currently employed with company (those who have left company, the leave_date column is filled with the date of leaving) with ascending order of salary              
+&lt;b&gt;Table : employee&lt;/b&gt;
+&lt;pre id=""&gt;&lt;pre id="" &gt;&lt;table border="1" &gt; &lt;tbody&gt; &lt;tr&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th &gt;employeeid&lt;/th&gt;&lt;th &gt;employeename&lt;/th&gt;&lt;th &gt;salary&lt;/th&gt;&lt;th &gt;departmentname&lt;/th&gt;&lt;th &gt;sex&lt;/th&gt;&lt;th &gt;dob&lt;/th&gt;&lt;th &gt;join_date&lt;/th&gt;&lt;th &gt;leave_date&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;Amber&lt;/td&gt; &lt;td&gt;50000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1988-12-11&lt;/td&gt; &lt;td&gt;2011-12-13&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;Ajay&lt;/td&gt; &lt;td&gt;20000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;1998-07-11&lt;/td&gt; &lt;td&gt;2013-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;deepika&lt;/td&gt; &lt;td&gt;23500&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1986-02-21&lt;/td&gt; &lt;td&gt;2001-01-01&lt;/td&gt; &lt;td&gt;2012-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;Preeti&lt;/td&gt; &lt;td&gt;15000&lt;/td&gt; &lt;td&gt;Civil&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1960-11-10&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;5&lt;/td&gt; &lt;td&gt;Priyanka&lt;/td&gt; &lt;td&gt;12000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1973-01-16&lt;/td&gt; &lt;td&gt;1990-12-11&lt;/td&gt; &lt;td&gt;2012-12-07&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;6&lt;/td&gt; &lt;td&gt;Rajesh&lt;/td&gt; &lt;td&gt;10000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1982-12-11&lt;/td&gt; &lt;td&gt;1999-06-07&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;7&lt;/td&gt; &lt;td&gt;Ambuj&lt;/td&gt; &lt;td&gt;22000&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1978-10-01&lt;/td&gt; &lt;td&gt;1998-12-11 &lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt; 
+</QUESTION_DESCRIPTION>
+<ANSWER>Please write your query here</ANSWER>
+<MARK>0</MARK>
+<CORRECT_ANSWER>[{"1":20000,"0":"Ajay"},{"1":22000,"0":"Ambuj"},{"1":50000,"0":"Amber"}]</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION>
+<QUESTION_ID>2</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>TEXT</QUESTION_TYPE>
+<QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+<QUESTION_DESCRIPTION>Write a SQL query to get count of all the employees joined in various years in year-by-year fashion in ascending order of year
+&lt;b&gt;Table : employee&lt;/b&gt;
+&lt;pre id=""&gt;&lt;pre id="" &gt;&lt;table border="1" &gt; &lt;tbody&gt; &lt;tr&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th &gt;employeeid&lt;/th&gt;&lt;th &gt;employeename&lt;/th&gt;&lt;th &gt;salary&lt;/th&gt;&lt;th &gt;departmentname&lt;/th&gt;&lt;th &gt;sex&lt;/th&gt;&lt;th &gt;dob&lt;/th&gt;&lt;th &gt;join_date&lt;/th&gt;&lt;th &gt;leave_date&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;Amber&lt;/td&gt; &lt;td&gt;50000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1988-12-11&lt;/td&gt; &lt;td&gt;2011-12-13&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;Ajay&lt;/td&gt; &lt;td&gt;20000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;1998-07-11&lt;/td&gt; &lt;td&gt;2013-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;deepika&lt;/td&gt; &lt;td&gt;23500&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1986-02-21&lt;/td&gt; &lt;td&gt;2001-01-01&lt;/td&gt; &lt;td&gt;2012-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;Preeti&lt;/td&gt; &lt;td&gt;15000&lt;/td&gt; &lt;td&gt;Civil&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1960-11-10&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;5&lt;/td&gt; &lt;td&gt;Priyanka&lt;/td&gt; &lt;td&gt;12000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1973-01-16&lt;/td&gt; &lt;td&gt;1990-12-11&lt;/td&gt; &lt;td&gt;2012-12-07&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;6&lt;/td&gt; &lt;td&gt;Rajesh&lt;/td&gt; &lt;td&gt;10000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1982-12-11&lt;/td&gt; &lt;td&gt;1999-06-07&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;7&lt;/td&gt; &lt;td&gt;Ambuj&lt;/td&gt; &lt;td&gt;22000&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1978-10-01&lt;/td&gt; &lt;td&gt;1998-12-11 &lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt; 
+ </QUESTION_DESCRIPTION>
+<ANSWER> </ANSWER>
+<MARK>0</MARK>
+ <CORRECT_ANSWER>[{"1":1,"0":1980},{"1":1,"0":1990},{"1":2,"0":1998},{"1":1,"0":1999},{"1":1,"0":2001},{"1":1,"0":2011}]</CORRECT_ANSWER>
+ </QUESTION>
+ <QUESTION>
+<QUESTION_ID>3</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>TEXT</QUESTION_TYPE>
+<QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+<QUESTION_DESCRIPTION> Write a SQL Query to find number of employees according to gender whose DOB is between 01  01  1970 to 31  12  1990       
+&lt;b&gt;Table : employee&lt;/b&gt;
+&lt;pre id=""&gt;&lt;pre id="" &gt;&lt;table border="1" &gt; &lt;tbody&gt; &lt;tr&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th &gt;employeeid&lt;/th&gt;&lt;th &gt;employeename&lt;/th&gt;&lt;th &gt;salary&lt;/th&gt;&lt;th &gt;departmentname&lt;/th&gt;&lt;th &gt;sex&lt;/th&gt;&lt;th &gt;dob&lt;/th&gt;&lt;th &gt;join_date&lt;/th&gt;&lt;th &gt;leave_date&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;Amber&lt;/td&gt; &lt;td&gt;50000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1988-12-11&lt;/td&gt; &lt;td&gt;2011-12-13&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;Ajay&lt;/td&gt; &lt;td&gt;20000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;1998-07-11&lt;/td&gt; &lt;td&gt;2013-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;deepika&lt;/td&gt; &lt;td&gt;23500&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1986-02-21&lt;/td&gt; &lt;td&gt;2001-01-01&lt;/td&gt; &lt;td&gt;2012-11-12&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;Preeti&lt;/td&gt; &lt;td&gt;15000&lt;/td&gt; &lt;td&gt;Civil&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1960-11-10&lt;/td&gt; &lt;td&gt;1980-12-11&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;5&lt;/td&gt; &lt;td&gt;Priyanka&lt;/td&gt; &lt;td&gt;12000&lt;/td&gt; &lt;td&gt;It&lt;/td&gt; &lt;td&gt;Female&lt;/td&gt; &lt;td&gt;1973-01-16&lt;/td&gt; &lt;td&gt;1990-12-11&lt;/td&gt; &lt;td&gt;2012-12-07&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;6&lt;/td&gt; &lt;td&gt;Rajesh&lt;/td&gt; &lt;td&gt;10000&lt;/td&gt; &lt;td&gt;Cs&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1982-12-11&lt;/td&gt; &lt;td&gt;1999-06-07&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;7&lt;/td&gt; &lt;td&gt;Ambuj&lt;/td&gt; &lt;td&gt;22000&lt;/td&gt; &lt;td&gt;Mech&lt;/td&gt; &lt;td&gt;Male&lt;/td&gt; &lt;td&gt;1978-10-01&lt;/td&gt; &lt;td&gt;1998-12-11 &lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt; 
+</QUESTION_DESCRIPTION>
+  <ANSWER> </ANSWER>
+  <MARK>0</MARK>
+  <CORRECT_ANSWER>[{"1":2,"0":"Female"},{"1":4,"0":"Male"}]</CORRECT_ANSWER>
+ </QUESTION>
+ <QUESTION>
+<QUESTION_ID>4</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>TEXT</QUESTION_TYPE>
+<QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;
+&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;
+&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;
+&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;
+&lt;li&gt;Add proper comments&lt;/li&gt;
+&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+</QUESTION_INSTRUCTION>
+<QUESTION_DESCRIPTION>public class MyClassOne 
+{  
+	public static int[] retainPositiveNumbers(int[] a) 
+	{
+        /*
+          Please implement this method to
+          return a new array with only positive numbers from the given array.
+          The elements in the resulting array shall be sorted in the ascending order.
+         */
+    }
+    public static void main(String arr[])
+		{
+		/* Main Method*/
+		}
+    
+    
+} 
+</QUESTION_DESCRIPTION>
+<ANSWER> </ANSWER>
+<MARK>0</MARK>
+<TEST_CASE>
+<TEST_SCRIPT>@Test public void retainPositiveNumbersTest1(){int[] temp_array = {-9,-16,9}; int[] temp_answer = {9};Assert.assertTrue(Arrays.equals(temp_answer,retainPositiveNumbers(temp_array)));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void retainPositiveNumbersTest2(){int[] temp_array = {10, 22, -16, 18, -5, 17}; int[] temp_answer = {10, 17, 18, 22}; Assert.assertTrue(Arrays.equals(temp_answer,retainPositiveNumbers(temp_array)));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void retainPositiveNumbersTest3(){int[] temp_array = {9, 22, -25, 3, 5, 8}; int[] temp_answer = {3, 5, 8, 9, 22}; Assert.assertTrue(Arrays.equals(temp_answer,retainPositiveNumbers(temp_array)));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void retainPositiveNumbersTest4(){int[] temp_array = {6, 7, -8, -2, -4, -1}; int[] temp_answer = {6,7}; Assert.assertTrue(Arrays.equals(temp_answer,retainPositiveNumbers(temp_array)));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void retainPositiveNumbersTest5(){int[] temp_array = {-9, 22, 3, 3, 5, -8};int[] temp_answer = {3, 3, 5, 22}; Assert.assertTrue(Arrays.equals(temp_answer,retainPositiveNumbers(temp_array)));}</TEST_SCRIPT>
+
+</TEST_CASE>
+</QUESTION>
+
+<QUESTION>
+<QUESTION_ID>5</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>TEXT</QUESTION_TYPE>
+<QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;
+&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;
+&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;
+&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;
+&lt;li&gt;Add proper comments&lt;/li&gt;
+&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+</QUESTION_INSTRUCTION>
+<QUESTION_DESCRIPTION>public class MyClassTwo 
+	{ 
+	public static int getSumOfNumbers(String s)
+	{
+        /*
+          Please implement this method to
+          return the sum of all integers found in the parameter String. You can assume that
+          integers are separated from other parts with one or more spaces (' ' symbol).
+          For example, s="12 some text 3  7", result: 22 (12+3+7=22)
+         */
+    }
+     public static void main(String arr[])
+		{
+    /* Main Method*/
+		}
+    
+    }
+</QUESTION_DESCRIPTION>
+<ANSWER> </ANSWER>
+<MARK>0</MARK>
+<TEST_CASE>
+<TEST_SCRIPT>@Test public void getSumOfNumbersTest1(){ assertEquals(50,getSumOfNumbers("20 30"));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getSumOfNumbersTest2(){ assertEquals(0,getSumOfNumbers(""));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getSumOfNumbersTest3(){ assertEquals(5,getSumOfNumbers("ram singh 5"));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getSumOfNumbersTest4(){ assertEquals(60,getSumOfNumbers("10 asdhf 20 adf 30"));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void getSumOfNumbersTest5(){ try{ getSumOfNumbers(null); assertTrue(true);}catch(NullPointerException e){ assertTrue(false);}}</TEST_SCRIPT>
+
+</TEST_CASE>
+</QUESTION>
+
+<QUESTION>
+<QUESTION_ID>6</QUESTION_ID>
+<QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+<QUESTION_TYPE>TEXT</QUESTION_TYPE>
+<QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;
+&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;
+&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;
+&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;
+&lt;li&gt;Add proper comments&lt;/li&gt;
+&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+</QUESTION_INSTRUCTION>
+<QUESTION_DESCRIPTION>public class MyClassThree
+ {
+	  public static boolean isPalindrome(String s)
+	   {
+        /*
+          Definition: A palindrome is a string that reads the same forward and backward.
+          For example, "abcba" is a palindrome, "abab" is not.
+          Please implement this method to
+          return true if the parameter is a palindrome and false otherwise.
+         */
+		}
+
+     public static void main(String arr[])
+    {
+    /* Main Method*/
+    }
+    
+    }
+</QUESTION_DESCRIPTION>
+<ANSWER> </ANSWER>
+<MARK>0</MARK>
+<TEST_CASE>
+<TEST_SCRIPT>@Test public void isPalindromeTest1(){ assertEquals(true,isPalindrome("lol"));}</TEST_SCRIPT>
+<TEST_SCRIPT> @Test public void isPalindromeTest2(){ assertEquals(true,isPalindrome("repaper"));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void isPalindromeTest3(){ assertEquals(false,isPalindrome("lOL"));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void isPalindromeTest4(){ assertEquals(true,isPalindrome("TIT"));}</TEST_SCRIPT>
+<TEST_SCRIPT>@Test public void isPalindromeTest5(){ try{isPalindrome(null);}catch(NullPointerException e){ assertTrue(false);}}</TEST_SCRIPT>
+
+</TEST_CASE>
+</QUESTION>
+</QUESTION_PAPER>

@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+<HEADER_INFORMATION>
+<QUESTION_PAPER_INFORMATION>
+  <QUESTION_PAPER_DESCRIPTION>SET C</QUESTION_PAPER_DESCRIPTION> 
+  <QUESTION_PAPER_ID>1</QUESTION_PAPER_ID> 
+<CATEGORIES>
+<CATEGORY>
+  <CATEGORY_NAME>Fundamentals</CATEGORY_NAME> 
+  <NUMBER_OF_QUESTIONS>30</NUMBER_OF_QUESTIONS> 
+  <TIME_DURATION>00:30</TIME_DURATION> 
+  </CATEGORY>
+<CATEGORY>
+  <CATEGORY_NAME>TESTING</CATEGORY_NAME> 
+  <NUMBER_OF_QUESTIONS>30</NUMBER_OF_QUESTIONS> 
+  <TIME_DURATION>00:30</TIME_DURATION> 
+  </CATEGORY>
+  </CATEGORIES>
+<INSTRUCTIONS>  </INSTRUCTIONS>
+  </QUESTION_PAPER_INFORMATION>
+  </HEADER_INFORMATION>
+<QUESTION_CATEGORY>
+<QUESTION><QUESTION_ID>1</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+If every non-key attribute is functionally dependent on the primary key, then the relation will be in the:</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>first normal form</OPTION>
+<OPTION>second normal form</OPTION>
+<OPTION>third normal form</OPTION>
+<OPTION>fourth normal form</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>2</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+In airline reservation system, the entities are date, flight number, place of departure, destination, type of plane and seats available. The primary key should be:</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>flight number + date</OPTION>
+<OPTION>date</OPTION>
+<OPTION>flight number</OPTION>
+<OPTION>date + any of the places</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION><QUESTION>
+  <QUESTION_ID>3</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  Which statement about database views is true? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  A view can have ORDER BY and GROUP BY clauses in the SELECT statement. 
+  </OPTION>
+<OPTION>  A view cannot have an ORDER BY clause in the SELECT statement. 
+  </OPTION>
+<OPTION>  A view cannot be created with a GROUP BY clause in the SELECT statement. 
+  </OPTION>
+<OPTION>  A view must have aliases defined for the column names in the SELECT statement. 
+  </OPTION>
+  </OPTIONS> 
+   <GIVEN_ANSWER>0</GIVEN_ANSWER> 
+    <CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>4</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  Examine the structure of the EMPLOYEES table:  
+EMPLOYEE_ID NUMBER Primary Key  
+FIRST_NAME VARCHAR2 (25)  
+LAST_NAME VARCHAR2 (25)  
+Which statement will insert a row into the table?  
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  INSERT INTO employees VALUES (NULL, 'John',' Smith');   </OPTION>
+<OPTION>  INSERT INTO employees (first_name, last_name) VALUES ('John', 'Smith');   </OPTION>
+<OPTION>  INSERT INTO employees VALUES ('1000','John', NULL);   </OPTION>
+<OPTION>  INSERT INTO employees(first_name, last_name, employee_id)VALUES ( 1000, 'John', 'Smith');   </OPTION>
+  </OPTIONS>    
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>5</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  Examine the description of the EMPLOYEES table:  
+EMP_ID NUMBER(4) NOT NULL  
+LAST_NAME VARCHAR2(30) NOT NULL  
+FIRST_NAME VARCHAR2(30)  
+DEPT_ID NUMBER(2)  
+JOB_CAT VARCHARD2(30) SALARY NUMBER(8,2) 
+ Which statement shows the maximum salary paid in each job category of each department? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  SELECT dept_id, job_cat, MAX(salary) FROM employees WHERE salary &gt; MAX(salary); 
+  </OPTION>
+<OPTION>  SELECT dept_id, job_cat, MAX(salary) FROM employees GROUP BY dept_id, job_cat; 
+  </OPTION>
+<OPTION>  SELECT dept_id, job_cat, MAX(salary) FROM employees; 
+  </OPTION>
+<OPTION>  SELECT dept_id, job_cat, MAX(salary) FROM employees GROUP BY dept_id; 
+  </OPTION>
+  </OPTIONS>   
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+ <CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>6</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  The employee information in a company is stored in the relation Employee (name, sex, salary, deptName)  
+Consider the following SQL query  
+Select deptName From Employee Where sex = 'M' Group by deptName Having avg(salary) &gt; (select avg (salary) from Employee);  
+It returns the names of the department in which 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  the average salary is more than the average salary in the company 
+  </OPTION>
+<OPTION>  the average salary of male employees is more than the average salary of all male employees in the company 
+  </OPTION>
+<OPTION>  the average salary of male employees is more than the average salary of employees in the same department. 
+  </OPTION>
+<OPTION>  the average salary of male employees is more than the average salary in the company 
+  </OPTION>
+  </OPTIONS>   
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+ <CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>7</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  The process of transferring data intended for a peripheral device into a disk (or intermediate store) so that it can be transferred to peripheral at a more convenient time or in bulk, is know as 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  multiprogramming 
+  </OPTION>
+<OPTION>  spooling 
+  </OPTION>
+<OPTION>  caching 
+  </OPTION>
+<OPTION>  virtual programming 
+  </OPTION>
+  </OPTIONS>    
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>8</QUESTION_ID> 
+  <QUESTION_DESCRIPTION>
+  Which of the following statement is false? 
+  </QUESTION_DESCRIPTION> 
+<OPTIONS>
+<OPTION>  Arrays are dense lists and static data structure 
+  </OPTION>
+<OPTION>  data elements in linked list need not be stored in adjecent space in memory 
+  </OPTION>
+<OPTION>  pointers store the next data element of a list 
+  </OPTION>
+<OPTION>  linked lists are collection of the nodes that contain information part and next pointer 
+  </OPTION>
+  </OPTIONS>    
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+<CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>9</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  What is a router? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  A device that make sures all devices on your network get power 
+  </OPTION>
+<OPTION>  A device that manages the data flow of a network 
+  </OPTION>
+<OPTION>  A device that always has a firewall for security 
+  </OPTION>
+<OPTION>  A device that connects to the internet and a modem 
+  </OPTION>
+  </OPTIONS>    
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>10</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  What is the central device in star topology? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  STP server 
+  </OPTION>
+<OPTION>  Hub/switch 
+  </OPTION>
+<OPTION>  PDC 
+  </OPTION>
+<OPTION>  Router 
+  </OPTION>
+  </OPTIONS>    
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION><QUESTION_ID>11</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+In which of the following cases ,linked list implementation of sparse matrices consumes the same memory space as the conventional way of storing the entire array. (Assume all data types including pointers need the same amount of storage.)</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>5 x 6 matrix with 9 non-zero entries</OPTION>
+<OPTION>5 x 6 matrix with 8 non-zero entries</OPTION>
+<OPTION>6 x 5 matrix with 9 non-zero entries</OPTION>
+<OPTION>6 x 5 matrix with 8 non-zero entries</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>12</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+When is an interpreter is preferred over a compiler
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>
+it entirely depends on the language</OPTION>
+<OPTION>
+during program development phase</OPTION>
+<OPTION>
+when efficient use of computer time is the considerarion</OPTION>
+<OPTION>
+none of the above</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>13</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>52</OPTION>
+<OPTION>56</OPTION>
+<OPTION>96</OPTION>
+<OPTION>128</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>14</QUESTION_ID>
+<QUESTION_DESCRIPTION>If a person walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km more. The actual distance travelled by him is:</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>50 km</OPTION>
+<OPTION>56 km</OPTION>
+<OPTION>70 km</OPTION>
+<OPTION>80 km</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>15</QUESTION_ID>
+<QUESTION_DESCRIPTION>The average of 20 numbers is zero. Of them, at the most, how many may be greater than zero?
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+    <OPTION>0</OPTION>
+    <OPTION>1</OPTION>
+    <OPTION>10</OPTION>
+    <OPTION>19</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>4</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>16</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+The cost price of 20 articles is the same as the selling price of x articles. If the profit is 25%, then the value of x is:
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>15</OPTION>
+<OPTION>16</OPTION>
+<OPTION>18</OPTION>
+<OPTION>25</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>17</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+A sum of money at simple interest amounts to Rs. 815 in 3 years and to Rs. 854 in 4 years. The sum is:
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>Rs. 650</OPTION>
+<OPTION>Rs. 690</OPTION>
+<OPTION>Rs. 698</OPTION>
+<OPTION>Rs. 700</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>18</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+Vincent has a paper route. Each morning, he delivers 37 newspapers to customers in his neighborhood. It takes Vincent 50 minutes to deliver all the papers. If Vincent is sick or has other plans, his friend Thomas, who lives on the same street, will sometimes deliver the papers for him.Vincent and Thomas live in the same neighborhood.
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>Vincent and Thomas live in the same neighborhood.</OPTION>
+<OPTION>It takes Thomas more than 50 minutes to deliver the papers.</OPTION>
+<OPTION>It is dark outside when Vincent begins his deliveries.</OPTION>
+<OPTION>Thomas would like to have his own paper route.</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>19</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+Two students appeared at an examination. One of them secured 9 marks more than the other and his marks was 56% of the sum of their marks. The marks obtained by them are:</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>39, 30</OPTION>
+<OPTION>41, 32</OPTION>
+<OPTION>42, 33</OPTION>
+<OPTION>43, 34</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>20</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+A, P, R, X, S and Z are sitting in a row. S and Z are in the centre. A and P are at the ends. R is sitting to the left of A. Who is to the right of P ?
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+    <OPTION>A</OPTION>
+    <OPTION>X</OPTION>
+    <OPTION>S</OPTION>
+    <OPTION>Z</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>21</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+There are 8 houses in a line and in each house only one boy lives with the conditions as given below:1. Jack is not the neighbour Siman.2. Harry is just next to the left of Larry.3. There is at least one to the left of Larry.4. Paul lives in one of the two houses in the middle.5. Mike lives in between Paul and Larry.If at least one lives to the right of Robert and Harry is not between Taud and Larry, then which one of the following statement is not correct ?</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>Robert is not at the left end.</OPTION>
+<OPTION>Robert is in between Simon and Taud.</OPTION>
+<OPTION>Taud is in between Paul and Jack.</OPTION>
+<OPTION>There are three persons to the right of Paul.</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>22</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+In a time sharing operating system, when the time slot given to a process is completed, the process from the RUNNING state goes to the state ___________.</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>TERMINATED</OPTION>
+<OPTION>READY</OPTION>
+<OPTION>SUSPENDED</OPTION>
+<OPTION>BLOCKED</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>23</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+Introducing a boy, a girl said, "He is the son of the daughter of the father of my uncle." How is the boy related to the girl?
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>Brother</OPTION>
+<OPTION>Nephew</OPTION>
+<OPTION>Uncle</OPTION>
+<OPTION>Son-in-law</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>4</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>24</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+Correct sequence of time delays that happen during a data trasfer from a disk to memory is :
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>seek time, latency time and tranfer time</OPTION>
+<OPTION>seek time, access time and tranfer time</OPTION>
+<OPTION>latency time, seek time and tranfer time</OPTION>
+<OPTION>latency time, access time and tranfer time</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>25</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+a,b,c,d,e,g,h,i,l,m,n,p,r,t,u,x,yWhich of following words contains a letter that is NOT in the list of letters above ?</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>graphical</OPTION>
+<OPTION>trademark</OPTION>
+<OPTION>debutante</OPTION>
+<OPTION>excalibur</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>26</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+A list of n integers is kept in sorted order. Due to an accident, least significant 2 bits of those n numbers get set randomly. Which sorting algorithm can be used to sort this modified list, so that operation can be carried out with O(n) time complexity ?</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>Selection sort,modified to stop as soon as ths list is sorted.</OPTION>
+<OPTION>Bubble sort modified to stop as soon as the list is sorted</OPTION>
+<OPTION>Quick sort</OPTION>
+<OPTION>No sorting algorithm can sort the list with O(n) complexity</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>27</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+How many bits is a byte?
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>4</OPTION>
+<OPTION>8</OPTION>
+<OPTION>16</OPTION>
+<OPTION>32</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>28</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+What is DHCP used for
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>Allocating IP address to the computer</OPTION>
+<OPTION>Getting machine address of the computer</OPTION>
+<OPTION>binding computers to a domain name</OPTION>
+<OPTION>Connecting computer to a network</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>29</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+What are different FTP transfer modes
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>bit and byte</OPTION>
+<OPTION>UDP and TCP</OPTION>
+<OPTION>ASCII and Binary</OPTION>
+<OPTION>None of these</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>30</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+What does SSL stand for?
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>Secure System Login</OPTION>
+<OPTION>Superuser System Login</OPTION>
+<OPTION>Secure Socket Layer</OPTION>
+<OPTION>System Socket Layer</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>3</CORRECT_ANSWER>
+
+</QUESTION><!--  Testing --> 
+</QUESTION_CATEGORY>
+<QUESTION_CATEGORY>
+<QUESTION>
+  <QUESTION_ID>1</QUESTION_ID> 
+<QUESTION_DESCRIPTION> Testing of the system to demonstrate system compliance with user requirements is  
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  Black box testing 
+  </OPTION>
+<OPTION>  System testing 
+  </OPTION>
+<OPTION>  Independent testing 
+  </OPTION>
+<OPTION>  Acceptance Testing
+  </OPTION>
+  </OPTIONS>  
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+   <CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>2</QUESTION_ID> 
+<QUESTION_DESCRIPTION> The best reason for using Independent software test teams is that 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION> Software developers do not need to do any testing 
+  </OPTION>
+<OPTION>  A test team will test the software more thoroughly
+  </OPTION>
+<OPTION>  Testers do not get involved with the project until testing begins
+  </OPTION>
+<OPTION>  Arguments between developers and testers are reduced
+  </OPTION>
+  </OPTIONS>    
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>3</QUESTION_ID> 
+<QUESTION_DESCRIPTION> What is the normal order of activities in which traditional software testing is organized?
+	a. integration testing
+	b. system testing
+	c. unit testing
+	d.validation testing
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  a, d, c, b 
+  </OPTION>
+<OPTION>  b, d, a, c 
+  </OPTION>
+<OPTION>  c, a, d, b 
+  </OPTION>
+<OPTION>  d, b, c, a
+  </OPTION>
+  </OPTIONS> 
+  <GIVEN_ANSWER>0</GIVEN_ANSWER> 
+     <CORRECT_ANSWER>3</CORRECT_ANSWER>
+
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>4</QUESTION_ID> 
+<QUESTION_DESCRIPTION> Which of the following could be a reason for a failure of a software
+	1.	Testing fault
+	2.	Software fault
+	3.	Design fault
+	4.	Environment Fault
+	5.	Documentation Fault
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION> 2 is a valid reason; 1,3,4 &amp; 5 are not
+  </OPTION>
+<OPTION>  1,2,3,4 are valid reasons; &amp; 5 is not 
+  </OPTION>
+<OPTION>  1,2,3 are valid reasons; 4 &amp; 5 are not
+  </OPTION>
+<OPTION>  All of them are valid reasons for failure
+  </OPTION>
+  </OPTIONS>   
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  <CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>5</QUESTION_ID> 
+<QUESTION_DESCRIPTION> Which of the following is not a static testing technique
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION> Error guessing 
+  </OPTION>
+<OPTION> Walkthrough
+  </OPTION>
+<OPTION> Data flow analysis 
+  </OPTION>
+<OPTION> Inspections 
+  </OPTION>
+  </OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  <CORRECT_ANSWER>1</CORRECT_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>6</QUESTION_ID> 
+<QUESTION_DESCRIPTION> Regression testing should be performed: v) every week w) after the software has changed x) as often as possible y) when the environment has changed z) when the project manager says 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION> v &amp; w are true, x – z are false
+  </OPTION>
+<OPTION> w, x &amp; y are true, v &amp; z are false
+  </OPTION>
+<OPTION> w &amp; y are true, v, x &amp; z are false
+  </OPTION>
+<OPTION> w is true, v, x y and z are false
+  </OPTION>
+  </OPTIONS>  
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+ <CORRECT_ANSWER>3</CORRECT_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>7</QUESTION_ID> 
+<QUESTION_DESCRIPTION> Which of the following is not part of performance testing
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION> Measuring response time 
+  </OPTION>
+<OPTION> Measuring transaction rates 
+  </OPTION>
+<OPTION> Recovery testing 
+  </OPTION>
+<OPTION> Simulating many users 
+  </OPTION>
+  </OPTIONS>   
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+ <CORRECT_ANSWER>3</CORRECT_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>8</QUESTION_ID> 
+<QUESTION_DESCRIPTION> A test design technique is 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION> A process for selecting test cases 
+  </OPTION>
+<OPTION> A process for determining expected outputs 
+  </OPTION>
+<OPTION> A way to measure the quality of software
+  </OPTION>
+<OPTION> A way to measure in a test plan what has to be done
+  </OPTION>
+  </OPTIONS>  
+    
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+ <CORRECT_ANSWER>1</CORRECT_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>9</QUESTION_ID> 
+<QUESTION_DESCRIPTION> Which of the following is not part of system testing? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  business process-based testing  </OPTION>
+<OPTION>  top-down integration testing  </OPTION>
+<OPTION>  performance, load and stress testing </OPTION>
+<OPTION>  requirements-based testing</OPTION>
+  </OPTIONS>  
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>10</QUESTION_ID> 
+<QUESTION_DESCRIPTION> Consider the following statements
+	i.	an incident may be closed without being fixed
+	ii.	incidents may not be raised against documentation
+	iii.	the final stage of incident tracking is fixing
+	iv.	the incident record does not include information on test environments
+	v.	incidents should be raised when someone other than the author of the software performs the test 
+
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  ii and v are true, I, iii and iv are false 
+  </OPTION>
+<OPTION>  i, iv and v are true, ii and iii are false
+  </OPTION>
+<OPTION>  i and ii are true, iii, iv and v are false 
+  </OPTION>
+<OPTION>  i and v are true, ii, iii and iv are false
+  </OPTION>
+  </OPTIONS>   
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+ <CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>11</QUESTION_ID> 
+<QUESTION_DESCRIPTION> Could reviews or inspections be considered part of testing: 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  No, because they apply to development documentation
+  </OPTION>
+<OPTION>  Yes, because both help detect faults and improve quality
+  </OPTION>
+<OPTION>  Yes, because testing includes all non-constructive activities
+  </OPTION>
+<OPTION>  No, because they are normally applied before testing
+  </OPTION>
+  </OPTIONS>  
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+  <CORRECT_ANSWER>2</CORRECT_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>12</QUESTION_ID> 
+<QUESTION_DESCRIPTION> What is the main reason for testing software before releasing it?   </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION> to show that system will work after release 
+  </OPTION>
+<OPTION> to decide when the software is of sufficient quality to release
+  </OPTION>
+<OPTION> to give information for a risk based decision about release
+  </OPTION>
+<OPTION> to find as many bugs as possible before release
+  </OPTION>
+  </OPTIONS>    
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>3</CORRECT_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>13</QUESTION_ID> 
+<QUESTION_DESCRIPTION> An input field takes the year of birth between 1900 and 2013. The boundary values for testing this field are:  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  0000,1900,2013,2014 
+  </OPTION>
+<OPTION>  1899,1900,2013,2014 
+  </OPTION>
+<OPTION>  1900, 1945,2013 
+  </OPTION>
+<OPTION>  1899, 1900, 1901,2012,2013,2014 
+  </OPTION>
+  </OPTIONS>    
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>14</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  Code Coverage is used as a measure of what?   </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  Defects 
+  </OPTION>
+<OPTION>  Defect Trends analysis 
+  </OPTION>
+<OPTION>  Test Effectiveness 
+  </OPTION>
+<OPTION>  Time Spent Testing 
+  </OPTION>
+  </OPTIONS>   
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+ <CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>15</QUESTION_ID> 
+<QUESTION_DESCRIPTION> Due to change in design, the requirement for an already coded critical software component got modified in it’s entirely. The developer had to modify the code based on the new requirements. Testing team is to choose the appropriate type of regression testing test to minimize the impact to the project schedule. Which type of the regression would you choose
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  System Testing
+  </OPTION>
+<OPTION>  Regional Regression Testing
+  </OPTION>
+<OPTION>  Full regression Testing 
+  </OPTION>
+<OPTION>  Unit Regression Testing 
+  </OPTION>
+  </OPTIONS>   
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+ <CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>16</QUESTION_ID> 
+<QUESTION_DESCRIPTION> The primary purpose of quality control is to: 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  Prevent defects from occurring  
+  </OPTION>
+<OPTION>  Assign quality responsibility 
+  </OPTION>
+<OPTION>  Conducting testing
+  </OPTION>
+<OPTION>  Find and correct defects
+  </OPTION>
+  </OPTIONS>    
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+<CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>17</QUESTION_ID> 
+<QUESTION_DESCRIPTION> The overall goal of software testing is:
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  Identify error not removed previously
+  </OPTION>
+<OPTION>  Find who cause the error 
+  </OPTION>
+<OPTION>  Keep re-work costs as low as possible
+  </OPTION>
+<OPTION>  None of the above
+  </OPTION>
+  </OPTIONS>    
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>4</CORRECT_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>18</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  Which of the following is not a part of the Test Implementation and Execution Phase
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION> Creating test suites from the test cases
+  </OPTION>
+<OPTION> Designing the Tests
+  </OPTION>
+<OPTION> Executing test cases either manually or by using test execution tools
+  </OPTION>
+<OPTION> Comparing actual results
+  </OPTION>
+  </OPTIONS>    
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>2</CORRECT_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>19</QUESTION_ID> 
+<QUESTION_DESCRIPTION> A Non-Functional Software testing done to check if the user interface is easy to use and understand
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION> Usability Testing
+  </OPTION>
+<OPTION> Security Testing
+  </OPTION>
+<OPTION> Unit testing 
+  </OPTION>
+<OPTION> Block Box Testing
+  </OPTION>
+  </OPTIONS>   
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+ <CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>20</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  Executing the same test case by giving the number of inputs on same build called as 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION> Regression Testing
+  </OPTION>
+<OPTION> Re-Testing
+  </OPTION>
+<OPTION> Ad hoc Testing 
+  </OPTION>
+<OPTION> Sanity Testing
+  </OPTION>
+  </OPTIONS>    
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>2</CORRECT_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>21</QUESTION_ID> 
+<QUESTION_DESCRIPTION> Which of the following is not a form of performance testing?
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION> Spike testing
+  </OPTION>
+<OPTION> Volume testing
+  </OPTION>
+<OPTION> Transaction testing
+  </OPTION>
+<OPTION> Endurance testing
+  </OPTION>
+  </OPTIONS>   
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+ <CORRECT_ANSWER>3</CORRECT_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>22</QUESTION_ID> 
+<QUESTION_DESCRIPTION> What is an equivalence partitioning
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION> A set of test cases for testing classes of objects
+  </OPTION>
+<OPTION> An input or output range of values such that only one value in the range becomes a test case 
+  </OPTION>
+<OPTION> An input or output range of values such that each value in the range becomes a test case
+  </OPTION>
+<OPTION> An input or output ranges of values such that every tenth value in the range becomes a test case. 
+  </OPTION>
+  </OPTIONS>    
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>23</QUESTION_ID> 
+<QUESTION_DESCRIPTION> There is an application which is delivered to the customer now customer found bugs and assumes each bug cost is based on priority. For each high priority bugs it will cost $125, Medium priority it will cost $100, Low priority it will cost $75. There are 4 high priority bugs found each day and there are 5 working day. What should be the cost to fix those high priority bugs
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION> $ 2600 
+  </OPTION>
+<OPTION> $ 1300
+  </OPTION>
+<OPTION> $ 2500
+  </OPTION>
+<OPTION> $ 1500
+  </OPTION>
+  </OPTIONS>   
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+ <CORRECT_ANSWER>3</CORRECT_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>24</QUESTION_ID> 
+<QUESTION_DESCRIPTION> Which of the following is true of the V-model?
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION> It states that modules are tested against user requirements.
+  </OPTION>
+<OPTION> It includes the verification of designs. 
+  </OPTION>
+<OPTION> It only models the testing phase.
+  </OPTION>
+<OPTION> It specifies the test techniques to be used.
+  </OPTION>
+  </OPTIONS>   
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+ <CORRECT_ANSWER>2</CORRECT_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>25</QUESTION_ID> 
+<QUESTION_DESCRIPTION> In an Examination a candidate has to score minimum of 40 marks in order to clear the exam. The maximum that he can score is 100 marks. Identify the Valid Equivalence values if the student clears the exam.
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  35,36,45
+  </OPTION>
+<OPTION>  35,39,40
+  </OPTION>
+<OPTION>  40, 50,75
+  </OPTION>
+<OPTION>  25,35,39
+  </OPTION>
+  </OPTIONS>   
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+ <CORRECT_ANSWER>3</CORRECT_ANSWER> 
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>26</QUESTION_ID>
+    <QUESTION_DESCRIPTION> Below is a list of problems that can be observed during testing or operation. Which is most likely a failure?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION> The product crashed when the user selected an option in a dialog box.
+      </OPTION>
+      <OPTION> One source code file included in the build was the wrong version. 
+      </OPTION>
+      <OPTION> The computation algorithm used the wrong input variables. 
+      </OPTION>
+      <OPTION> The developer misinterpreted the requirement for the algorithm.
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>27</QUESTION_ID>
+    <QUESTION_DESCRIPTION> Which of the following characteristics of good testing apply to any software development life cycle model?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION> Acceptance testing is always the final test level to be applied.
+      </OPTION> 
+      <OPTION> All test levels are planned and completed for each developed feature.
+      </OPTION>
+      <OPTION> Testers are involved as soon as the first piece of code can be executed.
+      </OPTION>
+      <OPTION> For every development activity there is a corresponding testing activity.
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>28</QUESTION_ID>
+    <QUESTION_DESCRIPTION> Performance is concerned with achieving ____________ that meet the performance objectives for the project or product.
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION> response times, throughput, and resource-utilization levels 
+      </OPTION>
+      <OPTION> response times, throughput, and stress levels
+      </OPTION>
+      <OPTION> reason times, throughput, and resource-utilization levels
+      </OPTION>
+      <OPTION> response times, click-through, and resource-utilization levels 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>29</QUESTION_ID>
+    <QUESTION_DESCRIPTION> Which one of the following best describes a characteristic of a keyword driven test execution tool?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION> A table with test input data, action words, and expected results, controls execution of the system under test.
+      </OPTION>
+      <OPTION> Actions of testers recorded in a script that is rerun several times.
+      </OPTION>
+      <OPTION> Actions of testers recorded in a script that is run with several sets of test input data.
+      </OPTION>
+      <OPTION> The ability to log test results and compare them against the expected results, stored in a text file. 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>30</QUESTION_ID>
+    <QUESTION_DESCRIPTION> You are a tester in a safety-critical software development project. During execution of a test, you find out that one of your expected results was not achieved. You write an incident report about it. What do you consider from following to be the most important information?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION> Impact, incident description, date and time, your name.
+      </OPTION>
+      <OPTION> Unique id for the report, special requirements needed.
+      </OPTION>
+      <OPTION> Transmitted items, your name and you’re feeling about the defect source.
+      </OPTION>
+      <OPTION> Incident description, environment, expected results. 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  </QUESTION_CATEGORY>
+  </QUESTION_PAPER>

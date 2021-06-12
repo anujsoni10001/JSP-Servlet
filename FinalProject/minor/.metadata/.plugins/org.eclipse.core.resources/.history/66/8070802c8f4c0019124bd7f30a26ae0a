@@ -1,0 +1,8 @@
+package pp;
+
+public class Creditcard {
+private String CardNo;
+private String ExpiryDate;
+private String SecurityCode;
+
+}

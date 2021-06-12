@@ -1,0 +1,1 @@
+<a href="view.jsp?pid=1">SHOW</a>

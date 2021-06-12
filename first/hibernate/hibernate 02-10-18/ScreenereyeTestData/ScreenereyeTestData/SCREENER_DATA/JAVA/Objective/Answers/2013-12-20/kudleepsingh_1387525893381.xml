@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+<HEADER_INFORMATION>
+<QUESTION_PAPER_INFORMATION>
+  <QUESTION_PAPER_DESCRIPTION>SET C</QUESTION_PAPER_DESCRIPTION> 
+  <QUESTION_PAPER_ID>1</QUESTION_PAPER_ID> 
+<CATEGORIES>
+<CATEGORY>
+  <CATEGORY_NAME>Fundamentals</CATEGORY_NAME> 
+  <NUMBER_OF_QUESTIONS>30</NUMBER_OF_QUESTIONS> 
+  <TIME_DURATION>00:30</TIME_DURATION> 
+  </CATEGORY>
+<CATEGORY>
+  <CATEGORY_NAME>JAVA</CATEGORY_NAME> 
+  <NUMBER_OF_QUESTIONS>30</NUMBER_OF_QUESTIONS> 
+  <TIME_DURATION>00:30</TIME_DURATION> 
+  </CATEGORY>
+  </CATEGORIES>
+<INSTRUCTIONS>  </INSTRUCTIONS>
+  </QUESTION_PAPER_INFORMATION>
+  </HEADER_INFORMATION>
+<QUESTION_CATEGORY>
+<QUESTION><QUESTION_ID>1</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+If every non-key attribute is functionally dependent on the primary key, then the relation will be in the:</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>first normal form</OPTION>
+<OPTION>second normal form</OPTION>
+<OPTION>third normal form</OPTION>
+<OPTION>fourth normal form</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>1</GIVEN_ANSWER>
+<CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>2</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+In airline reservation system, the entities are date, flight number, place of departure, destination, type of plane and seats available. The primary key should be:</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>flight number + date</OPTION>
+<OPTION>date</OPTION>
+<OPTION>flight number</OPTION>
+<OPTION>date + any of the places</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>1</GIVEN_ANSWER>
+<CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION><QUESTION>
+  <QUESTION_ID>3</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  Which statement about database views is true? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  A view can have ORDER BY and GROUP BY clauses in the SELECT statement. 
+  </OPTION>
+<OPTION>  A view cannot have an ORDER BY clause in the SELECT statement. 
+  </OPTION>
+<OPTION>  A view cannot be created with a GROUP BY clause in the SELECT statement. 
+  </OPTION>
+<OPTION>  A view must have aliases defined for the column names in the SELECT statement. 
+  </OPTION>
+  </OPTIONS> 
+   <GIVEN_ANSWER>0</GIVEN_ANSWER> 
+    <CORRECT_ANSWER>1</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>4</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  Examine the structure of the EMPLOYEES table:  
+EMPLOYEE_ID NUMBER Primary Key  
+FIRST_NAME VARCHAR2 (25)  
+LAST_NAME VARCHAR2 (25)  
+Which statement will insert a row into the table?  
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  INSERT INTO employees VALUES (NULL, 'John',' Smith');   </OPTION>
+<OPTION>  INSERT INTO employees (first_name, last_name) VALUES ('John', 'Smith');   </OPTION>
+<OPTION>  INSERT INTO employees VALUES ('1000','John', NULL);   </OPTION>
+<OPTION>  INSERT INTO employees(first_name, last_name, employee_id)VALUES ( 1000, 'John', 'Smith');   </OPTION>
+  </OPTIONS>    
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>5</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  Examine the description of the EMPLOYEES table:  
+EMP_ID NUMBER(4) NOT NULL  
+LAST_NAME VARCHAR2(30) NOT NULL  
+FIRST_NAME VARCHAR2(30)  
+DEPT_ID NUMBER(2)  
+JOB_CAT VARCHARD2(30) SALARY NUMBER(8,2) 
+ Which statement shows the maximum salary paid in each job category of each department? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  SELECT dept_id, job_cat, MAX(salary) FROM employees WHERE salary &gt; MAX(salary); 
+  </OPTION>
+<OPTION>  SELECT dept_id, job_cat, MAX(salary) FROM employees GROUP BY dept_id, job_cat; 
+  </OPTION>
+<OPTION>  SELECT dept_id, job_cat, MAX(salary) FROM employees; 
+  </OPTION>
+<OPTION>  SELECT dept_id, job_cat, MAX(salary) FROM employees GROUP BY dept_id; 
+  </OPTION>
+  </OPTIONS>   
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+ <CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>6</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  The employee information in a company is stored in the relation Employee (name, sex, salary, deptName)  
+Consider the following SQL query  
+Select deptName From Employee Where sex = 'M' Group by deptName Having avg(salary) &gt; (select avg (salary) from Employee);  
+It returns the names of the department in which 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  the average salary is more than the average salary in the company 
+  </OPTION>
+<OPTION>  the average salary of male employees is more than the average salary of all male employees in the company 
+  </OPTION>
+<OPTION>  the average salary of male employees is more than the average salary of employees in the same department. 
+  </OPTION>
+<OPTION>  the average salary of male employees is more than the average salary in the company 
+  </OPTION>
+  </OPTIONS>   
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+ <CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>7</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  The process of transferring data intended for a peripheral device into a disk (or intermediate store) so that it can be transferred to peripheral at a more convenient time or in bulk, is know as 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  multiprogramming 
+  </OPTION>
+<OPTION>  spooling 
+  </OPTION>
+<OPTION>  caching 
+  </OPTION>
+<OPTION>  virtual programming 
+  </OPTION>
+  </OPTIONS>    
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>8</QUESTION_ID> 
+  <QUESTION_DESCRIPTION>
+  Which of the following statement is false? 
+  </QUESTION_DESCRIPTION> 
+<OPTIONS>
+<OPTION>  Arrays are dense lists and static data structure 
+  </OPTION>
+<OPTION>  data elements in linked list need not be stored in adjecent space in memory 
+  </OPTION>
+<OPTION>  pointers store the next data element of a list 
+  </OPTION>
+<OPTION>  linked lists are collection of the nodes that contain information part and next pointer 
+  </OPTION>
+  </OPTIONS>    
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+<CORRECT_ANSWER>3</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>9</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  What is a router? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  A device that make sures all devices on your network get power 
+  </OPTION>
+<OPTION>  A device that manages the data flow of a network 
+  </OPTION>
+<OPTION>  A device that always has a firewall for security 
+  </OPTION>
+<OPTION>  A device that connects to the internet and a modem 
+  </OPTION>
+  </OPTIONS>    
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>10</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  What is the central device in star topology? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  STP server 
+  </OPTION>
+<OPTION>  Hub/switch 
+  </OPTION>
+<OPTION>  PDC 
+  </OPTION>
+<OPTION>  Router 
+  </OPTION>
+  </OPTIONS>    
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+<QUESTION><QUESTION_ID>11</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+In which of the following cases ,linked list implementation of sparse matrices consumes the same memory space as the conventional way of storing the entire array. (Assume all data types including pointers need the same amount of storage.)</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>5 x 6 matrix with 9 non-zero entries</OPTION>
+<OPTION>5 x 6 matrix with 8 non-zero entries</OPTION>
+<OPTION>6 x 5 matrix with 9 non-zero entries</OPTION>
+<OPTION>6 x 5 matrix with 8 non-zero entries</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>12</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+When is an interpreter is preferred over a compiler
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>
+it entirely depends on the language</OPTION>
+<OPTION>
+during program development phase</OPTION>
+<OPTION>
+when efficient use of computer time is the considerarion</OPTION>
+<OPTION>
+none of the above</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>13</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>52</OPTION>
+<OPTION>56</OPTION>
+<OPTION>96</OPTION>
+<OPTION>128</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>14</QUESTION_ID>
+<QUESTION_DESCRIPTION>If a person walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km more. The actual distance travelled by him is:</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>50 km</OPTION>
+<OPTION>56 km</OPTION>
+<OPTION>70 km</OPTION>
+<OPTION>80 km</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>15</QUESTION_ID>
+<QUESTION_DESCRIPTION>The average of 20 numbers is zero. Of them, at the most, how many may be greater than zero?
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+    <OPTION>0</OPTION>
+    <OPTION>1</OPTION>
+    <OPTION>10</OPTION>
+    <OPTION>19</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>4</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>16</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+The cost price of 20 articles is the same as the selling price of x articles. If the profit is 25%, then the value of x is:
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>15</OPTION>
+<OPTION>16</OPTION>
+<OPTION>18</OPTION>
+<OPTION>25</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>17</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+A sum of money at simple interest amounts to Rs. 815 in 3 years and to Rs. 854 in 4 years. The sum is:
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>Rs. 650</OPTION>
+<OPTION>Rs. 690</OPTION>
+<OPTION>Rs. 698</OPTION>
+<OPTION>Rs. 700</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>18</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+Vincent has a paper route. Each morning, he delivers 37 newspapers to customers in his neighborhood. It takes Vincent 50 minutes to deliver all the papers. If Vincent is sick or has other plans, his friend Thomas, who lives on the same street, will sometimes deliver the papers for him.Vincent and Thomas live in the same neighborhood.
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>Vincent and Thomas live in the same neighborhood.</OPTION>
+<OPTION>It takes Thomas more than 50 minutes to deliver the papers.</OPTION>
+<OPTION>It is dark outside when Vincent begins his deliveries.</OPTION>
+<OPTION>Thomas would like to have his own paper route.</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>19</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+Two students appeared at an examination. One of them secured 9 marks more than the other and his marks was 56% of the sum of their marks. The marks obtained by them are:</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>39, 30</OPTION>
+<OPTION>41, 32</OPTION>
+<OPTION>42, 33</OPTION>
+<OPTION>43, 34</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>20</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+A, P, R, X, S and Z are sitting in a row. S and Z are in the centre. A and P are at the ends. R is sitting to the left of A. Who is to the right of P ?
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+    <OPTION>A</OPTION>
+    <OPTION>X</OPTION>
+    <OPTION>S</OPTION>
+    <OPTION>Z</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>21</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+There are 8 houses in a line and in each house only one boy lives with the conditions as given below:1. Jack is not the neighbour Siman.2. Harry is just next to the left of Larry.3. There is at least one to the left of Larry.4. Paul lives in one of the two houses in the middle.5. Mike lives in between Paul and Larry.If at least one lives to the right of Robert and Harry is not between Taud and Larry, then which one of the following statement is not correct ?</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>Robert is not at the left end.</OPTION>
+<OPTION>Robert is in between Simon and Taud.</OPTION>
+<OPTION>Taud is in between Paul and Jack.</OPTION>
+<OPTION>There are three persons to the right of Paul.</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>22</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+In a time sharing operating system, when the time slot given to a process is completed, the process from the RUNNING state goes to the state ___________.</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>TERMINATED</OPTION>
+<OPTION>READY</OPTION>
+<OPTION>SUSPENDED</OPTION>
+<OPTION>BLOCKED</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>23</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+Introducing a boy, a girl said, "He is the son of the daughter of the father of my uncle." How is the boy related to the girl?
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>Brother</OPTION>
+<OPTION>Nephew</OPTION>
+<OPTION>Uncle</OPTION>
+<OPTION>Son-in-law</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>4</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>24</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+Correct sequence of time delays that happen during a data trasfer from a disk to memory is :
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>seek time, latency time and tranfer time</OPTION>
+<OPTION>seek time, access time and tranfer time</OPTION>
+<OPTION>latency time, seek time and tranfer time</OPTION>
+<OPTION>latency time, access time and tranfer time</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>25</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+a,b,c,d,e,g,h,i,l,m,n,p,r,t,u,x,yWhich of following words contains a letter that is NOT in the list of letters above ?</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>graphical</OPTION>
+<OPTION>trademark</OPTION>
+<OPTION>debutante</OPTION>
+<OPTION>excalibur</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>26</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+A list of n integers is kept in sorted order. Due to an accident, least significant 2 bits of those n numbers get set randomly. Which sorting algorithm can be used to sort this modified list, so that operation can be carried out with O(n) time complexity ?</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>Selection sort,modified to stop as soon as ths list is sorted.</OPTION>
+<OPTION>Bubble sort modified to stop as soon as the list is sorted</OPTION>
+<OPTION>Quick sort</OPTION>
+<OPTION>No sorting algorithm can sort the list with O(n) complexity</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>27</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+How many bits is a byte?
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>4</OPTION>
+<OPTION>8</OPTION>
+<OPTION>16</OPTION>
+<OPTION>32</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>2</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>28</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+What is DHCP used for
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>Allocating IP address to the computer</OPTION>
+<OPTION>Getting machine address of the computer</OPTION>
+<OPTION>binding computers to a domain name</OPTION>
+<OPTION>Connecting computer to a network</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>1</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>29</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+What are different FTP transfer modes
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>bit and byte</OPTION>
+<OPTION>UDP and TCP</OPTION>
+<OPTION>ASCII and Binary</OPTION>
+<OPTION>None of these</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>3</CORRECT_ANSWER>
+</QUESTION>
+<QUESTION><QUESTION_ID>30</QUESTION_ID>
+<QUESTION_DESCRIPTION>
+What does SSL stand for?
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>Secure System Login</OPTION>
+<OPTION>Superuser System Login</OPTION>
+<OPTION>Secure Socket Layer</OPTION>
+<OPTION>System Socket Layer</OPTION>
+</OPTIONS>
+<GIVEN_ANSWER>0</GIVEN_ANSWER>
+<CORRECT_ANSWER>3</CORRECT_ANSWER>
+
+</QUESTION><!--  Java --> 
+</QUESTION_CATEGORY>
+<QUESTION_CATEGORY>
+<QUESTION>
+  <QUESTION_ID>1</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  Which is the valid declarations within an interface definition? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  public double methoda(); 
+  </OPTION>
+<OPTION>  public final double methoda(); 
+  </OPTION>
+<OPTION>  static void methoda(double d1); 
+  </OPTION>
+<OPTION>  protected void methoda(double d1); 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>1</CORRECT_ANSWER>
+<GIVEN_ANSWER>1</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>2</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  Which package is always imported by default? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  java.lang 
+  </OPTION>
+<OPTION>  java.text 
+  </OPTION>
+<OPTION>  java.nio 
+  </OPTION>
+<OPTION>  java.math 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>1</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>3</QUESTION_ID> 
+<QUESTION_DESCRIPTION>Which is a reserved word in the Java programming language? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  method 
+  </OPTION>
+<OPTION>  native 
+  </OPTION>
+<OPTION>  subclass 
+  </OPTION>
+<OPTION>  array 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>2</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>4</QUESTION_ID> 
+<QUESTION_DESCRIPTION>boolean var = false;  
+if(var = true) { 
+	System.out.println("true");  
+	} 
+else { 
+	System.out.println("false");  
+	} 
+ output of the code? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION> false 
+  </OPTION>
+<OPTION>  true 
+  </OPTION>
+<OPTION>  compilation error 
+  </OPTION>
+<OPTION>  runtime error 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>2</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>5</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  What is Iterator? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  class 
+  </OPTION>
+<OPTION>  method 
+  </OPTION>
+<OPTION>  interface 
+  </OPTION>
+<OPTION>  none of the above 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>3</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>6</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  Running MyProg from commandline,  
+&gt;&gt;java MyProg I like tests  
+what would be the value of args[ 1 ] inside the main( ) method? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  MyProg 
+  </OPTION>
+<OPTION>  "I" 
+  </OPTION>
+<OPTION>  "like" 
+  </OPTION>
+<OPTION>  null until a value is assigned 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>3</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>7</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  int i=10011100;  
+int y = 1 &lt;&lt; 7;  
+int z = i &amp; y;  
+System.out.println(z);  
+output of the program? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  10000000 
+  </OPTION>
+<OPTION>  64 
+  </OPTION>
+<OPTION>  1000000 
+  </OPTION>
+<OPTION>  128 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>4</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>8</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  int x = 2;  
+switch (x) { 
+	case 1:System.out.print("1");  
+	case 2: 
+	case 3:System.out.print("3");  
+	case 4: 
+	case 5:System.out.println("5");  
+} 
+ what will be the output? 
+  Note: \n specifies newline character. 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  35\n 
+  </OPTION>
+<OPTION>  3\n5 
+  </OPTION>
+<OPTION>  35 
+  </OPTION>
+<OPTION>  3\n5\n 
+  </OPTION>
+  </OPTIONS>  
+    <CORRECT_ANSWER>1</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>9</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  byte myByte;  
+int myInt;  
+long myLong;  
+char myChar;  
+float myFloat;  
+which of the following needs explicit type casting? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  myInt = myByte;   </OPTION>
+<OPTION>  myInt = myLong;   </OPTION>
+<OPTION>  myFloat = myChar;   </OPTION>
+<OPTION>  myInt = myChar;   </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>2</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>10</QUESTION_ID> 
+<QUESTION_DESCRIPTION>public static void main( String args[] ) { 
+	int a = 5;  
+	System.out.println( cube( a ) );  
+} 
+int cube( int theNum ) { 
+	return theNum * theNum * theNum;  
+} 
+What will happen when you attempt to compile and run this code? 
+</QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  It will not compile because cube is already defined in the java.lang.Math class. 
+  </OPTION>
+<OPTION>  It will not compile because cube is not static. 
+  </OPTION>
+<OPTION>  It will compile, but throw an arithmetic exception. 
+  </OPTION>
+<OPTION>  It will run perfectly and print "125" to standard output. 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>2</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>11</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  For the code  
+int m = 0;  
+while( m &lt; 2 )   
+System.out.print( m++ );  
+what will be the output 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  01 
+  </OPTION>
+<OPTION>  12 
+  </OPTION>
+<OPTION>  stack overflow 
+  </OPTION>
+<OPTION>  Compilation error 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>1</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>12</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  What will be the output for below code: 
+char[] c = new char[100];  
+System.out.print((int)(c[50]));   </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  0 
+  </OPTION>
+<OPTION>  null 
+  </OPTION>
+<OPTION>  50 
+  </OPTION>
+<OPTION>  Compilation error 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>1</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>13</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  If you compile and execute an application with the following code in its main() method:  
+String s = new String( "Computer" );  
+if( s == "Computer" ) 
+System.out.println( "Equal A" );  
+if( s.equals( "Computer" ) ) 
+System.out.println( "Equal B" );   </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  It will compile and run, but nothing is printed. 
+  </OPTION>
+<OPTION>  "Equal A" is the only thing that is printed. 
+  </OPTION>
+<OPTION>  "Equal B" is the only thing that is printed. 
+  </OPTION>
+<OPTION>  Both "Equal A" and "Equal B" are printed. 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>3</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>14</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  For below code output:  
+String s1 = "phenobarbital";  
+String s2 = s1.substring( 3, 2 );  
+System.out.println(s2);   </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  It will throw a compilation excepton. 
+  </OPTION>
+<OPTION>  It will print "no". 
+  </OPTION>
+<OPTION>  It will print "en". 
+  </OPTION>
+<OPTION>  It will throw a runtime exception. 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>4</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>15</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  public class test { 
+public static void main(String [] args) { 
+	int x = 3;  
+	int y = 1;  
+	if (x = y) 
+		System.out.println("Not equal");  
+	else 
+		System.out.println("Equal");  
+	} 
+ } 
+ What is the result? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  The output is "Equal" 
+  </OPTION>
+<OPTION>  The output is "Not Equal" 
+  </OPTION>
+<OPTION>  An error at " if (x = y)" causes compilation to fall. 
+  </OPTION>
+<OPTION>  The program executes but no output is show on console. 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>3</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>16</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  Which class does not override the equals() and hashCode() methods, inheriting them directly from class Object? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  java.lang.String 
+  </OPTION>
+<OPTION>  java.lang.Double 
+  </OPTION>
+<OPTION>  java.lang.StringBuffer 
+  </OPTION>
+<OPTION>  java.lang.Character 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>3</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>17</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  Out of following, which Name interfaces has a method 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  Serializable 
+  </OPTION>
+<OPTION>  Cloneble 
+  </OPTION>
+<OPTION>  Remote 
+  </OPTION>
+<OPTION>  Externalizable 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>4</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>18</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  What is an example of polymorphism? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  Inner class 
+  </OPTION>
+<OPTION>  Anonymous classes 
+  </OPTION>
+<OPTION>  Method overloading 
+  </OPTION>
+<OPTION>  Method overriding 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>3</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>19</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  Which of the following is a primitive type? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  Byte 
+  </OPTION>
+<OPTION>  String 
+  </OPTION>
+<OPTION>  Integer 
+  </OPTION>
+<OPTION>  float 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>4</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>20</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  Which one of the following creates an instance of Vector with an initial capacity of 10, and an
+incremental capacity of 5. 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  new Vector(10, 5); 
+  </OPTION>
+<OPTION>  new Vector(5,10); 
+  </OPTION>
+<OPTION>  None. There is no constructor of Vector which provides this feature. 
+  </OPTION>
+<OPTION>  Vector is declared as final, and it is therefore not possible to instantiate it. 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>1</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>21</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  Which of the following classes is used to perform basic console I/O? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  SecurityManager 
+  </OPTION>
+<OPTION>  System 
+  </OPTION>
+<OPTION>  Math 
+  </OPTION>
+<OPTION>  Runtime 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>2</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>22</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  Which of the following will display the string "ica", given: String s = "Metallica"; 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  System.out.println(s.subString(7)); 
+  </OPTION>
+<OPTION>  System.out.println(s.substring(6)); 
+  </OPTION>
+<OPTION>  System.out.println(s.subString(6, 8)); 
+  </OPTION>
+<OPTION>  System.out.println(s.substring(7, 9)); 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>2</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>23</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  Which statement makes sure that x is an even number? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  x = x%2 == 1 ? x++ : x; 
+  </OPTION>
+<OPTION>  x = x%2 == 0 ? x+1 : x; 
+  </OPTION>
+<OPTION>  x += x%2 == 0 ? 0 : 1 ; 
+  </OPTION>
+<OPTION>  x += 2*x ; 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>1</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>24</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  You would use the ____ operator to create a single instance of a named class. 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  dot 
+  </OPTION>
+<OPTION>  equals 
+  </OPTION>
+<OPTION>  = 
+  </OPTION>
+<OPTION>  new 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>4</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+<QUESTION>
+  <QUESTION_ID>25</QUESTION_ID> 
+<QUESTION_DESCRIPTION>  How many threads at a time can access a monitor? 
+  </QUESTION_DESCRIPTION>
+<OPTIONS>
+<OPTION>  0 
+  </OPTION>
+<OPTION>  1 
+  </OPTION>
+<OPTION>  2 
+  </OPTION>
+<OPTION>  unlimited 
+  </OPTION>
+  </OPTIONS>    <CORRECT_ANSWER>2</CORRECT_ANSWER>
+<GIVEN_ANSWER>0</GIVEN_ANSWER> 
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>26</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Consider the following code....
+	byte b = 0; // (I)
+	b = b + 100; // (II)
+	b+=100; // (III)
+	Which one of the above marked lines is erroneous
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>I 
+      </OPTION>
+      <OPTION>II 
+      </OPTION>
+      <OPTION>III 
+      </OPTION>
+      <OPTION>II and III 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>27</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Consider the following code fragment, and select the correct statement:
+	public class Test extends MyBase implements MyInterface{//line 1
+		int x = 0;//line 2
+		public Test(int inVal) throws Exception{//line 3
+		if (inVal != this.x){//line 4 
+		throw new Exception("Invalid input");//line 5
+		}//line 6
+		}//line 7
+		public static void main(String args[]){//line 8
+		Test t = new Test(4);//line 9
+		}//line 10
+	}
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>The code fails to compile at line 1. It is not valid to both implement an interface and extend from a parent class simultaneously. 
+      </OPTION>
+      <OPTION>The code fails to compile at line 3. It is not valid for constructors to throw exceptions. 
+      </OPTION>
+      <OPTION>The code fails to compile at line 5, because this is not valid way to throw an exception. 
+      </OPTION>
+      <OPTION>The code fails to compile at line 10. The compiler complains that there is an uncaught exception. 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>28</QUESTION_ID>
+    <QUESTION_DESCRIPTION>What is the output for the following lines of code?
+	System.out.println(" " +2 + 3);
+	System.out.println(2 + 3);
+	System.out.println(2 + 3 +"");
+	System.out.println(2 + "" +3);
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>Compilation error at line 3 
+      </OPTION>
+      <OPTION>Prints 23, 5, 5 and 23. 
+      </OPTION>
+      <OPTION>Prints 5, 5, 5 and 23. 
+      </OPTION>
+      <OPTION>Prints 23, 5, 23 and 23. 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>29</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Consider the following class definitions:
+	class Base{}
+	class Subclass1 extends Base{}
+	class Subclass2 extends Base();
+	Now consider the following declarations:
+	Base b = new Base();
+	Subclass1 s1 = new Subclass1();
+	Subclass2 s2 = new Subclass2();
+	Now, consider the following assignment:
+	s1 = (Subclass1)s2;
+	Which of the following statements is correct regarding this assignment.
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>The assignment is legal and compiles without an error. No exception is thrown at runtime. 
+      </OPTION>
+      <OPTION>The code fails to compile. The compiler complains that the assignment "s1 = (Subclass1)s2" is illegal. 
+      </OPTION>
+      <OPTION>The code compiles but ClassCastException is thrown at runtime. 
+      </OPTION>
+      <OPTION>The code fails to compile. You cannot subclass a parent class more than once. 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>2</CORRECT_ANSWER>
+  </QUESTION>
+  <QUESTION>
+            <QUESTION_ID>30</QUESTION_ID>
+    <QUESTION_DESCRIPTION>Which of the following is true about constructor of a class?
+    </QUESTION_DESCRIPTION>
+    <OPTIONS>
+      <OPTION>Access modifier for a constructor cannot be private or protected 
+      </OPTION>
+      <OPTION>Access modifier for a constructor cannot be specified 
+      </OPTION>
+      <OPTION>Access modifier for a constructor can be only public and default 
+      </OPTION>
+      <OPTION>Constructor can have any Access modifier (public, private, protected and default) 
+      </OPTION>
+    </OPTIONS>
+    <GIVEN_ANSWER>0</GIVEN_ANSWER><CORRECT_ANSWER>4</CORRECT_ANSWER>
+  </QUESTION>
+  </QUESTION_CATEGORY>
+  </QUESTION_PAPER>

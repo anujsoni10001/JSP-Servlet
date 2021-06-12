@@ -1,0 +1,6 @@
+<%
+RequestDispatcher rd=request.getRequestDispatcher("rating.jsp");
+rd.include(request,response);
+RequestDispatcher rd1=request.getRequestDispatcher("rating2.jsp");
+rd1.include(request,response);
+%>

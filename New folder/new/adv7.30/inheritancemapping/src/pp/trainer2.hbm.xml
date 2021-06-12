@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="pp.Trainer" table="Tr7">
+<id name="id">
+<generator class="assigned"></generator>
+</id>
+<property name="name"></property>
+<joined-subclass name="pp.Temp" table="temp7">
+<key column="tid"></key>
+<property name="batches"></property>
+<property name="amount"></property>
+</joined-subclass>
+<joined-subclass name="pp.Permanent" table="perma7">
+<key column="tid"></key>
+<property name="sal"></property>
+<property name="bonus"></property>
+</joined-subclass>
+</class>
+</hibernate-mapping>

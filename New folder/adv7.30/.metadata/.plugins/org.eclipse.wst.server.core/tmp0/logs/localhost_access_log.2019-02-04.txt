@@ -1,0 +1,7 @@
+127.0.0.1 - - [04/Feb/2019:19:59:00 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [04/Feb/2019:19:59:07 +0530] "GET /hibernateweb/ HTTP/1.1" 200 163
+0:0:0:0:0:0:0:1 - - [04/Feb/2019:19:59:07 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [04/Feb/2019:19:59:27 +0530] "GET /hibernateweb/addemp.html HTTP/1.1" 200 280
+0:0:0:0:0:0:0:1 - - [04/Feb/2019:19:59:36 +0530] "GET /hibernateweb/Add.jsp?name=shubham&job=Designer HTTP/1.1" 200 27
+0:0:0:0:0:0:0:1 - - [04/Feb/2019:19:59:58 +0530] "GET /hibernateweb/Add.jsp?name=Abhi&job=Designer HTTP/1.1" 200 27
+0:0:0:0:0:0:0:1 - - [04/Feb/2019:20:05:55 +0530] "GET /hibernateweb/show.jsp HTTP/1.1" 200 209

@@ -1,0 +1,9 @@
+<%
+String id=request.getParameter("id");
+String name=request.getParameter("name");
+String cat=request.getParameter("cat");
+String cmp=request.getParameter("cmp");
+
+Class.forName("com.mysql.jdbc.Driver");
+Connection con=DriverManager.getConnectio("jdbc:mysql://localhost:3306/jsp","root","root");
+%>

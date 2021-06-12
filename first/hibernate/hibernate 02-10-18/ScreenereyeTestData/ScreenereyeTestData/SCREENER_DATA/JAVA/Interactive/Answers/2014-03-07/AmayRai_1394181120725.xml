@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+   <QUESTION_PAPER_INFORMATION>
+      <QUESTION_PAPER_DESCRIPTION>SET B</QUESTION_PAPER_DESCRIPTION>
+   </QUESTION_PAPER_INFORMATION>
+   <QUESTION>
+      <QUESTION_ID>1</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>&lt;div&gt;The schema for "customer" table is defined below with sample data.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Write SQL Select query to get all fields of customers having “y” in
+ their firstname or lastname in ascending order of their city names.&amp;nbsp;&lt;/div&gt;&lt;b&gt;Table : customer&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;table border="1"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;th&gt;customerid&lt;/th&gt;&lt;th&gt;firstname&lt;/th&gt;&lt;th&gt;lastname&lt;/th&gt;&lt;th&gt;city&lt;/th&gt;&lt;th&gt;state&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;John&lt;/td&gt; &lt;td&gt;Gray&lt;/td&gt; &lt;td&gt;Lynden&lt;/td&gt; &lt;td&gt;Washington&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;Lyon&lt;/td&gt; &lt;td&gt;Brown&lt;/td&gt; &lt;td&gt;Pinetop&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10299&lt;/td&gt; &lt;td&gt;Elory&lt;/td&gt; &lt;td&gt;Keller&lt;/td&gt; &lt;td&gt;Snoqualmie&lt;/td&gt; &lt;td&gt;Washington&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10315&lt;/td&gt; &lt;td&gt;Lisa&lt;/td&gt; &lt;td&gt;Jones&lt;/td&gt; &lt;td&gt;Oshkosh&lt;/td&gt; &lt;td&gt;Wisconsin&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10325&lt;/td&gt; &lt;td&gt;Ginger&lt;/td&gt; &lt;td&gt;Schultz&lt;/td&gt; &lt;td&gt;Pocatello&lt;/td&gt; &lt;td&gt;Idaho&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10329&lt;/td&gt; &lt;td&gt;Kelly&lt;/td&gt; &lt;td&gt;Mendoza&lt;/td&gt; &lt;td&gt;Kailua&lt;/td&gt; &lt;td&gt;Hawaii&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10330&lt;/td&gt; &lt;td&gt;Shawn&lt;/td&gt; &lt;td&gt;Dalton&lt;/td&gt; &lt;td&gt;Kannonbeach&lt;/td&gt; &lt;td&gt;Oragon&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10338&lt;/td&gt; &lt;td&gt;Michel&lt;/td&gt; &lt;td&gt;Howell&lt;/td&gt; &lt;td&gt;Tillamook&lt;/td&gt; &lt;td&gt;Oragon&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10339&lt;/td&gt; &lt;td&gt;Anthony&lt;/td&gt; &lt;td&gt;Sanchez&lt;/td&gt; &lt;td&gt;Winslow&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10408&lt;/td&gt; &lt;td&gt;Elron&lt;/td&gt; &lt;td&gt;Cleaver&lt;/td&gt; &lt;td&gt;Globe&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10410&lt;/td&gt; &lt;td&gt;MaryAnn&lt;/td&gt; &lt;td&gt;Howell&lt;/td&gt; &lt;td&gt;Charleston&lt;/td&gt; &lt;td&gt;SouthCarolina&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;Cofi&lt;/td&gt; &lt;td&gt;Annan&lt;/td&gt; &lt;td&gt;Toronto&lt;/td&gt; &lt;td&gt;Idhao&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/pre&gt;</QUESTION_DESCRIPTION>
+      <ANSWER>select * from customer;</ANSWER>
+      <MARK>1</MARK>
+      <CORRECT_ANSWER>[{"3":"Charleston","2":"Howell","1":"MaryAnn","0":10410,"4":"SouthCarolina"},{"3":"Kailua","2":"Mendoza","1":"Kelly","0":10329,"4":"Hawaii"},{"3":"Lynden","2":"Gray","1":"John","0":10101,"4":"Washington"},{"3":"Pinetop","2":"Brown","1":"Lyon","0":10298,"4":"Arizona"},{"3":"Snoqualmie","2":"Keller","1":"Elory","0":10299,"4":"Washington"},{"3":"Winslow","2":"Sanchez","1":"Anthony","0":10339,"4":"Arizona"}]</CORRECT_ANSWER>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>2</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION> Write a SQL query to get first name and city of customers who have purchased Umbrella or Bicycle with firstname in descending order.
+&lt;b&gt;Table : customer&lt;/b&gt;&lt;BR&gt;&lt;pre id="" &gt;&lt;table border="1" &gt; &lt;tbody&gt; &lt;tr&gt; &lt;th &gt;customerid&lt;/th&gt;&lt;th &gt;firstname&lt;/th&gt;&lt;th &gt;lastname&lt;/th&gt;&lt;th &gt;city&lt;/th&gt;&lt;th &gt;state&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;John&lt;/td&gt; &lt;td&gt;Gray&lt;/td&gt; &lt;td&gt;Lynden&lt;/td&gt; &lt;td&gt;Washington&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;Lyon&lt;/td&gt; &lt;td&gt;Brown&lt;/td&gt; &lt;td&gt;Pinetop&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10299&lt;/td&gt; &lt;td&gt;Elory&lt;/td&gt; &lt;td&gt;Keller&lt;/td&gt; &lt;td&gt;Snoqualmie&lt;/td&gt; &lt;td&gt;Washington&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10315&lt;/td&gt; &lt;td&gt;Lisa&lt;/td&gt; &lt;td&gt;Jones&lt;/td&gt; &lt;td&gt;Oshkosh&lt;/td&gt; &lt;td&gt;Wisconsin&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10325&lt;/td&gt; &lt;td&gt;Ginger&lt;/td&gt; &lt;td&gt;Schultz&lt;/td&gt; &lt;td&gt;Pocatello&lt;/td&gt; &lt;td&gt;Idaho&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10329&lt;/td&gt; &lt;td&gt;Kelly&lt;/td&gt; &lt;td&gt;Mendoza&lt;/td&gt; &lt;td&gt;Kailua&lt;/td&gt; &lt;td&gt;Hawaii&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10330&lt;/td&gt; &lt;td&gt;Shawn&lt;/td&gt; &lt;td&gt;Dalton&lt;/td&gt; &lt;td&gt;Kannonbeach&lt;/td&gt; &lt;td&gt;Oragon&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10338&lt;/td&gt; &lt;td&gt;Michel&lt;/td&gt; &lt;td&gt;Howell&lt;/td&gt; &lt;td&gt;Tillamook&lt;/td&gt; &lt;td&gt;Oragon&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10339&lt;/td&gt; &lt;td&gt;Anthony&lt;/td&gt; &lt;td&gt;Sanchez&lt;/td&gt; &lt;td&gt;Winslow&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10408&lt;/td&gt; &lt;td&gt;Elron&lt;/td&gt; &lt;td&gt;Cleaver&lt;/td&gt; &lt;td&gt;Globe&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10410&lt;/td&gt; &lt;td&gt;MaryAnn&lt;/td&gt; &lt;td&gt;Howell&lt;/td&gt; &lt;td&gt;Charleston&lt;/td&gt; &lt;td&gt;SouthCarolina&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;Cofi&lt;/td&gt; &lt;td&gt;Annan&lt;/td&gt; &lt;td&gt;Toronto&lt;/td&gt; &lt;td&gt;Idhao&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/pre&gt;&lt;BR&gt;&lt;b&gt;Table : purchase_order&lt;/b&gt;&lt;BR&gt;&lt;pre id=""&gt;&lt;pre id="" &gt;&lt;table border="1" &gt; &lt;tbody&gt; &lt;tr&gt; &lt;th &gt;purchase_order_id&lt;/th&gt;&lt;th &gt;customerid&lt;/th&gt;&lt;th &gt;order_date&lt;/th&gt;&lt;th &gt;item&lt;/th&gt;&lt;th &gt;quantity&lt;/th&gt;&lt;th &gt;price&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;10330&lt;/td&gt; &lt;td&gt;1990-06-30&lt;/td&gt; &lt;td&gt;Pogo stick&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;28&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-06-30&lt;/td&gt; &lt;td&gt;Raft&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;58&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;1999-07-01&lt;/td&gt; &lt;td&gt;Skateboard&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;33&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-07-01&lt;/td&gt; &lt;td&gt;Life Vest&lt;/td&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;125&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;5&lt;/td&gt; &lt;td&gt;10299&lt;/td&gt; &lt;td&gt;1999-07-06&lt;/td&gt; &lt;td&gt;Parachute&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;1250&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;6&lt;/td&gt; &lt;td&gt;10339&lt;/td&gt; &lt;td&gt;1999-07-27&lt;/td&gt; &lt;td&gt;Umbrella&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;4.5&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;7&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-08-13&lt;/td&gt; &lt;td&gt;Unicycle&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;180.79&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;8&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-08-18&lt;/td&gt; &lt;td&gt;Raln Coat&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;18.3&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;9&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-09-01&lt;/td&gt; &lt;td&gt;Snow Shoes&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;45&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-08-14&lt;/td&gt; &lt;td&gt;Ski Poles&lt;/td&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;25&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;11&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-09-18&lt;/td&gt; &lt;td&gt;Tent&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;58&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;12&lt;/td&gt; &lt;td&gt;10410&lt;/td&gt; &lt;td&gt;1999-10-28&lt;/td&gt; &lt;td&gt;Sleeping Bag&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;89.22&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;13&lt;/td&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;1999-09-19&lt;/td&gt; &lt;td&gt;Lantern&lt;/td&gt; &lt;td&gt;2&lt;/td&gt; &lt;td&gt;29&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;14&lt;/td&gt; &lt;td&gt;10338&lt;/td&gt; &lt;td&gt;1999-09-01&lt;/td&gt; &lt;td&gt;Umbrella&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;6.75&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;15&lt;/td&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;1999-12-01&lt;/td&gt; &lt;td&gt;Helmet&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;22&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;16&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-12-15&lt;/td&gt; &lt;td&gt;Bicycle&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;380.5&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;17&lt;/td&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;1999-12-22&lt;/td&gt; &lt;td&gt;Canoe&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;280&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;18&lt;/td&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;1999-12-30&lt;/td&gt; &lt;td&gt;Hoola Hoop&lt;/td&gt; &lt;td&gt;3&lt;/td&gt; &lt;td&gt;14.75&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/pre&gt; &lt;/pre&gt;&lt;BR&gt;</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>[{"1":"Tillamook","0":"Michel"},{"1":"Toronto","0":"Cofi"},{"1":"Winslow","0":"Anthony"}]</CORRECT_ANSWER>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>3</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>&lt;div&gt;Write a SQL query to get state-wise count of customers with ascending order of state&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; 
+ &lt;b&gt;Table : customer&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;table border="1"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;th&gt;customerid&lt;/th&gt;&lt;th&gt;firstname&lt;/th&gt;&lt;th&gt;lastname&lt;/th&gt;&lt;th&gt;city&lt;/th&gt;&lt;th&gt;state&lt;/th&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10101&lt;/td&gt; &lt;td&gt;John&lt;/td&gt; &lt;td&gt;Gray&lt;/td&gt; &lt;td&gt;Lynden&lt;/td&gt; &lt;td&gt;Washington&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10298&lt;/td&gt; &lt;td&gt;Lyon&lt;/td&gt; &lt;td&gt;Brown&lt;/td&gt; &lt;td&gt;Pinetop&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10299&lt;/td&gt; &lt;td&gt;Elory&lt;/td&gt; &lt;td&gt;Keller&lt;/td&gt; &lt;td&gt;Snoqualmie&lt;/td&gt; &lt;td&gt;Washington&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10315&lt;/td&gt; &lt;td&gt;Lisa&lt;/td&gt; &lt;td&gt;Jones&lt;/td&gt; &lt;td&gt;Oshkosh&lt;/td&gt; &lt;td&gt;Wisconsin&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10325&lt;/td&gt; &lt;td&gt;Ginger&lt;/td&gt; &lt;td&gt;Schultz&lt;/td&gt; &lt;td&gt;Pocatello&lt;/td&gt; &lt;td&gt;Idaho&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10329&lt;/td&gt; &lt;td&gt;Kelly&lt;/td&gt; &lt;td&gt;Mendoza&lt;/td&gt; &lt;td&gt;Kailua&lt;/td&gt; &lt;td&gt;Hawaii&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10330&lt;/td&gt; &lt;td&gt;Shawn&lt;/td&gt; &lt;td&gt;Dalton&lt;/td&gt; &lt;td&gt;Kannonbeach&lt;/td&gt; &lt;td&gt;Oragon&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10338&lt;/td&gt; &lt;td&gt;Michel&lt;/td&gt; &lt;td&gt;Howell&lt;/td&gt; &lt;td&gt;Tillamook&lt;/td&gt; &lt;td&gt;Oragon&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10339&lt;/td&gt; &lt;td&gt;Anthony&lt;/td&gt; &lt;td&gt;Sanchez&lt;/td&gt; &lt;td&gt;Winslow&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10408&lt;/td&gt; &lt;td&gt;Elron&lt;/td&gt; &lt;td&gt;Cleaver&lt;/td&gt; &lt;td&gt;Globe&lt;/td&gt; &lt;td&gt;Arizona&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10410&lt;/td&gt; &lt;td&gt;MaryAnn&lt;/td&gt; &lt;td&gt;Howell&lt;/td&gt; &lt;td&gt;Charleston&lt;/td&gt; &lt;td&gt;SouthCarolina&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;10449&lt;/td&gt; &lt;td&gt;Cofi&lt;/td&gt; &lt;td&gt;Annan&lt;/td&gt; &lt;td&gt;Toronto&lt;/td&gt; &lt;td&gt;Idhao&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/pre&gt;&lt;/div&gt;</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>[{"1":"Arizona","0":3},{"1":"Hawaii","0":1},{"1":"Idaho","0":1},{"1":"Idhao","0":1},{"1":"Oragon","0":2},{"1":"SouthCarolina","0":1},{"1":"Washington","0":2},{"1":"Wisconsin","0":1}]</CORRECT_ANSWER>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>4</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;BR&gt;&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;BR&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;&lt;BR&gt;&lt;ul&gt;&lt;BR&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;/p&gt;&lt;BR&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassOne 
+{&lt;BR&gt; public static int getRequiredNumberOfBits(int N)&lt;BR&gt; { &lt;BR&gt; /* &lt;BR&gt; Please implement this method to &lt;BR&gt; return the number of bits which is just enough to store any integer from 0 to N-1 inclusively &lt;BR&gt; for any int N &gt; 0 &lt;BR&gt; Example: to store 5 integers from 0 to 4 you need 3 bits: 000, 001, 010, 011, 100 and 101 &lt;BR&gt; */ &lt;BR&gt; } &lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* Main Method*/&lt;BR&gt; }&lt;BR&gt;} &lt;BR&gt;</QUESTION_DESCRIPTION>
+      <ANSWER>public class MyClassOne &lt;br&gt;{&lt;br&gt; public static int getRequiredNumberOfBits(int N)&lt;br&gt; { &lt;br&gt; /* &lt;br&gt; Please implement this method to &lt;br&gt; return the number of bits which is just enough to store any integer from 0 to N-1 inclusively &lt;br&gt; for any int N &amp;gt; 0 &lt;br&gt; Example: to store 5 integers from 0 to 4 you need 3 bits: 000, 001, 010, 011, 100 and 101 &lt;br&gt; */ &lt;br&gt; return 1;&lt;br&gt; } &lt;br&gt; public static void main(String arr[])&lt;br&gt; {&lt;br&gt; /* Main Method*/&lt;br&gt; }&lt;br&gt;} &lt;br&gt;</ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void getRequiredNumberOfBitsTest1(){ assertEquals(3,getRequiredNumberOfBits(1));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getRequiredNumberOfBitsTest2(){ assertEquals(4,getRequiredNumberOfBits(16));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getRequiredNumberOfBitsTest3(){ assertEquals(7,getRequiredNumberOfBits(100));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getRequiredNumberOfBitsTest4(){ assertEquals(3,getRequiredNumberOfBits(5));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void getRequiredNumberOfBitsTest5(){ assertEquals(4,getRequiredNumberOfBits(16));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>5</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;BR&gt;&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;BR&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;&lt;BR&gt;&lt;ul&gt;&lt;BR&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;/p&gt;&lt;BR&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassTwo
+ {&lt;BR&gt; public static int[] reverseArray(int[] a)&lt;BR&gt; {&lt;BR&gt; /*&lt;BR&gt; Please implement this method to&lt;BR&gt; return a new array where the order of elements has been reversed from the original&lt;BR&gt; array.&lt;BR&gt; */&lt;BR&gt; }&lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* Main Method*/&lt;BR&gt; }&lt;BR&gt; }&lt;BR&gt;</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void reverseArrayTest1(){int[] temp_array = {9, 22, -3, 3, 5, 8}; int[] temp_answer = {8, 5, 3, -3, 22,9};Assert.assertTrue(Arrays.equals(temp_answer,reverseArray(temp_array)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void reverseArrayTest2(){int[] temp_array = {10, 22, 16, 18, 5, 17}; int[] temp_answer = {17, 5, 18, 16, 22,10};Assert.assertTrue(Arrays.equals(temp_answer,reverseArray(temp_array)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void reverseArrayTest3(){int[] temp_array = {9, 22, -25, 3, 5, 8}; int[] temp_answer = {8, 5, 3, -25, 22,9}; Assert.assertTrue(Arrays.equals(temp_answer,reverseArray(temp_array)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void reverseArrayTest4(){int[] temp_array = {6, 7, -8, -2, -4, -1}; int[] temp_answer = {-1, -4, -2, -8, 7,6}; Assert.assertTrue(Arrays.equals(temp_answer,reverseArray(temp_array)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void reverseArrayTest5(){int[] temp_array = {9, 22, -3, 3, 5, 8};int[] temp_answer = {8, 5, 3, -3, 22, 9}; Assert.assertTrue(Arrays.equals(temp_answer,reverseArray(temp_array)));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>6</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;BR&gt;&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;BR&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;&lt;BR&gt;&lt;ul&gt;&lt;BR&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;/p&gt;&lt;BR&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION> public class MyClassThree {
+      
+  public static String capitalizeFirstLetters(String s) {
+  
+  /*Please implement this method to capitalize all first letters of the words in the given String.
+  All other symbols shall remain intact. If a word starts not with a letter, it shall remain intact too.
+  Assume that the parameter String can only contain spaces and alphanumeric characters.
+  NOTE: please keep in mind that the words can be divided by single or multiple spaces.
+  The spaced also can be found at the beginning or the end of the parameter string,&lt;br&gt; and you need to preserve them.
+  For example:
+  Input: " this is 1 test", Output: " This Is 1 Test";
+  Input: "Another test", Output: "Another Test" 
+  */
+      }
+       public static void main(String arr[])
+        {
+         /* Main Method*/
+         } 
+        }</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void capitalizeFirstLettersTest1(){ String testquestion="hello world"; String answer="Hello World"; assertEquals(answer,capitalizeFirstLetters(testquestion));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void capitalizeFirstLettersTest2(){String testquestion="wORK HARD"; String answer="WORK HARD";assertEquals(answer,capitalizeFirstLetters(testquestion));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void capitalizeFirstLettersTest3(){String testquestion="ram"; String answer="Ram"; assertEquals(answer,capitalizeFirstLetters(testquestion));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void capitalizeFirstLettersTest4(){String testquestion="i m in india"; String answer="I M In India"; assertEquals(answer,capitalizeFirstLetters(testquestion));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void capitalizeFirstLettersTest5(){try{capitalizeFirstLetters(null);assertTrue(true); }catch(NullPointerException e){assertTrue(false);}}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   
+    <QUESTION>
+      <QUESTION_ID>7</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Which of the following statements are true regarding Serializable interface in Java</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>It contains method writeObject which used to write Java object to a file</OPTION>
+         <OPTION>This interface doesn’t contain any method</OPTION>
+         <OPTION>When a class implements this interface, it indicates JVM that this class can be converted to a byte stream</OPTION>
+         <OPTION>Java classes that implement this interface can be transferred over network using technologies like RMI</OPTION>
+         <OPTION>This interface contains toString() method which used to convert Java object to String</OPTION>
+      </OPTIONS>
+      <ANSWER>1,2,1,2,1</ANSWER>
+      <MARK>-3</MARK>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      
+   </QUESTION>
+   
+   
+    <QUESTION>
+      <QUESTION_ID>8</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Which of following is true related to access specifiers (public, private, protected, default) in Java</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>static variables and methods of a class can be private or protected</OPTION>
+         <OPTION>Constructors can be private</OPTION>
+         <OPTION>Constructors are always public by default</OPTION>
+         <OPTION>Instance variables and methods of a class cannot be protected</OPTION>
+         <OPTION>Variables defined in an interface are always public</OPTION>
+      </OPTIONS>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      
+   </QUESTION>
+   
+   
+   <QUESTION>
+      <QUESTION_ID>9</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Which protocols are using during email communication</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>SMTP protocol is used to send emails while POP is used to receive emails</OPTION>
+         <OPTION>SMTP is used both send and receive emails</OPTION>
+         <OPTION>SMTP is used to send and receive emails while POP is used to retrieve emails from mailbox</OPTION>
+         <OPTION>POP is used to retrieve emails from mailbox</OPTION>
+         <OPTION> </OPTION>
+      </OPTIONS>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+   </QUESTION>
+   
+   
+   
+</QUESTION_PAPER>

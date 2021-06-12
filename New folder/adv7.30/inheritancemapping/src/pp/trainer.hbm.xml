@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+  <hibernate-mapping>
+    <class name="pp.Trainer" table="tra5" discriminator-value="tr">
+    <id name="id">
+    <generator class="assigned"></generator>
+    </id>
+    <discriminator column="trainer" type="java.lang.String"></discriminator>
+    <property name="name"></property> 
+<subclass name="pp.Temp" discriminator-value="temp">
+<property name="batches"></property>
+    <property name="amount"></property>
+</subclass>
+<subclass name="pp.Permanent" discriminator-value="permanent">
+<property name="sal"></property>
+<property name="bonus"></property>
+</subclass>
+         </class>
+    </hibernate-mapping>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+   <QUESTION_PAPER_INFORMATION>
+      <QUESTION_PAPER_DESCRIPTION>SET I</QUESTION_PAPER_DESCRIPTION>
+   </QUESTION_PAPER_INFORMATION>
+   <QUESTION>
+      <QUESTION_ID>1</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>&lt;h5&gt;Please code java program as per the instructions provided in the comments in right hand section&lt;/h5&gt;&lt;BR&gt;&lt;ul&gt; &lt;li&gt;Do NOT change the name of the class or method provided in the code&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Make sure the code gets compiled properly before the final submission. Any compilation error would be displayed on your screen, when you execute the program&lt;/li&gt;&lt;BR&gt;&lt;li&gt;You are expected to write all your test inputs in main method and test your code before submission&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;h5&gt;Please ensure that the code you submit is professionally written i.e.&lt;h5&gt;&lt;/p&gt;&lt;BR&gt;&lt;ul&gt;&lt;BR&gt;&lt;li&gt;Add necessary checks for bad input e.g. null/ empty check, test for not null, zero input etc&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Add proper comments&lt;/li&gt;&lt;BR&gt;&lt;li&gt;Perform appropriate exception handling whereever needed&lt;/li&gt;&lt;BR&gt;&lt;/ul&gt;&lt;BR&gt;&lt;p&gt;&lt;/p&gt;&lt;BR&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassOne {public static int countWords(String s){/* Please implement this method to return the words count in a given string Assume that a parameter strign can only contains spaces and alphanumeric characters. */}public static void main(String arr[]){/* Main Method*/}}</QUESTION_DESCRIPTION>
+      <ANSWER>public class MyClassOne &lt;br&gt;{&lt;br&gt; public static int countWords(String s)&lt;br&gt;{&lt;br&gt; return s.trim().split(" ").length;&lt;br&gt; }&lt;br&gt; public static void main(String arr[]){/* Main Method*/}}</ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void countWordsTest1(){ assertEquals(4,countWords("This is my world"));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void countWordsTest1(){ assertEquals(4,countWords("This is my world"));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void countWordsTest1(){ assertEquals(4,countWords("This is my world"));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void countWordsTest1(){ assertEquals(4,countWords("This is my world"));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void countWordsTest1(){ assertEquals(4,countWords("This is my world"));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+</QUESTION_PAPER>

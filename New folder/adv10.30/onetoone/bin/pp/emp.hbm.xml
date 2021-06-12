@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    <hibernate-mapping>
+    <class name="pp.Emp" table="emp7">
+    <id name="id">
+    <generator class="assigned"></generator>
+    </id>
+    <property name="name"></property>
+    <one-to-one name="address" class="pp.Address" cascade="all"></one-to-one>
+    </class>
+    
+    </hibernate-mapping>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+<class name="pp.Trainer" table="tra123" discriminator-value="emp">
+<id name="id">
+<generator class="increment"></generator>
+</id>
+
+<discriminator column="type" type="java.lang.String"/>
+<property name="name" />
+
+<subclass name="pp.Ptrainer" discriminator-value="pt">
+<property name="sal" />
+<property name="intime"></property>
+</subclass>
+
+<subclass name="pp.Ttrainer" discriminator-value="tt">
+<property name="batches"  />
+<property name="amount"  />
+</subclass>
+
+</class>
+</hibernate-mapping>

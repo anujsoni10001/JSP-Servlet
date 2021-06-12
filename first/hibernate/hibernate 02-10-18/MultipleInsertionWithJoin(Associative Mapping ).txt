@@ -1,0 +1,43 @@
+// Use of Associative Mapping means use of the Collection Object 
+// To multiple insert 
+// and to use the Concept of Foriegn Key..
+For Example
+class Teacher
+{
+id;
+name;
+List<Student> s;
+}
+class Student
+{
+id;
+name;
+}
+class Demo
+{
+public static void main(String[] args)
+{
+Session session=new Configuration().configure().buildSessionFactory().openSession();
+// Default Address  configure() == configure("hibernate.cfg.xml"); //
+Student s1=new Student();
+Student s2=new Student();
+Student s3=new Student();
+Student s4=new Student();
+Student s5=new Student();
+java.util.List<Student> a1=new java.util.List<Student>();
+a1.add(s1);
+a1.add(s2);
+a1.add(s3);
+a1.add(s4);
+a1.add(s5);
+Teacher t1=new Teacher();
+t1.setId(12);
+t1.setName("Abhishek");
+t1.setList<Student>(a1);
+session.save(t1);
+Transaction t=new Transaction();
+t.commit();
+session.close();
+}
+}
+

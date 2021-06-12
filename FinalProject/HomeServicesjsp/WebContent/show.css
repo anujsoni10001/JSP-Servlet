@@ -1,0 +1,35 @@
+@CHARSET "ISO-8859-1";
+body{
+background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)),url(Saints-wallpaper-free-download-games-background-saints-logo.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+background-position:center;
+height:100vh;
+}
+h3
+{
+color:white;
+text-align: center;
+text-decoration: underline;
+font-size:40px;
+letter-spacing: 3px;
+word-spacing: 10px;
+text-shadow: 3px 2px red;
+}
+table {
+    border-collapse: collapse;
+    width:100px;
+    margin:50px auto 30px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #dddddd}
+tr:nth-child(odd){background-color:#fcf9f9}
+th {
+    background-color: #4CAF50;
+    color: white;
+}

@@ -1,0 +1,10 @@
+package pp;
+
+public class Hospital {
+private String HospitalId;
+private String HospitalName;
+private String Address;
+private String HospitalId;
+private String HospitalId;
+
+}

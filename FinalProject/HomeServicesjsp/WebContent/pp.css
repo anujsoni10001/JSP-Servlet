@@ -1,0 +1,17 @@
+@CHARSET "ISO-8859-1";
+.hello
+{
+border:solid;
+margin:-20px 520px 0px;
+}
+.hello input{
+position:relative;
+font-family:"Roboto",sans-serif;
+outline:1;
+background:pink;
+width:100%;
+outline:5px inset brown;
+padding:15px;
+box-sizing:border-box;
+font-size:14px;
+}

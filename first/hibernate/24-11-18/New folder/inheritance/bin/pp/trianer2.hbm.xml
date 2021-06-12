@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+<class name="pp.Trainer" table="tr12">
+<id name="id">
+<generator class="increment"></generator>
+</id>
+<property name="name" />
+<joined-subclass name="pp.Ptrainer" table="pt1">
+<key column="tid"></key>
+<property name="sal" />
+<property name="intime"></property>
+</joined-subclass>
+<joined-subclass name="pp.Ttrainer" table="tt1">
+<key column="tid"></key>
+<property name="batches"  />
+<property name="amount"  />
+</joined-subclass>
+
+</class>
+</hibernate-mapping>

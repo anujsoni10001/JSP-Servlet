@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUESTION_PAPER>
+   <QUESTION_PAPER_INFORMATION>
+      <QUESTION_PAPER_DESCRIPTION>SET D</QUESTION_PAPER_DESCRIPTION>
+   </QUESTION_PAPER_INFORMATION>
+   <QUESTION>
+      <QUESTION_ID>1</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION> Write an SQL query that returns the Project name, department name, and budget for all Projects with a budget &gt; $50,000.
+      &amp;nbsp;&lt;/div&gt;&lt;b&gt;Table : department&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table cellspacing="0" cols="3" class='table table-bordered'&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;department_number&lt;/th&gt;&lt;th&gt;dname&lt;/th&gt;&lt;th&gt;Manager_Employee_number&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;101&lt;/td&gt;&lt;td&gt;finance&lt;/td&gt;&lt;td&gt;10101&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;102&lt;/td&gt;&lt;td&gt;insurance&lt;/td&gt;&lt;td&gt;10102&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;103&lt;/td&gt;&lt;td&gt;Consulting&lt;/td&gt;&lt;td &gt;10103&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;104&lt;/td&gt;&lt;td&gt;finance&lt;/td&gt;&lt;td&gt;10104&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;105&lt;/td&gt;&lt;td&gt;Consulting&lt;/td&gt;&lt;td&gt;10105&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt;
+      &amp;nbsp;&lt;/div&gt;&lt;b&gt;Table : project&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table cellspacing="0" cols="4" class='table table-bordered'&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;project_number&lt;/th&gt;&lt;th&gt;pname&lt;/th&gt;&lt;th&gt;budget&lt;/th&gt;&lt;th&gt;department_number&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1000&lt;/td&gt;&lt;td&gt;projeect1&lt;/td&gt;&lt;td&gt;10000000&lt;/td&gt;&lt;td&gt;103&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1001&lt;/td&gt;&lt;td&gt;project2&lt;/td&gt;&lt;td&gt;15000000&lt;/td&gt;&lt;td&gt;102&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1002&lt;/td&gt;&lt;td&gt;project3&lt;/td&gt;&lt;td&gt;30000000&lt;/td&gt;&lt;td&gt;104&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1003&lt;/td&gt;&lt;td&gt;project4&lt;/td&gt;&lt;td&gt;20000000&lt;/td&gt;&lt;td&gt;103&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1004&lt;/td&gt;&lt;td&gt;project5&lt;/td&gt;&lt;td&gt;25000000&lt;/td&gt;&lt;td&gt;102&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt;
+      </QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER> [{"2":15000000,"1":"insaurance","0":"project2"},{"2":25000000,"1":"insaurance","0":"project5"},{"2":10000000,"1":"Consulting","0":"project1"},{"2":20000000,"1":"Consulting","0":"project4"},{"2":30000000,"1":"finance","0":"project3"}]</CORRECT_ANSWER>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>2</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>SQL</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Question: Write an SQL query that returns the Employee numbers and salary of all Employee in the 'Consulting' department ordered by descending salary.
+      &amp;nbsp;&lt;/div&gt;&lt;b&gt;Table : department&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table cellspacing="0" cols="3" class='table table-bordered'&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;department_number&lt;/th&gt;&lt;th&gt;dname&lt;/th&gt;&lt;th&gt;Manager_Employee_number&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;101&lt;/td&gt;&lt;td&gt;finance&lt;/td&gt;&lt;td&gt;10101&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;102&lt;/td&gt;&lt;td&gt;insurance&lt;/td&gt;&lt;td&gt;10102&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;103&lt;/td&gt;&lt;td&gt;Consulting&lt;/td&gt;&lt;td &gt;10103&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;104&lt;/td&gt;&lt;td&gt;finance&lt;/td&gt;&lt;td&gt;10104&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;105&lt;/td&gt;&lt;td&gt;Consulting&lt;/td&gt;&lt;td&gt;10105&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt;
+	&amp;nbsp;&lt;/div&gt;&lt;b&gt;Table : emp&lt;/b&gt;&lt;br&gt;&lt;pre id=""&gt;&lt;pre id=""&gt;&lt;table cellspacing="0" cols="6" class='table table-bordered'&gt; &lt;tbody&gt;&lt;tr&gt;&lt;th&gt;employee_number&lt;/th&gt;&lt;th&gt;ename&lt;/th&gt;&lt;th&gt;bdate&lt;/th&gt;&lt;th&gt;title&lt;/th&gt;&lt;th&gt;salary&lt;/th&gt;&lt;th&gt;department_number&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;john&lt;/td&gt;&lt;td&gt;1975-01-01 00:00:00&lt;/td&gt;&lt;td&gt;manager&lt;/td&gt;&lt;td&gt;10000&lt;/td&gt;&lt;td&gt;101&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;Michael&lt;/td&gt;&lt;td&gt;1968-05-04 00:00:00&lt;/td&gt;&lt;td&gt;worker&lt;/td&gt;&lt;td&gt;20000&lt;/td&gt;&lt;td&gt;105&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;Jerry&lt;/td&gt;&lt;td&gt;1982-07-17 00:00:00&lt;/td&gt;&lt;td&gt;employee&lt;/td&gt;&lt;td&gt;35000&lt;/td&gt;&lt;td&gt;102&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;mithew&lt;/td&gt;&lt;td&gt;1980-09-20 00:00:00&lt;/td&gt;&lt;td&gt;project manager&lt;/td&gt;&lt;td&gt;83000&lt;/td&gt;&lt;td&gt;101&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;Philip&lt;/td&gt;&lt;td&gt;1970-09-30 00:00:00&lt;/td&gt;&lt;td&gt;employee&lt;/td&gt;&lt;td&gt;45000&lt;/td&gt;&lt;td&gt;105&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/pre&gt; &lt;/pre&gt;
+ 
+     </QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER> [{"1":45000,"0":5},{"1":20000,"0":2}]</CORRECT_ANSWER>
+   </QUESTION>
+ 
+  
+   <QUESTION>
+      <QUESTION_ID>3</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>1)Please write java code inside the method 'shortestFinder (String doc [], String first, String second)'.&lt;BR&gt;&lt;BR&gt;2)Please implement this method to return the absolute shortest distance between two specified string.&lt;BR&gt;&lt;BR&gt; For example, &lt;BR&gt;o Input: ([ab, bc, cd, de, ef, abc, def, ghi], cd, ghi), Output: 4&lt;BR&gt;o Input: ([a, b, c, d, 1, 2, 3, a, 2, b], a, 1) Output: 2 &lt;BR&gt;The method is expected to following input may be provided and desired output corresponding to respective input is shown below&lt;BR&gt;3)The method is expected to return given output of following  input provided to it showing below  &lt;BR&gt;&lt;table class='table table-bordered'&gt;&lt;tr&gt;&lt;th&gt;Input&lt;/th&gt;	&lt;th&gt;Output&lt;/th&gt;	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;{"ab", "bc", "cd", "de", "ef", "ab", "def", "ghi"}{ab} to {de}&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;&lt;td&gt;{"a", "b", "c", "d", "1", "2", "3", "a", "2", "b"} ,{a} to {1}&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;{"a", "b", "d", "1", "3", "a", "1", "b"},{a} to {1}&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;{"ab", "bc", "cd", "de", "ef", "abc", "def", "ghi"},{cd} to {ghi}&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;{"3", "a", "2", "abc","b", "def","3", "ghi"},{3} to {abc}&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;&lt;table&gt;&lt;h5&gt;Please do not change class name and method name&lt;/h5&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassOne
+ {&lt;BR&gt;public static int shortestFinder (String doc [], String first, String second) &lt;BR&gt;{&lt;BR&gt; /*&lt;BR&gt; Please write your code here&lt;BR&gt; &lt;BR&gt;&lt;BR&gt; */&lt;BR&gt; &lt;BR&gt; return 0;}&lt;BR&gt;&lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* shortestFinder(input_array,toString,fromString);*/&lt;BR&gt; }&lt;BR&gt; } &lt;BR&gt;</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void shortestFinder1(){ String [] input_array = {"ab", "bc", "cd", "de", "ef", "ab", "def", "ghi"}; String first="ab";String second="de";assertEquals(1, shortestFinder(input_array,first,second));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void shortestFinder2(){ String [] input_array = {"a", "b", "c", "d", "1", "2", "3", "a", "2", "b"}; String first="a";String second="1";assertEquals(2, shortestFinder(input_array,first,second));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void shortestFinder3(){ String [] input_array = {"a", "b", "d", "1", "3", "a", "1", "b"}; String first="a";String second="1";assertEquals(0, shortestFinder(input_array,first,second));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void shortestFinder4(){ String [] input_array = {"ab", "bc", "cd", "de", "ef", "abc", "def", "ghi"}; String first="cd";String second="ghi";assertEquals(4, shortestFinder(input_array,first,second));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void shortestFinder5(){ String [] input_array = {"3", "a", "2", "abc","b", "def","3", "ghi"}; String first="3";String second="abc";assertEquals(2, shortestFinder(input_array,first,second));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>4</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION>1)Please write java code inside the method 'findEqualSum (int data [], int sum)'.&lt;BR&gt;&lt;BR&gt;2)Please implement this method to return count all pairs of integers within an array which sum to a speci­fied value .&lt;BR&gt; For example, &lt;BR&gt;o Input: ([1, 2, 5, 3, 8, 4, 6], 7), Output: 3&lt;BR&gt;o Input: ([10, 20, 15, 25, 35, 5, 45), 50) Output: 2&lt;BR&gt;&lt;BR&gt;3)The method is expected to return given output of following  input provided to it showing below  &lt;BR&gt;&lt;table class='table table-bordered'&gt;&lt;tr&gt;&lt;th&gt;Input&lt;/th&gt;	&lt;th&gt;Output&lt;/th&gt;	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;{1, 2, 5, 3, 8, 4, 6},{7};&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;/tr&gt;&lt;td&gt;{10, 20, 15, 25, 35, 5, 45},{50}&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;{3,10,16,17,12,5},{20}&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;{6,12,25,0,8,5,9},{25}&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;{12,5,17,7,3,9,23,21},{5};&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;table&gt;&lt;h5&gt;Please do not change class name and method name&lt;/h5&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>public class MyClassTwo
+ {&lt;BR&gt;&lt;BR&gt; int findEqualSum (int data [], int sum)&lt;BR&gt;{&lt;BR&gt; /*&lt;BR&gt;&lt;BR&gt;Please write your code here&lt;BR&gt; */&lt;BR&gt; &lt;BR&gt; return 0;}&lt;BR&gt;&lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /*&lt;BR&gt;int[] input = {1, 2, 5, 3, 8, 4, 6};&lt;BR&gt;findEqualSum(input,3);&lt;BR&gt;*/&lt;BR&gt; }&lt;BR&gt; } &lt;BR&gt;
+
+      </QUESTION_DESCRIPTION>
+      <ANSWER>public class MyClassTwo&lt;br&gt; {&lt;br&gt;&lt;br&gt; int findEqualSum (int data [], int sum)&lt;br&gt;{&lt;br&gt; int count =0;&lt;br&gt; int i,j;&lt;br&gt; int l = data.length;&lt;br&gt; for(i=0;i&amp;lt;l-1;i++)&lt;br&gt; {&lt;br&gt; for(j=i+1;j&amp;lt;l;j++)&lt;br&gt; {&lt;br&gt; if(i+j==sum)&lt;br&gt; count++;&lt;br&gt; }&lt;br&gt; }&lt;br&gt; &lt;br&gt; return count;}&lt;br&gt;&lt;br&gt; public static void main(String arr[])&lt;br&gt; {&lt;br&gt; /*&lt;br&gt;int[] input = {1, 2, 5, 3, 8, 4, 6};&lt;br&gt;findEqualSum(input,3);&lt;br&gt;*/&lt;br&gt; }&lt;br&gt; } &lt;br&gt;&lt;br&gt;&lt;br&gt; &lt;br&gt;</ANSWER>
+      <MARK>1</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void findEqualSum1(){int[] temp_array = {1, 2, 5, 3, 8, 4, 6}; int n=7;assertEquals(3, findEqualSum(temp_array,n));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void findEqualSum2(){int[] temp_array = {10, 20, 15, 25, 35, 5, 45}; int n=50;assertEquals(2, findEqualSum(temp_array,n));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void findEqualSum3(){int[] temp_array = {3,10,16,17,12,5}; int n=20;assertEquals(1, findEqualSum(temp_array,n));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void findEqualSum4(){int[] temp_array = {6,12,25,0,8,5,9}; int n=25;assertEquals(1, findEqualSum(temp_array,n));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void findEqualSum5(){int[] temp_array = {12,5,17,7,3,9,23,21}; int n=5;assertEquals(0, findEqualSum(temp_array,n));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+  
+  
+  
+   <QUESTION>
+      <QUESTION_ID>5</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>JAVA</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> 1) Please write java code inside the method 'sortIgnoringSpaces(String[] a)'.&lt;BR&gt;&lt;BR&gt;2)Please implement this method to&lt;BR&gt; sort a given array of String in alphabetic order&lt;BR&gt; ignoring spaces( ' ' symbol). within the strings.&lt;BR&gt;&lt;BR&gt;3)The method is expected to return given output of following  input provided to it showing below  &lt;table class='table table-bordered'&gt;&lt;tr&gt;&lt;th&gt;Input&lt;/th&gt;	&lt;th&gt;Output&lt;/th&gt;	&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;{"john","hari","poter"}&lt;/td&gt;&lt;td&gt;{"hari","john","poter"}&lt;/td&gt;&lt;/tr&gt;&lt;td&gt;{"shiv raj","shivrej","shiva"}&lt;/td&gt;&lt;td&gt;{"shiv raj","shiva","shivrej"}&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;{"Raaj","raaj","rAaj","RA Aj"};&lt;/td&gt;&lt;td&gt;{"RA Aj","Raaj","rAaj","raaj"}&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;{"J o h n","john","joHn","J o H n"}&lt;/td&gt;&lt;td&gt;{"J o H n","J o h n","joHn","john"}&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;{"mery","MERY","mery","MERYY"}&lt;/td&gt;&lt;td&gt;{"MERY","MERYY","mery","mery"}&lt;/td&gt;&lt;/tr&gt;&lt;table&gt;&lt;h5&gt;Please do not change class name and method name&lt;/h5&gt;</QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>import java.util.*;
+ public class MyClassThree&lt;BR&gt; {&lt;BR&gt; public static String[] sortIgnoringSpaces(String[] a)&lt;BR&gt; {&lt;BR&gt; /*&lt;BR&gt; Please write your code here     &lt;BR&gt; &lt;BR&gt; */&lt;BR&gt; return null;}&lt;BR&gt; public static void main(String arr[])&lt;BR&gt; {&lt;BR&gt; /* sortIgnoringSpaces(input)*/&lt;BR&gt; }&lt;BR&gt; }&lt;BR&gt;</QUESTION_DESCRIPTION>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <TEST_CASE>
+         <TEST_SCRIPT>@Test public void sortIgnoringSpacesTest11(){String[] temp_array = {"john","hari","poter"}; String[] temp_answer = {"hari","john","poter"};Assert.assertTrue(Arrays.equals(temp_answer,sortIgnoringSpaces(temp_array)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void sortIgnoringSpacesTest21(){String[] temp_array = {"shiv raj","shivrej","shiva"}; String[] temp_answer = {"shiv raj","shiva","shivrej"};Assert.assertTrue(Arrays.equals(temp_answer,sortIgnoringSpaces(temp_array)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void sortIgnoringSpacesTest31(){String[] temp_array = {"Raaj","raaj","rAaj","RA Aj"}; String[] temp_answer = {"RA Aj","Raaj","rAaj","raaj"};Assert.assertTrue(Arrays.equals(temp_answer,sortIgnoringSpaces(temp_array)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void sortIgnoringSpacesTest41(){String[] temp_array = {"J o h n","john","joHn","J o H n"}; String[] temp_answer = {"J o H n","J o h n","joHn","john"}; System.out.println(sortIgnoringSpaces(temp_array)[0]); Assert.assertTrue(Arrays.equals(temp_answer,sortIgnoringSpaces(temp_array)));}</TEST_SCRIPT>
+         <TEST_SCRIPT>@Test public void sortIgnoringSpacesTest51(){String[] temp_array = {"mery","MERY","mery","MERYY"}; String[] temp_answer = {"MERY","MERYY","mery","mery"}; Assert.assertTrue(Arrays.equals(temp_answer,sortIgnoringSpaces(temp_array)));}</TEST_SCRIPT>
+      </TEST_CASE>
+   </QUESTION>
+   <QUESTION>
+      <QUESTION_ID>6</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>Which of the following statements are true regarding static keyword in Java</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>Static methods of Class cannot access private instance (non-static) methods of the same class</OPTION>
+         <OPTION>Static methods cannot be private</OPTION>
+         <OPTION>Static methods of Class cannot access private instance (non-static) variables of the same class</OPTION>
+         <OPTION>Instance methods of a class cannot access  static variables of the same class</OPTION>
+        <OPTION>Instance methods of a class can access static methods of the same class</OPTION>
+      </OPTIONS>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      
+   </QUESTION>
+   
+   <QUESTION>
+      <QUESTION_ID>7</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION> Review below code and suggest which of the following statements are true
+1: Class X{
+2:    public static void f1(){
+3:              f2();
+4:                    }
+5:    public void f2(){
+6:              f1();
+7:                    }
+8:}</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>This code would give compilation error at line 3, as static method f1() cannot call non-static method f2()</OPTION>
+         <OPTION>This code would give compilation error at line 6, as non-static method f2() cannot call static method f1()</OPTION>
+         <OPTION>This code would compile successfully</OPTION>
+         <OPTION>his code will give compilation error at line 6, as to call static method f1() it needs to be called using Class name i.e. X.f1()</OPTION>
+         <OPTION>Instance methods of a class can access static methods of the same class</OPTION>
+      </OPTIONS>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      
+   </QUESTION>
+   
+   <QUESTION>
+      <QUESTION_ID>8</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>How is IP address assigned to your computer when connected to a network</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>IP address of the computer needs to be provided manually otherwise it will not get IP address</OPTION>
+         <OPTION>DHCP (Dynamic Host Control Protocol) server provides IP address to the computer</OPTION>
+         <OPTION>User can manually configure the IP address of the computer</OPTION>
+         <OPTION>Computer broadcasts a DHCP request in the network to find the DHCP server</OPTION>
+         <OPTION>IP address of Address of DHCP server is pre-configured in the computer</OPTION>
+       
+      </OPTIONS>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+     
+      
+   </QUESTION>
+   
+   
+    <QUESTION>
+      <QUESTION_ID>9</QUESTION_ID>
+      <QUESTION_CATEGORY_NAME>Multichoice</QUESTION_CATEGORY_NAME>
+      <QUESTION_TYPE>TEXT</QUESTION_TYPE>
+      <QUESTION_INSTRUCTION> </QUESTION_INSTRUCTION>
+      <QUESTION_DESCRIPTION>  Paging is one of the memory management schemes by which a computer can store and retrieve data from secondary storage for use in main memory. Please mark statements as correct or incorrect in context of Paging concept used in Operating System</QUESTION_DESCRIPTION>
+      <OPTIONS>
+         <OPTION>In the paging memory-management scheme, the operating system retrieves data from secondary storage in blocks called pages</OPTION>
+         <OPTION>The blocks can be of different size within the same  paging memory-management scheme</OPTION>
+         <OPTION>Paging is part of virtual memory implementation in operating systems, allowing them to use disk storage for data that does not fit into physical random-access memory (RAM)</OPTION>
+         <OPTION>The main functions of paging are performed when a program tries to access pages that are not currently mapped to physical memory (RAM). This situation is known as a page fault</OPTION>
+         <OPTION>The difference between paging and segmentation is that with paging the system allocates memory and with segmentation memory is allocated to a specific function. Paging has no shared code and segmentation does</OPTION>
+       
+      </OPTIONS>
+      <ANSWER> </ANSWER>
+      <MARK>0</MARK>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>2</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+      <CORRECT_ANSWER>1</CORRECT_ANSWER>
+     
+     
+      
+   </QUESTION>
+   
+   
+   
+   
+</QUESTION_PAPER>
